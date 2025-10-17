@@ -22,10 +22,15 @@
 
     // 讀取 JSON
     fetch('/animeData.json')
-      .then(res => res.json())
+      .then(res => {
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`);
+        }
+        return res.json();
+      })
       .then(data => {
-        // 尋找對應 bgmId 的項目
-        const item = data.find(entry => entry.bgmId.includes(parseInt(bgmIdParam)));
+        // 將 JSON 物件的值轉換為陣列，才能使用 find 方法
+        const item = Object.values(data).find(entry => entry.bgmId === parseInt(bgmIdParam));
 
         if (!item) {
           document.body.innerHTML = '<p>找不到對應動畫</p>';
@@ -33,12 +38,14 @@
         }
 
         // 優先跳 aniId
-        if (item.aniId && item.aniId.length > 0) {
-          window.location.href = `https://ani.gamer.com.tw/animeVideo.php?sn=${item.aniId[0]}`;
+        // 直接檢查 item.aniId 是否有值 (不是 null 或 undefined)
+        if (item.aniId) {
+          window.location.href = `https://ani.gamer.com.tw/animeVideo.php?sn=${item.aniId}`;
         }
         // 再跳 acgId
-        else if (item.acgId && item.acgId.length > 0) {
-          window.location.href = `https://acg.gamer.com.tw/acgDetail.php?s=${item.acgId[0]}`;
+        // 直接檢查 item.acgId 是否有值
+        else if (item.acgId) {
+          window.location.href = `https://acg.gamer.com.tw/acgDetail.php?s=${item.acgId}`;
         }
         else {
           document.body.innerHTML = '<p>找不到 aniId 或 acgId</p>';
