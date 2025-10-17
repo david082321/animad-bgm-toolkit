@@ -46,8 +46,8 @@
   },
   "結緣甘神神社": {
     "bgmId": 431370,
-    "acgId": null,
-    "aniId": null
+    "acgId": 131860,
+    "aniId": 40122
   },
   "Acro Trip 頂尖惡路": {
     "bgmId": 408896,
@@ -216,7 +216,7 @@
   },
   "嘆氣的亡靈想隱退": {
     "bgmId": 481410,
-    "acgId": null,
+    "acgId": 137916,
     "aniId": null
   },
   "噗妮露是可愛史萊姆": {
@@ -611,12 +611,12 @@
   },
   "雙人單身露營": {
     "bgmId": 531344,
-    "acgId": null,
+    "acgId": 143193,
     "aniId": null
   },
   "桃源暗鬼": {
     "bgmId": 493546,
-    "acgId": null,
+    "acgId": 139237,
     "aniId": null
   },
   "怪獸 8 號 第二季": {
@@ -636,7 +636,7 @@
   },
   "Gachiakuta": {
     "bgmId": 498947,
-    "acgId": null,
+    "acgId": 139922,
     "aniId": null
   },
   "Dr.STONE 新石紀 第四季": {
@@ -751,7 +751,7 @@
   },
   "卡片戰鬥!! 先導者 Divinez 第四季「DELUXE 決勝篇」": {
     "bgmId": 440881,
-    "acgId": null,
+    "acgId": 145373,
     "aniId": null
   },
   "神椿市建設中。": {
@@ -841,7 +841,7 @@
   },
   "身為暗殺者的我明顯比勇者還強": {
     "bgmId": 537904,
-    "acgId": null,
+    "acgId": 143810,
     "aniId": null
   },
   "擁有超常技能的異世界流浪美食家": {
@@ -851,112 +851,102 @@
   },
   "擁有超常技能的異世界流浪美食家 S2": {
     "bgmId": 462459,
-    "acgId": null,
+    "acgId": 136223,
     "aniId": null
   },
   "最後可以再拜託您一件事嗎？": {
     "bgmId": 513348,
-    "acgId": null,
+    "acgId": 141450,
     "aniId": null
   },
   "娑婆氣": {
     "bgmId": 525660,
-    "acgId": null,
+    "acgId": 142537,
     "aniId": null
   },
   "惡食千金與狂血公爵～那個魔物我就美美地享用了！～": {
     "bgmId": 520698,
-    "acgId": null,
+    "acgId": 142157,
     "aniId": null
   },
   "東島丹三郎想成為假面騎士": {
     "bgmId": 542203,
-    "acgId": null,
+    "acgId": 144141,
     "aniId": null
   },
   "貫徹輔助魔法支援弱小隊友的宮廷魔法師，慘遭驅逐後目標成為最強冒險者": {
     "bgmId": 545842,
-    "acgId": null,
+    "acgId": 144367,
     "aniId": null
   },
   "末世二輪之旅": {
     "bgmId": 539395,
-    "acgId": null,
+    "acgId": 143929,
     "aniId": null
   },
   "不中用的前輩。": {
     "bgmId": 529006,
-    "acgId": null,
+    "acgId": 142958,
     "aniId": null
   },
   "朋友的妹妹只纏著我": {
     "bgmId": 326859,
-    "acgId": null,
+    "acgId": 115712,
     "aniId": null
   },
   "轉生後的我成了英雄爸爸和精靈媽媽的女兒": {
     "bgmId": 476323,
-    "acgId": null,
+    "acgId": 137498,
     "aniId": null
   },
   "無職英雄：技能什麼的毫無用處": {
     "bgmId": 458125,
-    "acgId": null,
-    "aniId": null
-  },
-  "機械女僕．瑪麗": {
-    "bgmId": 507078,
-    "acgId": null,
+    "acgId": 144171,
     "aniId": null
   },
   "機械女僕‧瑪麗": {
     "bgmId": 507078,
-    "acgId": null,
+    "acgId": 140739,
     "aniId": null
   },
   "我的英雄學院 FINAL SEASON": {
     "bgmId": 518413,
-    "acgId": null,
+    "acgId": 143057,
     "aniId": null
   },
   "SI-VIS：英雄之聲": {
     "bgmId": 573897,
-    "acgId": null,
+    "acgId": 147116,
     "aniId": null
   },
   "素材採集家的異世界旅行記": {
     "bgmId": 542777,
-    "acgId": null,
+    "acgId": 144170,
     "aniId": null
   },
   "SPY×FAMILY 間諜家家酒 Season 3": {
     "bgmId": 400576,
-    "acgId": null,
+    "acgId": 139878,
     "aniId": null
   },
   "給不滅的你 第三季": {
     "bgmId": 424242,
-    "acgId": null,
-    "aniId": null
-  },
-  "Let's Play": {
-    "bgmId": 460183,
-    "acgId": null,
+    "acgId": 130900,
     "aniId": null
   },
   "Let's Play 充滿挑戰的人生": {
     "bgmId": 460183,
-    "acgId": null,
+    "acgId": 147104,
     "aniId": null
   },
   "這裡是充滿笑容的職場。": {
     "bgmId": 475663,
-    "acgId": null,
+    "acgId": 137449,
     "aniId": null
   },
   "野生的大魔王出現了！": {
     "bgmId": 509355,
-    "acgId": null,
+    "acgId": 141062,
     "aniId": null
   },
   "阿爾瑪醬想成為家人": {
@@ -966,7 +956,7 @@
   },
   "GNOSIA": {
     "bgmId": 526448,
-    "acgId": null,
+    "acgId": 142615,
     "aniId": null
   },
   "不動聲色的柏田與喜形於色的太田": {
@@ -974,79 +964,79 @@
     "acgId": null,
     "aniId": null
   },
-  "妖怪旅館營業中 第二季": {
+  "妖怪旅館營業中 貳": {
     "bgmId": 492722,
-    "acgId": null,
+    "acgId": 139160,
     "aniId": null
   },
   "不擅吸血的吸血鬼": {
     "bgmId": 536102,
-    "acgId": null,
+    "acgId": 143538,
     "aniId": null
   },
   "一拳超人(第三季)": {
     "bgmId": 285757,
-    "acgId": null,
+    "acgId": 126514,
     "aniId": null
   },
   "胖子與愛情以及過錯！": {
     "bgmId": 465803,
-    "acgId": null,
+    "acgId": 136514,
     "aniId": null
   },
   "婚戒物語 第二季": {
     "bgmId": 486311,
-    "acgId": null,
+    "acgId": 138499,
     "aniId": null
   },
   "轉生惡女的黑歷史": {
     "bgmId": 480832,
-    "acgId": null,
+    "acgId": 137884,
     "aniId": null
   },
-  "某天成為公主": {
+  "魔法公主的小煩惱": {
     "bgmId": 434807,
-    "acgId": null,
+    "acgId": 147102,
     "aniId": null
   },
   "對我垂涎欲滴的非人少女": {
     "bgmId": 520842,
-    "acgId": null,
+    "acgId": 142027,
     "aniId": null
   },
   "矢野同學的普通日常": {
     "bgmId": 502408,
-    "acgId": null,
+    "acgId": 142268,
     "aniId": null
   },
   "永遠的黃昏": {
     "bgmId": 566600,
-    "acgId": null,
+    "acgId": 146029,
     "aniId": null
   },
   "彈珠汽水瓶裡的千歲同學": {
     "bgmId": 507634,
-    "acgId": null,
+    "acgId": 140852,
     "aniId": null
   },
   "銀魂 3 年 Z 班銀八老師": {
     "bgmId": 425208,
-    "acgId": null,
+    "acgId": 131066,
     "aniId": null
   },
   "百姓貴族 3rd Season": {
     "bgmId": 529694,
-    "acgId": null,
+    "acgId": 143048,
     "aniId": null
   },
   "魔法藥水救救我": {
     "bgmId": 576047,
-    "acgId": null,
+    "acgId": 146539,
     "aniId": null
   },
   "嘆氣的亡靈想隱退 第二季": {
     "bgmId": 530290,
-    "acgId": null,
+    "acgId": 137916,
     "aniId": null
   },
   "跨越種族與你相戀": {
@@ -1056,47 +1046,42 @@
   },
   "小手指同學，請別亂摸": {
     "bgmId": 541547,
-    "acgId": null,
-    "aniId": null
-  },
-  "魔法公主的小煩惱": {
-    "bgmId": 434807,
-    "acgId": null,
+    "acgId": 144054,
     "aniId": null
   },
   "劇場版 我與機器子": {
     "bgmId": 441940,
-    "acgId": null,
+    "acgId": 133418,
     "aniId": null
   },
   "王者天下 第六季": {
     "bgmId": 553106,
-    "acgId": null,
+    "acgId": 145550,
     "aniId": null
   },
   "藍色管弦樂 第二季": {
     "bgmId": 458673,
-    "acgId": null,
+    "acgId": 136022,
     "aniId": null
   },
   "野原廣志 午餐的流派": {
     "bgmId": 543189,
-    "acgId": null,
+    "acgId": 144210,
     "aniId": null
   },
   "異世界四重奏 第三季": {
     "bgmId": 564421,
-    "acgId": null,
+    "acgId": 145850,
     "aniId": null
   },
   "無尾熊繪日記": {
     "bgmId": 564980,
-    "acgId": null,
+    "acgId": 145796,
     "aniId": null
   },
   "從前從前有隻貓！世界喵童話": {
     "bgmId": 535897,
-    "acgId": null,
+    "acgId": 147114,
     "aniId": null
   },
   "Let′s Play 充滿挑戰的人生": {
@@ -1106,7 +1091,12 @@
   },
   "假面騎士 ZEZTZ": {
     "bgmId": 545304,
-    "acgId": null,
+    "acgId": 146140,
+    "aniId": null
+  },
+  "超人力霸王奧米加": {
+    "bgmId": 546258,
+    "acgId": 144955,
     "aniId": null
   }
 }
