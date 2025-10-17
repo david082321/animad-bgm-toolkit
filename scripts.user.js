@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         動畫瘋-BGM.TV 點格子
 // @namespace    AnimadWithBgmtv
-// @version      0.1.4
+// @version      0.2.0
 // @description  點格子
 // @author       david082321
 // @match        https://ani.gamer.com.tw/animeVideo.php?*
@@ -14,7 +14,7 @@ const videoTitle = document.title.split(" [")[0]
 let bgmUrl = ""
 const STORAGE_KEY = "bgmtv_keyValue"
 const STORAGE_TIME = "bgmtv_lastUpdate"
-const REMOTE_URL = `https://raw.githubusercontent.com/david082321/animad-bgm-toolkit/refs/heads/main/keyValue.json?t=${Date.now()}`
+const REMOTE_URL = `https://raw.githubusercontent.com/david082321/animad-bgm-toolkit/refs/heads/main/animeData.json?t=${Date.now()}`
 
 // 取 keyValue（自動更新）
 async function getKeyValue() {
@@ -30,7 +30,7 @@ async function getKeyValue() {
                 localStorage.setItem(STORAGE_TIME, now)
             }
         } catch (err) {
-            console.error("更新 keyValue 失敗，使用本機快取", err)
+            console.error("更新失敗，使用本機快取", err)
         }
     }
     return keyValue
@@ -41,8 +41,8 @@ async function getKeyValue() {
     const bgmLink = document.createElement("a")
     bgmLink.target = "_blank"
     bgmLink.id = "bgmtv"
-    if (keyValue[videoTitle]) {
-        bgmUrl = "https://bgm.tv/subject/" + keyValue[videoTitle]
+    if (keyValue[videoTitle] && keyValue[videoTitle].bgmId) {
+        bgmUrl = "https://bgm.tv/subject/" + keyValue[videoTitle].bgmId
         bgmLink.innerText = "點格子  "
     } else {
         bgmUrl = "https://bgm.tv/subject_search/" + videoTitle + "?cat=all"
