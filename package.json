@@ -1,0 +1,11 @@
+{
+  "name": "yaml-to-json-on-build",
+  "scripts": {
+    "build": "node build-yaml.js && vite build",
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "js-yaml": "^4.1.0"
+  }
+}

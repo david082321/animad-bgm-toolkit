@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>BGM TV 轉跳器</title>
+</head>
+<body>
+  <h1>BGM TV 轉跳器</h1>
+  <p>正在處理請稍候...</p>
+
+  <script>
+    // 取得 URL 參數 bgmId
+    const urlParams = new URLSearchParams(window.location.search);
+    const bgmIdParam = urlParams.get('bgmId');
+
+    if (!bgmIdParam) {
+      document.body.innerHTML = '<p>請傳入 bgmId 參數</p>';
+      throw new Error('bgmId not provided');
+    }
+
+    // 讀取 JSON
+    fetch('/aniMap.json')
+      .then(res => res.json())
+      .then(data => {
+        // 尋找對應 bgmId 的項目
+        const item = data.find(entry => entry.bgmId.includes(parseInt(bgmIdParam)));
+
+        if (!item) {
+          document.body.innerHTML = '<p>找不到對應動畫</p>';
+          return;
+        }
+
+        // 優先跳 aniId
+        if (item.aniId && item.aniId.length > 0) {
+          window.location.href = `https://ani.gamer.com.tw/animeVideo.php?sn=${item.aniId[0]}`;
+        } 
+        // 再跳 acgId
+        else if (item.acgId && item.acgId.length > 0) {
+          window.location.href = `https://acg.gamer.com.tw/acgDetail.php?s=${item.acgId[0]}`;
+        } 
+        else {
+          document.body.innerHTML = '<p>找不到 aniId 或 acgId</p>';
+        }
+      })
+      .catch(err => {
+        console.error(err);
+        document.body.innerHTML = '<p>載入 aniMap.json 失敗</p>';
+      });
+  </script>
+</body>
+</html>
