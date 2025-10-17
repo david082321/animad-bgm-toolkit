@@ -14,6 +14,7 @@
     // 取得 URL 參數 bgmId
     const urlParams = new URLSearchParams(window.location.search);
     const bgmIdParam = urlParams.get('id');
+    const nameParam = urlParams.get('name');
 
     if (!bgmIdParam) {
       document.body.innerHTML = '<p>請傳入 id 參數，例如 https://animad-bgm-toolkit.pages.dev/?id=114514</p>';
@@ -35,6 +36,10 @@
         const title = Object.keys(data).find(key => data[key].bgmId === bgmIdNumber);
 
         if (!title) {
+          if (nameParam) {
+            const encodedTitle = encodeURIComponent(nameParam);
+            window.location.href = `https://ani.gamer.com.tw/search.php?keyword=${encodedTitle}`;
+          }
           console.error('在 JSON 資料中找不到對應的項目。');
           document.body.innerHTML = '<p>找不到對應動畫</p>';
           return;
