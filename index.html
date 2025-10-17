@@ -13,10 +13,10 @@
   <script>
     // 取得 URL 參數 bgmId
     const urlParams = new URLSearchParams(window.location.search);
-    const bgmIdParam = urlParams.get('bgmId');
+    const bgmIdParam = urlParams.get('id');
 
     if (!bgmIdParam) {
-      document.body.innerHTML = '<p>請傳入 bgmId 參數</p>';
+      document.body.innerHTML = '<p>請傳入 id 參數，例如 https://animad-bgm-toolkit.pages.dev/?id=114514</p>';
       throw new Error('bgmId not provided');
     }
 
@@ -29,30 +29,38 @@
         return res.json();
       })
       .then(data => {
-        // 將 JSON 物件的值轉換為陣列，才能使用 find 方法
-        const item = Object.values(data).find(entry => entry.bgmId === parseInt(bgmIdParam));
+        const bgmIdNumber = parseInt(bgmIdParam);
 
-        if (!item) {
+        // 透過搜尋 bgmId 來找到對應的 "標題名稱" (key)
+        const title = Object.keys(data).find(key => data[key].bgmId === bgmIdNumber);
+
+        if (!title) {
+          console.error('在 JSON 資料中找不到對應的項目。');
           document.body.innerHTML = '<p>找不到對應動畫</p>';
           return;
         }
 
+        // 透過 title 取得對應的項目資料
+        const item = data[title];
+        console.log(`成功找到項目: "${title}"`, item);
+
         // 優先跳 aniId
-        // 直接檢查 item.aniId 是否有值 (不是 null 或 undefined)
         if (item.aniId) {
           window.location.href = `https://ani.gamer.com.tw/animeVideo.php?sn=${item.aniId}`;
         }
         // 再跳 acgId
-        // 直接檢查 item.acgId 是否有值
         else if (item.acgId) {
           window.location.href = `https://acg.gamer.com.tw/acgDetail.php?s=${item.acgId}`;
         }
+        // 都沒有，跳到搜尋頁面
         else {
-          document.body.innerHTML = '<p>找不到 aniId 或 acgId</p>';
+          // 使用 encodeURIComponent 來確保標題中的特殊字元 (如空格) 能在 URL 中正確傳遞
+          const encodedTitle = encodeURIComponent(title);
+          window.location.href = `https://ani.gamer.com.tw/search.php?keyword=${encodedTitle}`;
         }
       })
       .catch(err => {
-        console.error(err);
+        console.error('讀取或處理 JSON 時發生錯誤:', err);
         document.body.innerHTML = '<p>載入 animeData.json 失敗</p>';
       });
   </script>
