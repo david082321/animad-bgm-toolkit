@@ -27,4 +27,4 @@
 
 ## Credit
 * 主要程式碼從 https://greasyfork.org/scripts/490463 的程式碼修改而來
-* 80%以上程式碼來自AI
+* 87% 以上程式碼來自 AI
