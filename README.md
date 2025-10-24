@@ -1,8 +1,6 @@
 # 動畫瘋 → BGM.TV 點格子
 提供動畫瘋與 bgm.tv 條目的對應關係，並透過 Userscript 直接在播放頁顯示「點格子」連結。
 
-從 https://greasyfork.org/scripts/490463 的程式碼修改而來
-
 ## 安裝
 1. [動畫瘋-BGM.TV 點格子](https://github.com/david082321/animad-bgm-toolkit/raw/refs/heads/main/scripts.user.js)
 2. [BGM.TV 自動更新觀看進度](https://github.com/david082321/animad-bgm-toolkit/raw/refs/heads/main/scripts2.user.js)
@@ -26,3 +24,7 @@
     * 請協助貢獻 [animeData.yaml](https://github.com/david082321/animad-bgm-toolkit/blob/main/animeData.yaml)
 2. 其他
     * 請到 [issue](https://github.com/david082321/animad-bgm-toolkit/issues) 提問
+
+## Credit
+* 主要程式碼從 https://greasyfork.org/scripts/490463 的程式碼修改而來
+* 80%以上程式碼來自AI
