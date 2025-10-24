@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         動畫瘋-BGM.TV 點格子
 // @namespace    AnimadWithBgmtv
-// @version      0.3.0
+// @version      0.4.0
 // @description  點格子
 // @author       david082321
 // @match        https://ani.gamer.com.tw/animeVideo.php?*
@@ -96,9 +96,7 @@ async function getKeyValue() {
     function handlePause(video) {
         const percent = (video.currentTime / video.duration) * 100;
         const leftTime = (video.duration - video.currentTime);
-        if (percent >= 90 && !video.dataset.prompted) {
-            showPrompt(video);
-        } else if (leftTime <= 90 && !video.dataset.prompted) {
+        if ((percent >= 90 || leftTime <= 90) && !video.dataset.prompted) {
             showPrompt(video);
         }
     }
@@ -110,35 +108,107 @@ async function getKeyValue() {
         }
     }
 
+    let saveBtn = null;
+    let keepVisible = null;
+    let btnObserver = null;
+    let currentVideo = null;
+
+    // 移除按鈕並「徹底清理」所有監聽
+    function removeBtn() {
+        if (saveBtn && saveBtn.parentElement) {
+            saveBtn.remove();
+        }
+        if (currentVideo) {
+            currentVideo.dataset.prompted = "";
+        }
+        if (keepVisible) {
+            clearInterval(keepVisible);
+            keepVisible = null;
+        }
+        if (btnObserver) {
+            btnObserver.disconnect();
+            btnObserver = null;
+        }
+    }
+
     // 顯示提示按鈕
     function showPrompt(video) {
+        // 設置標記和當前影片
         video.dataset.prompted = "true";
+        currentVideo = video;
 
-        const btn = document.createElement('button');
-        btn.textContent = "✅ 儲存觀看記錄";
-        Object.assign(btn.style, {
-            position: 'fixed',
-            bottom: '30px',
-            right: '30px',
-            zIndex: 99999,
-            padding: '12px 18px',
-            fontSize: '16px',
-            backgroundColor: '#2196f3',
-            color: '#fff',
-            border: 'none',
-            borderRadius: '8px',
-            cursor: 'pointer',
-            boxShadow: '0 2px 8px rgba(0,0,0,0.3)',
-        });
+        // 1. 建立按鈕 (如果不存在)
+        if (!saveBtn) {
+            saveBtn = document.createElement('button');
+            saveBtn.id = "saveWatchBtn";
+            saveBtn.textContent = "✅ 儲存觀看記錄";
+            Object.assign(saveBtn.style, {
+                position: 'fixed',
+                bottom: '66px',
+                right: '30px',
+                zIndex: '2147483647',
+                padding: '12px 18px',
+                fontSize: '16px',
+                backgroundColor: 'rgba(33,150,243,0.9)',
+                color: '#fff',
+                border: 'none',
+                borderRadius: '8px',
+                cursor: 'pointer',
+                backdropFilter: 'blur(4px)',
+                boxShadow: '0 2px 8px rgba(0,0,0,0.3)',
+                transition: 'opacity 0.3s ease',
+            });
 
-        btn.onclick = () => {
-            btn.remove();
-            // alert("將導向紀錄網站");
-            window.open(bgmUrlAuto, '_blank');
-        };
+            saveBtn.onclick = () => {
+                removeBtn(); // 點擊時徹底清除
+                window.open(bgmUrlAuto, '_blank');
+            };
+        }
 
-        document.body.appendChild(btn);
+        // 2. 顯示按鈕 (附加到正確的 DOM)
+        const targetElement = document.fullscreenElement || document.body;
+        targetElement.appendChild(saveBtn);
+
+        // 3. 綁定「播放時自動移除」
+        // 使用 { once: true } 確保它只觸發一次
+        const handlePlay = () => removeBtn();
+        video.addEventListener('play', handlePlay, { once: true });
+
+        // 4. 啟動「守衛」(如果它們還沒啟動)
+        // 🔹 修復 F11 模式
+        if (!keepVisible) {
+            keepVisible = setInterval(() => {
+                // 確保按鈕在 DOM 中
+                if (saveBtn && !document.contains(saveBtn)) {
+                    const target = document.fullscreenElement || document.body;
+                    target.appendChild(saveBtn);
+                }
+                // 確保按鈕可見 (防止被 CSS 隱藏)
+                if (saveBtn) saveBtn.style.display = 'block';
+            }, 1000);
+        }
+        // 🔹 清理 (當按鈕被意外移除時)
+        if (!btnObserver) {
+            btnObserver = new MutationObserver(() => {
+                if (saveBtn && !document.contains(saveBtn)) {
+                    // 按鈕被 JS 移除了 (例如切換影片)
+                    // 我們就順勢清理掉所有東西
+                    removeBtn();
+                }
+            });
+            btnObserver.observe(document, { childList: true, subtree: true });
+        }
     }
+
+    // 🔹 全螢幕變化監聽 (移到全域，只綁定一次)
+    document.addEventListener('fullscreenchange', () => {
+        // 如果按鈕存在，就移動它
+        if (saveBtn && saveBtn.parentElement) {
+            const fs = document.fullscreenElement;
+            if (fs) fs.appendChild(saveBtn);
+            else document.body.appendChild(saveBtn);
+        }
+    });
 
     // 啟動
     init_bgmlink();
@@ -147,7 +217,7 @@ async function getKeyValue() {
     function watchAnimeTitleChange(callback) {
         const target = document.querySelector('.anime_name h1');
         if (!target) {
-            //console.warn('[BGM腳本] 找不到 anime_name h1，稍後再試...');
+            // console.warn('[BGM腳本] 找不到 anime_name h1，稍後再試...');
             setTimeout(() => watchAnimeTitleChange(callback), 1000);
             return;
         }
@@ -157,7 +227,7 @@ async function getKeyValue() {
         const observer = new MutationObserver(() => {
             const newTitle = target.textContent.trim();
             if (newTitle !== lastTitle) {
-                //console.log(`[BGM腳本] 標題變化: ${lastTitle} → ${newTitle}`);
+                // console.log(`[BGM腳本] 標題變化: ${lastTitle} → ${newTitle}`);
                 lastTitle = newTitle;
                 callback(newTitle);
             }
@@ -166,7 +236,7 @@ async function getKeyValue() {
     }
 
     watchAnimeTitleChange(newTitle => {
-        console.log('目前標題：', newTitle);
+        // console.log('目前標題：', newTitle);
         videoTitle = newTitle.split(" [")[0];
         videoEpisode = newTitle.split(" [")[1].split("]")[0];
         init_bgmlink()
