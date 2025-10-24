@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         動畫瘋-BGM.TV 點格子
 // @namespace    AnimadWithBgmtv
-// @version      0.4.0
+// @version      0.4.1
 // @description  點格子
 // @author       david082321
 // @match        https://ani.gamer.com.tw/animeVideo.php?*
@@ -10,55 +10,55 @@
 // @license      none
 // ==/UserScript==
 
-let videoTitle = document.title.split(" [")[0]
-let videoEpisode = document.title.split(" [")[1].split("]")[0]
-let bgmUrl = ""
-let bgmUrlAuto = ""
-const STORAGE_KEY = "bgmtv_animeData"
-const STORAGE_TIME = "bgmtv_lastUpdate"
-const REMOTE_URL = `https://raw.githubusercontent.com/david082321/animad-bgm-toolkit/refs/heads/main/animeData.json?t=${Date.now()}`
+let videoTitle = document.title.split(" [")[0];
+let videoEpisode = document.title.split(" [")[1].split("]")[0];
+let bgmUrl = "";
+let bgmUrlAuto = "";
+const STORAGE_KEY = "bgmtv_animeData";
+const STORAGE_TIME = "bgmtv_lastUpdate";
+const REMOTE_URL = `https://raw.githubusercontent.com/david082321/animad-bgm-toolkit/refs/heads/main/animeData.json?t=${Date.now()}`;
 
 // 取 keyValue（自動更新）
 async function getKeyValue() {
-    const now = Date.now()
-    const lastUpdate = localStorage.getItem(STORAGE_TIME)
-    let keyValue = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}")
+    const now = Date.now();
+    const lastUpdate = localStorage.getItem(STORAGE_TIME);
+    let keyValue = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
     if (!lastUpdate || now - lastUpdate > 86400000 || Object.keys(keyValue).length === 0) {
         try {
-            const res = await fetch(REMOTE_URL, { cache: "no-store" })
+            const res = await fetch(REMOTE_URL, { cache: "no-store" });
             if (res.ok) {
                 keyValue = await res.json();
-                localStorage.setItem(STORAGE_KEY, JSON.stringify(keyValue))
-                localStorage.setItem(STORAGE_TIME, now)
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(keyValue));
+                localStorage.setItem(STORAGE_TIME, now);
             }
         } catch (err) {
-            console.error("更新失敗，使用本機快取", err)
+            console.error("更新失敗，使用本機快取", err);
         }
     }
-    return keyValue
+    return keyValue;
 }
 
 (async () => {
-    const keyValue = await getKeyValue()
-    const bgmLink = document.createElement("a")
-    bgmLink.target = "_blank"
-    bgmLink.id = "bgmtv"
+    const keyValue = await getKeyValue();
+    const bgmLink = document.createElement("a");
+    bgmLink.target = "_blank";
+    bgmLink.id = "bgmtv";
     function init_bgmlink() {
         if (keyValue[videoTitle] && keyValue[videoTitle].bgmId) {
-            bgmUrl = "https://bgm.tv/subject/" + keyValue[videoTitle].bgmId
-            bgmUrlAuto = bgmUrl + "?watch=" + videoEpisode
-            bgmLink.innerText = "點格子  "
+            bgmUrl = "https://bgm.tv/subject/" + keyValue[videoTitle].bgmId;
+            bgmUrlAuto = bgmUrl + "?watch=" + videoEpisode;
+            bgmLink.innerText = "點格子  ";
         } else {
-            bgmUrl = "https://bgm.tv/subject_search/" + videoTitle + "?cat=all"
-            bgmUrlAuto = bgmUrl
-            bgmLink.innerText = "點格子?  "
+            bgmUrl = "https://bgm.tv/subject_search/" + videoTitle + "?cat=all";
+            bgmUrlAuto = bgmUrl;
+            bgmLink.innerText = "點格子?  ";
         }
-        bgmLink.href = bgmUrl
-        const targetBtn = document.querySelector(".anime_name > button")
-        if (targetBtn) targetBtn.insertAdjacentElement("afterend", bgmLink)
+        bgmLink.href = bgmUrl;
+        const targetBtn = document.querySelector(".anime_name > button");
+        if (targetBtn) targetBtn.insertAdjacentElement("afterend", bgmLink);
     }
 
-    const css = document.createElement("style")
+    const css = document.createElement("style");
     css.innerHTML = `
 #bgmtv {
     position: relative;
@@ -68,34 +68,31 @@ async function getKeyValue() {
     cursor: pointer;
     color: var(--videoplayer-anime-title);
 }
-
 #bgmtv:hover {color: var(--anime-primary-hover);}
-`
-    document.body.append(css)
-
-
+`;
+    document.body.append(css);
 
     // 延遲等待影片載入
     function init() {
-        const videos = document.querySelectorAll('video');
+        const videos = document.querySelectorAll("video");
         if (!videos.length) {
             setTimeout(init, 3000);
             return;
         }
 
-        videos.forEach(video => {
+        videos.forEach((video) => {
             if (video.dataset.hasWatcher) return;
             video.dataset.hasWatcher = "true";
 
-            video.addEventListener('pause', () => handlePause(video));
-            video.addEventListener('ended', () => handleEnded(video));
+            video.addEventListener("pause", () => handlePause(video));
+            video.addEventListener("ended", () => handleEnded(video));
         });
     }
 
     // 手動暫停時觸發（若進度 > 90%）
     function handlePause(video) {
         const percent = (video.currentTime / video.duration) * 100;
-        const leftTime = (video.duration - video.currentTime);
+        const leftTime = video.duration - video.currentTime;
         if ((percent >= 90 || leftTime <= 90) && !video.dataset.prompted) {
             showPrompt(video);
         }
@@ -137,32 +134,72 @@ async function getKeyValue() {
         video.dataset.prompted = "true";
         currentVideo = video;
 
-        // 1. 建立按鈕 (如果不存在)
+        // 1. 建立按鈕容器 (如果不存在)
         if (!saveBtn) {
-            saveBtn = document.createElement('button');
-            saveBtn.id = "saveWatchBtn";
-            saveBtn.textContent = "✅ 儲存觀看記錄";
+            saveBtn = document.createElement("div");
+            saveBtn.id = "saveWatchBtnContainer";
+
+            // 容器樣式
             Object.assign(saveBtn.style, {
-                position: 'fixed',
-                bottom: '66px',
-                right: '30px',
-                zIndex: '2147483647',
-                padding: '12px 18px',
-                fontSize: '16px',
-                backgroundColor: 'rgba(33,150,243,0.9)',
-                color: '#fff',
-                border: 'none',
-                borderRadius: '8px',
-                cursor: 'pointer',
-                backdropFilter: 'blur(4px)',
-                boxShadow: '0 2px 8px rgba(0,0,0,0.3)',
-                transition: 'opacity 0.3s ease',
+                position: "fixed",
+                bottom: "66px",
+                right: "30px",
+                zIndex: "2147483647",
+                padding: "10px 10px 10px 15px",
+                fontSize: "16px",
+                backgroundColor: "rgba(33,150,243,0.9)",
+                color: "#fff",
+                border: "none",
+                borderRadius: "8px",
+                // cursor: 'pointer', // 移除：改由內部元素控制
+                backdropFilter: "blur(4px)",
+                boxShadow: "0 2px 8px rgba(0,0,0,0.3)",
+                transition: "opacity 0.3s ease",
+                display: "flex",
+                alignItems: "center",
             });
 
-            saveBtn.onclick = () => {
+            // --- 建立內部元素 ---
+
+            // 1. 主要操作 (儲存)
+            const mainAction = document.createElement("span");
+            mainAction.textContent = "✅ 儲存觀看記錄";
+            mainAction.style.cursor = "pointer";
+            mainAction.style.paddingRight = "12px"; // 和關閉按鈕的間距
+
+            mainAction.onclick = () => {
                 removeBtn(); // 點擊時徹底清除
-                window.open(bgmUrlAuto, '_blank');
+                window.open(bgmUrlAuto, "_blank");
             };
+
+            // 2. 關閉按鈕 [X]
+            const closeAction = document.createElement("span");
+            closeAction.textContent = "[X]";
+            Object.assign(closeAction.style, {
+                cursor: "pointer",
+                fontWeight: "bold",
+                padding: "6px 8px", // 增加點擊範圍
+                marginLeft: "6px",
+                borderRadius: "4px",
+                borderLeft: "1px solid rgba(255,255,255,0.4)",
+                paddingLeft: "12px",
+            });
+
+            // 關閉按鈕的 hover 效果
+            closeAction.onmouseenter = () => {
+                closeAction.style.backgroundColor = "rgba(0,0,0,0.2)";
+            };
+            closeAction.onmouseleave = () => {
+                closeAction.style.backgroundColor = "transparent";
+            };
+
+            closeAction.onclick = () => {
+                removeBtn(); // 點擊時徹底清除
+            };
+
+            // 3. 將元素加入容器
+            saveBtn.appendChild(mainAction);
+            saveBtn.appendChild(closeAction);
         }
 
         // 2. 顯示按鈕 (附加到正確的 DOM)
@@ -172,7 +209,7 @@ async function getKeyValue() {
         // 3. 綁定「播放時自動移除」
         // 使用 { once: true } 確保它只觸發一次
         const handlePlay = () => removeBtn();
-        video.addEventListener('play', handlePlay, { once: true });
+        video.addEventListener("play", handlePlay, { once: true });
 
         // 4. 啟動「守衛」(如果它們還沒啟動)
         // 🔹 修復 F11 模式
@@ -184,9 +221,10 @@ async function getKeyValue() {
                     target.appendChild(saveBtn);
                 }
                 // 確保按鈕可見 (防止被 CSS 隱藏)
-                if (saveBtn) saveBtn.style.display = 'block';
+                if (saveBtn) saveBtn.style.display = "flex"; // <- 注意: 這裡要改成 'flex'
             }, 1000);
         }
+
         // 🔹 清理 (當按鈕被意外移除時)
         if (!btnObserver) {
             btnObserver = new MutationObserver(() => {
@@ -201,7 +239,7 @@ async function getKeyValue() {
     }
 
     // 🔹 全螢幕變化監聽 (移到全域，只綁定一次)
-    document.addEventListener('fullscreenchange', () => {
+    document.addEventListener("fullscreenchange", () => {
         // 如果按鈕存在，就移動它
         if (saveBtn && saveBtn.parentElement) {
             const fs = document.fullscreenElement;
@@ -212,10 +250,10 @@ async function getKeyValue() {
 
     // 啟動
     init_bgmlink();
-    window.addEventListener('load', init);
+    window.addEventListener("load", init);
 
     function watchAnimeTitleChange(callback) {
-        const target = document.querySelector('.anime_name h1');
+        const target = document.querySelector(".anime_name h1");
         if (!target) {
             // console.warn('[BGM腳本] 找不到 anime_name h1，稍後再試...');
             setTimeout(() => watchAnimeTitleChange(callback), 1000);
@@ -232,14 +270,13 @@ async function getKeyValue() {
                 callback(newTitle);
             }
         });
-        observer.observe(target, {childList: true, characterData: true, subtree: true});
+        observer.observe(target, { childList: true, characterData: true, subtree: true });
     }
 
-    watchAnimeTitleChange(newTitle => {
+    watchAnimeTitleChange((newTitle) => {
         // console.log('目前標題：', newTitle);
         videoTitle = newTitle.split(" [")[0];
         videoEpisode = newTitle.split(" [")[1].split("]")[0];
-        init_bgmlink()
+        init_bgmlink();
     });
-})()
-
+})();
