@@ -59,7 +59,7 @@ async function getAnimeData() {
                 }
             }
             // 否則單一部
-            if (info.bgmId) {
+            else if (info.bgmId) {
                 bgmUrl = `https://bgm.tv/subject/${info.bgmId}`;
             }
         }
