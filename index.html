@@ -33,9 +33,15 @@
         const bgmIdNumber = parseInt(bgmIdParam);
 
         // 透過搜尋 bgmId 來找到對應的 "標題名稱" (key)
-        const title = Object.keys(data).find(key => data[key].bgmId === bgmIdNumber);
+        // 可能存在多層結構
+        const titleEntry = Object.entries(data).find(([title, info]) => {
+          if (info.parts) {
+            return info.parts.some(p => p.bgmId === bgmIdNumber);
+          }
+          return info.bgmId === bgmIdNumber;
+        });
 
-        if (!title) {
+        if (!titleEntry) {
           if (nameParam) {
             const encodedTitle = encodeURIComponent(nameParam);
             window.location.href = `https://ani.gamer.com.tw/search.php?keyword=${encodedTitle}`;
@@ -46,7 +52,11 @@
         }
 
         // 透過 title 取得對應的項目資料
-        const item = data[title];
+        const [title, info] = titleEntry;
+        let item = info.parts
+          ? info.parts.find(p => p.bgmId === bgmIdNumber)
+          : info;
+
         console.log(`成功找到項目: "${title}"`, item);
 
         // 優先跳 aniId

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         動畫瘋-BGM.TV 點格子
 // @namespace    AnimadWithBgmtv
-// @version      0.4.1
+// @version      0.5.0
 // @description  點格子
 // @author       david082321
 // @match        https://ani.gamer.com.tw/animeVideo.php?*
@@ -18,34 +18,52 @@ const STORAGE_KEY = "bgmtv_animeData";
 const STORAGE_TIME = "bgmtv_lastUpdate";
 const REMOTE_URL = `https://raw.githubusercontent.com/david082321/animad-bgm-toolkit/refs/heads/main/animeData.json?t=${Date.now()}`;
 
-// 取 keyValue（自動更新）
-async function getKeyValue() {
+// 解析動畫映射表（自動更新）
+async function getAnimeData() {
     const now = Date.now();
     const lastUpdate = localStorage.getItem(STORAGE_TIME);
-    let keyValue = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
-    if (!lastUpdate || now - lastUpdate > 86400000 || Object.keys(keyValue).length === 0) {
+    let data = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+    if (!lastUpdate || now - lastUpdate > 86400000 || Object.keys(data).length === 0) {
         try {
             const res = await fetch(REMOTE_URL, { cache: "no-store" });
             if (res.ok) {
-                keyValue = await res.json();
-                localStorage.setItem(STORAGE_KEY, JSON.stringify(keyValue));
+                data = await res.json();
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
                 localStorage.setItem(STORAGE_TIME, now);
             }
         } catch (err) {
             console.error("更新失敗，使用本機快取", err);
         }
     }
-    return keyValue;
+    return data;
 }
 
 (async () => {
-    const keyValue = await getKeyValue();
+    const animeData = await getAnimeData();
     const bgmLink = document.createElement("a");
     bgmLink.target = "_blank";
     bgmLink.id = "bgmtv";
+
     function init_bgmlink() {
-        if (keyValue[videoTitle] && keyValue[videoTitle].bgmId) {
-            bgmUrl = "https://bgm.tv/subject/" + keyValue[videoTitle].bgmId;
+        const info = animeData[videoTitle];
+        let bgmUrl = "";
+        if (info) {
+            // 如果有多部（parts）
+            if (info.parts) {
+                for (const part of info.parts) {
+                    const start = part.startEp ?? 1;
+                    const end = part.endEp ?? Infinity;
+                    if (videoEpisode >= start && videoEpisode <= end) {
+                        bgmUrl = `https://bgm.tv/subject/${part.bgmId}`;
+                    }
+                }
+            }
+            // 否則單一部
+            if (info.bgmId) {
+                bgmUrl = `https://bgm.tv/subject/${info.bgmId}`;
+            }
+        }
+        if (bgmUrl !== "") {
             bgmUrlAuto = bgmUrl + "?watch=" + videoEpisode;
             bgmLink.innerText = "點格子  ";
         } else {

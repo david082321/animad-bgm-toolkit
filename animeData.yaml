@@ -191,6 +191,19 @@ FAIRY TAIL 魔導少年 百年任務:
   acgId: 140154
   aniId: 40180
 嘆氣的亡靈想隱退:
+  parts:
+    - name: "第一季"
+      startEp: 1
+      endEp: 13
+      bgmId: 481410
+      acgId: 137916
+      aniId: 40183
+    - name: "第2部份"
+      startEp: 14
+      endEp: null
+      bgmId: 530290
+      acgId: 137916
+      aniId: 45578
   bgmId: 481410
   acgId: 137916
   aniId: 40183
@@ -858,10 +871,6 @@ GNOSIA:
   bgmId: 576047
   acgId: 146539
   aniId: 45677
-嘆氣的亡靈想隱退 第二季:
-  bgmId: 530290
-  acgId: 137916
-  aniId: 40183
 跨越種族與你相戀:
   bgmId: 532940
   acgId: 143358
