@@ -1,35 +1,37 @@
 // ==UserScript==
 // @name         動畫瘋-BGM.TV 點格子
 // @namespace    AnimadWithBgmtv
-// @version      0.5.0
+// @version      0.5.2
 // @description  點格子
 // @author       david082321
 // @match        https://ani.gamer.com.tw/animeVideo.php?*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=ani.gamer.com.tw
-// @grant        none
+// @grant        GM_getValue
+// @grant        GM_setValue
+// @grant        GM_deleteValue
 // @license      none
 // ==/UserScript==
 
 let videoTitle = document.title.split(" [")[0];
-let videoEpisode = document.title.split(" [")[1].split("]")[0];
+let videoEpisode = document.title.replace(" [電影]", " [01]").replace(" [年齡限制版]", "").split(" [")[1].split("]")[0];
 let bgmUrl = "";
 let bgmUrlAuto = "";
-const STORAGE_KEY = "bgmtv_animeData";
-const STORAGE_TIME = "bgmtv_lastUpdate";
+const STORAGE_KEY = "animad_animeData";
+const STORAGE_TIME = "animad_lastUpdate";
 const REMOTE_URL = `https://raw.githubusercontent.com/david082321/animad-bgm-toolkit/refs/heads/main/animeData.json?t=${Date.now()}`;
 
 // 解析動畫映射表（自動更新）
 async function getAnimeData() {
     const now = Date.now();
-    const lastUpdate = localStorage.getItem(STORAGE_TIME);
-    let data = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+    const lastUpdate = GM_getValue(STORAGE_TIME, 0);
+    let data = GM_getValue(STORAGE_KEY, {});
     if (!lastUpdate || now - lastUpdate > 86400000 || Object.keys(data).length === 0) {
         try {
             const res = await fetch(REMOTE_URL, { cache: "no-store" });
             if (res.ok) {
                 data = await res.json();
-                localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
-                localStorage.setItem(STORAGE_TIME, now);
+                GM_setValue(STORAGE_KEY, data);
+                GM_setValue(STORAGE_TIME, now);
             }
         } catch (err) {
             console.error("更新失敗，使用本機快取", err);
@@ -294,7 +296,7 @@ async function getAnimeData() {
     watchAnimeTitleChange((newTitle) => {
         // console.log('目前標題：', newTitle);
         videoTitle = newTitle.split(" [")[0];
-        videoEpisode = newTitle.split(" [")[1].split("]")[0];
+        videoEpisode = newTitle.replace(" [電影]", " [01]").replace(" [年齡限制版]", "").split(" [")[1].split("]")[0];
         init_bgmlink();
     });
 })();
