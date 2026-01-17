@@ -14,11 +14,127 @@
 #   bgmId: 
 #   acgId: 
 #   aniId: 
+29歲單身中堅冒險家的日常:
+  bgmId: 556874
+  acgId: 145092
+  aniId: 
+非人學生與厭世教師:
+  bgmId: 583728
+  acgId: 147123
+  aniId: 
+被鄰國王太子溺愛的反派千金:
+  bgmId: 568174
+  acgId: 146160
+  aniId: 
+魔王的女兒太溫柔了!!:
+  bgmId: 565416
+  acgId: 145924
+  aniId: 
+皎潔深宵之月:
+  bgmId: 557531
+  acgId: 145140
+  aniId: 
+可以幫忙洗乾淨嗎？:
+  bgmId: 562430
+  acgId: 145548
+  aniId: 
+外星人田中太郎:
+  bgmId: 36973
+  acgId: 20149
+  aniId: 46794
+南家三姊妹 我回來了:
+  bgmId: 47685
+  acgId: 52758
+  aniId: 46903
+魯邦三世 PART4:
+  bgmId: 115661
+  acgId: 73324
+  aniId: 15943
+魯邦三世 PART6:
+  bgmId: 337430
+  acgId: 117715
+  aniId: 25488
+網球王子:
+  bgmId: 1939
+  acgId: 18542
+  aniId: 44496
+真珠美人魚:
+  bgmId: 30515
+  acgId: 18003
+  aniId: 46417
+鬼影投手:
+  bgmId: 1038
+  acgId: 19860
+  aniId: 47020
+夢幻遊戲:
+  bgmId: 4507
+  acgId: 15961
+  aniId: 44660
+名偵探柯南:
+  bgmId: 899
+  acgId: 16478
+  aniId: 30234
+TRIGUN STARGAZE:
+  bgmId: 426100
+  acgId: 131293
+  aniId: 47069
+死亡帳號:
+  bgmId: 543772
+  acgId: 144273
+  aniId: 47070
+轉生之後的我變成了龍蛋～目標是世界最強～:
+  bgmId: 544106
+  acgId: 144289
+  aniId: 47068
+勇者之渣:
+  bgmId: 544372
+  acgId: 144297
+  aniId: 47072
+神八小妹不可怕:
+  bgmId: 522414
+  acgId: 142204
+  aniId: 47077
+相反的你和我:
+  bgmId: 525565
+  acgId: 142507
+  aniId: 47076
+大江戶烈火殺手 - 鳳凰傳說:
+  bgmId: 540031
+  acgId: 143977
+  aniId: 47078
+公主殿下，「拷問」的時間到了 第二季:
+  bgmId: 486763
+  acgId: 138541
+  aniId: 47110
+卡片戰鬥!! 先導者 Divinez 第五季「幻真星戰篇」:
+  bgmId: 591584
+  acgId: 148375
+  aniId: 47295
+葬送的芙莉蓮 第二季:
+  bgmId: 515759
+  acgId: 141647
+  aniId: 47221
+高校！奇面組:
+  bgmId: 597809
+  acgId: 147821
+  aniId: 47062
+和機器人啪啪啪能算在經驗人數裡嗎？？:
+  bgmId: 558296
+  acgId: 147822
+  aniId: 47063
+"DARK MOON: 月之神壇":
+  bgmId: 513361
+  acgId: 141448
+  aniId: 47064
+地獄模式 ～喜歡挑戰特殊成就的玩家在廢設定的異世界成為無雙～:
+  bgmId: 526979
+  acgId: 142684
+  aniId: 47065
 蘑菇魔女:
   bgmId: 528434
   acgId: 145458
   aniId: 47017
-終究，與你相戀。 第二季:
+終究，與你相戀。第二季:
   bgmId: 548195
   acgId: 144517
   aniId: 47016
@@ -527,6 +643,19 @@ Summer Pockets:
   bgmId: 382126
   acgId: 124471
   aniId: 42901
+  parts:
+    - name: "參之章"
+      startEp: 1
+      endEp: 12
+      bgmId: 382126
+      acgId: 124471
+      aniId: 42901
+    - name: "參之章 第2部份"
+      startEp: 13
+      endEp: null
+      bgmId: 502876
+      acgId: 124471
+      aniId: 47066
 Classic★Stars – 古典樂★之星:
   bgmId: 502036
   acgId: 140263
@@ -6016,9 +6145,28 @@ MUV-LUV ALTERNATIVE 第二季:
   acgId: 127957
   aniId: 
 【我推的孩子】:
-  bgmId: 424227
+  bgmId: 386809
   acgId: 128085
-  aniId: 
+  aniId: 33312
+  parts:
+    - name: "第一季"
+      startEp: 1
+      endEp: 11
+      bgmId: 386809
+      acgId: 128085
+      aniId: 33312
+    - name: "第二季"
+      startEp: 12
+      endEp: 24
+      bgmId: 443428
+      acgId: 128085
+      aniId: 38968
+    - name: "第三季"
+      startEp: 25
+      endEp: null
+      bgmId: 517057
+      acgId: 128085
+      aniId: 47109
 搖曳露營△ 第三季:
   bgmId: 405785
   acgId: 128167
