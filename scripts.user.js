@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         動畫瘋-BGM.TV 點格子
 // @namespace    AnimadWithBgmtv
-// @version      0.5.2
+// @version      0.5.3
 // @description  點格子
 // @author       david082321
 // @match        https://ani.gamer.com.tw/animeVideo.php?*
@@ -9,6 +9,8 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_deleteValue
+// @grant        GM_xmlhttpRequest
+// @connect      acg.gamer.com.tw
 // @license      none
 // ==/UserScript==
 
@@ -33,6 +35,7 @@ async function getAnimeData() {
                 GM_setValue(STORAGE_KEY, data);
                 GM_setValue(STORAGE_TIME, now);
             }
+            console.log("更新完成");
         } catch (err) {
             console.error("更新失敗，使用本機快取", err);
         }
@@ -40,13 +43,35 @@ async function getAnimeData() {
     return data;
 }
 
+async function fetchJapaneseTitle() {
+    const acgLink = document.querySelector('a.link-button[href*="acgDetail.php"]');
+    if (!acgLink) return null;
+
+    return new Promise((resolve) => {
+        GM_xmlhttpRequest({
+            method: "GET",
+            url: "https:" + acgLink.getAttribute("href"),
+            onload: function(res) {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(res.responseText, "text/html");
+                // 抓取 ACG-info-container 下的第一個 h2 (通常是日文標題)
+                const jpTitle = doc.querySelector(".ACG-info-container h2")?.innerText.trim();
+                resolve(jpTitle);
+            },
+            onerror: () => resolve(null)
+        });
+    });
+}
+
+
+
 (async () => {
     const animeData = await getAnimeData();
     const bgmLink = document.createElement("a");
     bgmLink.target = "_blank";
     bgmLink.id = "bgmtv";
 
-    function init_bgmlink() {
+    async function init_bgmlink() {
         const info = animeData[videoTitle];
         let bgmUrl = "";
         if (info) {
@@ -69,9 +94,12 @@ async function getAnimeData() {
             bgmUrlAuto = bgmUrl + "?watch=" + videoEpisode;
             bgmLink.innerText = "點格子  ";
         } else {
-            bgmUrl = "https://bgm.tv/subject_search/" + videoTitle + "?cat=all";
-            bgmUrlAuto = bgmUrl;
-            bgmLink.innerText = "點格子?  ";
+            // 抓取日文標題來搜尋
+            const jpTitle = await fetchJapaneseTitle();
+            const searchTitle = jpTitle || videoTitle;
+            bgmUrl = "https://bgm.tv/subject_search/" + encodeURIComponent(searchTitle) + "?cat=2";
+            bgmUrlAuto = bgmUrl;
+            bgmLink.innerText = "點格子?  ";
         }
         bgmLink.href = bgmUrl;
         const targetBtn = document.querySelector(".anime_name > button");
