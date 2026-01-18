@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Bangumi 自動更新觀看進度
 // @namespace    https://example.com/
-// @version      1.4
-// @description  自動於 ?watch= 頁面標記已看並關閉分頁，防止卡住顯示半透明覆蓋層
+// @version      1.5
+// @description  自動於 ?watch= 頁面標記已看。若未追番則自動設為「在看」。
 // @author       david082321
-// @match        https://bgm.tv/subject/*?watch=*
+// @match        https://bgm.tv/subject/*
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_deleteValue
@@ -22,53 +22,22 @@
     const sessionId = Math.random().toString(36).slice(2, 10);
     const key = `bgm_watch_${subjectId}_${watchParam}`;
 
-    // === Overlay ===
-
-    // Overlay helpers -------------------------------------------------------
+    // === Overlay Helpers ===
     function overlay(text) {
-        removeOverlay(); // 先移除舊的（若有）
+        removeOverlay();
         const overlay = document.createElement('div');
         overlay.id = 'bgm-watch-overlay';
         Object.assign(overlay.style, {
-            position: 'fixed',
-            top: '0',
-            left: '0',
-            width: '100%',
-            height: '100%',
-            backgroundColor: 'rgba(0,0,0,0.6)', // 半透明黑
-            color: '#fff',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            zIndex: '2147483647', // 極大，確保蓋過所有元素
-            pointerEvents: 'auto', // 攔截所有互動
-            userSelect: 'none',
-            cursor: 'wait',
-            padding: '20px',
-            boxSizing: 'border-box'
+            position: 'fixed', top: '0', left: '0', width: '100%', height: '100%',
+            backgroundColor: 'rgba(0,0,0,0.6)', color: '#fff', display: 'flex',
+            alignItems: 'center', justifyContent: 'center', zIndex: '2147483647',
+            pointerEvents: 'auto', userSelect: 'none', cursor: 'wait', padding: '20px', boxSizing: 'border-box'
         });
-
         const box = document.createElement('div');
-        box.style.maxWidth = '80%';
         box.style.textAlign = 'center';
-        box.style.fontSize = '18px';
-        box.style.lineHeight = '1.6';
-
-        const title = document.createElement('div');
-        title.textContent = text || '處理中...';
-        title.style.fontSize = '20px';
-        title.style.fontWeight = '600';
-        title.style.marginBottom = '8px';
-
-        const sub = document.createElement('div');
-        sub.textContent = `Subject ${subjectId} • episode ${watchParam}`;
-        sub.style.opacity = '0.9';
-        sub.style.fontSize = '14px';
-
-        box.appendChild(title);
-        box.appendChild(sub);
+        box.innerHTML = `<div style="font-size:20px;font-weight:600;margin-bottom:8px;">${text}</div>
+                         <div style="opacity:0.9;font-size:14px;">Subject ${subjectId} • episode ${watchParam}</div>`;
         overlay.appendChild(box);
-
         document.documentElement.appendChild(overlay);
     }
 
@@ -85,48 +54,39 @@
             window.close();
         }, 1500);
     }
-    // ----------------------------------------------------------------------
 
-    // === 防呆：若頁面被 302 回來 ===
+    // === 主邏輯開始 ===
+
     const state = GM_getValue(key);
+    // 檢查是否剛從「自動追番」跳轉回來
     if (state && state.status === 'working') {
-        if (Date.now() - state.time > 10000) {
+        if (Date.now() - state.time > 20000) { // 追番+標記可能較久，放寬到20秒
             cleanupAndClose('⚠️ 超時未完成，自動關閉');
-        } else {
-            cleanupAndClose('✅ 標記完成，關閉中...');
+            return;
         }
-        return;
+    } else {
+        // 第一次進入頁面，初始化狀態
+        GM_setValue(key, { status: 'working', time: Date.now(), session: sessionId });
     }
 
-    GM_setValue(key, { status: 'working', time: Date.now(), session: sessionId });
-    overlay('標記觀看進度中……請稍候，完成後此頁面將關閉');
+    overlay('正在檢查觀看狀態……');
 
-    // === 監控 .prg_list ===
+    // 監控集數列表載入
     let checks = 0;
     const checkInterval = setInterval(() => {
         const list = document.querySelector('.prg_list');
         if (list) {
             clearInterval(checkInterval);
-            process(list); // 找到後進入處理流程
+            process(list);
             return;
         }
-
-        checks++;
-        if (checks >= 10) { // 10 秒超時
+        if (++checks >= 10) {
             clearInterval(checkInterval);
-            cleanupAndClose('超時未載入集數列表，關閉中...');
+            cleanupAndClose('超時未載入集數列表');
         }
     }, 1000);
 
-    // === 超時防卡 ===
-    const timeout = setTimeout(() => {
-        cleanupAndClose('⚠️ 未偵測到集數列表，自動關閉');
-    }, 10000);
-
     function process(list) {
-        clearTimeout(timeout);
-
-        // 處理 watch 參數格式
         let epLabel = watchParam;
         if (/^\d+(\.\d+)?$/.test(watchParam)) {
             const [i, d] = watchParam.split('.');
@@ -135,32 +95,45 @@
 
         const target = Array.from(list.querySelectorAll('a'))
             .find(a => a.textContent.trim() === epLabel);
-        if (!target) return cleanupAndClose('❌ 找不到對應集數，關閉中');
+        
+        if (!target) return cleanupAndClose('❌ 找不到對應集數');
+        if (target.classList.contains('epBtnWatched')) return cleanupAndClose('✅ 此集已標記為已看');
 
-        if (target.classList.contains('epBtnWatched')) {
-            return cleanupAndClose('✅ 此集已標記為已看');
-        }
-
-        const prgId = target.id || '';
-        if (!prgId.startsWith('prg_')) {
-            return cleanupAndClose('⚠️ 無效的 prg ID，關閉中');
-        }
-
-        const epId = prgId.replace('prg_', '');
+        const epId = target.id.replace('prg_', '');
         const watchedBtn = document.getElementById(`WatchedTill_${epId}`);
-        if (!watchedBtn) return cleanupAndClose('❌ 找不到「看到」按鈕');
+
+        // 處理找不到「看到」按鈕的情況
+        if (!watchedBtn) {
+            const isWatching = !!document.querySelector('.interest_now'); // 檢查是否有「我在看這部動畫」字樣
+            
+            if (!isWatching) {
+                overlay('📝 檢測到未收藏，正在自動設為「在看」...');
+                
+                // 尋找隱藏的收藏表單中的「在看」選項
+                const doRadio = document.getElementById('do'); 
+                const saveBtn = document.querySelector('#collectBoxForm input[name="update"]');
+                
+                if (doRadio && saveBtn) {
+                    doRadio.checked = true; // 勾選「在看」
+                    saveBtn.click();        // 提交表單（頁面會更新，腳本會重新執行並進入下一步）
+                    return; 
+                } else {
+                    return cleanupAndClose('❌ 無法自動切換追番狀態');
+                }
+            }
+            return cleanupAndClose('❌ 找不到「看到」按鈕且無法修復');
+        }
+        // ------------------------------------------
 
         const href = watchedBtn.getAttribute('href');
         if (!href) return cleanupAndClose('❌ 無法取得標記連結');
 
         overlay(`➡️ 正在標記第 ${epLabel} 集…`);
-        window.location.href = href; // Bangumi 會 302 回來
+        window.location.href = href;
     }
 
-    // === 防止永遠卡在 working ===
     window.addEventListener('beforeunload', () => {
         const s = GM_getValue(key);
         if (s && s.session === sessionId) GM_deleteValue(key);
     });
-
 })();
