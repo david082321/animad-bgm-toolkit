@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Bangumi 自動更新觀看進度
 // @namespace    https://example.com/
-// @version      1.5
-// @description  自動於 ?watch= 頁面標記已看。若未追番則自動設為「在看」。
+// @version      1.6
+// @description  自動標記已看，若未追番則自動設為「在看」。
 // @author       david082321
 // @match        https://bgm.tv/subject/*
 // @grant        GM_getValue
@@ -16,11 +16,28 @@
 
     const url = new URL(window.location.href);
     const subjectId = url.pathname.split('/').pop();
-    const watchParam = url.searchParams.get('watch');
-    if (!watchParam) return;
+    if (!/^\d+$/.test(subjectId)) return; // 確保在條目頁面
+
+    // 儲存鍵名
+    const taskKey = `bgm_pending_watch_${subjectId}`;
+
+    // 優先從網址取值，若網址沒有則從快取拿（處理跳轉後的情況）
+    let watchParam = url.searchParams.get('watch');
+
+    if (watchParam) {
+        // 如果網址有參數，更新快取任務
+        GM_setValue(taskKey, { ep: watchParam, time: Date.now() });
+    } else {
+        // 如果網址沒參數，檢查快取是否有 1 分鐘內的未完成任務
+        const savedTask = GM_getValue(taskKey);
+        if (savedTask && (Date.now() - savedTask.time < 60000)) {
+            watchParam = savedTask.ep;
+        } else {
+            return; // 真的沒有任務，停止執行
+        }
+    }
 
     const sessionId = Math.random().toString(36).slice(2, 10);
-    const key = `bgm_watch_${subjectId}_${watchParam}`;
 
     // === Overlay Helpers ===
     function overlay(text) {
@@ -36,7 +53,7 @@
         const box = document.createElement('div');
         box.style.textAlign = 'center';
         box.innerHTML = `<div style="font-size:20px;font-weight:600;margin-bottom:8px;">${text}</div>
-                         <div style="opacity:0.9;font-size:14px;">Subject ${subjectId} • episode ${watchParam}</div>`;
+                         <div style="opacity:0.9;font-size:14px;">條目 ${subjectId} • 第 ${watchParam} 集</div>`;
         overlay.appendChild(box);
         document.documentElement.appendChild(overlay);
     }
@@ -48,29 +65,14 @@
 
     function cleanupAndClose(msg) {
         overlay(msg || '完成，將關閉分頁...');
-        GM_deleteValue(key);
+        GM_deleteValue(taskKey); // 徹底清除任務
         setTimeout(() => {
             removeOverlay();
             window.close();
         }, 1500);
     }
 
-    // === 主邏輯開始 ===
-
-    const state = GM_getValue(key);
-    // 檢查是否剛從「自動追番」跳轉回來
-    if (state && state.status === 'working') {
-        if (Date.now() - state.time > 20000) { // 追番+標記可能較久，放寬到20秒
-            cleanupAndClose('⚠️ 超時未完成，自動關閉');
-            return;
-        }
-    } else {
-        // 第一次進入頁面，初始化狀態
-        GM_setValue(key, { status: 'working', time: Date.now(), session: sessionId });
-    }
-
     overlay('正在檢查觀看狀態……');
-
     // 監控集數列表載入
     let checks = 0;
     const checkInterval = setInterval(() => {
@@ -82,7 +84,8 @@
         }
         if (++checks >= 10) {
             clearInterval(checkInterval);
-            cleanupAndClose('超時未載入集數列表');
+            // 只有在網址有參數時才報錯，避免在普通頁面彈窗
+            if (url.searchParams.get('watch')) cleanupAndClose('超時未載入集數列表');
         }
     }, 1000);
 
@@ -95,45 +98,35 @@
 
         const target = Array.from(list.querySelectorAll('a'))
             .find(a => a.textContent.trim() === epLabel);
-        
+
         if (!target) return cleanupAndClose('❌ 找不到對應集數');
         if (target.classList.contains('epBtnWatched')) return cleanupAndClose('✅ 此集已標記為已看');
 
         const epId = target.id.replace('prg_', '');
         const watchedBtn = document.getElementById(`WatchedTill_${epId}`);
 
-        // 處理找不到「看到」按鈕的情況
+        // 處理未追番/找不到按鈕
         if (!watchedBtn) {
-            const isWatching = !!document.querySelector('.interest_now'); // 檢查是否有「我在看這部動畫」字樣
-            
+            const isWatching = !!document.querySelector('.interest_now');
+
             if (!isWatching) {
-                overlay('📝 檢測到未收藏，正在自動設為「在看」...');
-                
-                // 尋找隱藏的收藏表單中的「在看」選項
-                const doRadio = document.getElementById('do'); 
+                overlay('📝 檢測到未收藏，正在設定為「在看」並重新標記...');
+                const doRadio = document.getElementById('do');
                 const saveBtn = document.querySelector('#collectBoxForm input[name="update"]');
-                
+
                 if (doRadio && saveBtn) {
-                    doRadio.checked = true; // 勾選「在看」
-                    saveBtn.click();        // 提交表單（頁面會更新，腳本會重新執行並進入下一步）
-                    return; 
+                    doRadio.checked = true;
+                    saveBtn.click(); // 此處會導致頁面跳轉至沒有 ?watch 的 URL
+                    return;
                 } else {
                     return cleanupAndClose('❌ 無法自動切換追番狀態');
                 }
             }
-            return cleanupAndClose('❌ 找不到「看到」按鈕且無法修復');
+            return cleanupAndClose('❌ 找不到「看到」按鈕，請手動確認');
         }
-        // ------------------------------------------
 
         const href = watchedBtn.getAttribute('href');
-        if (!href) return cleanupAndClose('❌ 無法取得標記連結');
-
         overlay(`➡️ 正在標記第 ${epLabel} 集…`);
         window.location.href = href;
     }
-
-    window.addEventListener('beforeunload', () => {
-        const s = GM_getValue(key);
-        if (s && s.session === sessionId) GM_deleteValue(key);
-    });
 })();
