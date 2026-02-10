@@ -17,15 +17,15 @@
 29歲單身中堅冒險家的日常:
   bgmId: 556874
   acgId: 145092
-  aniId: 
+  aniId: 47348
 非人學生與厭世教師:
   bgmId: 583728
   acgId: 147123
-  aniId: 
+  aniId: 47374
 被鄰國王太子溺愛的反派千金:
   bgmId: 568174
   acgId: 146160
-  aniId: 
+  aniId: 47377
 魔王的女兒太溫柔了!!:
   bgmId: 565416
   acgId: 145924
@@ -122,7 +122,7 @@ TRIGUN STARGAZE:
   bgmId: 558296
   acgId: 147822
   aniId: 47063
-"DARK MOON: 月之神壇":
+'DARK MOON: 月之神壇':
   bgmId: 513361
   acgId: 141448
   aniId: 47064
@@ -423,18 +423,18 @@ FAIRY TAIL 魔導少年 百年任務:
   acgId: 137916
   aniId: 40183
   parts:
-    - name: "第一季"
-      startEp: 1
-      endEp: 13
-      bgmId: 481410
-      acgId: 137916
-      aniId: 40183
-    - name: "第2部份"
-      startEp: 14
-      endEp: null
-      bgmId: 530290
-      acgId: 137916
-      aniId: 45578
+  - name: 第一季
+    startEp: 1
+    endEp: 13
+    bgmId: 481410
+    acgId: 137916
+    aniId: 40183
+  - name: 第2部份
+    startEp: 14
+    endEp: null
+    bgmId: 530290
+    acgId: 137916
+    aniId: 45578
 噗妮露是可愛史萊姆:
   bgmId: 470045
   acgId: 136938
@@ -644,18 +644,18 @@ Summer Pockets:
   acgId: 124471
   aniId: 42901
   parts:
-    - name: "參之章"
-      startEp: 1
-      endEp: 12
-      bgmId: 382126
-      acgId: 124471
-      aniId: 42901
-    - name: "參之章 第2部份"
-      startEp: 13
-      endEp: null
-      bgmId: 502876
-      acgId: 124471
-      aniId: 47066
+  - name: 參之章
+    startEp: 1
+    endEp: 12
+    bgmId: 382126
+    acgId: 124471
+    aniId: 42901
+  - name: 參之章 第2部份
+    startEp: 13
+    endEp: null
+    bgmId: 502876
+    acgId: 124471
+    aniId: 47066
 Classic★Stars – 古典樂★之星:
   bgmId: 502036
   acgId: 140263
@@ -711,7 +711,7 @@ LAZARUS 拉撒路:
 靈異教師神眉:
   bgmId: 504524
   acgId: 140516
-  aniId: 
+  aniId: 46011
 膽大黨 第二季:
   bgmId: 529431
   acgId: 143021
@@ -1139,7 +1139,7 @@ GNOSIA:
 異世界四重奏 第三季:
   bgmId: 564421
   acgId: 145850
-  aniId: 
+  aniId: 46217
 無尾熊繪日記:
   bgmId: 564980
   acgId: 145796
@@ -1215,7 +1215,7 @@ Fate/stay night:
 我們這一家:
   bgmId: 40388
   acgId: 308
-  aniId: 
+  aniId: 46467
 NANA:
   bgmId: 486
   acgId: 364
@@ -1359,7 +1359,7 @@ TIGER×DRAGON！:
 棋靈王:
   bgmId: 605
   acgId: 19024
-  aniId: 
+  aniId: 18031
 萬有引力:
   bgmId: 2912
   acgId: 19455
@@ -1371,7 +1371,7 @@ TIGER×DRAGON！:
 蠟筆小新：風起雲湧！壯烈！戰國大會戰:
   bgmId: 8987
   acgId: 19760
-  aniId: 
+  aniId: 778
 伊甸少年:
   bgmId: 98874
   acgId: 19933
@@ -1383,11 +1383,11 @@ TIGER×DRAGON！:
 人狼:
   bgmId: 844
   acgId: 19972
-  aniId: 
+  aniId: 11857
 蒸汽男孩:
   bgmId: 1938
   acgId: 20024
-  aniId: 
+  aniId: 12330
 惡童當街:
   bgmId: 6437
   acgId: 20056
@@ -1403,15 +1403,15 @@ TIGER×DRAGON！:
 怪醫黑傑克:
   bgmId: 46036
   acgId: 20672
-  aniId: 
+  aniId: 7894
 搞笑漫畫日和:
   bgmId: 2461
   acgId: 20850
-  aniId: 
+  aniId: 43183
 怪醫黑傑克 21:
   bgmId: 80918
   acgId: 20989
-  aniId: 
+  aniId: 7769
 犬夜叉劇場版：紅蓮的蓬萊島:
   bgmId: 19392
   acgId: 21913
@@ -1627,15 +1627,15 @@ DARKER THAN BLACK 黑之契約者 -流星的雙子-:
 搞笑漫畫日和 2:
   bgmId: 2460
   acgId: 33456
-  aniId: 
+  aniId: 43469
 搞笑漫畫日和 3:
   bgmId: 2459
   acgId: 33457
-  aniId: 
+  aniId: 43613
 搞笑漫畫日和 +:
   bgmId: 3482
   acgId: 33458
-  aniId: 
+  aniId: 43798
 棒球大聯盟 第六季:
   bgmId: 4293
   acgId: 33592
@@ -2520,7 +2520,7 @@ Love Live! 電影:
   bgmId: 110867
   acgId: 72190
   aniId: 
-"飆速宅男 Re: RIDE":
+'飆速宅男 Re: RIDE':
   bgmId: 110062
   acgId: 72236
   aniId: 
@@ -4656,7 +4656,7 @@ ARGONAVIS from BanG Dream！:
   bgmId: 298477
   acgId: 109617
   aniId: 
-"富豪刑警 Balance: UNLIMITED":
+'富豪刑警 Balance: UNLIMITED':
   bgmId: 298718
   acgId: 109753
   aniId: 
@@ -5331,10 +5331,6 @@ Love Live！虹咲學園 學園偶像同好會 第二季:
 喵的咧～貓咪戲說日本史！第四季:
   bgmId: 279471
   acgId: 117637
-  aniId: 
-魯邦三世 PART6:
-  bgmId: 337430
-  acgId: 117715
   aniId: 
 眾神眷顧的男人 2:
   bgmId: 338150
@@ -6149,24 +6145,24 @@ MUV-LUV ALTERNATIVE 第二季:
   acgId: 128085
   aniId: 33312
   parts:
-    - name: "第一季"
-      startEp: 1
-      endEp: 11
-      bgmId: 386809
-      acgId: 128085
-      aniId: 33312
-    - name: "第二季"
-      startEp: 12
-      endEp: 24
-      bgmId: 443428
-      acgId: 128085
-      aniId: 38968
-    - name: "第三季"
-      startEp: 25
-      endEp: null
-      bgmId: 517057
-      acgId: 128085
-      aniId: 47109
+  - name: 第一季
+    startEp: 1
+    endEp: 11
+    bgmId: 386809
+    acgId: 128085
+    aniId: 33312
+  - name: 第二季
+    startEp: 12
+    endEp: 24
+    bgmId: 443428
+    acgId: 128085
+    aniId: 38968
+  - name: 第三季
+    startEp: 25
+    endEp: null
+    bgmId: 517057
+    acgId: 128085
+    aniId: 47109
 搖曳露營△ 第三季:
   bgmId: 405785
   acgId: 128167
@@ -6295,7 +6291,7 @@ SPY x FAMILY 間諜家家酒 Season 2:
   bgmId: 411427
   acgId: 129280
   aniId: 
-"SPY×FAMILY 間諜家家酒 CODE: White":
+'SPY×FAMILY 間諜家家酒 CODE: White':
   bgmId: 411428
   acgId: 129281
   aniId: 
@@ -6623,10 +6619,6 @@ BLEACH 死神 千年血戰篇-訣別譚-:
   bgmId: 443931
   acgId: 133842
   aniId: 
-Fate/strange Fake:
-  bgmId: 443831
-  acgId: 133843
-  aniId: 
 指尖相觸，戀戀不捨:
   bgmId: 444334
   acgId: 133896
@@ -6787,10 +6779,10 @@ B-PROJECT 〜熱烈＊Love Call〜:
   bgmId: 463389
   acgId: 136326
   aniId: 
-"劇場總集篇 孤獨搖滾！Re:":
+'劇場總集篇 孤獨搖滾！Re:':
   bgmId: 436738
   acgId: 136340
-  aniId: 
+  aniId: 42831
 機甲英雄 機鬥勇者 第二季:
   bgmId: 463539
   acgId: 136356
@@ -6898,27 +6890,27 @@ NUKITASHI 住在拔作島上的我該如何是好？ [年齡限制版]:
 我的妻子不具感情:
   bgmId: 482776
   acgId: 138127
-  aniId: 
+  aniId: 38876
 天穗之咲稻姬:
   bgmId: 478684
   acgId: 138263
-  aniId: 
+  aniId: 38918
 鹿乃子乃子乃子虎視眈眈:
   bgmId: 484761
   acgId: 138313
-  aniId: 
+  aniId: 38892
 現代誤譯:
   bgmId: 485122
   acgId: 138349
-  aniId: 
+  aniId: 38917
 卡片戰鬥!! 先導者 Divinez 第二季:
   bgmId: 440879
   acgId: 138936
-  aniId: 
+  aniId: 38972
 哎咕島消失的舔甜歌姬:
   bgmId: 490824
   acgId: 138939
-  aniId: 
+  aniId: 38836
 真･武士傳 YAIBA:
   bgmId: 492881
   acgId: 139420
@@ -6942,28 +6934,28 @@ DDDD 惡魔的破壞:
 金肉人 完美超人始祖篇 Season 2:
   bgmId: 514744
   acgId: 142297
-  aniId: 
+  aniId: 41805
 美妙寵物 光之美少女電影：心跳加速♡遊戲世界大冒險！:
   bgmId: 485315
   acgId: 142493
-  aniId: 
+  aniId: 45603
 涅庫羅諾美子的宇宙恐怖秀:
   bgmId: 528147
   acgId: 142826
-  aniId: 
+  aniId: 44777
 Lycoris Recoil 莉可麗絲：友誼是時間的竊賊:
   bgmId: 504950
   acgId: 144313
-  aniId: 
-"劇場總集篇 孤獨搖滾！Re: Re:":
+  aniId: 43013
+'劇場總集篇 孤獨搖滾！Re: Re:':
   bgmId: 459642
   acgId: 144328
-  aniId: 
+  aniId: 42833
 鏈鋸人 總集篇:
   bgmId: 580872
   acgId: 147060
-  aniId: 
+  aniId: 45359
 大室家-親愛的朋友:
   bgmId: 448657
   acgId: 147269
-  aniId: 
+  aniId: 45518
