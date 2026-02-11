@@ -1,4 +1,99 @@
 {
+  "白箱 SHIROBAKO": {
+    "bgmId": 110467,
+    "acgId": 72058,
+    "aniId": 14757
+  },
+  "無家可歸": {
+    "bgmId": 447530,
+    "acgId": 149147,
+    "aniId": 47054
+  },
+  "四週戀人": {
+    "bgmId": 427004,
+    "acgId": 149146,
+    "aniId": 47044
+  },
+  "語意錯誤": {
+    "bgmId": 369754,
+    "acgId": 149145,
+    "aniId": 47040
+  },
+  "赤狐": {
+    "bgmId": 564865,
+    "acgId": 149201,
+    "aniId": 47229
+  },
+  "那個夏天": {
+    "bgmId": 386772,
+    "acgId": 149200,
+    "aniId": 47222
+  },
+  "那年夏天，想見妳": {
+    "bgmId": 525435,
+    "acgId": 142077,
+    "aniId": 40709
+  },
+  "老虎來了": {
+    "bgmId": 504244,
+    "acgId": 149343,
+    "aniId": 47337
+  },
+  "金字塔遊戲": {
+    "bgmId": 563095,
+    "acgId": 149342,
+    "aniId": 47328
+  },
+  "神龍少女": {
+    "bgmId": 575170,
+    "acgId": 149421,
+    "aniId": 47442
+  },
+  "超級秘密": {
+    "bgmId": 433675,
+    "acgId": 149423,
+    "aniId": 47452
+  },
+  "尋找失去的未來": {
+    "bgmId": 91985,
+    "acgId": 66581,
+    "aniId": 1354
+  },
+  "真珠美人魚 Pure": {
+    "bgmId": 67990,
+    "acgId": 149528,
+    "aniId": 47626
+  },
+  "新哆啦A夢": {
+    "bgmId": 18692,
+    "acgId": 140603,
+    "aniId": 47243
+  },
+  "科學小飛俠": {
+    "bgmId": 53767,
+    "acgId": 36327,
+    "aniId": 46185
+  },
+  "新科學小飛俠": {
+    "bgmId": 69494,
+    "acgId": 61305,
+    "aniId": 14945
+  },
+  "新科學小飛俠 insight": {
+    "bgmId": 86721,
+    "acgId": 65059,
+    "aniId": 13452
+  },
+  "賭博默示錄": {
+    "bgmId": 3892,
+    "acgId": 16742,
+    "aniId": 47630
+  },
+  "學姊是男孩劇場版：雨後天晴": {
+    "bgmId": 515392,
+    "acgId": 141631,
+    "aniId": 47569
+  },
   "29歲單身中堅冒險家的日常": {
     "bgmId": 556874,
     "acgId": 145092,
@@ -1265,6 +1360,16 @@
     "acgId": 139878,
     "aniId": 45572
   },
+  "給不滅的你": {
+    "bgmId": 297954,
+    "acgId": 109471,
+    "aniId": 22300
+  },
+  "給不滅的你 第二季": {
+    "bgmId": 348128,
+    "acgId": 119447,
+    "aniId": 31754
+  },
   "給不滅的你 第三季": {
     "bgmId": 424242,
     "acgId": 130900,
@@ -1813,7 +1918,7 @@
   "棒球大聯盟 第五季": {
     "bgmId": 2889,
     "acgId": 23583,
-    "aniId": null
+    "aniId": 24663
   },
   "偵探學園 Q": {
     "bgmId": 11836,
@@ -1828,27 +1933,27 @@
   "第一神拳 New Challenger": {
     "bgmId": 3641,
     "acgId": 25054,
-    "aniId": null
+    "aniId": 2836
   },
   "凡爾賽玫瑰": {
     "bgmId": 400216,
     "acgId": 25078,
-    "aniId": null
+    "aniId": 43030
   },
   "東京地震 8.0": {
     "bgmId": 1743,
     "acgId": 25499,
-    "aniId": null
+    "aniId": 11867
   },
   "電影 哆啦A夢 大雄與綠之巨人傳": {
     "bgmId": 476,
     "acgId": 26522,
-    "aniId": null
+    "aniId": 24155
   },
   "電影 哆啦A夢 新大雄的恐龍": {
     "bgmId": 473,
     "acgId": 26582,
-    "aniId": null
+    "aniId": 23651
   },
   "再會了假面騎士電王 最後的倒數計時": {
     "bgmId": 74533,
@@ -1878,7 +1983,7 @@
   "笨蛋，測驗，召喚獸": {
     "bgmId": 3326,
     "acgId": 28663,
-    "aniId": null
+    "aniId": 26761
   },
   "森林大帝 勇氣將改變未來": {
     "bgmId": 62930,
@@ -1888,12 +1993,12 @@
   "電影 哆啦A夢 大雄的人魚大海戰": {
     "bgmId": 4558,
     "acgId": 29590,
-    "aniId": null
+    "aniId": 24328
   },
   "犬夜叉 完結篇": {
     "bgmId": 2785,
     "acgId": 29732,
-    "aniId": null
+    "aniId": 16143
   },
   "DARKER THAN BLACK 黑之契約者 -流星的雙子-": {
     "bgmId": 2354,
@@ -1903,27 +2008,27 @@
   "薄櫻鬼": {
     "bgmId": 4315,
     "acgId": 30204,
-    "aniId": null
+    "aniId": 29591
   },
   "荒川爆笑團": {
     "bgmId": 2464,
     "acgId": 30429,
-    "aniId": null
+    "aniId": 2913
   },
   "城市獵人 2": {
     "bgmId": 53925,
     "acgId": 30499,
-    "aniId": null
+    "aniId": 13020
   },
   "城市獵人 3": {
     "bgmId": 53926,
     "acgId": 30500,
-    "aniId": null
+    "aniId": 14225
   },
   "城市獵人’91": {
     "bgmId": 53937,
     "acgId": 30501,
-    "aniId": null
+    "aniId": 14460
   },
   "古城荊棘王": {
     "bgmId": 6816,
@@ -1963,57 +2068,57 @@
   "棒球大聯盟電影版 友情的一球": {
     "bgmId": 3618,
     "acgId": 31190,
-    "aniId": null
+    "aniId": 23335
   },
   "六神合體 雷霆王": {
     "bgmId": 32213,
     "acgId": 31778,
-    "aniId": null
+    "aniId": 42838
   },
   "電影 哆啦A夢 大雄與風之使者": {
     "bgmId": 469,
     "acgId": 32223,
-    "aniId": null
+    "aniId": 23504
   },
   "電影 哆啦A夢 大雄與機器人王國": {
     "bgmId": 468,
     "acgId": 32224,
-    "aniId": null
+    "aniId": 23503
   },
   "電影 哆啦A夢 大雄的太陽王傳說": {
     "bgmId": 464,
     "acgId": 32234,
-    "aniId": null
+    "aniId": 23495
   },
   "電影 哆啦A夢 大雄與夢幻三劍士": {
     "bgmId": 453,
     "acgId": 32236,
-    "aniId": null
+    "aniId": 24963
   },
   "電影 哆啦A夢 大雄的天方夜譚": {
     "bgmId": 450,
     "acgId": 32237,
-    "aniId": null
+    "aniId": 24927
   },
   "電影 哆啦A夢 大雄的宇宙漂流記": {
     "bgmId": 463,
     "acgId": 32238,
-    "aniId": null
+    "aniId": 23494
   },
   "電影 哆啦A夢 大雄與迷宮之旅": {
     "bgmId": 452,
     "acgId": 32673,
-    "aniId": null
+    "aniId": 24962
   },
   "電影 哆啦A夢 大雄與惑星之迷": {
     "bgmId": 449,
     "acgId": 32675,
-    "aniId": null
+    "aniId": 24926
   },
   "蠟筆小新：我的超時空新娘": {
     "bgmId": 8999,
     "acgId": 33428,
-    "aniId": null
+    "aniId": 786
   },
   "搞笑漫畫日和 2": {
     "bgmId": 2460,
@@ -2033,7 +2138,7 @@
   "棒球大聯盟 第六季": {
     "bgmId": 4293,
     "acgId": 33592,
-    "aniId": null
+    "aniId": 24729
   },
   "捍衛者 GATE KEEPERS": {
     "bgmId": 19039,
@@ -2043,7 +2148,7 @@
   "爆漫王。": {
     "bgmId": 3428,
     "acgId": 33689,
-    "aniId": null
+    "aniId": 39772
   },
   "變身公主 (2010)": {
     "bgmId": 4530,
@@ -2053,22 +2158,22 @@
   "黑執事 II": {
     "bgmId": 1748,
     "acgId": 34623,
-    "aniId": null
+    "aniId": 19783
   },
   "遊戲王 怪獸之決鬥 光之金字塔": {
     "bgmId": 36957,
     "acgId": 35474,
-    "aniId": null
+    "aniId": 38480
   },
   "對某飛行員的追憶": {
     "bgmId": 10829,
     "acgId": 35946,
-    "aniId": null
+    "aniId": 29881
   },
   "火影忍者劇場版7：疾風傳！失落之塔": {
     "bgmId": 16528,
     "acgId": 35962,
-    "aniId": null
+    "aniId": 24454
   },
   "我的妹妹哪有這麼可愛！": {
     "bgmId": 5436,
@@ -2078,37 +2183,37 @@
   "笨蛋，測驗，召喚獸 第二季": {
     "bgmId": 11145,
     "acgId": 37062,
-    "aniId": null
+    "aniId": 4278
   },
   "魔法禁書目錄 Ⅱ": {
     "bgmId": 7843,
     "acgId": 37524,
-    "aniId": null
+    "aniId": 804
   },
   "薄櫻鬼 碧血錄": {
     "bgmId": 7350,
     "acgId": 37843,
-    "aniId": null
+    "aniId": 29976
   },
   "荒川爆笑團 2": {
     "bgmId": 8081,
     "acgId": 38081,
-    "aniId": null
+    "aniId": 2926
   },
   "IS 〈Infinite Stratos〉": {
     "bgmId": 9800,
     "acgId": 38104,
-    "aniId": null
+    "aniId": 4096
   },
   "鋼之鍊金術師 嘆息之丘的聖星": {
     "bgmId": 107099,
     "acgId": 38232,
-    "aniId": null
+    "aniId": 4376
   },
   "電影 哆啦A夢 新大雄與鐵人兵團～振翅吧 天使們～": {
     "bgmId": 19130,
     "acgId": 38398,
-    "aniId": null
+    "aniId": 24329
   },
   "劇場版 3D 我們這一家：超能力花媽！": {
     "bgmId": 111231,
@@ -2123,17 +2228,17 @@
   "棒球大聯盟 第二季": {
     "bgmId": 2886,
     "acgId": 38846,
-    "aniId": null
+    "aniId": 25835
   },
   "棒球大聯盟 第三季": {
     "bgmId": 2887,
     "acgId": 38847,
-    "aniId": null
+    "aniId": 28470
   },
   "棒球大聯盟 第四季": {
     "bgmId": 2888,
     "acgId": 38848,
-    "aniId": null
+    "aniId": 28708
   },
   "傷物語 I 鐵血篇": {
     "bgmId": 7707,
@@ -2143,37 +2248,37 @@
   "怪醫黑傑克 OVA": {
     "bgmId": 52787,
     "acgId": 39474,
-    "aniId": null
+    "aniId": 222
   },
   "笨蛋，測驗，召喚獸～祭典～": {
     "bgmId": 12496,
     "acgId": 39644,
-    "aniId": null
+    "aniId": 27410
   },
   "花開物語": {
     "bgmId": 22759,
     "acgId": 39785,
-    "aniId": null
+    "aniId": 234
   },
   "三坪房間的侵略者！？": {
     "bgmId": 98286,
     "acgId": 40982,
-    "aniId": null
+    "aniId": 878
   },
   "A 頻道": {
     "bgmId": 10227,
     "acgId": 41300,
-    "aniId": null
+    "aniId": 39553
   },
   "蠟筆小新：黃金間諜大作戰": {
     "bgmId": 24824,
     "acgId": 42083,
-    "aniId": null
+    "aniId": 787
   },
   "網球王子劇場版 決戰英國網球城": {
     "bgmId": 20909,
     "acgId": 42143,
-    "aniId": null
+    "aniId": 9328
   },
   "我們仍未知道那天所看見的花名。": {
     "bgmId": 10440,
@@ -2183,22 +2288,22 @@
   "爆漫王。第二季": {
     "bgmId": 22588,
     "acgId": 42329,
-    "aniId": null
+    "aniId": 39856
   },
   "火影忍者劇場版8：血獄": {
     "bgmId": 33514,
     "acgId": 42335,
-    "aniId": null
+    "aniId": 24455
   },
   "妖怪少爺 千年魔京": {
     "bgmId": 12192,
     "acgId": 42404,
-    "aniId": null
+    "aniId": 25678
   },
   "元氣媽媽": {
     "bgmId": 125562,
     "acgId": 42466,
-    "aniId": null
+    "aniId": 40710
   },
   "歌之王子殿下～真愛 1000%～": {
     "bgmId": 11973,
@@ -2213,12 +2318,12 @@
   "螢火之森": {
     "bgmId": 12544,
     "acgId": 44666,
-    "aniId": null
+    "aniId": 22054
   },
   "女神異聞錄 4": {
     "bgmId": 15489,
     "acgId": 45980,
-    "aniId": null
+    "aniId": 10551
   },
   "神劍闖江湖 新京都篇": {
     "bgmId": 24544,
@@ -2228,7 +2333,7 @@
   "薄櫻鬼 雪華錄": {
     "bgmId": 18623,
     "acgId": 46573,
-    "aniId": null
+    "aniId": 30719
   },
   "BLOOD LAD 血意少年": {
     "bgmId": 48065,
@@ -2243,17 +2348,17 @@
   "Guilty Crown 罪惡王冠": {
     "bgmId": 18635,
     "acgId": 47821,
-    "aniId": null
+    "aniId": 9507
   },
   "電影 哆啦A夢：大雄與奇跡之島～Animal adventure": {
     "bgmId": 24815,
     "acgId": 49904,
-    "aniId": null
+    "aniId": 24453
   },
   "零之使魔 F": {
     "bgmId": 25823,
     "acgId": 51056,
-    "aniId": null
+    "aniId": 988
   },
   "夏目友人帳 肆": {
     "bgmId": 23495,
@@ -2268,82 +2373,82 @@
   "FAIRY TAIL 魔導少年 劇場版 鳳凰巫女": {
     "bgmId": 30361,
     "acgId": 52406,
-    "aniId": null
+    "aniId": 7611
   },
   "男子高校生的日常": {
     "bgmId": 24790,
     "acgId": 52512,
-    "aniId": null
+    "aniId": 4643
   },
   "蠟筆小新：不理不理王國的秘寶": {
     "bgmId": 8968,
     "acgId": 52569,
-    "aniId": null
+    "aniId": 770
   },
   "蠟筆小新：雲黑齋的野心": {
     "bgmId": 8969,
     "acgId": 52570,
-    "aniId": null
+    "aniId": 771
   },
   "蠟筆小新：搞怪遊樂園大冒險": {
     "bgmId": 8970,
     "acgId": 52571,
-    "aniId": null
+    "aniId": 772
   },
   "蠟筆小新：黑暗珠珠大追擊": {
     "bgmId": 8971,
     "acgId": 52572,
-    "aniId": null
+    "aniId": 773
   },
   "蠟筆小新：電擊！豬蹄大作戰": {
     "bgmId": 8972,
     "acgId": 52573,
-    "aniId": null
+    "aniId": 774
   },
   "蠟筆小新：爆發！溫泉激烈大決戰": {
     "bgmId": 8973,
     "acgId": 52574,
-    "aniId": null
+    "aniId": 775
   },
   "蠟筆小新：風起雲湧的叢林冒險": {
     "bgmId": 8982,
     "acgId": 52575,
-    "aniId": null
+    "aniId": 776
   },
   "蠟筆小新：風起雲湧！猛烈！大人帝國的反擊": {
     "bgmId": 8986,
     "acgId": 52576,
-    "aniId": null
+    "aniId": 777
   },
   "蠟筆小新：風起雲湧！光榮燒肉之路": {
     "bgmId": 8989,
     "acgId": 52577,
-    "aniId": null
+    "aniId": 779
   },
   "蠟筆小新：時空大冒險": {
     "bgmId": 8991,
     "acgId": 52586,
-    "aniId": null
+    "aniId": 780
   },
   "蠟筆小新：3 分鐘百變大進擊！": {
     "bgmId": 8993,
     "acgId": 52587,
-    "aniId": null
+    "aniId": 781
   },
   "蠟筆小新：Amigo！森巴入侵計畫": {
     "bgmId": 8995,
     "acgId": 52588,
-    "aniId": null
+    "aniId": 782
   },
   "蠟筆小新：小白的屁屁炸彈": {
     "bgmId": 8996,
     "acgId": 52589,
-    "aniId": null
+    "aniId": 783
   },
   "蠟筆小新：風起雲湧的金矛勇者": {
     "bgmId": 8997,
     "acgId": 52590,
-    "aniId": null
+    "aniId": 784
   },
   "八犬傳－東方八犬異聞－": {
     "bgmId": 54438,
@@ -2353,12 +2458,12 @@
   "魔法少女小圓 前編 起始的物語": {
     "bgmId": 25833,
     "acgId": 52874,
-    "aniId": null
+    "aniId": 12328
   },
   "冰菓": {
     "bgmId": 27364,
     "acgId": 53316,
-    "aniId": null
+    "aniId": 90
   },
   "狼的孩子雨和雪": {
     "bgmId": 28440,
@@ -2403,7 +2508,7 @@
   "Love Live! 第一季": {
     "bgmId": 49294,
     "acgId": 54421,
-    "aniId": null
+    "aniId": 2551
   },
   "火影忍者 SD 李洛克的青春全力忍傳": {
     "bgmId": 28496,
@@ -2413,17 +2518,17 @@
   "Fate/kaleid liner 魔法少女☆伊莉雅": {
     "bgmId": 43951,
     "acgId": 54798,
-    "aniId": null
+    "aniId": 7956
   },
   "獵人劇場版 - 緋色幻影": {
     "bgmId": 44705,
     "acgId": 54816,
-    "aniId": null
+    "aniId": 5747
   },
   "蠟筆小新：我和我的宇宙公主": {
     "bgmId": 27555,
     "acgId": 54922,
-    "aniId": null
+    "aniId": 788
   },
   "Little Busters !": {
     "bgmId": 38040,
@@ -2448,17 +2553,17 @@
   "櫻花莊的寵物女孩": {
     "bgmId": 41488,
     "acgId": 55309,
-    "aniId": null
+    "aniId": 4414
   },
   "怪醫黑傑克特別版 4 個生命奇蹟": {
     "bgmId": 120070,
     "acgId": 55655,
-    "aniId": null
+    "aniId": 7896
   },
   "絕園的暴風雨": {
     "bgmId": 39794,
     "acgId": 55927,
-    "aniId": null
+    "aniId": 437
   },
   "鄰座的怪同學": {
     "bgmId": 40533,
@@ -2473,7 +2578,7 @@
   "魔法少女小圓 後編 永遠的物語": {
     "bgmId": 44692,
     "acgId": 56339,
-    "aniId": null
+    "aniId": 12329
   },
   "前進吧！登山少女": {
     "bgmId": 41658,
@@ -2483,7 +2588,7 @@
   "花牌情緣 第二季": {
     "bgmId": 41568,
     "acgId": 56380,
-    "aniId": null
+    "aniId": 5682
   },
   "女神異聞錄 3 劇場版 第一章 Spring of Birth": {
     "bgmId": 43404,
@@ -2493,12 +2598,12 @@
   "元氣少女緣結神": {
     "bgmId": 43525,
     "acgId": 56750,
-    "aniId": null
+    "aniId": 27273
   },
   "JOJO 的奇妙冒險": {
     "bgmId": 43558,
     "acgId": 56768,
-    "aniId": null
+    "aniId": 6107
   },
   "九藏喵窩": {
     "bgmId": 581245,
@@ -2513,7 +2618,7 @@
   "電影 哆啦A夢 大雄的祕密道具博物館": {
     "bgmId": 55467,
     "acgId": 56916,
-    "aniId": null
+    "aniId": 24477
   },
   "頭文字D Fifth Stage": {
     "bgmId": 46312,
@@ -2533,7 +2638,7 @@
   "來自風平浪靜的明日": {
     "bgmId": 47889,
     "acgId": 57498,
-    "aniId": null
+    "aniId": 196
   },
   "Wake Up,Girls!": {
     "bgmId": 110641,
@@ -2543,7 +2648,7 @@
   "襲來！美少女邪神 W": {
     "bgmId": 58015,
     "acgId": 58111,
-    "aniId": null
+    "aniId": 27348
   },
   "頭文字D Fourth Stage": {
     "bgmId": 3816,
@@ -2553,7 +2658,7 @@
   "打工吧！魔王大人": {
     "bgmId": 50814,
     "acgId": 58236,
-    "aniId": null
+    "aniId": 10719
   },
   "東京闇鴉": {
     "bgmId": 78542,
@@ -2578,17 +2683,17 @@
   "新薔薇少女": {
     "bgmId": 69942,
     "acgId": 59011,
-    "aniId": null
+    "aniId": 43934
   },
   "進擊的巨人": {
     "bgmId": 55770,
     "acgId": 59221,
-    "aniId": null
+    "aniId": 3499
   },
   "槍彈辯駁 希望學園與絕望高中生": {
     "bgmId": 56093,
     "acgId": 59228,
-    "aniId": null
+    "aniId": 474
   },
   "翠星上的加爾岡緹亞": {
     "bgmId": 56091,
@@ -2598,12 +2703,12 @@
   "影子籃球員 第二季": {
     "bgmId": 77706,
     "acgId": 59487,
-    "aniId": null
+    "aniId": 5928
   },
   "蠟筆小新：超級美味！B 級美食大逃亡！！": {
     "bgmId": 81034,
     "acgId": 59700,
-    "aniId": null
+    "aniId": 789
   },
   "當不成勇者的我，只好認真找工作了。": {
     "bgmId": 73440,
@@ -2618,7 +2723,7 @@
   "魔鬼戀人": {
     "bgmId": 64993,
     "acgId": 60209,
-    "aniId": null
+    "aniId": 840
   },
   "偶像大師 劇場版 前往光輝的另一端！": {
     "bgmId": 64172,
@@ -2638,17 +2743,17 @@
   "魔法少女小圓 新編 叛逆的物語": {
     "bgmId": 44693,
     "acgId": 60976,
-    "aniId": null
+    "aniId": 12331
   },
   "Little Busters ! ～Refrain～": {
     "bgmId": 69484,
     "acgId": 61087,
-    "aniId": null
+    "aniId": 2029
   },
   "境界的彼方": {
     "bgmId": 49278,
     "acgId": 61095,
-    "aniId": null
+    "aniId": 3308
   },
   "IS 〈Infinite Stratos〉第二季": {
     "bgmId": 68022,
@@ -2673,22 +2778,22 @@
   "王者天下 第二季": {
     "bgmId": 62281,
     "acgId": 61678,
-    "aniId": null
+    "aniId": 16039
   },
   "銀河騎士傳": {
     "bgmId": 77476,
     "acgId": 61835,
-    "aniId": null
+    "aniId": 2564
   },
   "蒼翼默示錄 Alter Memory": {
     "bgmId": 73825,
     "acgId": 61840,
-    "aniId": null
+    "aniId": 1896
   },
   "偽戀": {
     "bgmId": 74628,
     "acgId": 61980,
-    "aniId": null
+    "aniId": 39492
   },
   "LOVE STAGE!!": {
     "bgmId": 74755,
@@ -2703,12 +2808,12 @@
   "惡魔的謎語": {
     "bgmId": 78474,
     "acgId": 62671,
-    "aniId": null
+    "aniId": 1481
   },
   "鬼燈的冷徹": {
     "bgmId": 77188,
     "acgId": 62707,
-    "aniId": null
+    "aniId": 1012
   },
   "伽利略少女": {
     "bgmId": 77471,
@@ -2723,12 +2828,12 @@
   "電影 哆啦A夢 新大雄的大魔境～扁扁與五人之探險隊～": {
     "bgmId": 78282,
     "acgId": 62967,
-    "aniId": null
+    "aniId": 24478
   },
   "第一神拳 Rising": {
     "bgmId": 78798,
     "acgId": 63135,
-    "aniId": null
+    "aniId": 2811
   },
   "新劇場版 頭文字 D Legend1 覺醒": {
     "bgmId": 78796,
@@ -2743,17 +2848,17 @@
   "NO GAME NO LIFE 遊戲人生": {
     "bgmId": 79227,
     "acgId": 63284,
-    "aniId": null
+    "aniId": 7944
   },
   "魔彈之王與戰姬": {
     "bgmId": 79229,
     "acgId": 63309,
-    "aniId": null
+    "aniId": 7900
   },
   "魔法戰爭": {
     "bgmId": 79228,
     "acgId": 63310,
-    "aniId": null
+    "aniId": 828
   },
   "超時空甩尾": {
     "bgmId": 8726,
@@ -2998,7 +3103,7 @@
   "果然我的青春戀愛喜劇搞錯了。續": {
     "bgmId": 102134,
     "acgId": 69017,
-    "aniId": null
+    "aniId": 5125
   },
   "槍與假面舞會": {
     "bgmId": 103023,
@@ -3008,7 +3113,7 @@
   "女神異聞錄 4 黃金版": {
     "bgmId": 103304,
     "acgId": 69449,
-    "aniId": null
+    "aniId": 23088
   },
   "我家浴室的二三事": {
     "bgmId": 104138,
@@ -3018,42 +3123,42 @@
   "飆速宅男 第二季": {
     "bgmId": 104468,
     "acgId": 69878,
-    "aniId": null
+    "aniId": 19900
   },
   "影子籃球員 第三季": {
     "bgmId": 104949,
     "acgId": 70228,
-    "aniId": null
+    "aniId": 5936
   },
   "幸腹塗鴉": {
     "bgmId": 105969,
     "acgId": 70926,
-    "aniId": null
+    "aniId": 8152
   },
   "遊戲王 次元的黑暗面": {
     "bgmId": 106329,
     "acgId": 70939,
-    "aniId": null
+    "aniId": 38482
   },
   "學園孤島": {
     "bgmId": 106693,
     "acgId": 71038,
-    "aniId": null
+    "aniId": 1302
   },
   "銃皇無盡的法夫納": {
     "bgmId": 106981,
     "acgId": 71094,
-    "aniId": null
+    "aniId": 12487
   },
   "銀河騎士傳 第九行星戰役": {
     "bgmId": 105255,
     "acgId": 71132,
-    "aniId": null
+    "aniId": 24142
   },
   "Love Live! 電影": {
     "bgmId": 107199,
     "acgId": 71163,
-    "aniId": null
+    "aniId": 9327
   },
   "名偵探柯南：江戶川柯南失蹤事件 ～史上最糟糕的兩天～": {
     "bgmId": 114745,
@@ -3083,7 +3188,7 @@
   "電影 哆啦A夢 大雄之宇宙英雄記": {
     "bgmId": 108093,
     "acgId": 71562,
-    "aniId": null
+    "aniId": 24816
   },
   "七龍珠 Z 劇場版：復活的「F」": {
     "bgmId": 108438,
@@ -3098,12 +3203,12 @@
   "神偷怪盜 1412": {
     "bgmId": 109203,
     "acgId": 71758,
-    "aniId": null
+    "aniId": 20810
   },
   "少女與戰車 劇場版": {
     "bgmId": 72266,
     "acgId": 71789,
-    "aniId": null
+    "aniId": 43947
   },
   "純情羅曼史 3": {
     "bgmId": 109541,
@@ -3113,7 +3218,7 @@
   "元氣少女緣結神 第二季": {
     "bgmId": 109724,
     "acgId": 71892,
-    "aniId": null
+    "aniId": 28105
   },
   "天使與龍的輪舞": {
     "bgmId": 109948,
@@ -3123,7 +3228,7 @@
   "監獄學園": {
     "bgmId": 110048,
     "acgId": 71954,
-    "aniId": null
+    "aniId": 7208
   },
   "翻轉女孩": {
     "bgmId": 110600,
@@ -3138,7 +3243,7 @@
   "飆速宅男 Re: RIDE": {
     "bgmId": 110062,
     "acgId": 72236,
-    "aniId": null
+    "aniId": 23377
   },
   "百合熊風暴": {
     "bgmId": 59825,
@@ -3153,22 +3258,22 @@
   "Fate/kaleid liner 魔法少女☆伊莉雅 2wei Herz！": {
     "bgmId": 113134,
     "acgId": 72677,
-    "aniId": null
+    "aniId": 33188
   },
   "JOJO 的奇妙冒險 星塵遠征軍 埃及篇": {
     "bgmId": 113292,
     "acgId": 72735,
-    "aniId": null
+    "aniId": 6923
   },
   "進擊的巨人 第二季": {
     "bgmId": 118335,
     "acgId": 72755,
-    "aniId": null
+    "aniId": 7583
   },
   "蠟筆小新：我的搬家物語 仙人掌大襲擊！": {
     "bgmId": 122890,
     "acgId": 72915,
-    "aniId": null
+    "aniId": 791
   },
   "美男高校地球防衛部LOVE!": {
     "bgmId": 114394,
@@ -3178,37 +3283,37 @@
   "少年好萊塢 第二季": {
     "bgmId": 114488,
     "acgId": 73016,
-    "aniId": null
+    "aniId": 1392
   },
   "偽戀 2": {
     "bgmId": 114758,
     "acgId": 73090,
-    "aniId": null
+    "aniId": 39512
   },
   "重裝武器": {
     "bgmId": 115008,
     "acgId": 73148,
-    "aniId": null
+    "aniId": 3030
   },
   "無頭騎士異聞錄 DuRaRaRa!!×2 轉": {
     "bgmId": 114967,
     "acgId": 73149,
-    "aniId": null
+    "aniId": 2157
   },
   "無頭騎士異聞錄 DuRaRaRa!!×2 結": {
     "bgmId": 114968,
     "acgId": 73150,
-    "aniId": null
+    "aniId": 4616
   },
   "東京喰種√A": {
     "bgmId": 115292,
     "acgId": 73216,
-    "aniId": null
+    "aniId": 5989
   },
   "食戟之靈": {
     "bgmId": 116461,
     "acgId": 73638,
-    "aniId": null
+    "aniId": 42550
   },
   "俺物語！！": {
     "bgmId": 117153,
@@ -3223,7 +3328,7 @@
   "電影版 聲之形": {
     "bgmId": 117777,
     "acgId": 74043,
-    "aniId": null
+    "aniId": 35755
   },
   "六花的勇者": {
     "bgmId": 118067,
@@ -3253,7 +3358,7 @@
   "鎖鏈戰記 赫克瑟塔斯之光": {
     "bgmId": 125900,
     "acgId": 74561,
-    "aniId": null
+    "aniId": 7027
   },
   "緋彈的亞莉亞 AA": {
     "bgmId": 120224,
@@ -3263,17 +3368,17 @@
   "排球少年！！第二季": {
     "bgmId": 120236,
     "acgId": 74666,
-    "aniId": null
+    "aniId": 27009
   },
   "GATE 奇幻自衛隊": {
     "bgmId": 120445,
     "acgId": 74728,
-    "aniId": null
+    "aniId": 22348
   },
   "請問您今天要來點兔子嗎？？": {
     "bgmId": 123568,
     "acgId": 75298,
-    "aniId": null
+    "aniId": 3022
   },
   "其實我是…": {
     "bgmId": 123539,
@@ -3298,17 +3403,17 @@
   "Love Live! Sunshine!!": {
     "bgmId": 165553,
     "acgId": 75722,
-    "aniId": null
+    "aniId": 5795
   },
   "青春 x 機關槍": {
     "bgmId": 126779,
     "acgId": 75748,
-    "aniId": null
+    "aniId": 1000
   },
   "一拳超人": {
     "bgmId": 127563,
     "acgId": 75930,
-    "aniId": null
+    "aniId": 4451
   },
   "魔物娘的同居日常": {
     "bgmId": 127979,
@@ -3333,12 +3438,12 @@
   "飆速宅男 劇場版": {
     "bgmId": 129222,
     "acgId": 76142,
-    "aniId": null
+    "aniId": 21318
   },
   "艦隊 Collection 總有一天，在那片海": {
     "bgmId": 270739,
     "acgId": 76225,
-    "aniId": null
+    "aniId": 35184
   },
   "流浪神差 ARAGOTO": {
     "bgmId": 129988,
@@ -3348,17 +3453,17 @@
   "七大罪 聖戰的預兆": {
     "bgmId": 175603,
     "acgId": 76301,
-    "aniId": null
+    "aniId": 14076
   },
   "小桃小栗 Love Love 物語": {
     "bgmId": 126175,
     "acgId": 76535,
-    "aniId": null
+    "aniId": 5793
   },
   "新我們這一家": {
     "bgmId": 131717,
     "acgId": 76782,
-    "aniId": null
+    "aniId": 4617
   },
   "不起眼女主角培育法 第二季": {
     "bgmId": 132734,
@@ -3398,7 +3503,7 @@
   "Anne-Happy": {
     "bgmId": 138053,
     "acgId": 78004,
-    "aniId": null
+    "aniId": 5010
   },
   "歌之王子殿下 真愛 LEGEND STAR": {
     "bgmId": 138754,
@@ -3413,7 +3518,7 @@
   "Dimension W 維度戰記": {
     "bgmId": 139221,
     "acgId": 78204,
-    "aniId": null
+    "aniId": 20535
   },
   "ClassicaLoid": {
     "bgmId": 139137,
@@ -3423,22 +3528,22 @@
   "吸血鬼僕人": {
     "bgmId": 139964,
     "acgId": 78427,
-    "aniId": null
+    "aniId": 5859
   },
   "彗星路西法": {
     "bgmId": 141225,
     "acgId": 78527,
-    "aniId": null
+    "aniId": 8203
   },
   "飛翔的魔女": {
     "bgmId": 141799,
     "acgId": 78704,
-    "aniId": null
+    "aniId": 5011
   },
   "線上遊戲的老婆不可能是女生？": {
     "bgmId": 142758,
     "acgId": 78883,
-    "aniId": null
+    "aniId": 5012
   },
   "JOKER GAME": {
     "bgmId": 142812,
@@ -3448,7 +3553,7 @@
   "虹色時光": {
     "bgmId": 142990,
     "acgId": 78897,
-    "aniId": null
+    "aniId": 4888
   },
   "TERRA FORMARS 火星任務 復仇": {
     "bgmId": 143558,
@@ -3488,7 +3593,7 @@
   "石膏BOYS": {
     "bgmId": 145457,
     "acgId": 79369,
-    "aniId": null
+    "aniId": 8164
   },
   "疾走王子 Alternative": {
     "bgmId": 145781,
@@ -3498,7 +3603,7 @@
   "食戟之靈 貳之皿": {
     "bgmId": 160124,
     "acgId": 79524,
-    "aniId": null
+    "aniId": 5794
   },
   "境界之Rinne 第二季": {
     "bgmId": 146503,
@@ -3518,12 +3623,12 @@
   "逆轉裁判": {
     "bgmId": 146737,
     "acgId": 79653,
-    "aniId": null
+    "aniId": 11015
   },
   "3 月的獅子": {
     "bgmId": 147068,
     "acgId": 79679,
-    "aniId": null
+    "aniId": 6479
   },
   "魔裝學園 H×H": {
     "bgmId": 147438,
@@ -3533,17 +3638,17 @@
   "Fate/kaleid liner 魔法少女☆伊莉雅 3rei！！": {
     "bgmId": 147466,
     "acgId": 79816,
-    "aniId": null
+    "aniId": 5864
   },
   "發條精靈戰記 天鏡的極北之星": {
     "bgmId": 148097,
     "acgId": 79938,
-    "aniId": null
+    "aniId": 5872
   },
   "加速世界 INFINITE BURST": {
     "bgmId": 148095,
     "acgId": 79942,
-    "aniId": null
+    "aniId": 6126
   },
   "藍海少女": {
     "bgmId": 148142,
@@ -3553,22 +3658,22 @@
   "當女孩遇到熊": {
     "bgmId": 148361,
     "acgId": 80035,
-    "aniId": null
+    "aniId": 4995
   },
   "黑執事 劇場版 豪華客船編": {
     "bgmId": 148389,
     "acgId": 80044,
-    "aniId": null
+    "aniId": 9227
   },
   "灰與幻想的格林姆迦爾": {
     "bgmId": 148726,
     "acgId": 80130,
-    "aniId": null
+    "aniId": 11689
   },
   "天地無用！魎皇鬼 第 4 期": {
     "bgmId": 157922,
     "acgId": 80136,
-    "aniId": null
+    "aniId": 15971
   },
   "魔法護士小麥 R": {
     "bgmId": 149412,
@@ -3578,7 +3683,7 @@
   "JOJO 的奇妙冒險 不滅鑽石": {
     "bgmId": 150490,
     "acgId": 80231,
-    "aniId": null
+    "aniId": 4994
   },
   "驚爆危機 Invisible Victory": {
     "bgmId": 150246,
@@ -3588,17 +3693,17 @@
   "New Game!": {
     "bgmId": 150775,
     "acgId": 80256,
-    "aniId": null
+    "aniId": 19746
   },
   "這個美術社大有問題！": {
     "bgmId": 150746,
     "acgId": 80272,
-    "aniId": null
+    "aniId": 5871
   },
   "蠟筆小新電影 爆睡 夢世界大作戰！": {
     "bgmId": 159335,
     "acgId": 80347,
-    "aniId": null
+    "aniId": 7020
   },
   "闇芝居 第三季": {
     "bgmId": 152567,
@@ -3613,12 +3718,12 @@
   "黑白來看守所": {
     "bgmId": 126177,
     "acgId": 80520,
-    "aniId": null
+    "aniId": 6473
   },
   "Luck & Logic": {
     "bgmId": 155281,
     "acgId": 80570,
-    "aniId": null
+    "aniId": 4612
   },
   "田中君總是如此慵懶": {
     "bgmId": 155704,
@@ -3633,7 +3738,7 @@
   "第一神拳 冠軍之路": {
     "bgmId": 135195,
     "acgId": 80797,
-    "aniId": null
+    "aniId": 2432
   },
   "軒轅劍 蒼之曜": {
     "bgmId": 154771,
@@ -3673,7 +3778,7 @@
   "不愉快的妖怪庵": {
     "bgmId": 168905,
     "acgId": 81932,
-    "aniId": null
+    "aniId": 15873
   },
   "機動戰士鋼彈 UC RE:0096": {
     "bgmId": 169917,
@@ -3683,17 +3788,17 @@
   "喵阿楞！": {
     "bgmId": 190793,
     "acgId": 82121,
-    "aniId": null
+    "aniId": 6850
   },
   "無畏魔女": {
     "bgmId": 85338,
     "acgId": 82251,
-    "aniId": null
+    "aniId": 6419
   },
   "烏龍派出所電影版2：UFO大逆襲 龍捲風大作戰": {
     "bgmId": 54608,
     "acgId": 82266,
-    "aniId": null
+    "aniId": 24293
   },
   "魔法科高中的劣等生 呼喚繁星的少女": {
     "bgmId": 172494,
@@ -3708,42 +3813,42 @@
   "情色漫畫老師": {
     "bgmId": 172498,
     "acgId": 82419,
-    "aniId": null
+    "aniId": 11590
   },
   "我太受歡迎了該怎麼辦": {
     "bgmId": 172492,
     "acgId": 82422,
-    "aniId": null
+    "aniId": 6413
   },
   "文豪 Stray Dogs 第二季": {
     "bgmId": 171068,
     "acgId": 82471,
-    "aniId": null
+    "aniId": 6471
   },
   "為美好的世界獻上祝福！2": {
     "bgmId": 174043,
     "acgId": 82626,
-    "aniId": null
+    "aniId": 7157
   },
   "不正經的魔術講師與禁忌教典": {
     "bgmId": 174138,
     "acgId": 82639,
-    "aniId": null
+    "aniId": 22336
   },
   "Hand Shakers": {
     "bgmId": 174592,
     "acgId": 82670,
-    "aniId": null
+    "aniId": 7155
   },
   "夏目友人帳 伍": {
     "bgmId": 174638,
     "acgId": 82696,
-    "aniId": null
+    "aniId": 6425
   },
   "男子啦啦隊！！": {
     "bgmId": 175402,
     "acgId": 82751,
-    "aniId": null
+    "aniId": 5860
   },
   "輕拍翻轉小魔女": {
     "bgmId": 174584,
@@ -3758,7 +3863,7 @@
   "香蕉喵": {
     "bgmId": 168123,
     "acgId": 82775,
-    "aniId": null
+    "aniId": 8040
   },
   "偶像夢幻祭": {
     "bgmId": 159159,
@@ -3783,7 +3888,7 @@
   "少年阿貝GO！GO！小芝麻": {
     "bgmId": 168467,
     "acgId": 82859,
-    "aniId": null
+    "aniId": 4999
   },
   "午睡公主～不為人知的故事～": {
     "bgmId": 179798,
@@ -3808,7 +3913,7 @@
   "ACCA13 區監察課": {
     "bgmId": 183492,
     "acgId": 83565,
-    "aniId": null
+    "aniId": 7154
   },
   "高校星歌劇 第二季": {
     "bgmId": 184022,
@@ -3833,12 +3938,12 @@
   "我的英雄學院 第二季": {
     "bgmId": 185761,
     "acgId": 84025,
-    "aniId": null
+    "aniId": 27290
   },
   "青之驅魔師 京都不淨王篇": {
     "bgmId": 186034,
     "acgId": 84116,
-    "aniId": null
+    "aniId": 7149
   },
   "末日時在做什麼？有沒有空？可以來拯救嗎？": {
     "bgmId": 185943,
@@ -3848,22 +3953,22 @@
   "神裝少女小纏": {
     "bgmId": 187112,
     "acgId": 84296,
-    "aniId": null
+    "aniId": 6406
   },
   "NO GAME NO LIFE 遊戲人生 ZERO": {
     "bgmId": 187276,
     "acgId": 84307,
-    "aniId": null
+    "aniId": 38205
   },
   "電影 哆啦A夢 大雄的南極冰天雪地大冒險": {
     "bgmId": 187132,
     "acgId": 84408,
-    "aniId": null
+    "aniId": 24817
   },
   "喜歡上你的那瞬間": {
     "bgmId": 175543,
     "acgId": 84428,
-    "aniId": null
+    "aniId": 29570
   },
   "最遊記 RELOAD BLAST": {
     "bgmId": 187976,
@@ -3873,7 +3978,7 @@
   "12歲。～小小的怦然心動～ 第二季": {
     "bgmId": 184745,
     "acgId": 84561,
-    "aniId": null
+    "aniId": 20190
   },
   "黃金拼圖 Pretty Days": {
     "bgmId": 175532,
@@ -3898,7 +4003,7 @@
   "亞人醬有話要說": {
     "bgmId": 191956,
     "acgId": 84993,
-    "aniId": null
+    "aniId": 7151
   },
   "影子籃球員 LAST GAME": {
     "bgmId": 147147,
@@ -3913,32 +4018,32 @@
   "寶可夢 太陽＆月亮": {
     "bgmId": 192680,
     "acgId": 85168,
-    "aniId": null
+    "aniId": 17479
   },
   "有頂天家族 2": {
     "bgmId": 193042,
     "acgId": 85200,
-    "aniId": null
+    "aniId": 32214
   },
   "七大罪 戒律的復活": {
     "bgmId": 192978,
     "acgId": 85205,
-    "aniId": null
+    "aniId": 14080
   },
   "暗殺教室 365 日倒數計時": {
     "bgmId": 186099,
     "acgId": 85224,
-    "aniId": null
+    "aniId": 9659
   },
   "Rewrite 第二季": {
     "bgmId": 193562,
     "acgId": 85318,
-    "aniId": null
+    "aniId": 18473
   },
   "一拳超人 第二季": {
     "bgmId": 193619,
     "acgId": 85322,
-    "aniId": null
+    "aniId": 12076
   },
   "境界之Rinne 第三季": {
     "bgmId": 193452,
@@ -3953,7 +4058,7 @@
   "從零開始的魔法書": {
     "bgmId": 194259,
     "acgId": 85400,
-    "aniId": null
+    "aniId": 36600
   },
   "快盜天使 Twin Angels BREAK": {
     "bgmId": 186220,
@@ -3978,7 +4083,7 @@
   "蠟筆小新電影 宇宙人 Pi 力來襲！！": {
     "bgmId": 195185,
     "acgId": 85608,
-    "aniId": null
+    "aniId": 9436
   },
   "惡魔高校 D×D HERO": {
     "bgmId": 195845,
@@ -3988,12 +4093,12 @@
   "皇帝聖印戰記": {
     "bgmId": 195843,
     "acgId": 85733,
-    "aniId": null
+    "aniId": 9693
   },
   "麵包超人電影版：玩具之星的南達與倫妲": {
     "bgmId": 185732,
     "acgId": 85734,
-    "aniId": null
+    "aniId": 36598
   },
   "梵諦岡奇蹟調查官": {
     "bgmId": 197722,
@@ -4013,7 +4118,7 @@
   "重啟咲良田": {
     "bgmId": 193378,
     "acgId": 86183,
-    "aniId": null
+    "aniId": 7590
   },
   "機甲少女 Frame Arms Girl": {
     "bgmId": 198961,
@@ -4033,7 +4138,7 @@
   "櫻花任務": {
     "bgmId": 200547,
     "acgId": 86468,
-    "aniId": null
+    "aniId": 23506
   },
   "半獸人的煩惱": {
     "bgmId": 201754,
@@ -4053,12 +4158,12 @@
   "夏目友人帳 陸": {
     "bgmId": 203387,
     "acgId": 86651,
-    "aniId": null
+    "aniId": 7612
   },
   "將國戡亂記": {
     "bgmId": 202261,
     "acgId": 86653,
-    "aniId": null
+    "aniId": 39748
   },
   "王室教師海涅": {
     "bgmId": 195434,
@@ -4073,12 +4178,12 @@
   "劇場版 歌之☆王子殿下♪真愛 KINGDOM": {
     "bgmId": 203863,
     "acgId": 86700,
-    "aniId": null
+    "aniId": 23100
   },
   "調教咖啡廳": {
     "bgmId": 204145,
     "acgId": 86723,
-    "aniId": null
+    "aniId": 39408
   },
   "活擊 刀劍亂舞": {
     "bgmId": 175424,
@@ -4088,7 +4193,7 @@
   "幼女戰記": {
     "bgmId": 167655,
     "acgId": 86802,
-    "aniId": null
+    "aniId": 7148
   },
   "闇芝居 第四季": {
     "bgmId": 199827,
@@ -4118,7 +4223,7 @@
   "捏造陷阱 -NTR- [年齡限制版]": {
     "bgmId": 198099,
     "acgId": 87490,
-    "aniId": null
+    "aniId": 10733
   },
   "戀愛與謊言": {
     "bgmId": 209412,
@@ -4128,32 +4233,32 @@
   "遊戲王 VRAINS": {
     "bgmId": 202615,
     "acgId": 87586,
-    "aniId": null
+    "aniId": 42776
   },
   "文豪 Stray Dogs 劇場版 DEAD APPLE": {
     "bgmId": 209596,
     "acgId": 87594,
-    "aniId": null
+    "aniId": 17516
   },
   "地獄少女 宵伽": {
     "bgmId": 210231,
     "acgId": 87677,
-    "aniId": null
+    "aniId": 28356
   },
   "Love Live! Sunshine!! 第二季": {
     "bgmId": 210272,
     "acgId": 87683,
-    "aniId": null
+    "aniId": 8787
   },
   "Fate/kaleid liner 魔法少女☆伊莉雅 雪下的誓言": {
     "bgmId": 193373,
     "acgId": 87738,
-    "aniId": null
+    "aniId": 38382
   },
   "阿松 第二季": {
     "bgmId": 212609,
     "acgId": 87853,
-    "aniId": null
+    "aniId": 18005
   },
   "魔法使的新娘": {
     "bgmId": 210864,
@@ -4163,27 +4268,27 @@
   "鬼燈的冷徹 第二季": {
     "bgmId": 211035,
     "acgId": 87891,
-    "aniId": null
+    "aniId": 8789
   },
   "劇場版 FREE! 男子游泳部 Timeless Medley- 絆": {
     "bgmId": 211616,
     "acgId": 88092,
-    "aniId": null
+    "aniId": 34985
   },
   "劇場版 FREE! 男子游泳部 Timeless Medley- 約束": {
     "bgmId": 211617,
     "acgId": 88093,
-    "aniId": null
+    "aniId": 34986
   },
   "特別版 FREE! 男子游泳部 -Take Your Marks-": {
     "bgmId": 211618,
     "acgId": 88095,
-    "aniId": null
+    "aniId": 34987
   },
   "學園奶爸": {
     "bgmId": 211844,
     "acgId": 88120,
-    "aniId": null
+    "aniId": 9323
   },
   "Princess Principal": {
     "bgmId": 211936,
@@ -4193,7 +4298,7 @@
   "少年阿貝GO！GO！小芝麻 第二季": {
     "bgmId": 209352,
     "acgId": 88264,
-    "aniId": null
+    "aniId": 7613
   },
   "潔癖男子！青山君": {
     "bgmId": 207593,
@@ -4238,22 +4343,22 @@
   "慢活開始": {
     "bgmId": 214671,
     "acgId": 88795,
-    "aniId": null
+    "aniId": 22513
   },
   "寶石之國": {
     "bgmId": 214799,
     "acgId": 88978,
-    "aniId": null
+    "aniId": 8786
   },
   "愛吃拉麵的小泉同學": {
     "bgmId": 212146,
     "acgId": 89111,
-    "aniId": null
+    "aniId": 9292
   },
   "Just Because！": {
     "bgmId": 212278,
     "acgId": 89151,
-    "aniId": null
+    "aniId": 8782
   },
   "前進吧！登山少女 第三季": {
     "bgmId": 216310,
@@ -4263,12 +4368,12 @@
   "排球少年！！劇場版：才能與感覺": {
     "bgmId": 211522,
     "acgId": 89275,
-    "aniId": null
+    "aniId": 37606
   },
   "我的女友是個過度認真的處女 Bitch": {
     "bgmId": 216570,
     "acgId": 89340,
-    "aniId": null
+    "aniId": 8835
   },
   "闇芝居 第五季": {
     "bgmId": 216767,
@@ -4283,27 +4388,27 @@
   "電影 哆啦A夢 大雄的金銀島": {
     "bgmId": 217072,
     "acgId": 89510,
-    "aniId": null
+    "aniId": 24884
   },
   "進擊的巨人 第三季": {
     "bgmId": 217300,
     "acgId": 89557,
-    "aniId": null
+    "aniId": 10484
   },
   "食戟之靈 餐之皿": {
     "bgmId": 217632,
     "acgId": 89732,
-    "aniId": null
+    "aniId": 13318
   },
   "搖曳露營△": {
     "bgmId": 207195,
     "acgId": 89804,
-    "aniId": null
+    "aniId": 21671
   },
   "少女終末旅行": {
     "bgmId": 218707,
     "acgId": 89980,
-    "aniId": null
+    "aniId": 8834
   },
   "DARLING in the FRANXX": {
     "bgmId": 218711,
@@ -4328,17 +4433,17 @@
   "龍王的工作！": {
     "bgmId": 219658,
     "acgId": 90129,
-    "aniId": null
+    "aniId": 9285
   },
   "如果有妹妹就好了。": {
     "bgmId": 213076,
     "acgId": 90398,
-    "aniId": null
+    "aniId": 8795
   },
   "櫻花忍法帖": {
     "bgmId": 220187,
     "acgId": 90426,
-    "aniId": null
+    "aniId": 26729
   },
   "魔法使的新娘 等待星星的人：後篇": {
     "bgmId": 172518,
@@ -4358,12 +4463,12 @@
   "FAIRY TAIL 魔導少年 最終章": {
     "bgmId": 174186,
     "acgId": 90568,
-    "aniId": null
+    "aniId": 10923
   },
   "三顆星彩色冒險": {
     "bgmId": 211066,
     "acgId": 90583,
-    "aniId": null
+    "aniId": 9319
   },
   "黃金神威": {
     "bgmId": 221127,
@@ -4388,7 +4493,7 @@
   "無論何時我們的戀情都是10厘米。": {
     "bgmId": 212005,
     "acgId": 91280,
-    "aniId": null
+    "aniId": 32612
   },
   "電影版妖怪手錶：光影之卷鬼王的復活": {
     "bgmId": 217167,
@@ -4398,37 +4503,37 @@
   "排球少年！！劇場版：觀念之戰": {
     "bgmId": 211523,
     "acgId": 91638,
-    "aniId": null
+    "aniId": 37607
   },
   "我的英雄學院 第三季": {
     "bgmId": 226677,
     "acgId": 91866,
-    "aniId": null
+    "aniId": 13465
   },
   "多田君不戀愛": {
     "bgmId": 226734,
     "acgId": 91870,
-    "aniId": null
+    "aniId": 10133
   },
   "東京喰種：re": {
     "bgmId": 148481,
     "acgId": 91929,
-    "aniId": null
+    "aniId": 12004
   },
   "劇場版 夏目友人帳～緣結空蟬～": {
     "bgmId": 227392,
     "acgId": 91974,
-    "aniId": null
+    "aniId": 12584
   },
   "伊藤潤二驚選集": {
     "bgmId": 218453,
     "acgId": 92024,
-    "aniId": null
+    "aniId": 9300
   },
   "MEGALOBOX 機甲拳擊": {
     "bgmId": 227718,
     "acgId": 92031,
-    "aniId": null
+    "aniId": 21796
   },
   "棒球大聯盟 2nd": {
     "bgmId": 227739,
@@ -4438,17 +4543,17 @@
   "約會大作戰 DATE A LIVE III": {
     "bgmId": 228254,
     "acgId": 92148,
-    "aniId": null
+    "aniId": 11465
   },
   "劇場版 進擊的巨人 覺醒的咆哮": {
     "bgmId": 228407,
     "acgId": 92275,
-    "aniId": null
+    "aniId": 10089
   },
   "Onyankopon～有請喵喵神～": {
     "bgmId": 220883,
     "acgId": 92329,
-    "aniId": null
+    "aniId": 8924
   },
   "冷然之天秤": {
     "bgmId": 189984,
@@ -4463,22 +4568,22 @@
   "搖曳莊的幽奈小姐": {
     "bgmId": 228969,
     "acgId": 92353,
-    "aniId": null
+    "aniId": 41135
   },
   "妖怪旅館營業中": {
     "bgmId": 229393,
     "acgId": 92412,
-    "aniId": null
+    "aniId": 9680
   },
   "比宇宙更遠的地方": {
     "bgmId": 218708,
     "acgId": 92450,
-    "aniId": null
+    "aniId": 16507
   },
   "書店裡的骷髏店員本田": {
     "bgmId": 225850,
     "acgId": 92513,
-    "aniId": null
+    "aniId": 10861
   },
   "藍海少女 第二季": {
     "bgmId": 229947,
@@ -4493,12 +4598,12 @@
   "春原莊的管理員小姐": {
     "bgmId": 230110,
     "acgId": 92547,
-    "aniId": null
+    "aniId": 39541
   },
   "劇場版 來自深淵 深沉靈魂的黎明": {
     "bgmId": 230914,
     "acgId": 92691,
-    "aniId": null
+    "aniId": 24929
   },
   "我的英雄學院：兩個人的英雄": {
     "bgmId": 231647,
@@ -4508,12 +4613,12 @@
   "隊長小翼": {
     "bgmId": 232072,
     "acgId": 92954,
-    "aniId": null
+    "aniId": 9660
   },
   "食戟之靈 餐之皿 遠月列車篇": {
     "bgmId": 232646,
     "acgId": 93033,
-    "aniId": null
+    "aniId": 13396
   },
   "續·終物語": {
     "bgmId": 233926,
@@ -4528,22 +4633,22 @@
   "衛宮家今天的餐桌風景": {
     "bgmId": 234349,
     "acgId": 93223,
-    "aniId": null
+    "aniId": 16727
   },
   "麵包超人電影版：閃耀吧！庫倫與生命之星": {
     "bgmId": 455737,
     "acgId": 93283,
-    "aniId": null
+    "aniId": 35205
   },
   "JOJO 的奇妙冒險 黃金之風": {
     "bgmId": 235128,
     "acgId": 93384,
-    "aniId": null
+    "aniId": 10922
   },
   "工作細胞": {
     "bgmId": 235612,
     "acgId": 93488,
-    "aniId": null
+    "aniId": 10210
   },
   "錢進球場": {
     "bgmId": 211581,
@@ -4553,7 +4658,7 @@
   "遊戲 3 人娘": {
     "bgmId": 236020,
     "acgId": 93688,
-    "aniId": null
+    "aniId": 10258
   },
   "Aikatsu! 偶像學園！Friends": {
     "bgmId": 234413,
@@ -4563,7 +4668,7 @@
   "最終休止符": {
     "bgmId": 236947,
     "acgId": 93824,
-    "aniId": null
+    "aniId": 9668
   },
   "羽球戰爭！": {
     "bgmId": 236590,
@@ -4573,12 +4678,12 @@
   "哥布林殺手": {
     "bgmId": 238006,
     "acgId": 94032,
-    "aniId": null
+    "aniId": 10852
   },
   "在地下城尋求邂逅是否搞錯了什麼 第二季": {
     "bgmId": 238004,
     "acgId": 94033,
-    "aniId": null
+    "aniId": 12678
   },
   "劇場版 在地下城尋求邂逅是否搞錯了什麼 ─ 獵戶座之箭 ─": {
     "bgmId": 238005,
@@ -4588,27 +4693,27 @@
   "你還是不懂群馬": {
     "bgmId": 237046,
     "acgId": 94048,
-    "aniId": null
+    "aniId": 22643
   },
   "花牌情緣 第三季": {
     "bgmId": 238815,
     "acgId": 94113,
-    "aniId": null
+    "aniId": 13811
   },
   "GRAND BLUE 碧藍之海": {
     "bgmId": 235130,
     "acgId": 94184,
-    "aniId": null
+    "aniId": 44108
   },
   "企鵝公路": {
     "bgmId": 239270,
     "acgId": 94236,
-    "aniId": null
+    "aniId": 14390
   },
   "關於我轉生變成史萊姆這檔事": {
     "bgmId": 239816,
     "acgId": 94601,
-    "aniId": null
+    "aniId": 10828
   },
   "溫泉屋小女將": {
     "bgmId": 239839,
@@ -4618,17 +4723,17 @@
   "百鍊霸王與聖約女武神": {
     "bgmId": 239960,
     "acgId": 94801,
-    "aniId": null
+    "aniId": 39432
   },
   "Re：從零開始的異世界生活 Memory Snow": {
     "bgmId": 225462,
     "acgId": 94804,
-    "aniId": null
+    "aniId": 17334
   },
   "青春豬頭少年不會夢到兔女郎學姊": {
     "bgmId": 240038,
     "acgId": 94844,
-    "aniId": null
+    "aniId": 10837
   },
   "京都寺町三條商店街的福爾摩斯": {
     "bgmId": 240198,
@@ -4638,12 +4743,12 @@
   "七龍珠超：布羅利": {
     "bgmId": 240287,
     "acgId": 94994,
-    "aniId": null
+    "aniId": 35207
   },
   "逆轉裁判 第二季": {
     "bgmId": 240499,
     "acgId": 95190,
-    "aniId": null
+    "aniId": 10933
   },
   "RErideD - 穿越時空的德理達 -": {
     "bgmId": 240800,
@@ -4653,7 +4758,7 @@
   "來自繽紛世界的明日": {
     "bgmId": 240562,
     "acgId": 95422,
-    "aniId": null
+    "aniId": 36612
   },
   "中間管理錄利根川": {
     "bgmId": 237834,
@@ -4668,27 +4773,27 @@
   "路人超能 100 第二季": {
     "bgmId": 240760,
     "acgId": 95465,
-    "aniId": null
+    "aniId": 11396
   },
   "異世界魔王與召喚少女的奴隸魔術": {
     "bgmId": 236224,
     "acgId": 95582,
-    "aniId": null
+    "aniId": 11977
   },
   "叛逆性百萬亞瑟王": {
     "bgmId": 240974,
     "acgId": 95612,
-    "aniId": null
+    "aniId": 40036
   },
   "紅蓮之王": {
     "bgmId": 241091,
     "acgId": 95727,
-    "aniId": null
+    "aniId": 10401
   },
   "魔術士歐菲 流浪之旅": {
     "bgmId": 241112,
     "acgId": 95849,
-    "aniId": null
+    "aniId": 14494
   },
   "Angolmois 元寇合戰記": {
     "bgmId": 218572,
@@ -4708,7 +4813,7 @@
   "我讓最想被擁抱的男人給威脅了": {
     "bgmId": 241265,
     "acgId": 96003,
-    "aniId": null
+    "aniId": 11376
   },
   "暮光幻影": {
     "bgmId": 241264,
@@ -4723,7 +4828,7 @@
   "學園 BASARA": {
     "bgmId": 241949,
     "acgId": 96352,
-    "aniId": null
+    "aniId": 10956
   },
   "路人超能100 REIGEN ～不為人知的奇蹟靈能力者～": {
     "bgmId": 228109,
@@ -4743,7 +4848,7 @@
   "Conception 產子救世錄": {
     "bgmId": 245531,
     "acgId": 97499,
-    "aniId": null
+    "aniId": 39420
   },
   "尤利西斯 貞德與鍊金騎士": {
     "bgmId": 227098,
@@ -4758,42 +4863,42 @@
   "BanG Dream！第三季": {
     "bgmId": 246430,
     "acgId": 97713,
-    "aniId": null
+    "aniId": 14496
   },
   "約定的夢幻島": {
     "bgmId": 243916,
     "acgId": 97790,
-    "aniId": null
+    "aniId": 12952
   },
   "實況主的逃脫遊戲【直播中】": {
     "bgmId": 247548,
     "acgId": 97962,
-    "aniId": null
+    "aniId": 12663
   },
   "笨拙之極的上野": {
     "bgmId": 247417,
     "acgId": 98118,
-    "aniId": null
+    "aniId": 11392
   },
   "強風吹拂": {
     "bgmId": 248154,
     "acgId": 98172,
-    "aniId": null
+    "aniId": 11446
   },
   "輝夜姬想讓人告白～天才們的戀愛頭腦戰～": {
     "bgmId": 248175,
     "acgId": 98176,
-    "aniId": null
+    "aniId": 11431
   },
   "音樂少女": {
     "bgmId": 240366,
     "acgId": 98233,
-    "aniId": null
+    "aniId": 10212
   },
   "東京喰種：re 第二季": {
     "bgmId": 244878,
     "acgId": 98376,
-    "aniId": null
+    "aniId": 12016
   },
   "電影版妖怪手錶：永遠的朋友": {
     "bgmId": 270963,
@@ -4803,7 +4908,7 @@
   "不愉快的妖怪庵 續": {
     "bgmId": 251009,
     "acgId": 98946,
-    "aniId": null
+    "aniId": 11400
   },
   "黃金神威 第二季": {
     "bgmId": 251547,
@@ -4828,12 +4933,12 @@
   "強襲魔女 通往柏林之路": {
     "bgmId": 253046,
     "acgId": 99487,
-    "aniId": null
+    "aniId": 18539
   },
   "聯盟空軍航空魔法音樂隊 光輝魔女": {
     "bgmId": 253047,
     "acgId": 99488,
-    "aniId": null
+    "aniId": 30014
   },
   "強襲魔女 501 部隊出動！": {
     "bgmId": 253048,
@@ -4843,7 +4948,7 @@
   "轉生成蜘蛛又怎樣！": {
     "bgmId": 252782,
     "acgId": 99495,
-    "aniId": null
+    "aniId": 20600
   },
   "家有女友": {
     "bgmId": 253628,
@@ -4873,7 +4978,7 @@
   "ENDRO！": {
     "bgmId": 254895,
     "acgId": 99920,
-    "aniId": null
+    "aniId": 11433
   },
   "八月的棒球甜心": {
     "bgmId": 255667,
@@ -4903,7 +5008,7 @@
   "一個人的○○小日子": {
     "bgmId": 241335,
     "acgId": 100813,
-    "aniId": null
+    "aniId": 12081
   },
   "超可動女孩 1/6": {
     "bgmId": 260373,
@@ -4933,22 +5038,22 @@
   "青春豬頭少年不會夢到懷夢美少女": {
     "bgmId": 260680,
     "acgId": 101403,
-    "aniId": null
+    "aniId": 14826
   },
   "請問您今天要來點兔子嗎？BLOOM": {
     "bgmId": 260770,
     "acgId": 101411,
-    "aniId": null
+    "aniId": 18548
   },
   "請問您今天要來點兔子嗎？～Sing For You～": {
     "bgmId": 260772,
     "acgId": 101412,
-    "aniId": null
+    "aniId": 14405
   },
   "募戀英雄 PIECE OF TRUTH": {
     "bgmId": 260729,
     "acgId": 101438,
-    "aniId": null
+    "aniId": 13818
   },
   "劇場版 王室教師海涅": {
     "bgmId": 260948,
@@ -4968,7 +5073,7 @@
   "我的英雄學院 第四季": {
     "bgmId": 262162,
     "acgId": 101709,
-    "aniId": null
+    "aniId": 13846
   },
   "為什麼老師會在這裡！？": {
     "bgmId": 262111,
@@ -4998,7 +5103,7 @@
   "搖曳露營△ 第二季": {
     "bgmId": 262897,
     "acgId": 101856,
-    "aniId": null
+    "aniId": 20555
   },
   "喜歡本大爺的竟然就妳一個？": {
     "bgmId": 262943,
@@ -5008,17 +5113,17 @@
   "電影版 搖曳露營△": {
     "bgmId": 262898,
     "acgId": 101872,
-    "aniId": null
+    "aniId": 37920
   },
   "大人的防具店": {
     "bgmId": 262112,
     "acgId": 101903,
-    "aniId": null
+    "aniId": 20581
   },
   "美妙射擊部": {
     "bgmId": 263771,
     "acgId": 101997,
-    "aniId": null
+    "aniId": 13854
   },
   "笑容的代價": {
     "bgmId": 263907,
@@ -5028,7 +5133,7 @@
   "轉生成女性向遊戲只有毀滅 END 的壞人大小姐": {
     "bgmId": 264089,
     "acgId": 102102,
-    "aniId": null
+    "aniId": 16125
   },
   "普通攻擊是全體二連擊，這樣的媽媽你喜歡嗎？": {
     "bgmId": 264355,
@@ -5043,12 +5148,12 @@
   "一弦定音！": {
     "bgmId": 254788,
     "acgId": 102280,
-    "aniId": null
+    "aniId": 12114
   },
   "女高中生的虛度日常": {
     "bgmId": 265708,
     "acgId": 102289,
-    "aniId": null
+    "aniId": 12651
   },
   "魔術學姐": {
     "bgmId": 265614,
@@ -5068,22 +5173,22 @@
   "環戰公主 CIRCLET PRINCESS": {
     "bgmId": 256552,
     "acgId": 102418,
-    "aniId": null
+    "aniId": 38734
   },
   "炎炎消防隊": {
     "bgmId": 266372,
     "acgId": 102477,
-    "aniId": null
+    "aniId": 29922
   },
   "Dr.STONE 新石紀": {
     "bgmId": 266794,
     "acgId": 102494,
-    "aniId": null
+    "aniId": 12653
   },
   "魔法水果籃": {
     "bgmId": 266455,
     "acgId": 102570,
-    "aniId": null
+    "aniId": 12078
   },
   "百慕達三角～多彩田園曲～": {
     "bgmId": 257608,
@@ -5108,7 +5213,7 @@
   "請讓我撒嬌，仙狐大人！": {
     "bgmId": 268165,
     "acgId": 102782,
-    "aniId": null
+    "aniId": 12682
   },
   "滿腦都是○○的我沒辦法談戀愛": {
     "bgmId": 268412,
@@ -5118,12 +5223,12 @@
   "川柳少女": {
     "bgmId": 268510,
     "acgId": 102841,
-    "aniId": null
+    "aniId": 12079
   },
   "怕痛的我，把防禦力點滿就對了": {
     "bgmId": 268545,
     "acgId": 102845,
-    "aniId": null
+    "aniId": 14499
   },
   "信長老師的年幼妻子": {
     "bgmId": 269075,
@@ -5138,7 +5243,7 @@
   "排球少年！！第四季": {
     "bgmId": 269918,
     "acgId": 103114,
-    "aniId": null
+    "aniId": 14651
   },
   "胡蝶綺～少年信長～": {
     "bgmId": 270229,
@@ -5148,7 +5253,7 @@
   "COP CRAFT": {
     "bgmId": 270422,
     "acgId": 103211,
-    "aniId": null
+    "aniId": 12669
   },
   "艾梅洛閣下 II 世事件簿 -魔眼蒐集列車 Grace note-": {
     "bgmId": 267732,
@@ -5158,7 +5263,7 @@
   "月歌。THE ANIMATION 2": {
     "bgmId": 266349,
     "acgId": 103310,
-    "aniId": null
+    "aniId": 18535
   },
   "K Seven Stories 紅之記憶 ～BURN～": {
     "bgmId": 251988,
@@ -5173,17 +5278,17 @@
   "麵包超人電影版：發光吧！冰淇淋王國的香草公主": {
     "bgmId": 335298,
     "acgId": 103380,
-    "aniId": null
+    "aniId": 20332
   },
   "虛構推理": {
     "bgmId": 271687,
     "acgId": 103427,
-    "aniId": null
+    "aniId": 15216
   },
   "流汗吧！健身少女": {
     "bgmId": 271724,
     "acgId": 103449,
-    "aniId": null
+    "aniId": 12644
   },
   "刀劍亂舞 - 花丸 - ～幕間回憶錄～": {
     "bgmId": 226599,
@@ -5203,22 +5308,22 @@
   "Fairy gone": {
     "bgmId": 272475,
     "acgId": 103604,
-    "aniId": null
+    "aniId": 22843
   },
   "白貓 Project Zero Chronicle 零之紀元": {
     "bgmId": 269436,
     "acgId": 103741,
-    "aniId": null
+    "aniId": 15186
   },
   "彼方的阿斯特拉": {
     "bgmId": 273877,
     "acgId": 103788,
-    "aniId": null
+    "aniId": 12642
   },
   "超級小白": {
     "bgmId": 273510,
     "acgId": 103843,
-    "aniId": null
+    "aniId": 44306
   },
   "只要長得可愛，即使是變態你也喜歡嗎？": {
     "bgmId": 275371,
@@ -5228,7 +5333,7 @@
   "戀愛中的小行星": {
     "bgmId": 276150,
     "acgId": 104191,
-    "aniId": null
+    "aniId": 14443
   },
   "你遭難了嗎？": {
     "bgmId": 276187,
@@ -5238,12 +5343,12 @@
   "滿月之戰": {
     "bgmId": 276412,
     "acgId": 104230,
-    "aniId": null
+    "aniId": 35192
   },
   "格萊普尼爾": {
     "bgmId": 276705,
     "acgId": 104281,
-    "aniId": null
+    "aniId": 15161
   },
   "小書痴的下剋上：為了成為圖書管理員不擇手段！": {
     "bgmId": 276788,
@@ -5253,12 +5358,12 @@
   "叛逆性百萬亞瑟王 第二季": {
     "bgmId": 261048,
     "acgId": 104350,
-    "aniId": null
+    "aniId": 40046
   },
   "南無阿彌陀佛！-蓮台 UTENA-": {
     "bgmId": 256561,
     "acgId": 104365,
-    "aniId": null
+    "aniId": 24123
   },
   "TRY KNIGHTS": {
     "bgmId": 277423,
@@ -5268,17 +5373,17 @@
   "無職轉生，到了異世界就拿出真本事": {
     "bgmId": 277554,
     "acgId": 104483,
-    "aniId": null
+    "aniId": 20620
   },
   "關於我轉生變成史萊姆這檔事 第二季": {
     "bgmId": 278031,
     "acgId": 104513,
-    "aniId": null
+    "aniId": 20530
   },
   "魔法水果籃 第二季": {
     "bgmId": 291039,
     "acgId": 104514,
-    "aniId": null
+    "aniId": 15188
   },
   "警視廳特務部特殊凶惡犯對策室第七課": {
     "bgmId": 278440,
@@ -5288,12 +5393,12 @@
   "Re：從零開始的異世界生活 冰結之絆": {
     "bgmId": 261805,
     "acgId": 104647,
-    "aniId": null
+    "aniId": 17335
   },
   "工作細胞 第二季": {
     "bgmId": 278815,
     "acgId": 104688,
-    "aniId": null
+    "aniId": 20608
   },
   "索瑪麗與森林之神": {
     "bgmId": 278670,
@@ -5323,12 +5428,12 @@
   "約定的夢幻島 第二季": {
     "bgmId": 279202,
     "acgId": 104797,
-    "aniId": null
+    "aniId": 20561
   },
   "七大罪 眾神的逆鱗": {
     "bgmId": 280380,
     "acgId": 105050,
-    "aniId": null
+    "aniId": 13824
   },
   "昨日之歌": {
     "bgmId": 280516,
@@ -5338,12 +5443,12 @@
   "ICHU 偶像進行曲": {
     "bgmId": 280615,
     "acgId": 105108,
-    "aniId": null
+    "aniId": 20531
   },
   "放學後堤防日誌": {
     "bgmId": 280678,
     "acgId": 105122,
-    "aniId": null
+    "aniId": 15209
   },
   "歌塑世界 -Songs Connection-": {
     "bgmId": 266348,
@@ -5358,17 +5463,17 @@
   "別對映像研出手！": {
     "bgmId": 282433,
     "acgId": 105416,
-    "aniId": null
+    "aniId": 14455
   },
   "這個勇者明明超 TUEEE 卻過度謹慎！": {
     "bgmId": 266157,
     "acgId": 105434,
-    "aniId": null
+    "aniId": 13869
   },
   "D4DJ First Mix": {
     "bgmId": 299372,
     "acgId": 105519,
-    "aniId": null
+    "aniId": 18820
   },
   "放學後桌遊俱樂部": {
     "bgmId": 259790,
@@ -5378,12 +5483,12 @@
   "食戟之靈 神之皿": {
     "bgmId": 284546,
     "acgId": 106077,
-    "aniId": null
+    "aniId": 13842
   },
   "魔法律事務所 第二季": {
     "bgmId": 284838,
     "acgId": 106136,
-    "aniId": null
+    "aniId": 16295
   },
   "水晶國傳說～初次旅行的冒險者們～": {
     "bgmId": 24158,
@@ -5418,12 +5523,12 @@
   "貓娘樂園": {
     "bgmId": 270274,
     "acgId": 106365,
-    "aniId": null
+    "aniId": 14503
   },
   "進擊的巨人 The Final Season": {
     "bgmId": 285666,
     "acgId": 106374,
-    "aniId": null
+    "aniId": 19849
   },
   "我們真的學不來！第二季": {
     "bgmId": 285130,
@@ -5433,7 +5538,7 @@
   "DECA - DENCE": {
     "bgmId": 285879,
     "acgId": 106466,
-    "aniId": null
+    "aniId": 16176
   },
   "黃金神威 第三季": {
     "bgmId": 285901,
@@ -5448,7 +5553,7 @@
   "IDOLiSH7 - 偶像星願 - Second BEAT！": {
     "bgmId": 253042,
     "acgId": 106515,
-    "aniId": null
+    "aniId": 15163
   },
   "魯邦三世 THE FIRST": {
     "bgmId": 286238,
@@ -5458,37 +5563,37 @@
   "神推偶像登上武道館我就死而無憾": {
     "bgmId": 246915,
     "acgId": 106587,
-    "aniId": null
+    "aniId": 14528
   },
   "阿爾蒂": {
     "bgmId": 286650,
     "acgId": 106728,
-    "aniId": null
+    "aniId": 15145
   },
   "織田肉桂信長": {
     "bgmId": 286775,
     "acgId": 106792,
-    "aniId": null
+    "aniId": 14536
   },
   "廚病激發 BOY": {
     "bgmId": 278220,
     "acgId": 106807,
-    "aniId": null
+    "aniId": 13840
   },
   "銀魂 THE FINAL": {
     "bgmId": 276641,
     "acgId": 106992,
-    "aniId": null
+    "aniId": 37723
   },
   "Fate/stay night [Heaven's Feel] Ⅲ.春櫻之歌": {
     "bgmId": 175600,
     "acgId": 107012,
-    "aniId": null
+    "aniId": 26998
   },
   "一弦定音！第二季": {
     "bgmId": 270060,
     "acgId": 107125,
-    "aniId": null
+    "aniId": 13848
   },
   "NULL & PETA": {
     "bgmId": 289145,
@@ -5503,12 +5608,12 @@
   "number24": {
     "bgmId": 278757,
     "acgId": 107217,
-    "aniId": null
+    "aniId": 14501
   },
   "岸邊露伴一動也不動": {
     "bgmId": 289138,
     "acgId": 107400,
-    "aniId": null
+    "aniId": 37761
   },
   "只想受到你的歡迎": {
     "bgmId": 243168,
@@ -5518,17 +5623,17 @@
   "大人的防具店 裏面": {
     "bgmId": 275359,
     "acgId": 107499,
-    "aniId": null
+    "aniId": 20631
   },
   "盾之勇者成名錄 Season 2": {
     "bgmId": 289906,
     "acgId": 107524,
-    "aniId": null
+    "aniId": 28873
   },
   "盾之勇者成名錄 Season 3": {
     "bgmId": 289907,
     "acgId": 107525,
-    "aniId": null
+    "aniId": 35516
   },
   "辣妹與恐龍": {
     "bgmId": 289910,
@@ -5538,17 +5643,17 @@
   "香蕉喵 不可思議的夥伴們": {
     "bgmId": 288311,
     "acgId": 107629,
-    "aniId": null
+    "aniId": 13815
   },
   "蠟筆小新：激戰！塗鴉王國與差不多四勇者": {
     "bgmId": 291038,
     "acgId": 107645,
-    "aniId": null
+    "aniId": 45426
   },
   "新櫻花大戰": {
     "bgmId": 290630,
     "acgId": 107694,
-    "aniId": null
+    "aniId": 15157
   },
   "請在伸展台上微笑": {
     "bgmId": 289951,
@@ -5568,7 +5673,7 @@
   "約會大作戰 DATE A BULLET 赤黑新章：虛或實": {
     "bgmId": 291171,
     "acgId": 107857,
-    "aniId": null
+    "aniId": 22879
   },
   "浦島坂田船的日常": {
     "bgmId": 287615,
@@ -5583,22 +5688,22 @@
   "彼得・格里爾的賢者時間": {
     "bgmId": 291195,
     "acgId": 107915,
-    "aniId": null
+    "aniId": 16398
   },
   "彼得・格里爾的賢者時間 [年齡限制版]": {
     "bgmId": 291195,
     "acgId": 107915,
-    "aniId": null
+    "aniId": 16398
   },
   "鬼滅之刃劇場版 無限列車篇": {
     "bgmId": 291494,
     "acgId": 107959,
-    "aniId": null
+    "aniId": 23505
   },
   "寶可夢旅途": {
     "bgmId": 292522,
     "acgId": 107963,
-    "aniId": null
+    "aniId": 20219
   },
   "Radiant 虛空魔境 第二季": {
     "bgmId": 276051,
@@ -5613,12 +5718,12 @@
   "魔法科高中的劣等生 來訪者篇": {
     "bgmId": 292233,
     "acgId": 108065,
-    "aniId": null
+    "aniId": 18437
   },
   "魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校～": {
     "bgmId": 292222,
     "acgId": 108067,
-    "aniId": null
+    "aniId": 16233
   },
   "闇芝居 第七季": {
     "bgmId": 283480,
@@ -5628,22 +5733,22 @@
   "平凡職業造就世界最強 第二季": {
     "bgmId": 292316,
     "acgId": 108080,
-    "aniId": null
+    "aniId": 27372
   },
   "寶石商人理察的謎鑑定": {
     "bgmId": 285093,
     "acgId": 108087,
-    "aniId": null
+    "aniId": 14526
   },
   "棒球大聯盟 2nd 第二季": {
     "bgmId": 292219,
     "acgId": 108120,
-    "aniId": null
+    "aniId": 22593
   },
   "天晴爛漫！": {
     "bgmId": 292542,
     "acgId": 108169,
-    "aniId": null
+    "aniId": 15283
   },
   "輝夜姬想讓人告白～天才們的戀愛頭腦戰～ 第二季": {
     "bgmId": 293049,
@@ -5653,22 +5758,22 @@
   "比方說，這是個出身魔王關附近的少年在新手村生活的故事": {
     "bgmId": 293193,
     "acgId": 108266,
-    "aniId": null
+    "aniId": 20447
   },
   "這是妳與我的最後戰場，或是開創世界的聖戰": {
     "bgmId": 292273,
     "acgId": 108267,
-    "aniId": null
+    "aniId": 38976
   },
   "持續狩獵史萊姆三百年，不知不覺就練到 LV MAX": {
     "bgmId": 292969,
     "acgId": 108268,
-    "aniId": null
+    "aniId": 22243
   },
   "魔女之旅": {
     "bgmId": 292970,
     "acgId": 108269,
-    "aniId": null
+    "aniId": 18427
   },
   "魔神英雄傳 七魂的龍神丸": {
     "bgmId": 292861,
@@ -5678,7 +5783,7 @@
   "海邊的異邦人": {
     "bgmId": 293610,
     "acgId": 108353,
-    "aniId": null
+    "aniId": 35756
   },
   "弩級戰隊 HXEROS": {
     "bgmId": 293648,
@@ -5693,7 +5798,7 @@
   "鳴鳥不飛：烏雲密布": {
     "bgmId": 281305,
     "acgId": 108388,
-    "aniId": null
+    "aniId": 35803
   },
   "ARGONAVIS from BanG Dream！": {
     "bgmId": 294202,
@@ -5703,7 +5808,7 @@
   "王者天下 第三季": {
     "bgmId": 294288,
     "acgId": 108606,
-    "aniId": null
+    "aniId": 15166
   },
   "四季櫻": {
     "bgmId": 262547,
@@ -5713,7 +5818,7 @@
   "魔物娘的醫生": {
     "bgmId": 294654,
     "acgId": 108673,
-    "aniId": null
+    "aniId": 16237
   },
   "卡片戰鬥！！先導者 續高校篇": {
     "bgmId": 285664,
@@ -5723,12 +5828,12 @@
   "本田小狼與我": {
     "bgmId": 294337,
     "acgId": 108840,
-    "aniId": null
+    "aniId": 22236
   },
   "搖滾少女!! 活力棉花糖!!": {
     "bgmId": 295195,
     "acgId": 108889,
-    "aniId": null
+    "aniId": 14530
   },
   "卡片戰鬥！！先導者 新右衛門篇": {
     "bgmId": 290591,
@@ -5738,7 +5843,7 @@
   "社長，戰鬥的時間到了！": {
     "bgmId": 295707,
     "acgId": 108973,
-    "aniId": null
+    "aniId": 15155
   },
   "花樣滑冰 Stars": {
     "bgmId": 295766,
@@ -5748,12 +5853,12 @@
   "喬瑟與虎與魚群 動畫版": {
     "bgmId": 295778,
     "acgId": 108993,
-    "aniId": null
+    "aniId": 35802
   },
   "隱瞞之事": {
     "bgmId": 294713,
     "acgId": 109025,
-    "aniId": null
+    "aniId": 15168
   },
   "小書痴的下剋上：為了成為圖書管理員不擇手段！第二季": {
     "bgmId": 295884,
@@ -5763,27 +5868,27 @@
   "食戟之靈 豪之皿": {
     "bgmId": 296820,
     "acgId": 109284,
-    "aniId": null
+    "aniId": 15285
   },
   "怪物事變": {
     "bgmId": 296941,
     "acgId": 109287,
-    "aniId": null
+    "aniId": 20618
   },
   "我們的重製人生": {
     "bgmId": 296870,
     "acgId": 109289,
-    "aniId": null
+    "aniId": 23375
   },
   "非槍人生 NO GUNS LIFE 第二季": {
     "bgmId": 291479,
     "acgId": 109320,
-    "aniId": null
+    "aniId": 16391
   },
   "遊戲王! SEVENS": {
     "bgmId": 286967,
     "acgId": 109339,
-    "aniId": null
+    "aniId": 35986
   },
   "蒼之騎士團": {
     "bgmId": 297370,
@@ -5793,17 +5898,17 @@
   "炎炎消防隊 貳之章": {
     "bgmId": 297342,
     "acgId": 109386,
-    "aniId": null
+    "aniId": 30785
   },
   "熊熊勇闖異世界": {
     "bgmId": 297624,
     "acgId": 109387,
-    "aniId": null
+    "aniId": 18215
   },
   "來自深淵 烈日的黃金鄉": {
     "bgmId": 298477,
     "acgId": 109617,
-    "aniId": null
+    "aniId": 30171
   },
   "富豪刑警 Balance: UNLIMITED": {
     "bgmId": 298718,
@@ -5818,7 +5923,7 @@
   "世界一初戀～求婚編～": {
     "bgmId": 289601,
     "acgId": 110026,
-    "aniId": null
+    "aniId": 16885
   },
   "戰翼的希格德莉法": {
     "bgmId": 301369,
@@ -5828,12 +5933,12 @@
   "酷愛電影的龐波小姐": {
     "bgmId": 223563,
     "acgId": 110188,
-    "aniId": null
+    "aniId": 31345
   },
   "我立於百萬生命之上": {
     "bgmId": 301469,
     "acgId": 110208,
-    "aniId": null
+    "aniId": 18428
   },
   "座敷童子塌塌米醬": {
     "bgmId": 294120,
@@ -5848,17 +5953,17 @@
   "入間同學入魔了！第二季": {
     "bgmId": 301740,
     "acgId": 110335,
-    "aniId": null
+    "aniId": 22248
   },
   "86－不存在的戰區－": {
     "bgmId": 302189,
     "acgId": 110437,
-    "aniId": null
+    "aniId": 22245
   },
   "戰鬥員派遣中！": {
     "bgmId": 302190,
     "acgId": 110445,
-    "aniId": null
+    "aniId": 22220
   },
   "別冊奧林匹克之環": {
     "bgmId": 304183,
@@ -5868,37 +5973,37 @@
   "BLEACH 死神 千年血戰篇": {
     "bgmId": 302286,
     "acgId": 110487,
-    "aniId": null
+    "aniId": 31634
   },
   "BURN THE WITCH 龍與魔女": {
     "bgmId": 302293,
     "acgId": 110536,
-    "aniId": null
+    "aniId": 18422
   },
   "搖滾少女!! STARS!!": {
     "bgmId": 302802,
     "acgId": 110642,
-    "aniId": null
+    "aniId": 20553
   },
   "怪物彈珠 THE MOVIE 路西法 絕望的黎明": {
     "bgmId": 305578,
     "acgId": 110705,
-    "aniId": null
+    "aniId": 23739
   },
   "噴嚏大魔王 2020": {
     "bgmId": 299687,
     "acgId": 110719,
-    "aniId": null
+    "aniId": 15296
   },
   "我的英雄學院 第五季": {
     "bgmId": 303399,
     "acgId": 110755,
-    "aniId": null
+    "aniId": 22198
   },
   "異世界魔王與召喚少女的奴隸魔術 Ω": {
     "bgmId": 303864,
     "acgId": 110815,
-    "aniId": null
+    "aniId": 22525
   },
   "香蕉怪大叔 呐呐~呐 北海妖怪追追追！": {
     "bgmId": 307749,
@@ -5908,27 +6013,27 @@
   "突然降臨的埃及神": {
     "bgmId": 304150,
     "acgId": 110921,
-    "aniId": null
+    "aniId": 26454
   },
   "工作細胞 Black": {
     "bgmId": 304065,
     "acgId": 110943,
-    "aniId": null
+    "aniId": 20610
   },
   "現實主義勇者的王國重建記": {
     "bgmId": 304319,
     "acgId": 110969,
-    "aniId": null
+    "aniId": 23364
   },
   "眾神眷顧的男人": {
     "bgmId": 300685,
     "acgId": 110973,
-    "aniId": null
+    "aniId": 18439
   },
   "天地創造設計部": {
     "bgmId": 304827,
     "acgId": 111006,
-    "aniId": null
+    "aniId": 20557
   },
   "魔神英雄傳 永恆傳說": {
     "bgmId": 38723,
@@ -5938,42 +6043,42 @@
   "高校之神": {
     "bgmId": 305511,
     "acgId": 111121,
-    "aniId": null
+    "aniId": 16251
   },
   "半妖的夜叉姬": {
     "bgmId": 306193,
     "acgId": 111282,
-    "aniId": null
+    "aniId": 18434
   },
   "成神之日": {
     "bgmId": 306429,
     "acgId": 111285,
-    "aniId": null
+    "aniId": 18550
   },
   "終末的後宮": {
     "bgmId": 306559,
     "acgId": 111339,
-    "aniId": null
+    "aniId": 27363
   },
   "終末的後宮 [年齡限制版]": {
     "bgmId": 306559,
     "acgId": 111339,
-    "aniId": null
+    "aniId": 27363
   },
   "麵包超人電影版：軟綿綿與雲之國": {
     "bgmId": 480719,
     "acgId": 111351,
-    "aniId": null
+    "aniId": 30717
   },
   "開掛藥師的異世界悠閒生活": {
     "bgmId": 297361,
     "acgId": 111582,
-    "aniId": null
+    "aniId": 23338
   },
   "自稱賢者弟子的賢者": {
     "bgmId": 307378,
     "acgId": 111584,
-    "aniId": null
+    "aniId": 27371
   },
   "魯邦三世 義大利遊戲": {
     "bgmId": 160674,
@@ -6008,17 +6113,17 @@
   "前輩有夠煩": {
     "bgmId": 309670,
     "acgId": 112279,
-    "aniId": null
+    "aniId": 25496
   },
   "不要欺負我，長瀞同學": {
     "bgmId": 309753,
     "acgId": 112286,
-    "aniId": null
+    "aniId": 22244
   },
   "阿松 第三季": {
     "bgmId": 309910,
     "acgId": 112348,
-    "aniId": null
+    "aniId": 18559
   },
   "忍者收藏": {
     "bgmId": 308997,
@@ -6028,7 +6133,7 @@
   "小書痴的下剋上：為了成為圖書管理員不擇手段！第三季": {
     "bgmId": 310263,
     "acgId": 112447,
-    "aniId": null
+    "aniId": 28805
   },
   "來自深淵 劇場版總集篇 前編：啟程的黎明": {
     "bgmId": 240798,
@@ -6043,27 +6148,27 @@
   "水星領航員 ARIA The CREPUSCOLO": {
     "bgmId": 304087,
     "acgId": 112596,
-    "aniId": null
+    "aniId": 25612
   },
   "刮掉鬍子的我與撿到的女高中生": {
     "bgmId": 297254,
     "acgId": 112745,
-    "aniId": null
+    "aniId": 22227
   },
   "土下座跪求給看": {
     "bgmId": 311600,
     "acgId": 112783,
-    "aniId": null
+    "aniId": 18622
   },
   "土下座跪求給看 [年齡限制版]": {
     "bgmId": 311600,
     "acgId": 112783,
-    "aniId": null
+    "aniId": 18622
   },
   "燒窯的話也要馬克杯": {
     "bgmId": 311615,
     "acgId": 112786,
-    "aniId": null
+    "aniId": 22225
   },
   "結城友奈是勇者 大滿開之章": {
     "bgmId": 311759,
@@ -6073,7 +6178,7 @@
   "桃子男孩渡海而來": {
     "bgmId": 312223,
     "acgId": 112960,
-    "aniId": null
+    "aniId": 23342
   },
   "魯邦三世 過去的監獄": {
     "bgmId": 292940,
@@ -6083,17 +6188,17 @@
   "整容液": {
     "bgmId": 311092,
     "acgId": 113073,
-    "aniId": null
+    "aniId": 35757
   },
   "我的英雄學院 OVA：活下來！殊死的生存訓練": {
     "bgmId": 339266,
     "acgId": 113078,
-    "aniId": null
+    "aniId": 16952
   },
   "平穩世代的韋駄天們": {
     "bgmId": 312723,
     "acgId": 113084,
-    "aniId": null
+    "aniId": 23661
   },
   "屁屁偵探：咖哩香料事件＋瓢蟲遺蹟之謎": {
     "bgmId": 341389,
@@ -6103,17 +6208,17 @@
   "體操武士": {
     "bgmId": 312979,
     "acgId": 113096,
-    "aniId": null
+    "aniId": 18552
   },
   "劇場版 Free! 男子游泳部 -the Final Stroke- 前篇": {
     "bgmId": 271652,
     "acgId": 113123,
-    "aniId": null
+    "aniId": 36132
   },
   "魔術士歐菲 流浪之旅 基姆拉克篇": {
     "bgmId": 303172,
     "acgId": 113188,
-    "aniId": null
+    "aniId": 20859
   },
   "再見了，我的克拉默": {
     "bgmId": 314163,
@@ -6133,22 +6238,22 @@
   "勇者鬥惡龍 達伊的大冒險": {
     "bgmId": 296980,
     "acgId": 113532,
-    "aniId": null
+    "aniId": 18433
   },
   "Praeter 之傷": {
     "bgmId": 314488,
     "acgId": 113542,
-    "aniId": null
+    "aniId": 20604
   },
   "聖女魔力無所不能": {
     "bgmId": 314518,
     "acgId": 113545,
-    "aniId": null
+    "aniId": 22235
   },
   "讓我聽見愛的歌聲": {
     "bgmId": 314638,
     "acgId": 113584,
-    "aniId": null
+    "aniId": 28869
   },
   "BEM 妖怪人類貝姆劇場版～BECOME HUMAN～": {
     "bgmId": 307925,
@@ -6158,12 +6263,12 @@
   "堀與宮村": {
     "bgmId": 315069,
     "acgId": 113757,
-    "aniId": null
+    "aniId": 20612
   },
   "前說！": {
     "bgmId": 285899,
     "acgId": 113765,
-    "aniId": null
+    "aniId": 18491
   },
   "夏目友人帳特別上映版：喚石與可疑訪客": {
     "bgmId": 315779,
@@ -6173,7 +6278,7 @@
   "魔法水果籃 最終季": {
     "bgmId": 315516,
     "acgId": 113810,
-    "aniId": null
+    "aniId": 21881
   },
   "秘密結社 鷹之爪 -Golden Spell-": {
     "bgmId": 316103,
@@ -6183,27 +6288,27 @@
   "賽馬娘 Pretty Derby 第二季": {
     "bgmId": 315574,
     "acgId": 113834,
-    "aniId": null
+    "aniId": 42535
   },
   "BanG Dream！Episode of Roselia I：約定": {
     "bgmId": 305058,
     "acgId": 113845,
-    "aniId": null
+    "aniId": 27269
   },
   "怪醫黑傑克 劇場版": {
     "bgmId": 74542,
     "acgId": 113982,
-    "aniId": null
+    "aniId": 27271
   },
   "灼熱卡巴迪": {
     "bgmId": 309921,
     "acgId": 114035,
-    "aniId": null
+    "aniId": 22217
   },
   "青梅竹馬絕對不會輸的戀愛喜劇": {
     "bgmId": 316264,
     "acgId": 114038,
-    "aniId": null
+    "aniId": 22249
   },
   "汪汪與喵喵": {
     "bgmId": 296078,
@@ -6213,22 +6318,22 @@
   "棋靈王特別篇：邁向北斗盃之路": {
     "bgmId": 36271,
     "acgId": 114151,
-    "aniId": null
+    "aniId": 18631
   },
   "怪病醫拉姆尼": {
     "bgmId": 314447,
     "acgId": 114242,
-    "aniId": null
+    "aniId": 20614
   },
   "輝夜姬想讓人告白 ー超級浪漫ー": {
     "bgmId": 317613,
     "acgId": 114310,
-    "aniId": null
+    "aniId": 28879
   },
   "義呆利 World Stars": {
     "bgmId": 317615,
     "acgId": 114343,
-    "aniId": null
+    "aniId": 22216
   },
   "卡姆依之劍": {
     "bgmId": 54301,
@@ -6238,57 +6343,57 @@
   "蓋特機器人 ARC": {
     "bgmId": 318261,
     "acgId": 114426,
-    "aniId": null
+    "aniId": 23367
   },
   "扶桑花女孩之舞": {
     "bgmId": 318543,
     "acgId": 114473,
-    "aniId": null
+    "aniId": 34423
   },
   "海岬的迷途之家": {
     "bgmId": 318542,
     "acgId": 114474,
-    "aniId": null
+    "aniId": 32291
   },
   "後空翻少年!!": {
     "bgmId": 318541,
     "acgId": 114476,
-    "aniId": null
+    "aniId": 22250
   },
   "狩火之王": {
     "bgmId": 318599,
     "acgId": 114480,
-    "aniId": null
+    "aniId": 32389
   },
   "BACK ARROW": {
     "bgmId": 297396,
     "acgId": 114481,
-    "aniId": null
+    "aniId": 20602
   },
   "暗夜第六感 2041": {
     "bgmId": 318602,
     "acgId": 114502,
-    "aniId": null
+    "aniId": 34898
   },
   "國王排名": {
     "bgmId": 296109,
     "acgId": 114503,
-    "aniId": null
+    "aniId": 25489
   },
   "刀劍神域劇場版－Progressive－無星夜的詠嘆調": {
     "bgmId": 315375,
     "acgId": 114528,
-    "aniId": null
+    "aniId": 30988
   },
   "急戰 5 秒殊死鬥": {
     "bgmId": 319286,
     "acgId": 114557,
-    "aniId": null
+    "aniId": 23337
   },
   "女朋友 and 女朋友": {
     "bgmId": 319513,
     "acgId": 114623,
-    "aniId": null
+    "aniId": 23381
   },
   "迷宮物語": {
     "bgmId": 26592,
@@ -6298,12 +6403,12 @@
   "虛構推理 第二季": {
     "bgmId": 320839,
     "acgId": 114726,
-    "aniId": null
+    "aniId": 32346
   },
   "我的英雄學院：世界英雄任務": {
     "bgmId": 321117,
     "acgId": 114751,
-    "aniId": null
+    "aniId": 38149
   },
   "如果究極進化的完全沉浸 RPG 比現實還更像垃圾遊戲的話": {
     "bgmId": 321407,
@@ -6313,32 +6418,32 @@
   "橘色榮耀！": {
     "bgmId": 322193,
     "acgId": 114958,
-    "aniId": null
+    "aniId": 25430
   },
   "異世界迷宮裡的後宮生活": {
     "bgmId": 322130,
     "acgId": 114959,
-    "aniId": null
+    "aniId": 30175
   },
   "冰冰冰 冰淇淋君": {
     "bgmId": 327771,
     "acgId": 115000,
-    "aniId": null
+    "aniId": 22239
   },
   "幼女社長": {
     "bgmId": 316795,
     "acgId": 115138,
-    "aniId": null
+    "aniId": 20507
   },
   "PUI PUI 天竺鼠車車": {
     "bgmId": 325178,
     "acgId": 115140,
-    "aniId": null
+    "aniId": 20454
   },
   "大人的防具店 第二季": {
     "bgmId": 322926,
     "acgId": 115141,
-    "aniId": null
+    "aniId": 20445
   },
   "闇芝居 第八季": {
     "bgmId": 321092,
@@ -6348,57 +6453,57 @@
   "魔法科高中的優等生": {
     "bgmId": 323840,
     "acgId": 115151,
-    "aniId": null
+    "aniId": 23362
   },
   "Fate/Grand Carnival": {
     "bgmId": 324249,
     "acgId": 115175,
-    "aniId": null
+    "aniId": 23615
   },
   "東方少年": {
     "bgmId": 323655,
     "acgId": 115200,
-    "aniId": null
+    "aniId": 27446
   },
   "式守同學不只可愛而已": {
     "bgmId": 324295,
     "acgId": 115202,
-    "aniId": null
+    "aniId": 28802
   },
   "最遊記 RELOAD -ZEROIN-": {
     "bgmId": 325097,
     "acgId": 115286,
-    "aniId": null
+    "aniId": 27360
   },
   "怕痛的我，把防禦力點滿就對了 第二季": {
     "bgmId": 302766,
     "acgId": 115289,
-    "aniId": null
+    "aniId": 32372
   },
   "轉生成女性向遊戲只有毀滅 END 的壞人大小姐 X": {
     "bgmId": 309056,
     "acgId": 115336,
-    "aniId": null
+    "aniId": 23350
   },
   "奇巧計程車": {
     "bgmId": 325285,
     "acgId": 115368,
-    "aniId": null
+    "aniId": 22238
   },
   "白沙的 Aquatope": {
     "bgmId": 325281,
     "acgId": 115393,
-    "aniId": null
+    "aniId": 23346
   },
   "名偵探柯南：緋色的不在場證明": {
     "bgmId": 327373,
     "acgId": 115438,
-    "aniId": null
+    "aniId": 28469
   },
   "獻祭公主與獸王": {
     "bgmId": 325673,
     "acgId": 115442,
-    "aniId": null
+    "aniId": 34660
   },
   "少女與戰車 最終章 第2話": {
     "bgmId": 208825,
@@ -6408,202 +6513,212 @@
   "少女與戰車 最終章 第3話": {
     "bgmId": 208826,
     "acgId": 115483,
-    "aniId": null
+    "aniId": 32290
   },
   "偵探已經，死了。": {
     "bgmId": 325727,
     "acgId": 115484,
-    "aniId": null
+    "aniId": 23369
   },
   "IDOLiSH7 - 偶像星願 - Third BEAT！": {
     "bgmId": 323960,
     "acgId": 115581,
-    "aniId": null
+    "aniId": 23368
   },
   "哥布林殺手 II": {
     "bgmId": 326867,
     "acgId": 115682,
-    "aniId": null
+    "aniId": 35439
   },
   "處刑少女的生存之道": {
     "bgmId": 326871,
     "acgId": 115710,
-    "aniId": null
+    "aniId": 28875
   },
   "飆速宅男 SPARE BIKE": {
     "bgmId": 182702,
     "acgId": 115711,
-    "aniId": null
+    "aniId": 21266
   },
   "鬼滅之刃 兄妹之絆": {
     "bgmId": 294137,
     "acgId": 115780,
-    "aniId": null
+    "aniId": 21354
   },
   "鬼滅之刃 那田蜘蛛山篇": {
     "bgmId": 317002,
     "acgId": 115783,
-    "aniId": null
+    "aniId": 21373
   },
   "鬼滅之刃 柱合會議‧蝴蝶屋篇": {
     "bgmId": 322102,
     "acgId": 115784,
-    "aniId": null
+    "aniId": 21356
   },
   "天使降臨到我身邊！珍貴的朋友": {
     "bgmId": 320493,
     "acgId": 115814,
-    "aniId": null
+    "aniId": 36103
   },
   "舞伎家的料理人": {
     "bgmId": 303068,
     "acgId": 115863,
-    "aniId": null
+    "aniId": 21479
   },
   "女神宿舍的管理員。 [年齡限制版]": {
     "bgmId": 305390,
     "acgId": 115873,
-    "aniId": null
+    "aniId": 23341
   },
   "女神宿舍的管理員。": {
     "bgmId": 305390,
     "acgId": 115873,
-    "aniId": null
+    "aniId": 23341
   },
   "世界頂尖的暗殺者轉生為異世界貴族": {
     "bgmId": 328313,
     "acgId": 115874,
-    "aniId": null
+    "aniId": 25486
   },
   "叫我對大哥 (TV版)": {
     "bgmId": 329202,
     "acgId": 116011,
-    "aniId": null
+    "aniId": 23349
   },
   "鳴鳥不飛：Don’t stay gold": {
     "bgmId": 317644,
     "acgId": 116199,
-    "aniId": null
+    "aniId": 35804
   },
   "水星領航員 ARIA The BENEDIZIONE": {
     "bgmId": 329948,
     "acgId": 116200,
-    "aniId": null
+    "aniId": 30469
   },
   "魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校～第二季": {
     "bgmId": 330054,
     "acgId": 116223,
-    "aniId": null
+    "aniId": 32344
   },
   "食鏽末世錄": {
     "bgmId": 328447,
     "acgId": 116264,
-    "aniId": null
+    "aniId": 27369
   },
   "境界戰機": {
     "bgmId": 330894,
     "acgId": 116369,
-    "aniId": null
+    "aniId": 25556
   },
   "月與萊卡與吸血公主": {
     "bgmId": 330918,
     "acgId": 116399,
-    "aniId": null
+    "aniId": 25432
   },
   "陰陽眼見子": {
     "bgmId": 330973,
     "acgId": 116407,
-    "aniId": null
+    "aniId": 25497
   },
   "緋紅結繫": {
     "bgmId": 331031,
     "acgId": 116434,
-    "aniId": null
+    "aniId": 23272
   },
   "薔薇王的葬列": {
     "bgmId": 315060,
     "acgId": 116520,
-    "aniId": null
+    "aniId": 27356
+  },
+  "憂國的莫里亞蒂 第一季": {
+    "bgmId": 297022,
+    "acgId": 109288,
+    "aniId": 18369
   },
   "憂國的莫里亞蒂 第一季 後半": {
     "bgmId": 319252,
     "acgId": 116524,
-    "aniId": null
+    "aniId": 22161
+  },
+  "憂國的莫里亞蒂 OVA": {
+    "bgmId": 347818,
+    "acgId": 120867,
+    "aniId": 30781
   },
   "明日同學的水手服": {
     "bgmId": 331480,
     "acgId": 116555,
-    "aniId": null
+    "aniId": 27381
   },
   "瓦尼塔斯的手札": {
     "bgmId": 331692,
     "acgId": 116650,
-    "aniId": null
+    "aniId": 23348
   },
   "大正處女御伽話": {
     "bgmId": 323158,
     "acgId": 116661,
-    "aniId": null
+    "aniId": 25494
   },
   "壽司大相撲": {
     "bgmId": 312227,
     "acgId": 116720,
-    "aniId": null
+    "aniId": 22333
   },
   "VISUAL PRISON 視覺監獄": {
     "bgmId": 331592,
     "acgId": 116722,
-    "aniId": null
+    "aniId": 25491
   },
   "謊言遊戲": {
     "bgmId": 333979,
     "acgId": 116734,
-    "aniId": null
+    "aniId": 34086
   },
   "暮蟬悲鳴時 卒": {
     "bgmId": 331033,
     "acgId": 116770,
-    "aniId": null
+    "aniId": 23343
   },
   "愛在征服世界後": {
     "bgmId": 332446,
     "acgId": 116799,
-    "aniId": null
+    "aniId": 28796
   },
   "杜鵑婚約": {
     "bgmId": 327606,
     "acgId": 116803,
-    "aniId": null
+    "aniId": 29074
   },
   "勇者動畫系列": {
     "bgmId": 340998,
     "acgId": 116929,
-    "aniId": null
+    "aniId": 45412
   },
   "這個僧侶有夠煩": {
     "bgmId": 333176,
     "acgId": 116930,
-    "aniId": null
+    "aniId": 28804
   },
   "電影版殘念生物事典": {
     "bgmId": 333258,
     "acgId": 116954,
-    "aniId": null
+    "aniId": 36266
   },
   "戀上換裝娃娃": {
     "bgmId": 333158,
     "acgId": 117001,
-    "aniId": null
+    "aniId": 27366
   },
   "骸骨騎士大人異世界冒險中": {
     "bgmId": 333448,
     "acgId": 117023,
-    "aniId": null
+    "aniId": 28795
   },
   "我讓最想被擁抱的男人給威脅了 劇場版～西班牙篇～": {
     "bgmId": 333716,
     "acgId": 117066,
-    "aniId": null
+    "aniId": 29076
   },
   "屁屁偵探：舒芙蕾島的秘密": {
     "bgmId": 338261,
@@ -6613,37 +6728,37 @@
   "異世界食堂 2": {
     "bgmId": 333853,
     "acgId": 117142,
-    "aniId": null
+    "aniId": 25458
   },
   "月光下的異世界之旅": {
     "bgmId": 317275,
     "acgId": 117246,
-    "aniId": null
+    "aniId": 23339
   },
   "世界盡頭的聖騎士": {
     "bgmId": 333442,
     "acgId": 117264,
-    "aniId": null
+    "aniId": 25559
   },
   "OVERLORD 第四季": {
     "bgmId": 335389,
     "acgId": 117446,
-    "aniId": null
+    "aniId": 30167
   },
   "Love Live！虹咲學園 學園偶像同好會 第二季": {
     "bgmId": 335579,
     "acgId": 117465,
-    "aniId": null
+    "aniId": 28799
   },
   "我立於百萬生命之上 第二季": {
     "bgmId": 322859,
     "acgId": 117510,
-    "aniId": null
+    "aniId": 23347
   },
   "與變成了異世界美少女的大叔一起冒險": {
     "bgmId": 336458,
     "acgId": 117557,
-    "aniId": null
+    "aniId": 27444
   },
   "喵的咧～貓咪戲說日本史！第四季": {
     "bgmId": 279471,
@@ -6653,17 +6768,17 @@
   "眾神眷顧的男人 2": {
     "bgmId": 338150,
     "acgId": 117873,
-    "aniId": null
+    "aniId": 32345
   },
   "魔法紀錄 魔法少女小圓外傳 第二季": {
     "bgmId": 302875,
     "acgId": 118042,
-    "aniId": null
+    "aniId": 23426
   },
   "家庭教師 HITMAN REBORN！彭格列式戶外教學，來了！": {
     "bgmId": 18576,
     "acgId": 118307,
-    "aniId": null
+    "aniId": 23299
   },
   "喵的咧～貓咪戲說日本史！第五季": {
     "bgmId": 303891,
@@ -6673,202 +6788,202 @@
   "飆速宅男 Re：ROAD": {
     "bgmId": 134232,
     "acgId": 118347,
-    "aniId": null
+    "aniId": 23424
   },
   "叫我對大哥 (WEB版)": {
     "bgmId": 341377,
     "acgId": 118354,
-    "aniId": null
+    "aniId": 23373
   },
   "闇芝居 第九季": {
     "bgmId": 338201,
     "acgId": 118357,
-    "aniId": null
+    "aniId": 23370
   },
   "狂熱深淵-迷失的孩子": {
     "bgmId": 339969,
     "acgId": 118371,
-    "aniId": null
+    "aniId": 25558
   },
   "薄櫻鬼 新OVA": {
     "bgmId": 349519,
     "acgId": 118479,
-    "aniId": null
+    "aniId": 26482
   },
   "逆轉世界的電池少女": {
     "bgmId": 332117,
     "acgId": 118515,
-    "aniId": null
+    "aniId": 25485
   },
   "劇場版 異世界四重奏 ～Another World～": {
     "bgmId": 303126,
     "acgId": 118547,
-    "aniId": null
+    "aniId": 32563
   },
   "怪人開發部的黑井津小姐": {
     "bgmId": 341077,
     "acgId": 118567,
-    "aniId": null
+    "aniId": 27367
   },
   "異世界藥局": {
     "bgmId": 342200,
     "acgId": 118696,
-    "aniId": null
+    "aniId": 30296
   },
   "為美好的世界獻上祝福！3": {
     "bgmId": 342667,
     "acgId": 118719,
-    "aniId": null
+    "aniId": 37832
   },
   "繼母的拖油瓶是我的前女友": {
     "bgmId": 343106,
     "acgId": 118777,
-    "aniId": null
+    "aniId": 30173
   },
   "第一神拳 間柴 VS 木村 死刑執行": {
     "bgmId": 135196,
     "acgId": 118865,
-    "aniId": null
+    "aniId": 24064
   },
   "幻想三國誌 — 天元靈心記": {
     "bgmId": 286211,
     "acgId": 118877,
-    "aniId": null
+    "aniId": 27445
   },
   "燒窯的話也要馬克杯 第二季": {
     "bgmId": 339694,
     "acgId": 118894,
-    "aniId": null
+    "aniId": 25557
   },
   "秘密內幕-女警的反擊": {
     "bgmId": 344422,
     "acgId": 118940,
-    "aniId": null
+    "aniId": 27357
   },
   "突然降臨的埃及神 第二季": {
     "bgmId": 343996,
     "acgId": 118945,
-    "aniId": null
+    "aniId": 39600
   },
   "風都偵探": {
     "bgmId": 332133,
     "acgId": 118966,
-    "aniId": null
+    "aniId": 30691
   },
   "我家師傅沒有尾巴": {
     "bgmId": 344874,
     "acgId": 118994,
-    "aniId": null
+    "aniId": 31492
   },
   "半妖的夜叉姬 第二季": {
     "bgmId": 331164,
     "acgId": 119057,
-    "aniId": null
+    "aniId": 25431
   },
   "少女前線": {
     "bgmId": 325982,
     "acgId": 119114,
-    "aniId": null
+    "aniId": 27361
   },
   "進化果實～不知不覺踏上勝利的人生～": {
     "bgmId": 376399,
     "acgId": 119126,
-    "aniId": null
+    "aniId": 25560
   },
   "加油吧同期醬": {
     "bgmId": 346242,
     "acgId": 119183,
-    "aniId": null
+    "aniId": 25162
   },
   "治癒魔法的錯誤使用法": {
     "bgmId": 346426,
     "acgId": 119195,
-    "aniId": null
+    "aniId": 36858
   },
   "不相信人類的冒險者們好像要去拯救世界": {
     "bgmId": 346425,
     "acgId": 119198,
-    "aniId": null
+    "aniId": 32327
   },
   "擅長捉弄人的高木同學 第三季": {
     "bgmId": 347887,
     "acgId": 119466,
-    "aniId": null
+    "aniId": 27362
   },
   "入間同學入魔了！第三季": {
     "bgmId": 348699,
     "acgId": 119657,
-    "aniId": null
+    "aniId": 31658
   },
   "SHADOWS HOUSE-影宅- 第二季": {
     "bgmId": 349084,
     "acgId": 119658,
-    "aniId": null
+    "aniId": 30286
   },
   "BUILD-DIVIDE -#000000- CODE BLACK": {
     "bgmId": 333623,
     "acgId": 119690,
-    "aniId": null
+    "aniId": 25561
   },
   "星期一的豐滿 第二季": {
     "bgmId": 349616,
     "acgId": 119691,
-    "aniId": null
+    "aniId": 25163
   },
   "鍵等": {
     "bgmId": 333598,
     "acgId": 119692,
-    "aniId": null
+    "aniId": 25568
   },
   "魔法少女毀滅者": {
     "bgmId": 349039,
     "acgId": 119698,
-    "aniId": null
+    "aniId": 35008
   },
   "機動戰士鋼彈 水星的魔女": {
     "bgmId": 349441,
     "acgId": 119702,
-    "aniId": null
+    "aniId": 31406
   },
   "轉生賢者的異世界生活～取得第二職業，成為世界最強～": {
     "bgmId": 326869,
     "acgId": 119723,
-    "aniId": null
+    "aniId": 30018
   },
   "相合之物": {
     "bgmId": 333664,
     "acgId": 119756,
-    "aniId": null
+    "aniId": 28794
   },
   "關於我轉生變成史萊姆這檔事劇場版 紅蓮之絆篇": {
     "bgmId": 350185,
     "acgId": 119767,
-    "aniId": null
+    "aniId": 33122
   },
   "菜鳥鍊金術師開店營業中": {
     "bgmId": 349317,
     "acgId": 119782,
-    "aniId": null
+    "aniId": 31584
   },
   "月光下的異世界之旅 第二季": {
     "bgmId": 350235,
     "acgId": 119792,
-    "aniId": null
+    "aniId": 36915
   },
   "轉生就是劍": {
     "bgmId": 350224,
     "acgId": 119827,
-    "aniId": null
+    "aniId": 31489
   },
   "英雄教室": {
     "bgmId": 350523,
     "acgId": 119837,
-    "aniId": null
+    "aniId": 34390
   },
   "鬼滅之刃 無限列車篇": {
     "bgmId": 350764,
     "acgId": 119873,
-    "aniId": null
+    "aniId": 25562
   },
   "卡片戰鬥!! 先導者 overdress 第二季": {
     "bgmId": 349387,
@@ -6878,47 +6993,47 @@
   "BanG Dream！Poppin'Dream！": {
     "bgmId": 305059,
     "acgId": 120130,
-    "aniId": null
+    "aniId": 31340
   },
   "王者天下 第四季": {
     "bgmId": 353266,
     "acgId": 120196,
-    "aniId": null
+    "aniId": 28803
   },
   "勇者、辭職不幹了": {
     "bgmId": 353657,
     "acgId": 120204,
-    "aniId": null
+    "aniId": 28792
   },
   "白領羽球部": {
     "bgmId": 353805,
     "acgId": 120235,
-    "aniId": null
+    "aniId": 27582
   },
   "聖劍學院的魔劍使": {
     "bgmId": 353819,
     "acgId": 120243,
-    "aniId": null
+    "aniId": 35370
   },
   "不要欺負我，長瀞同學 2nd Attack": {
     "bgmId": 354042,
     "acgId": 120293,
-    "aniId": null
+    "aniId": 32394
   },
   "小鳥之翼": {
     "bgmId": 354682,
     "acgId": 120350,
-    "aniId": null
+    "aniId": 28870
   },
   "東京 24 區": {
     "bgmId": 354176,
     "acgId": 120351,
-    "aniId": null
+    "aniId": 27358
   },
   "BanG Dream！Episode of Roselia II：Song I am.": {
     "bgmId": 315490,
     "acgId": 120389,
-    "aniId": null
+    "aniId": 27270
   },
   "魔神英雄傳 七魂的龍神丸 -再會-": {
     "bgmId": 363033,
@@ -6928,22 +7043,22 @@
   "SPY×FAMILY 間諜家家酒": {
     "bgmId": 329906,
     "acgId": 120396,
-    "aniId": null
+    "aniId": 28798
   },
   "朋友遊戲": {
     "bgmId": 355072,
     "acgId": 120408,
-    "aniId": null
+    "aniId": 44921
   },
   "失格紋的最強賢者": {
     "bgmId": 326870,
     "acgId": 120416,
-    "aniId": null
+    "aniId": 27365
   },
   "女忍者椿的心事": {
     "bgmId": 351973,
     "acgId": 120504,
-    "aniId": null
+    "aniId": 28801
   },
   "新網球王子 冰帝 vs 立海 Game of Future": {
     "bgmId": 324788,
@@ -6953,152 +7068,152 @@
   "派對咖孔明": {
     "bgmId": 356756,
     "acgId": 120624,
-    "aniId": null
+    "aniId": 30695
   },
   "足球風雲！Goal to the Future": {
     "bgmId": 357754,
     "acgId": 120625,
-    "aniId": null
+    "aniId": 30010
   },
   "物之古物奇譚": {
     "bgmId": 357210,
     "acgId": 120628,
-    "aniId": null
+    "aniId": 32363
   },
   "魔都精兵的奴隸": {
     "bgmId": 357962,
     "acgId": 120671,
-    "aniId": null
+    "aniId": 36846
   },
   "躍動青春": {
     "bgmId": 357961,
     "acgId": 120699,
-    "aniId": null
+    "aniId": 34886
   },
   "夫婦以上，戀人未滿": {
     "bgmId": 359177,
     "acgId": 120724,
-    "aniId": null
+    "aniId": 31605
   },
   "神渣☆偶像": {
     "bgmId": 359985,
     "acgId": 120776,
-    "aniId": null
+    "aniId": 30004
   },
   "鬼太郎誕生：咯咯咯之謎": {
     "bgmId": 360256,
     "acgId": 120812,
-    "aniId": null
+    "aniId": 44645
   },
   "英雄王，為了窮盡武道而轉生～而後成為世界最強見習騎士♀～": {
     "bgmId": 356746,
     "acgId": 120838,
-    "aniId": null
+    "aniId": 32364
   },
   "魔法科高中的劣等生 追憶篇": {
     "bgmId": 329436,
     "acgId": 120950,
-    "aniId": null
+    "aniId": 27347
   },
   "豬肝記得煮熟再吃": {
     "bgmId": 362005,
     "acgId": 121004,
-    "aniId": null
+    "aniId": 35484
   },
   "七魔劍支配天下": {
     "bgmId": 362006,
     "acgId": 121023,
-    "aniId": null
+    "aniId": 34247
   },
   "後宮之烏": {
     "bgmId": 362479,
     "acgId": 121043,
-    "aniId": null
+    "aniId": 31504
   },
   "屁屁偵探：天才惡人屁屁亞蒂": {
     "bgmId": 366217,
     "acgId": 121060,
-    "aniId": null
+    "aniId": 36213
   },
   "神劍闖江湖 ―明治劍客浪漫譚―": {
     "bgmId": 363102,
     "acgId": 121097,
-    "aniId": null
+    "aniId": 34075
   },
   "妖幻三重奏": {
     "bgmId": 363026,
     "acgId": 121099,
-    "aniId": null
+    "aniId": 32365
   },
   "我的英雄學院 第六季": {
     "bgmId": 236657,
     "acgId": 121103,
-    "aniId": null
+    "aniId": 31495
   },
   "吸血鬼馬上死 第二季": {
     "bgmId": 355802,
     "acgId": 121109,
-    "aniId": null
+    "aniId": 32361
   },
   "佐佐木與宮野": {
     "bgmId": 320052,
     "acgId": 121149,
-    "aniId": null
+    "aniId": 27383
   },
   "闇芝居 第十季": {
     "bgmId": 362733,
     "acgId": 121151,
-    "aniId": null
+    "aniId": 27581
   },
   "電影版 奇巧計程車：撲朔謎林": {
     "bgmId": 363414,
     "acgId": 121172,
-    "aniId": null
+    "aniId": 32213
   },
   "鍵等 第二季": {
     "bgmId": 363880,
     "acgId": 121201,
-    "aniId": null
+    "aniId": 28901
   },
   "燃油車鬥魂": {
     "bgmId": 364252,
     "acgId": 121227,
-    "aniId": null
+    "aniId": 35250
   },
   "關於我在無意間被隔壁的天使變成廢柴這件事": {
     "bgmId": 364822,
     "acgId": 121341,
-    "aniId": null
+    "aniId": 32340
   },
   "出租女友 第二季": {
     "bgmId": 315745,
     "acgId": 122289,
-    "aniId": null
+    "aniId": 30002
   },
   "弱角友崎同學 2nd STAGE": {
     "bgmId": 365572,
     "acgId": 122302,
-    "aniId": null
+    "aniId": 36837
   },
   "萬事屋齋藤先生轉生異世界": {
     "bgmId": 366165,
     "acgId": 122421,
-    "aniId": null
+    "aniId": 34775
   },
   "神明渴求著遊戲。": {
     "bgmId": 365952,
     "acgId": 122434,
-    "aniId": null
+    "aniId": 37922
   },
   "惑星公主蜥蜴騎士": {
     "bgmId": 366522,
     "acgId": 122473,
-    "aniId": null
+    "aniId": 30290
   },
   "書蟲公主": {
     "bgmId": 366695,
     "acgId": 122564,
-    "aniId": null
+    "aniId": 31628
   },
   "天籟人偶": {
     "bgmId": 366793,
@@ -7108,147 +7223,147 @@
   "川尻小玉的懶散生活": {
     "bgmId": 348666,
     "acgId": 122748,
-    "aniId": null
+    "aniId": 28325
   },
   "魔法使黎明期": {
     "bgmId": 334319,
     "acgId": 122766,
-    "aniId": null
+    "aniId": 28897
   },
   "咒術迴戰 第二季": {
     "bgmId": 369304,
     "acgId": 122778,
-    "aniId": null
+    "aniId": 34074
   },
   "黑之召喚士": {
     "bgmId": 368617,
     "acgId": 122884,
-    "aniId": null
+    "aniId": 30292
   },
   "歡迎來到實力至上主義的教室 第二季": {
     "bgmId": 371546,
     "acgId": 122954,
-    "aniId": null
+    "aniId": 30021
   },
   "蠟筆小新：幽靈忍者珍風傳": {
     "bgmId": 361697,
     "acgId": 122966,
-    "aniId": null
+    "aniId": 40095
   },
   "聖女魔力無所不能 第二季": {
     "bgmId": 373787,
     "acgId": 123304,
-    "aniId": null
+    "aniId": 35392
   },
   "金裝的維爾梅～瀕臨留級的魔法師聯手最強災厄勇闖魔法世界～": {
     "bgmId": 373710,
     "acgId": 123310,
-    "aniId": null
+    "aniId": 34996
   },
   "不道德公會": {
     "bgmId": 373712,
     "acgId": 123330,
-    "aniId": null
+    "aniId": 31625
   },
   "幽零幻鏡": {
     "bgmId": 371396,
     "acgId": 123333,
-    "aniId": null
+    "aniId": 30049
   },
   "間諜教室": {
     "bgmId": 374206,
     "acgId": 123366,
-    "aniId": null
+    "aniId": 32333
   },
   "無意間變成狗，被喜歡的女生撿回家。": {
     "bgmId": 374319,
     "acgId": 123375,
-    "aniId": null
+    "aniId": 32334
   },
   "無意間變成狗，被喜歡的女生撿回家。 [年齡限制版]": {
     "bgmId": 374319,
     "acgId": 123375,
-    "aniId": null
+    "aniId": 32334
   },
   "史上最強大魔王轉生為村民 A": {
     "bgmId": 330055,
     "acgId": 123381,
-    "aniId": null
+    "aniId": 28793
   },
   "永久少年 Eternal Boys": {
     "bgmId": 374563,
     "acgId": 123416,
-    "aniId": null
+    "aniId": 37373
   },
   "BUILD-DIVIDE -#FFFFFF- CODE WHITE": {
     "bgmId": 333624,
     "acgId": 123480,
-    "aniId": null
+    "aniId": 28895
   },
   "劇場版 擅長捉弄人的高木同學": {
     "bgmId": 347888,
     "acgId": 123482,
-    "aniId": null
+    "aniId": 32324
   },
   "狩龍人拉格納": {
     "bgmId": 374648,
     "acgId": 123490,
-    "aniId": null
+    "aniId": 35246
   },
   "因為是反派大小姐所以養了魔王": {
     "bgmId": 351375,
     "acgId": 123508,
-    "aniId": null
+    "aniId": 31403
   },
   "幕末替身傳說": {
     "bgmId": 375571,
     "acgId": 123546,
-    "aniId": null
+    "aniId": 30284
   },
   "特『刀劍亂舞-花丸-』～雪之卷～": {
     "bgmId": 328197,
     "acgId": 123554,
-    "aniId": null
+    "aniId": 37332
   },
   "新網球王子 U-17 世界盃": {
     "bgmId": 352336,
     "acgId": 123573,
-    "aniId": null
+    "aniId": 30870
   },
   "英雄傳說 閃之軌跡：北方戰役": {
     "bgmId": 330334,
     "acgId": 123617,
-    "aniId": null
+    "aniId": 32347
   },
   "LV1 魔王與獨居廢勇者": {
     "bgmId": 376106,
     "acgId": 123631,
-    "aniId": null
+    "aniId": 34051
   },
   "境界戰機 第二部": {
     "bgmId": 363959,
     "acgId": 123643,
-    "aniId": null
+    "aniId": 28899
   },
   "劇場版 歌之☆王子殿下♪ 真愛 ST☆RISH TOURS": {
     "bgmId": 331652,
     "acgId": 123695,
-    "aniId": null
+    "aniId": 33393
   },
   "劇場版 轉生成女性向遊戲只有毀滅 END 的壞人大小姐": {
     "bgmId": 349223,
     "acgId": 123715,
-    "aniId": null
+    "aniId": 42834
   },
   "政宗君的復仇 R": {
     "bgmId": 376433,
     "acgId": 123766,
-    "aniId": null
+    "aniId": 34057
   },
   "偶像大師 灰姑娘女孩 U149": {
     "bgmId": 376703,
     "acgId": 123790,
-    "aniId": null
+    "aniId": 44056
   },
   "輝夜姬想讓人告白？～天才們的戀愛頭腦戰～ 第二季 OVA": {
     "bgmId": 317613,
@@ -7263,7 +7378,7 @@
   "藍色管弦樂": {
     "bgmId": 377769,
     "acgId": 123883,
-    "aniId": null
+    "aniId": 34802
   },
   "水星領航員 第二季": {
     "bgmId": 1269,
@@ -7273,82 +7388,82 @@
   "不當哥哥了！": {
     "bgmId": 378862,
     "acgId": 124010,
-    "aniId": null
+    "aniId": 32335
   },
   "非自願的不死冒險者": {
     "bgmId": 378298,
     "acgId": 124066,
-    "aniId": null
+    "aniId": 36855
   },
   "無神世界的神明活動": {
     "bgmId": 377607,
     "acgId": 124135,
-    "aniId": null
+    "aniId": 33446
   },
   "鄰人似銀河": {
     "bgmId": 379442,
     "acgId": 124149,
-    "aniId": null
+    "aniId": 33291
   },
   "再得一勝！": {
     "bgmId": 341148,
     "acgId": 124171,
-    "aniId": null
+    "aniId": 32401
   },
   "奇米萌 CHIMIMO": {
     "bgmId": 375977,
     "acgId": 124224,
-    "aniId": null
+    "aniId": 30282
   },
   "賽馬娘 Pretty Derby 第三季": {
     "bgmId": 407332,
     "acgId": 124277,
-    "aniId": null
+    "aniId": 35408
   },
   "阿松～希皮波族與閃耀果實～": {
     "bgmId": 338371,
     "acgId": 124409,
-    "aniId": null
+    "aniId": 31266
   },
   "僕愛君愛：致我深愛的每個妳": {
     "bgmId": 363041,
     "acgId": 124414,
-    "aniId": null
+    "aniId": 36234
   },
   "僕愛君愛：致深愛妳的那個我": {
     "bgmId": 363042,
     "acgId": 124416,
-    "aniId": null
+    "aniId": 36235
   },
   "久保同學不放過我": {
     "bgmId": 381793,
     "acgId": 124429,
-    "aniId": null
+    "aniId": 32366
   },
   "新來的女傭有點怪": {
     "bgmId": 382852,
     "acgId": 124489,
-    "aniId": null
+    "aniId": 30510
   },
   "點滿農民相關技能後，不知為何就變強了。": {
     "bgmId": 371842,
     "acgId": 124639,
-    "aniId": null
+    "aniId": 31498
   },
   "能幹貓今天也憂鬱": {
     "bgmId": 384672,
     "acgId": 124645,
-    "aniId": null
+    "aniId": 34079
   },
   "PUI PUI 天竺鼠車車 駕訓班篇": {
     "bgmId": 385541,
     "acgId": 124742,
-    "aniId": null
+    "aniId": 31596
   },
   "放學後失眠的你": {
     "bgmId": 365437,
     "acgId": 124900,
-    "aniId": null
+    "aniId": 33717
   },
   "水星領航員 第三季": {
     "bgmId": 1270,
@@ -7358,62 +7473,62 @@
   "被勇者隊伍開除的馭獸使，邂逅了最強種的貓耳少女": {
     "bgmId": 383631,
     "acgId": 124956,
-    "aniId": null
+    "aniId": 31510
   },
   "江戶前精靈": {
     "bgmId": 387803,
     "acgId": 125076,
-    "aniId": null
+    "aniId": 33288
   },
   "白聖女與黑牧師": {
     "bgmId": 387822,
     "acgId": 125081,
-    "aniId": null
+    "aniId": 34135
   },
   "名偵探柯南 總局刑警戀愛物語～結婚前夜～": {
     "bgmId": 380749,
     "acgId": 125095,
-    "aniId": null
+    "aniId": 29916
   },
   "我家的英雄": {
     "bgmId": 388067,
     "acgId": 125225,
-    "aniId": null
+    "aniId": 33257
   },
   "冰屬性男子與無表情女子": {
     "bgmId": 388993,
     "acgId": 125251,
-    "aniId": null
+    "aniId": 32329
   },
   "烙印勇士 黃金時代篇 MEMORIAL EDITION [年齡限制版]": {
     "bgmId": 388981,
     "acgId": 125256,
-    "aniId": null
+    "aniId": 31507
   },
   "東方少年 第二季": {
     "bgmId": 375511,
     "acgId": 125322,
-    "aniId": null
+    "aniId": 30298
   },
   "Dr.STONE 新石紀 (龍水)": {
     "bgmId": 331479,
     "acgId": 125323,
-    "aniId": null
+    "aniId": 30232
   },
   "冰冰冰 冰淇淋君 第二季": {
     "bgmId": 381157,
     "acgId": 125326,
-    "aniId": null
+    "aniId": 30006
   },
   "約會大作戰 DATE A LIVE V": {
     "bgmId": 389466,
     "acgId": 125370,
-    "aniId": null
+    "aniId": 37834
   },
   "小鳥之翼 第二季": {
     "bgmId": 389998,
     "acgId": 125428,
-    "aniId": null
+    "aniId": 33286
   },
   "卡片戰鬥!! 先導者 will+Dress": {
     "bgmId": 349388,
@@ -7423,32 +7538,32 @@
   "幻日夜羽 -鏡中暉光-": {
     "bgmId": 389772,
     "acgId": 125457,
-    "aniId": null
+    "aniId": 33959
   },
   "我們的黎明": {
     "bgmId": 374947,
     "acgId": 125542,
-    "aniId": null
+    "aniId": 36158
   },
   "她去公爵家的理由": {
     "bgmId": 390712,
     "acgId": 125544,
-    "aniId": null
+    "aniId": 33298
   },
   "HIGH CARD 至高之牌": {
     "bgmId": 373390,
     "acgId": 125590,
-    "aniId": null
+    "aniId": 34961
   },
   "香格里拉・開拓異境～糞作獵手挑戰神作～": {
     "bgmId": 390980,
     "acgId": 125604,
-    "aniId": null
+    "aniId": 35247
   },
   "呆萌酷男孩": {
     "bgmId": 378860,
     "acgId": 125606,
-    "aniId": null
+    "aniId": 31637
   },
   "輝夜姬想讓人告白－永不結束的初吻－": {
     "bgmId": 425211,
@@ -7458,207 +7573,207 @@
   "死神少爺與黑女僕 第二季": {
     "bgmId": 349319,
     "acgId": 125701,
-    "aniId": null
+    "aniId": 38290
   },
   "我與機器子": {
     "bgmId": 385411,
     "acgId": 125724,
-    "aniId": null
+    "aniId": 32233
   },
   "極速星舞": {
     "bgmId": 391866,
     "acgId": 125789,
-    "aniId": null
+    "aniId": 37868
   },
   "被解僱的暗黑士兵（30多歲）開始了慢生活的第二人生": {
     "bgmId": 392349,
     "acgId": 125880,
-    "aniId": null
+    "aniId": 32428
   },
   "帶著智慧型手機闖蕩異世界。2": {
     "bgmId": 378101,
     "acgId": 125989,
-    "aniId": null
+    "aniId": 33255
   },
   "最強陰陽師的異世界轉生記": {
     "bgmId": 366507,
     "acgId": 126012,
-    "aniId": null
+    "aniId": 32429
   },
   "我的英雄學院 HLB 英雄棒球聯盟": {
     "bgmId": 381212,
     "acgId": 126026,
-    "aniId": null
+    "aniId": 30783
   },
   "我的英雄學院 像在地獄一樣笑吧！": {
     "bgmId": 386475,
     "acgId": 126027,
-    "aniId": null
+    "aniId": 30784
   },
   "我內心的糟糕念頭": {
     "bgmId": 394260,
     "acgId": 126156,
-    "aniId": null
+    "aniId": 33250
   },
   "轉生貴族的異世界冒險錄～不知自重的眾神使徒～": {
     "bgmId": 394746,
     "acgId": 126226,
-    "aniId": null
+    "aniId": 33251
   },
   "國王排名 勇氣的寶箱": {
     "bgmId": 394997,
     "acgId": 126302,
-    "aniId": null
+    "aniId": 33317
   },
   "第二次被異世界召喚": {
     "bgmId": 354421,
     "acgId": 126326,
-    "aniId": null
+    "aniId": 33355
   },
   "轉生公主與天才千金的魔法革命": {
     "bgmId": 395714,
     "acgId": 126352,
-    "aniId": null
+    "aniId": 32328
   },
   "魔女與野獸": {
     "bgmId": 396595,
     "acgId": 126540,
-    "aniId": null
+    "aniId": 36948
   },
   "在異世界獲得超強能力的我，在現實世界照樣無敵～等級提升改變人生命運～": {
     "bgmId": 397025,
     "acgId": 126545,
-    "aniId": null
+    "aniId": 33258
   },
   "MUV-LUV ALTERNATIVE 第二季": {
     "bgmId": 363263,
     "acgId": 126658,
-    "aniId": null
+    "aniId": 31590
   },
   "異世界悠閒農家": {
     "bgmId": 376137,
     "acgId": 126743,
-    "aniId": null
+    "aniId": 32337
   },
   "不死不運": {
     "bgmId": 397808,
     "acgId": 126781,
-    "aniId": null
+    "aniId": 35451
   },
   "撿走被人悔婚的千金，教會她壞壞的幸福生活": {
     "bgmId": 398922,
     "acgId": 126840,
-    "aniId": null
+    "aniId": 35402
   },
   "魔法使的新娘 第二季": {
     "bgmId": 442523,
     "acgId": 126945,
-    "aniId": null
+    "aniId": 33281
   },
   "堤亞穆帝國物語～從斷頭台開始，公主重生後的逆轉人生～": {
     "bgmId": 400114,
     "acgId": 126970,
-    "aniId": null
+    "aniId": 35475
   },
   "其實，我是最強的？": {
     "bgmId": 400215,
     "acgId": 126982,
-    "aniId": null
+    "aniId": 34241
   },
   "麵包超人電影版：多洛林與妖怪嘉年華": {
     "bgmId": 480879,
     "acgId": 127001,
-    "aniId": null
+    "aniId": 34424
   },
   "葬送的芙莉蓮": {
     "bgmId": 400602,
     "acgId": 127137,
-    "aniId": null
+    "aniId": 35241
   },
   "女朋友 and 女朋友 第二季": {
     "bgmId": 398949,
     "acgId": 127294,
-    "aniId": null
+    "aniId": 35457
   },
   "彼得・格里爾的賢者時間 Super Extra": {
     "bgmId": 356793,
     "acgId": 127445,
-    "aniId": null
+    "aniId": 31640
   },
   "彼得・格里爾的賢者時間 Super Extra [年齡限制版]": {
     "bgmId": 356793,
     "acgId": 127445,
-    "aniId": null
+    "aniId": 31640
   },
   "電影版 後空翻少年!!": {
     "bgmId": 339916,
     "acgId": 127495,
-    "aniId": null
+    "aniId": 38463
   },
   "冰劍的魔術師將要統一世界": {
     "bgmId": 379687,
     "acgId": 127498,
-    "aniId": null
+    "aniId": 32379
   },
   "青春豬頭少年不會夢到嬌憐外出妹": {
     "bgmId": 402656,
     "acgId": 127587,
-    "aniId": null
+    "aniId": 36625
   },
   "真・進化果實～不知不覺踏上勝利的人生～": {
     "bgmId": 376399,
     "acgId": 127590,
-    "aniId": null
+    "aniId": 32388
   },
   "和山田談場 Lv999 的戀愛": {
     "bgmId": 395684,
     "acgId": 127607,
-    "aniId": null
+    "aniId": 33249
   },
   "小智是女孩啦！": {
     "bgmId": 390618,
     "acgId": 127622,
-    "aniId": null
+    "aniId": 32331
   },
   "魔術士歐菲 流浪之旅 阿邦拉馬篇": {
     "bgmId": 401786,
     "acgId": 127627,
-    "aniId": null
+    "aniId": 32407
   },
   "阿魯斯的巨獸": {
     "bgmId": 403020,
     "acgId": 127649,
-    "aniId": null
+    "aniId": 32430
   },
   "文豪野犬 第四季": {
     "bgmId": 356413,
     "acgId": 127810,
-    "aniId": null
+    "aniId": 34789
   },
   "雖然等級只有 1 級但固有技能是最強的": {
     "bgmId": 380582,
     "acgId": 127820,
-    "aniId": null
+    "aniId": 34082
   },
   "星靈感應": {
     "bgmId": 404115,
     "acgId": 127847,
-    "aniId": null
+    "aniId": 35372
   },
   "聖者無雙～上班族的異世界生存之道～": {
     "bgmId": 403741,
     "acgId": 127850,
-    "aniId": null
+    "aniId": 34076
   },
   "大小姐和看門犬": {
     "bgmId": 403631,
     "acgId": 127917,
-    "aniId": null
+    "aniId": 35240
   },
   "電影版 佐佐木與宮野ー畢業篇ー": {
     "bgmId": 376008,
     "acgId": 127957,
-    "aniId": null
+    "aniId": 38462
   },
   "【我推的孩子】": {
     "bgmId": 386809,
@@ -7694,202 +7809,202 @@
   "搖曳露營△ 第三季": {
     "bgmId": 405785,
     "acgId": 128167,
-    "aniId": null
+    "aniId": 37842
   },
   "Buddy Daddies 殺手奶爸": {
     "bgmId": 405659,
     "acgId": 128174,
-    "aniId": null
+    "aniId": 32339
   },
   "AYAKA -綾島奇譚-": {
     "bgmId": 406171,
     "acgId": 128227,
-    "aniId": null
+    "aniId": 34050
   },
   "百姓貴族": {
     "bgmId": 406160,
     "acgId": 128228,
-    "aniId": null
+    "aniId": 35347
   },
   "身為魔王的我娶了奴隸精靈為妻，該如何表白我的愛？": {
     "bgmId": 406251,
     "acgId": 128241,
-    "aniId": null
+    "aniId": 37845
   },
   "成為悲劇元兇的最強異端，最後頭目女王為了人民犧牲奉獻": {
     "bgmId": 406307,
     "acgId": 128249,
-    "aniId": null
+    "aniId": 34073
   },
   "暴食狂戰士": {
     "bgmId": 406180,
     "acgId": 128251,
-    "aniId": null
+    "aniId": 35249
   },
   "熊熊勇闖異世界 PUNCH！": {
     "bgmId": 323651,
     "acgId": 128431,
-    "aniId": null
+    "aniId": 33252
   },
   "Paradox Live THE ANIMATION": {
     "bgmId": 385210,
     "acgId": 128479,
-    "aniId": null
+    "aniId": 35395
   },
   "i☆Ris the Movie - Full Energy!! -": {
     "bgmId": 407409,
     "acgId": 128487,
-    "aniId": null
+    "aniId": 44040
   },
   "歌之☆王子殿下♪ 真愛 ST☆RISH TOURS～旅程的起點～": {
     "bgmId": 382346,
     "acgId": 128508,
-    "aniId": null
+    "aniId": 32007
   },
   "關於我轉生變成史萊姆這檔事 第三季": {
     "bgmId": 407573,
     "acgId": 128514,
-    "aniId": null
+    "aniId": 37760
   },
   "境界服務": {
     "bgmId": 407659,
     "acgId": 128528,
-    "aniId": null
+    "aniId": 34936
   },
   "黑暗集會": {
     "bgmId": 390794,
     "acgId": 128537,
-    "aniId": null
+    "aniId": 34115
   },
   "最弱魔物使開始了撿垃圾之旅。": {
     "bgmId": 407697,
     "acgId": 128539,
-    "aniId": null
+    "aniId": 36954
   },
   "絆之 Allele": {
     "bgmId": 407713,
     "acgId": 128542,
-    "aniId": null
+    "aniId": 33283
   },
   "百合是我的工作！": {
     "bgmId": 381666,
     "acgId": 128544,
-    "aniId": null
+    "aniId": 33254
   },
   "屍體如山的死亡遊戲": {
     "bgmId": 408013,
     "acgId": 128617,
-    "aniId": null
+    "aniId": 33307
   },
   "滿懷美夢的少年是現實主義者": {
     "bgmId": 408351,
     "acgId": 128673,
-    "aniId": null
+    "aniId": 34055
   },
   "巨獸防衛企業 BULLBUSTER": {
     "bgmId": 408361,
     "acgId": 128675,
-    "aniId": null
+    "aniId": 35399
   },
   "少女與戰車 最終章 第4話": {
     "bgmId": 208827,
     "acgId": 128737,
-    "aniId": null
+    "aniId": 43958
   },
   "勇者死了！": {
     "bgmId": 379639,
     "acgId": 128843,
-    "aniId": null
+    "aniId": 33259
   },
   "為美好的世界獻上爆焰！": {
     "bgmId": 385209,
     "acgId": 129014,
-    "aniId": null
+    "aniId": 33253
   },
   "名偵探柯南 灰原哀物語～黑鐵的神祕列車～": {
     "bgmId": 410166,
     "acgId": 129025,
-    "aniId": null
+    "aniId": 35238
   },
   "AI 電子基因": {
     "bgmId": 410203,
     "acgId": 129036,
-    "aniId": null
+    "aniId": 34078
   },
   "無職轉生～到了異世界就拿出真本事 第二季": {
     "bgmId": 325585,
     "acgId": 129175,
-    "aniId": null
+    "aniId": 34092
   },
   "新次元！蠟筆小新電影超能力大決戰~飛吧！手卷壽司~": {
     "bgmId": 410418,
     "acgId": 129181,
-    "aniId": null
+    "aniId": 37637
   },
   "我的推是壞人大小姐。": {
     "bgmId": 410928,
     "acgId": 129191,
-    "aniId": null
+    "aniId": 35361
   },
   "募戀英雄 WARMTH OF MEMORIES": {
     "bgmId": 348663,
     "acgId": 129229,
-    "aniId": null
+    "aniId": 34823
   },
   "甜點轉生": {
     "bgmId": 347942,
     "acgId": 129252,
-    "aniId": null
+    "aniId": 34053
   },
   "烈焰先鋒 救國的橘衣消防員": {
     "bgmId": 411106,
     "acgId": 129253,
-    "aniId": null
+    "aniId": 35245
   },
   "SPY x FAMILY 間諜家家酒 Season 2": {
     "bgmId": 411427,
     "acgId": 129280,
-    "aniId": null
+    "aniId": 35469
   },
   "SPY×FAMILY 間諜家家酒 CODE: White": {
     "bgmId": 411428,
     "acgId": 129281,
-    "aniId": null
+    "aniId": 39596
   },
   "青之驅魔師 島根啟明結社篇": {
     "bgmId": 411450,
     "acgId": 129285,
-    "aniId": null
+    "aniId": 36885
   },
   "夜櫻家大作戰": {
     "bgmId": 411276,
     "acgId": 129301,
-    "aniId": null
+    "aniId": 37898
   },
   "怪獸 8 號": {
     "bgmId": 394623,
     "acgId": 129302,
-    "aniId": null
+    "aniId": 37877
   },
   "位於戀愛光譜極端的我們": {
     "bgmId": 400595,
     "acgId": 129306,
-    "aniId": null
+    "aniId": 35442
   },
   "D4DJ All Mix": {
     "bgmId": 377556,
     "acgId": 129316,
-    "aniId": null
+    "aniId": 32385
   },
   "聲優廣播的幕前幕後": {
     "bgmId": 411974,
     "acgId": 129330,
-    "aniId": null
+    "aniId": 37830
   },
   "天地無用！GXP 樂園始動編": {
     "bgmId": 412300,
     "acgId": 129364,
-    "aniId": null
+    "aniId": 35364
   },
   "卡片戰鬥!! 先導者 will+Dress 第二季": {
     "bgmId": 349389,
@@ -7899,317 +8014,317 @@
   "16bit 的感動 ANOTHER LAYER": {
     "bgmId": 413741,
     "acgId": 129460,
-    "aniId": null
+    "aniId": 35414
   },
   "D4DJ Double Mix": {
     "bgmId": 374228,
     "acgId": 129504,
-    "aniId": null
+    "aniId": 32413
   },
   "家裡蹲吸血姬的鬱悶": {
     "bgmId": 414214,
     "acgId": 129505,
-    "aniId": null
+    "aniId": 35490
   },
   "殭屍 100～在成為殭屍前要做的 100 件事～": {
     "bgmId": 414461,
     "acgId": 129516,
-    "aniId": null
+    "aniId": 34090
   },
   "劇場版 IDOLiSH7 - 偶像星願 - LIVE 4bit BEYOND THE PERiOD DAY1": {
     "bgmId": 414510,
     "acgId": 129526,
-    "aniId": null
+    "aniId": 37771
   },
   "恰如細語般的戀歌": {
     "bgmId": 415166,
     "acgId": 129623,
-    "aniId": null
+    "aniId": 37893
   },
   "我喜歡的女孩忘記戴眼鏡": {
     "bgmId": 415182,
     "acgId": 129653,
-    "aniId": null
+    "aniId": 34071
   },
   "妙廟美少女": {
     "bgmId": 416019,
     "acgId": 129706,
-    "aniId": null
+    "aniId": 34085
   },
   "身為 VTuber 的我因為忘記關台而成了傳說": {
     "bgmId": 416320,
     "acgId": 129725,
-    "aniId": null
+    "aniId": 38890
   },
   "競速 OVERTAKE!": {
     "bgmId": 416534,
     "acgId": 129734,
-    "aniId": null
+    "aniId": 35346
   },
   "凹凸魔女的親子日常": {
     "bgmId": 400551,
     "acgId": 129879,
-    "aniId": null
+    "aniId": 35345
   },
   "破滅的王國": {
     "bgmId": 418512,
     "acgId": 129907,
-    "aniId": null
+    "aniId": 35454
   },
   "某大叔的 VRMMO 活動記": {
     "bgmId": 419728,
     "acgId": 130212,
-    "aniId": null
+    "aniId": 35363
   },
   "機動戰士鋼彈 水星的魔女 Season 2": {
     "bgmId": 403238,
     "acgId": 130372,
-    "aniId": null
+    "aniId": 33292
   },
   "我想成為影之強者！第二季": {
     "bgmId": 419846,
     "acgId": 130538,
-    "aniId": null
+    "aniId": 35405
   },
   "進擊的巨人 The Final Season 完結篇 前篇": {
     "bgmId": 415779,
     "acgId": 130539,
-    "aniId": null
+    "aniId": 33047
   },
   "地下忍者": {
     "bgmId": 348220,
     "acgId": 130540,
-    "aniId": null
+    "aniId": 35436
   },
   "休假的壞人先生": {
     "bgmId": 421677,
     "acgId": 130570,
-    "aniId": null
+    "aniId": 36904
   },
   "女王的手術刀": {
     "bgmId": 422153,
     "acgId": 130648,
-    "aniId": null
+    "aniId": 36930
   },
   "川越男子歌唱團": {
     "bgmId": 422425,
     "acgId": 130658,
-    "aniId": null
+    "aniId": 35386
   },
   "光之美少女 All Stars F": {
     "bgmId": 422699,
     "acgId": 130694,
-    "aniId": null
+    "aniId": 39071
   },
   "六道的惡女們": {
     "bgmId": 415587,
     "acgId": 130831,
-    "aniId": null
+    "aniId": 33544
   },
   "擅長逃跑的殿下": {
     "bgmId": 424573,
     "acgId": 130958,
-    "aniId": null
+    "aniId": 38879
   },
   "夢想成為魔法少女 [年齡限制版]": {
     "bgmId": 424663,
     "acgId": 130960,
-    "aniId": null
+    "aniId": 36843
   },
   "金肉人 完美超人始祖篇": {
     "bgmId": 424853,
     "acgId": 130982,
-    "aniId": null
+    "aniId": 38894
   },
   "萊莎的鍊金工房 ～常闇女王與秘密藏身處～ The Animation": {
     "bgmId": 425236,
     "acgId": 131060,
-    "aniId": null
+    "aniId": 34049
   },
   "偶像大師 閃耀色彩": {
     "bgmId": 425222,
     "acgId": 131061,
-    "aniId": null
+    "aniId": 37935
   },
   "窗邊的小荳荳": {
     "bgmId": 425290,
     "acgId": 131065,
-    "aniId": null
+    "aniId": 44656
   },
   "金屬口紅": {
     "bgmId": 425595,
     "acgId": 131110,
-    "aniId": null
+    "aniId": 36936
   },
   "隊長小翼 Season2 青少年篇": {
     "bgmId": 425638,
     "acgId": 131113,
-    "aniId": null
+    "aniId": 35248
   },
   "GIVEN 被贈與的未來 劇場版：柊 mix": {
     "bgmId": 425605,
     "acgId": 131119,
-    "aniId": null
+    "aniId": 44646
   },
   "不死少女的謀殺鬧劇": {
     "bgmId": 425591,
     "acgId": 131121,
-    "aniId": null
+    "aniId": 34094
   },
   "她來自煩星 第二季": {
     "bgmId": 413635,
     "acgId": 131157,
-    "aniId": null
+    "aniId": 36951
   },
   "這個世界漏洞百出": {
     "bgmId": 425890,
     "acgId": 131185,
-    "aniId": null
+    "aniId": 38861
   },
   "反派千金等級 99～我是隱藏頭目但不是魔王～": {
     "bgmId": 425910,
     "acgId": 131194,
-    "aniId": null
+    "aniId": 36924
   },
   "夜晚的水母不會游泳": {
     "bgmId": 425909,
     "acgId": 131196,
-    "aniId": null
+    "aniId": 37887
   },
   "堀與宮村 -piece-": {
     "bgmId": 425992,
     "acgId": 131250,
-    "aniId": null
+    "aniId": 34056
   },
   "RINKAI！女子競輪": {
     "bgmId": 425978,
     "acgId": 131277,
-    "aniId": null
+    "aniId": 37925
   },
   "學姊是男孩": {
     "bgmId": 425988,
     "acgId": 131285,
-    "aniId": null
+    "aniId": 38958
   },
   "我的英雄學院 第七季": {
     "bgmId": 425587,
     "acgId": 131287,
-    "aniId": null
+    "aniId": 38112
   },
   "米奇與達利": {
     "bgmId": 362255,
     "acgId": 131296,
-    "aniId": null
+    "aniId": 35359
   },
   "文豪野犬 第五季": {
     "bgmId": 426815,
     "acgId": 131385,
-    "aniId": null
+    "aniId": 34653
   },
   "新人大叔冒險者，被最強隊伍操到死成無敵": {
     "bgmId": 427059,
     "acgId": 131479,
-    "aniId": null
+    "aniId": 38834
   },
   "BanG Dream! It's MyGO!!!!!": {
     "bgmId": 428735,
     "acgId": 131634,
-    "aniId": null
+    "aniId": 34030
   },
   "世界盡頭的聖騎士 鐵鏽之山的君王": {
     "bgmId": 363569,
     "acgId": 131815,
-    "aniId": null
+    "aniId": 35466
   },
   "王牌酒保 Glass of God": {
     "bgmId": 405660,
     "acgId": 131968,
-    "aniId": null
+    "aniId": 37826
   },
   "愚蠢天使與惡魔共舞": {
     "bgmId": 431839,
     "acgId": 131988,
-    "aniId": null
+    "aniId": 36918
   },
   "歡迎來到駒田蒸餾所": {
     "bgmId": 432583,
     "acgId": 132030,
-    "aniId": null
+    "aniId": 44261
   },
   "柚木家的四兄弟": {
     "bgmId": 432651,
     "acgId": 132044,
-    "aniId": null
+    "aniId": 35429
   },
   "小怪獸成長日記 第二季": {
     "bgmId": 318579,
     "acgId": 132193,
-    "aniId": null
+    "aniId": 33575
   },
   "關於我轉生變成史萊姆這檔事 柯里烏斯之夢": {
     "bgmId": 421174,
     "acgId": 132289,
-    "aniId": null
+    "aniId": 35861
   },
   "轉生貴族憑鑑定技能扭轉人生": {
     "bgmId": 500855,
     "acgId": 132297,
-    "aniId": null
+    "aniId": 37914
   },
   "我的新上司是天然呆": {
     "bgmId": 435926,
     "acgId": 132483,
-    "aniId": null
+    "aniId": 35472
   },
   "碰之道": {
     "bgmId": 437206,
     "acgId": 132685,
-    "aniId": null
+    "aniId": 36868
   },
   "勇氣爆發 BANG BRAVERN": {
     "bgmId": 438187,
     "acgId": 132860,
-    "aniId": null
+    "aniId": 36942
   },
   "北極百貨的秋乃小姐": {
     "bgmId": 431933,
     "acgId": 132951,
-    "aniId": null
+    "aniId": 44659
   },
   "網球王子劇場版 跡部的禮物": {
     "bgmId": 72414,
     "acgId": 133052,
-    "aniId": null
+    "aniId": 33939
   },
   "花野井同學與戀愛病": {
     "bgmId": 439850,
     "acgId": 133068,
-    "aniId": null
+    "aniId": 37828
   },
   "青春豬頭少年不會夢到紅書包女孩": {
     "bgmId": 426239,
     "acgId": 133271,
-    "aniId": null
+    "aniId": 39152
   },
   "小酒館 Basue": {
     "bgmId": 441084,
     "acgId": 133290,
-    "aniId": null
+    "aniId": 36957
   },
   "想當冒險者前往都市的女兒成為 S 級": {
     "bgmId": 406736,
     "acgId": 133419,
-    "aniId": null
+    "aniId": 35239
   },
   "華 Doll* -Reinterpretation of Flowering-": {
     "bgmId": 441888,
     "acgId": 133421,
-    "aniId": null
+    "aniId": 42936
   },
   "我內心的糟糕念頭 第二季": {
     "bgmId": 441795,
     "acgId": 133422,
-    "aniId": null
+    "aniId": 36891
   },
   "卡片戰鬥!! 先導者 will+Dress 第三季": {
     "bgmId": 402835,
@@ -8219,247 +8334,247 @@
   "歡迎來到實力至上主義的教室 第三季": {
     "bgmId": 373266,
     "acgId": 133633,
-    "aniId": null
+    "aniId": 36840
   },
   "公主殿下，「拷問」的時間到了": {
     "bgmId": 486763,
     "acgId": 133647,
-    "aniId": null
+    "aniId": 36921
   },
   "絆之 Allele 第二季": {
     "bgmId": 443147,
     "acgId": 133650,
-    "aniId": null
+    "aniId": 35411
   },
   "BLEACH 死神 千年血戰篇-訣別譚-": {
     "bgmId": 412916,
     "acgId": 133657,
-    "aniId": null
+    "aniId": 34083
   },
   "肌肉魔法使-MASHLE- 神覺者候補選拔試驗篇": {
     "bgmId": 443493,
     "acgId": 133792,
-    "aniId": null
+    "aniId": 36879
   },
   "機動戰士鋼彈 SEED FREEDOM": {
     "bgmId": 337586,
     "acgId": 133796,
-    "aniId": null
+    "aniId": 42455
   },
   "黑執事 寄宿學校篇": {
     "bgmId": 444049,
     "acgId": 133832,
-    "aniId": null
+    "aniId": 37884
   },
   "異世界自殺突擊隊": {
     "bgmId": 444046,
     "acgId": 133834,
-    "aniId": null
+    "aniId": 38827
   },
   "黃昏光影": {
     "bgmId": 443931,
     "acgId": 133842,
-    "aniId": null
+    "aniId": 38844
   },
   "指尖相觸，戀戀不捨": {
     "bgmId": 444334,
     "acgId": 133896,
-    "aniId": null
+    "aniId": 36876
   },
   "怪人的沙拉碗": {
     "bgmId": 444403,
     "acgId": 133918,
-    "aniId": null
+    "aniId": 37848
   },
   "我們的雨色協議": {
     "bgmId": 444634,
     "acgId": 133987,
-    "aniId": null
+    "aniId": 35487
   },
   "魔法科高中的劣等生 第三季": {
     "bgmId": 364522,
     "acgId": 134161,
-    "aniId": null
+    "aniId": 37863
   },
   "百千家的妖怪王子": {
     "bgmId": 445836,
     "acgId": 134166,
-    "aniId": null
+    "aniId": 36863
   },
   "海豹小白": {
     "bgmId": 242592,
     "acgId": 134251,
-    "aniId": null
+    "aniId": 34539
   },
   "蔚藍檔案 The Animation": {
     "bgmId": 416777,
     "acgId": 134319,
-    "aniId": null
+    "aniId": 37917
   },
   "佐佐木與文鳥小嗶": {
     "bgmId": 393038,
     "acgId": 134321,
-    "aniId": null
+    "aniId": 36852
   },
   "為何我的世界被遺忘了？": {
     "bgmId": 446615,
     "acgId": 134322,
-    "aniId": null
+    "aniId": 38872
   },
   "MONSTERS 一百三情飛龍侍極": {
     "bgmId": 446475,
     "acgId": 134326,
-    "aniId": null
+    "aniId": 36968
   },
   "王者天下 第五季": {
     "bgmId": 403503,
     "acgId": 134333,
-    "aniId": null
+    "aniId": 37744
   },
   "愛犬訊號": {
     "bgmId": 418494,
     "acgId": 134389,
-    "aniId": null
+    "aniId": 35788
   },
   "失憶投捕": {
     "bgmId": 448478,
     "acgId": 134578,
-    "aniId": null
+    "aniId": 37927
   },
   "大室家-親愛的姊妹": {
     "bgmId": 448655,
     "acgId": 134656,
-    "aniId": null
+    "aniId": 45517
   },
   "TRUMP 系列 Delico’s Nursery": {
     "bgmId": 448879,
     "acgId": 134732,
-    "aniId": null
+    "aniId": 39151
   },
   "老夫老妻重返青春": {
     "bgmId": 449562,
     "acgId": 134735,
-    "aniId": null
+    "aniId": 37905
   },
   "地下城中的人": {
     "bgmId": 450586,
     "acgId": 134927,
-    "aniId": null
+    "aniId": 38859
   },
   "輪迴七次的惡役千金，在前敵國享受隨心所欲的新婚生活": {
     "bgmId": 450695,
     "acgId": 134939,
-    "aniId": null
+    "aniId": 36901
   },
   "秒殺外掛太強了，異世界的傢伙們根本就不是對手。": {
     "bgmId": 409441,
     "acgId": 134951,
-    "aniId": null
+    "aniId": 36849
   },
   "尋神的旅途": {
     "bgmId": 451426,
     "acgId": 135082,
-    "aniId": null
+    "aniId": 40259
   },
   "放學後少年花子君": {
     "bgmId": 412164,
     "acgId": 135088,
-    "aniId": null
+    "aniId": 40190
   },
   "Love Live！虹咲學園 學園偶像同好會 NEXT SKY": {
     "bgmId": 408883,
     "acgId": 135259,
-    "aniId": null
+    "aniId": 35820
   },
   "B-PROJECT 〜熱烈＊Love Call〜": {
     "bgmId": 320456,
     "acgId": 135307,
-    "aniId": null
+    "aniId": 35371
   },
   "麵包超人電影版：樂波莉與暖呼呼禮物": {
     "bgmId": 418493,
     "acgId": 135362,
-    "aniId": null
+    "aniId": 39302
   },
   "全力兔": {
     "bgmId": 4039,
     "acgId": 135369,
-    "aniId": null
+    "aniId": 43074
   },
   "小不點": {
     "bgmId": 453630,
     "acgId": 135403,
-    "aniId": null
+    "aniId": 35493
   },
   "月刊妄想科學": {
     "bgmId": 455355,
     "acgId": 135639,
-    "aniId": null
+    "aniId": 36945
   },
   "不時輕聲地以俄語遮羞的鄰座艾莉同學": {
     "bgmId": 424883,
     "acgId": 135735,
-    "aniId": null
+    "aniId": 38837
   },
   "死神少爺與黑女僕 第三季": {
     "bgmId": 455835,
     "acgId": 135744,
-    "aniId": null
+    "aniId": 37908
   },
   "戽斗星球": {
     "bgmId": 480629,
     "acgId": 135795,
-    "aniId": null
+    "aniId": 35699
   },
   "我回來了、歡迎回家": {
     "bgmId": 456619,
     "acgId": 135812,
-    "aniId": null
+    "aniId": 38015
   },
   "單人房、日照一般、附天使。": {
     "bgmId": 457945,
     "acgId": 135879,
-    "aniId": null
+    "aniId": 37874
   },
   "最強肉盾的迷宮攻略～擁有稀少技能體力 9999 的肉盾，被勇者隊伍辭退了～": {
     "bgmId": 458047,
     "acgId": 135895,
-    "aniId": null
+    "aniId": 36888
   },
   "從 Lv2 開始開外掛的前勇者候補過著悠哉異世界生活": {
     "bgmId": 459725,
     "acgId": 136038,
-    "aniId": null
+    "aniId": 37775
   },
   "烏鴉不擇主": {
     "bgmId": 461338,
     "acgId": 136147,
-    "aniId": null
+    "aniId": 41710
   },
   "狩火之王 第二季": {
     "bgmId": 425129,
     "acgId": 136219,
-    "aniId": null
+    "aniId": 36965
   },
   "進擊的巨人 The Final Season 完結篇 後篇": {
     "bgmId": 415779,
     "acgId": 136226,
-    "aniId": null
+    "aniId": 35985
   },
   "模擬後宮體驗": {
     "bgmId": 428823,
     "acgId": 136266,
-    "aniId": null
+    "aniId": 38846
   },
   "劇場版 Free! 男子游泳部 -the Final Stroke- 後篇": {
     "bgmId": 334203,
     "acgId": 136270,
-    "aniId": null
+    "aniId": 36133
   },
   "我要【招架】一切～反誤解的世界最強想成為冒險家～": {
     "bgmId": 463389,
     "acgId": 136326,
-    "aniId": null
+    "aniId": 38842
   },
   "劇場總集篇 孤獨搖滾！Re:": {
     "bgmId": 436738,
@@ -8474,127 +8589,127 @@
   "地縛少年花子君 第二季": {
     "bgmId": 464593,
     "acgId": 136398,
-    "aniId": null
+    "aniId": 41798
   },
   "卡片戰鬥!! 先導者 Divinez": {
     "bgmId": 440878,
     "acgId": 136407,
-    "aniId": null
+    "aniId": 36960
   },
   "曾經、魔法少女和邪惡相互為敵。": {
     "bgmId": 465884,
     "acgId": 136527,
-    "aniId": null
+    "aniId": 38920
   },
   "我的英雄學院 雄英 HEROES BATTLE": {
     "bgmId": 467909,
     "acgId": 136608,
-    "aniId": null
+    "aniId": 36336
   },
   "拉麵赤貓": {
     "bgmId": 467243,
     "acgId": 136647,
-    "aniId": null
+    "aniId": 38956
   },
   "異世界悠閒紀行～邊養娃邊當冒險者～": {
     "bgmId": 467811,
     "acgId": 136694,
-    "aniId": null
+    "aniId": 38896
   },
   "星際莊的戀愛日記": {
     "bgmId": 467919,
     "acgId": 136715,
-    "aniId": null
+    "aniId": 37929
   },
   "敗北女角太多了！": {
     "bgmId": 464376,
     "acgId": 136968,
-    "aniId": null
+    "aniId": 38881
   },
   "從路人角色開始的探索英雄譚": {
     "bgmId": 472554,
     "acgId": 137102,
-    "aniId": null
+    "aniId": 38869
   },
   "麵包超人電影版：細菌人與繪本的露露": {
     "bgmId": 480882,
     "acgId": 137221,
-    "aniId": null
+    "aniId": 45683
   },
   "小市民系列": {
     "bgmId": 474906,
     "acgId": 137326,
-    "aniId": null
+    "aniId": 38882
   },
   "海豚男孩": {
     "bgmId": 439319,
     "acgId": 137349,
-    "aniId": null
+    "aniId": 41968
   },
   "精靈小姐瘦不了": {
     "bgmId": 475367,
     "acgId": 137352,
-    "aniId": null
+    "aniId": 38874
   },
   "物語系列 第外季＆第怪季": {
     "bgmId": 475354,
     "acgId": 137444,
-    "aniId": null
+    "aniId": 38960
   },
   "魔王軍最強的魔術師是人類": {
     "bgmId": 475933,
     "acgId": 137484,
-    "aniId": null
+    "aniId": 38824
   },
   "靠廢柴技能【狀態異常】成為最強的我將蹂躪一切": {
     "bgmId": 476418,
     "acgId": 137492,
-    "aniId": null
+    "aniId": 38848
   },
   "SK8 the infinity EXTRA PART": {
     "bgmId": 396229,
     "acgId": 137495,
-    "aniId": null
+    "aniId": 42932
   },
   "PUI PUI 天竺鼠車車 電影版 MOLMAX": {
     "bgmId": 476683,
     "acgId": 137511,
-    "aniId": null
+    "aniId": 43960
   },
   "名偵探柯南 vs. 怪盜基德": {
     "bgmId": 467955,
     "acgId": 137538,
-    "aniId": null
+    "aniId": 39287
   },
   "NUKITASHI 住在拔作島上的我該如何是好？ [年齡限制版]": {
     "bgmId": 477825,
     "acgId": 137608,
-    "aniId": null
+    "aniId": 44254
   },
   "杖與劍的魔劍譚": {
     "bgmId": 479477,
     "acgId": 137785,
-    "aniId": null
+    "aniId": 38886
   },
   "格鬥實況": {
     "bgmId": 479921,
     "acgId": 137811,
-    "aniId": null
+    "aniId": 37840
   },
   "忍者神威": {
     "bgmId": 383251,
     "acgId": 137886,
-    "aniId": null
+    "aniId": 41951
   },
   "排球少年！！劇場版：結束與開始": {
     "bgmId": 123136,
     "acgId": 137919,
-    "aniId": null
+    "aniId": 37604
   },
   "劇場版 GIVEN 被贈與的未來：去海邊": {
     "bgmId": 452627,
     "acgId": 138061,
-    "aniId": null
+    "aniId": 45411
   },
   "我的妻子不具感情": {
     "bgmId": 482776,
@@ -8629,27 +8744,27 @@
   "真･武士傳 YAIBA": {
     "bgmId": 492881,
     "acgId": 139420,
-    "aniId": null
+    "aniId": 44074
   },
   "DDDD 惡魔的破壞": {
     "bgmId": 495562,
     "acgId": 140064,
-    "aniId": null
+    "aniId": 38795
   },
   "劇場版「進擊的巨人」完結篇 THE LAST ATTACK": {
     "bgmId": 508708,
     "acgId": 140913,
-    "aniId": null
+    "aniId": 43025
   },
   "終末起點": {
     "bgmId": 520559,
     "acgId": 141986,
-    "aniId": null
+    "aniId": 42890
   },
   "青之驅魔師 終夜篇": {
     "bgmId": 531834,
     "acgId": 142242,
-    "aniId": null
+    "aniId": 41647
   },
   "金肉人 完美超人始祖篇 Season 2": {
     "bgmId": 514744,
