@@ -17,7 +17,7 @@
     const nameParam = urlParams.get('name');
 
     if (!bgmIdParam) {
-      document.body.innerHTML = '<p>請傳入 id 參數，例如 https://animad-bgm-toolkit.pages.dev/?id=114514</p>';
+      document.body.innerHTML = '<p>請傳入 id 參數，例如 https://animad-bgm-toolkit.pages.dev/?id=114514</p><br/><p>使用方法請前往 <a href="https://github.com/david082321/animad-bgm-toolkit">https://github.com/david082321/animad-bgm-toolkit</a> 查看。</p>';
       throw new Error('bgmId not provided');
     }
 
