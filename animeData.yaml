@@ -14,6 +14,82 @@
 #   bgmId: 
 #   acgId: 
 #   aniId: 
+白箱 SHIROBAKO:
+  bgmId: 110467
+  acgId: 72058
+  aniId: 14757
+無家可歸:
+  bgmId: 447530
+  acgId: 149147
+  aniId: 47054
+四週戀人:
+  bgmId: 427004
+  acgId: 149146
+  aniId: 47044
+語意錯誤:
+  bgmId: 369754
+  acgId: 149145
+  aniId: 47040
+赤狐:
+  bgmId: 564865
+  acgId: 149201
+  aniId: 47229
+那個夏天:
+  bgmId: 386772
+  acgId: 149200
+  aniId: 47222
+那年夏天，想見妳:
+  bgmId: 525435
+  acgId: 142077
+  aniId: 40709
+老虎來了:
+  bgmId: 504244
+  acgId: 149343
+  aniId: 47337
+金字塔遊戲:
+  bgmId: 563095
+  acgId: 149342
+  aniId: 47328
+神龍少女:
+  bgmId: 575170
+  acgId: 149421
+  aniId: 47442
+超級秘密:
+  bgmId: 433675
+  acgId: 149423
+  aniId: 47452
+尋找失去的未來:
+  bgmId: 91985
+  acgId: 66581
+  aniId: 1354
+真珠美人魚 Pure:
+  bgmId: 67990
+  acgId: 149528
+  aniId: 47626
+新哆啦A夢:
+  bgmId: 18692
+  acgId: 140603
+  aniId: 47243
+科學小飛俠:
+  bgmId: 53767
+  acgId: 36327
+  aniId: 46185
+新科學小飛俠:
+  bgmId: 69494
+  acgId: 61305
+  aniId: 14945
+新科學小飛俠 insight:
+  bgmId: 86721
+  acgId: 65059
+  aniId: 13452
+賭博默示錄:
+  bgmId: 3892
+  acgId: 16742
+  aniId: 47630
+學姊是男孩劇場版：雨後天晴:
+  bgmId: 515392
+  acgId: 141631
+  aniId: 47569
 29歲單身中堅冒險家的日常:
   bgmId: 556874
   acgId: 145092
@@ -1024,6 +1100,14 @@ SPY×FAMILY 間諜家家酒 Season 3:
   bgmId: 498378
   acgId: 139878
   aniId: 45572
+給不滅的你:
+  bgmId: 297954
+  acgId: 109471
+  aniId: 22300
+給不滅的你 第二季:
+  bgmId: 348128
+  acgId: 119447
+  aniId: 31754
 給不滅的你 第三季:
   bgmId: 424242
   acgId: 130900
@@ -1463,7 +1547,7 @@ TIGER×DRAGON！:
 棒球大聯盟 第五季:
   bgmId: 2889
   acgId: 23583
-  aniId: 
+  aniId: 24663
 偵探學園 Q:
   bgmId: 11836
   acgId: 24172
@@ -1475,23 +1559,23 @@ TIGER×DRAGON！:
 第一神拳 New Challenger:
   bgmId: 3641
   acgId: 25054
-  aniId: 
+  aniId: 2836
 凡爾賽玫瑰:
   bgmId: 400216
   acgId: 25078
-  aniId: 
+  aniId: 43030
 東京地震 8.0:
   bgmId: 1743
   acgId: 25499
-  aniId: 
+  aniId: 11867
 電影 哆啦A夢 大雄與綠之巨人傳:
   bgmId: 476
   acgId: 26522
-  aniId: 
+  aniId: 24155
 電影 哆啦A夢 新大雄的恐龍:
   bgmId: 473
   acgId: 26582
-  aniId: 
+  aniId: 23651
 再會了假面騎士電王 最後的倒數計時:
   bgmId: 74533
   acgId: 27263
@@ -1515,7 +1599,7 @@ TIGER×DRAGON！:
 笨蛋，測驗，召喚獸:
   bgmId: 3326
   acgId: 28663
-  aniId: 
+  aniId: 26761
 森林大帝 勇氣將改變未來:
   bgmId: 62930
   acgId: 28814
@@ -1523,11 +1607,11 @@ TIGER×DRAGON！:
 電影 哆啦A夢 大雄的人魚大海戰:
   bgmId: 4558
   acgId: 29590
-  aniId: 
+  aniId: 24328
 犬夜叉 完結篇:
   bgmId: 2785
   acgId: 29732
-  aniId: 
+  aniId: 16143
 DARKER THAN BLACK 黑之契約者 -流星的雙子-:
   bgmId: 2354
   acgId: 30106
@@ -1535,23 +1619,23 @@ DARKER THAN BLACK 黑之契約者 -流星的雙子-:
 薄櫻鬼:
   bgmId: 4315
   acgId: 30204
-  aniId: 
+  aniId: 29591
 荒川爆笑團:
   bgmId: 2464
   acgId: 30429
-  aniId: 
+  aniId: 2913
 城市獵人 2:
   bgmId: 53925
   acgId: 30499
-  aniId: 
+  aniId: 13020
 城市獵人 3:
   bgmId: 53926
   acgId: 30500
-  aniId: 
+  aniId: 14225
 城市獵人’91:
   bgmId: 53937
   acgId: 30501
-  aniId: 
+  aniId: 14460
 古城荊棘王:
   bgmId: 6816
   acgId: 30703
@@ -1583,47 +1667,47 @@ DARKER THAN BLACK 黑之契約者 -流星的雙子-:
 棒球大聯盟電影版 友情的一球:
   bgmId: 3618
   acgId: 31190
-  aniId: 
+  aniId: 23335
 六神合體 雷霆王:
   bgmId: 32213
   acgId: 31778
-  aniId: 
+  aniId: 42838
 電影 哆啦A夢 大雄與風之使者:
   bgmId: 469
   acgId: 32223
-  aniId: 
+  aniId: 23504
 電影 哆啦A夢 大雄與機器人王國:
   bgmId: 468
   acgId: 32224
-  aniId: 
+  aniId: 23503
 電影 哆啦A夢 大雄的太陽王傳說:
   bgmId: 464
   acgId: 32234
-  aniId: 
+  aniId: 23495
 電影 哆啦A夢 大雄與夢幻三劍士:
   bgmId: 453
   acgId: 32236
-  aniId: 
+  aniId: 24963
 電影 哆啦A夢 大雄的天方夜譚:
   bgmId: 450
   acgId: 32237
-  aniId: 
+  aniId: 24927
 電影 哆啦A夢 大雄的宇宙漂流記:
   bgmId: 463
   acgId: 32238
-  aniId: 
+  aniId: 23494
 電影 哆啦A夢 大雄與迷宮之旅:
   bgmId: 452
   acgId: 32673
-  aniId: 
+  aniId: 24962
 電影 哆啦A夢 大雄與惑星之迷:
   bgmId: 449
   acgId: 32675
-  aniId: 
+  aniId: 24926
 蠟筆小新：我的超時空新娘:
   bgmId: 8999
   acgId: 33428
-  aniId: 
+  aniId: 786
 搞笑漫畫日和 2:
   bgmId: 2460
   acgId: 33456
@@ -1639,7 +1723,7 @@ DARKER THAN BLACK 黑之契約者 -流星的雙子-:
 棒球大聯盟 第六季:
   bgmId: 4293
   acgId: 33592
-  aniId: 
+  aniId: 24729
 捍衛者 GATE KEEPERS:
   bgmId: 19039
   acgId: 33677
@@ -1647,7 +1731,7 @@ DARKER THAN BLACK 黑之契約者 -流星的雙子-:
 爆漫王。:
   bgmId: 3428
   acgId: 33689
-  aniId: 
+  aniId: 39772
 變身公主 (2010):
   bgmId: 4530
   acgId: 34287
@@ -1655,19 +1739,19 @@ DARKER THAN BLACK 黑之契約者 -流星的雙子-:
 黑執事 II:
   bgmId: 1748
   acgId: 34623
-  aniId: 
+  aniId: 19783
 遊戲王 怪獸之決鬥 光之金字塔:
   bgmId: 36957
   acgId: 35474
-  aniId: 
+  aniId: 38480
 對某飛行員的追憶:
   bgmId: 10829
   acgId: 35946
-  aniId: 
+  aniId: 29881
 火影忍者劇場版7：疾風傳！失落之塔:
   bgmId: 16528
   acgId: 35962
-  aniId: 
+  aniId: 24454
 我的妹妹哪有這麼可愛！:
   bgmId: 5436
   acgId: 36603
@@ -1675,31 +1759,31 @@ DARKER THAN BLACK 黑之契約者 -流星的雙子-:
 笨蛋，測驗，召喚獸 第二季:
   bgmId: 11145
   acgId: 37062
-  aniId: 
+  aniId: 4278
 魔法禁書目錄 Ⅱ:
   bgmId: 7843
   acgId: 37524
-  aniId: 
+  aniId: 804
 薄櫻鬼 碧血錄:
   bgmId: 7350
   acgId: 37843
-  aniId: 
+  aniId: 29976
 荒川爆笑團 2:
   bgmId: 8081
   acgId: 38081
-  aniId: 
+  aniId: 2926
 IS 〈Infinite Stratos〉:
   bgmId: 9800
   acgId: 38104
-  aniId: 
+  aniId: 4096
 鋼之鍊金術師 嘆息之丘的聖星:
   bgmId: 107099
   acgId: 38232
-  aniId: 
+  aniId: 4376
 電影 哆啦A夢 新大雄與鐵人兵團～振翅吧 天使們～:
   bgmId: 19130
   acgId: 38398
-  aniId: 
+  aniId: 24329
 劇場版 3D 我們這一家：超能力花媽！:
   bgmId: 111231
   acgId: 38440
@@ -1711,15 +1795,15 @@ IS 〈Infinite Stratos〉:
 棒球大聯盟 第二季:
   bgmId: 2886
   acgId: 38846
-  aniId: 
+  aniId: 25835
 棒球大聯盟 第三季:
   bgmId: 2887
   acgId: 38847
-  aniId: 
+  aniId: 28470
 棒球大聯盟 第四季:
   bgmId: 2888
   acgId: 38848
-  aniId: 
+  aniId: 28708
 傷物語 I 鐵血篇:
   bgmId: 7707
   acgId: 38943
@@ -1727,31 +1811,31 @@ IS 〈Infinite Stratos〉:
 怪醫黑傑克 OVA:
   bgmId: 52787
   acgId: 39474
-  aniId: 
+  aniId: 222
 笨蛋，測驗，召喚獸～祭典～:
   bgmId: 12496
   acgId: 39644
-  aniId: 
+  aniId: 27410
 花開物語:
   bgmId: 22759
   acgId: 39785
-  aniId: 
+  aniId: 234
 三坪房間的侵略者！？:
   bgmId: 98286
   acgId: 40982
-  aniId: 
+  aniId: 878
 A 頻道:
   bgmId: 10227
   acgId: 41300
-  aniId: 
+  aniId: 39553
 蠟筆小新：黃金間諜大作戰:
   bgmId: 24824
   acgId: 42083
-  aniId: 
+  aniId: 787
 網球王子劇場版 決戰英國網球城:
   bgmId: 20909
   acgId: 42143
-  aniId: 
+  aniId: 9328
 我們仍未知道那天所看見的花名。:
   bgmId: 10440
   acgId: 42233
@@ -1759,19 +1843,19 @@ A 頻道:
 爆漫王。第二季:
   bgmId: 22588
   acgId: 42329
-  aniId: 
+  aniId: 39856
 火影忍者劇場版8：血獄:
   bgmId: 33514
   acgId: 42335
-  aniId: 
+  aniId: 24455
 妖怪少爺 千年魔京:
   bgmId: 12192
   acgId: 42404
-  aniId: 
+  aniId: 25678
 元氣媽媽:
   bgmId: 125562
   acgId: 42466
-  aniId: 
+  aniId: 40710
 歌之王子殿下～真愛 1000%～:
   bgmId: 11973
   acgId: 43733
@@ -1783,11 +1867,11 @@ A 頻道:
 螢火之森:
   bgmId: 12544
   acgId: 44666
-  aniId: 
+  aniId: 22054
 女神異聞錄 4:
   bgmId: 15489
   acgId: 45980
-  aniId: 
+  aniId: 10551
 神劍闖江湖 新京都篇:
   bgmId: 24544
   acgId: 46383
@@ -1795,7 +1879,7 @@ A 頻道:
 薄櫻鬼 雪華錄:
   bgmId: 18623
   acgId: 46573
-  aniId: 
+  aniId: 30719
 BLOOD LAD 血意少年:
   bgmId: 48065
   acgId: 47281
@@ -1807,15 +1891,15 @@ IS 〈Infinite Stratos〉OVA 嚮往戀愛的六重奏:
 Guilty Crown 罪惡王冠:
   bgmId: 18635
   acgId: 47821
-  aniId: 
+  aniId: 9507
 電影 哆啦A夢：大雄與奇跡之島～Animal adventure:
   bgmId: 24815
   acgId: 49904
-  aniId: 
+  aniId: 24453
 零之使魔 F:
   bgmId: 25823
   acgId: 51056
-  aniId: 
+  aniId: 988
 夏目友人帳 肆:
   bgmId: 23495
   acgId: 52001
@@ -1827,67 +1911,67 @@ Guilty Crown 罪惡王冠:
 FAIRY TAIL 魔導少年 劇場版 鳳凰巫女:
   bgmId: 30361
   acgId: 52406
-  aniId: 
+  aniId: 7611
 男子高校生的日常:
   bgmId: 24790
   acgId: 52512
-  aniId: 
+  aniId: 4643
 蠟筆小新：不理不理王國的秘寶:
   bgmId: 8968
   acgId: 52569
-  aniId: 
+  aniId: 770
 蠟筆小新：雲黑齋的野心:
   bgmId: 8969
   acgId: 52570
-  aniId: 
+  aniId: 771
 蠟筆小新：搞怪遊樂園大冒險:
   bgmId: 8970
   acgId: 52571
-  aniId: 
+  aniId: 772
 蠟筆小新：黑暗珠珠大追擊:
   bgmId: 8971
   acgId: 52572
-  aniId: 
+  aniId: 773
 蠟筆小新：電擊！豬蹄大作戰:
   bgmId: 8972
   acgId: 52573
-  aniId: 
+  aniId: 774
 蠟筆小新：爆發！溫泉激烈大決戰:
   bgmId: 8973
   acgId: 52574
-  aniId: 
+  aniId: 775
 蠟筆小新：風起雲湧的叢林冒險:
   bgmId: 8982
   acgId: 52575
-  aniId: 
+  aniId: 776
 蠟筆小新：風起雲湧！猛烈！大人帝國的反擊:
   bgmId: 8986
   acgId: 52576
-  aniId: 
+  aniId: 777
 蠟筆小新：風起雲湧！光榮燒肉之路:
   bgmId: 8989
   acgId: 52577
-  aniId: 
+  aniId: 779
 蠟筆小新：時空大冒險:
   bgmId: 8991
   acgId: 52586
-  aniId: 
+  aniId: 780
 蠟筆小新：3 分鐘百變大進擊！:
   bgmId: 8993
   acgId: 52587
-  aniId: 
+  aniId: 781
 蠟筆小新：Amigo！森巴入侵計畫:
   bgmId: 8995
   acgId: 52588
-  aniId: 
+  aniId: 782
 蠟筆小新：小白的屁屁炸彈:
   bgmId: 8996
   acgId: 52589
-  aniId: 
+  aniId: 783
 蠟筆小新：風起雲湧的金矛勇者:
   bgmId: 8997
   acgId: 52590
-  aniId: 
+  aniId: 784
 八犬傳－東方八犬異聞－:
   bgmId: 54438
   acgId: 52663
@@ -1895,11 +1979,11 @@ FAIRY TAIL 魔導少年 劇場版 鳳凰巫女:
 魔法少女小圓 前編 起始的物語:
   bgmId: 25833
   acgId: 52874
-  aniId: 
+  aniId: 12328
 冰菓:
   bgmId: 27364
   acgId: 53316
-  aniId: 
+  aniId: 90
 狼的孩子雨和雪:
   bgmId: 28440
   acgId: 53492
@@ -1935,7 +2019,7 @@ FAIRY TAIL 魔導少年 劇場版 鳳凰巫女:
 Love Live! 第一季:
   bgmId: 49294
   acgId: 54421
-  aniId: 
+  aniId: 2551
 火影忍者 SD 李洛克的青春全力忍傳:
   bgmId: 28496
   acgId: 54652
@@ -1943,15 +2027,15 @@ Love Live! 第一季:
 Fate/kaleid liner 魔法少女☆伊莉雅:
   bgmId: 43951
   acgId: 54798
-  aniId: 
+  aniId: 7956
 獵人劇場版 - 緋色幻影:
   bgmId: 44705
   acgId: 54816
-  aniId: 
+  aniId: 5747
 蠟筆小新：我和我的宇宙公主:
   bgmId: 27555
   acgId: 54922
-  aniId: 
+  aniId: 788
 Little Busters !:
   bgmId: 38040
   acgId: 55000
@@ -1971,15 +2055,15 @@ PSYCHO-PASS 心靈判官:
 櫻花莊的寵物女孩:
   bgmId: 41488
   acgId: 55309
-  aniId: 
+  aniId: 4414
 怪醫黑傑克特別版 4 個生命奇蹟:
   bgmId: 120070
   acgId: 55655
-  aniId: 
+  aniId: 7896
 絕園的暴風雨:
   bgmId: 39794
   acgId: 55927
-  aniId: 
+  aniId: 437
 鄰座的怪同學:
   bgmId: 40533
   acgId: 56154
@@ -1991,7 +2075,7 @@ PSYCHO-PASS 心靈判官:
 魔法少女小圓 後編 永遠的物語:
   bgmId: 44692
   acgId: 56339
-  aniId: 
+  aniId: 12329
 前進吧！登山少女:
   bgmId: 41658
   acgId: 56353
@@ -1999,7 +2083,7 @@ PSYCHO-PASS 心靈判官:
 花牌情緣 第二季:
   bgmId: 41568
   acgId: 56380
-  aniId: 
+  aniId: 5682
 女神異聞錄 3 劇場版 第一章 Spring of Birth:
   bgmId: 43404
   acgId: 56394
@@ -2007,11 +2091,11 @@ PSYCHO-PASS 心靈判官:
 元氣少女緣結神:
   bgmId: 43525
   acgId: 56750
-  aniId: 
+  aniId: 27273
 JOJO 的奇妙冒險:
   bgmId: 43558
   acgId: 56768
-  aniId: 
+  aniId: 6107
 九藏喵窩:
   bgmId: 581245
   acgId: 56772
@@ -2023,7 +2107,7 @@ JOJO 的奇妙冒險:
 電影 哆啦A夢 大雄的祕密道具博物館:
   bgmId: 55467
   acgId: 56916
-  aniId: 
+  aniId: 24477
 頭文字D Fifth Stage:
   bgmId: 46312
   acgId: 57082
@@ -2039,7 +2123,7 @@ JOJO 的奇妙冒險:
 來自風平浪靜的明日:
   bgmId: 47889
   acgId: 57498
-  aniId: 
+  aniId: 196
 Wake Up,Girls!:
   bgmId: 110641
   acgId: 57755
@@ -2047,7 +2131,7 @@ Wake Up,Girls!:
 襲來！美少女邪神 W:
   bgmId: 58015
   acgId: 58111
-  aniId: 
+  aniId: 27348
 頭文字D Fourth Stage:
   bgmId: 3816
   acgId: 58226
@@ -2055,7 +2139,7 @@ Wake Up,Girls!:
 打工吧！魔王大人:
   bgmId: 50814
   acgId: 58236
-  aniId: 
+  aniId: 10719
 東京闇鴉:
   bgmId: 78542
   acgId: 58428
@@ -2075,15 +2159,15 @@ sin 七大罪 [年齡限制版]:
 新薔薇少女:
   bgmId: 69942
   acgId: 59011
-  aniId: 
+  aniId: 43934
 進擊的巨人:
   bgmId: 55770
   acgId: 59221
-  aniId: 
+  aniId: 3499
 槍彈辯駁 希望學園與絕望高中生:
   bgmId: 56093
   acgId: 59228
-  aniId: 
+  aniId: 474
 翠星上的加爾岡緹亞:
   bgmId: 56091
   acgId: 59258
@@ -2091,11 +2175,11 @@ sin 七大罪 [年齡限制版]:
 影子籃球員 第二季:
   bgmId: 77706
   acgId: 59487
-  aniId: 
+  aniId: 5928
 蠟筆小新：超級美味！B 級美食大逃亡！！:
   bgmId: 81034
   acgId: 59700
-  aniId: 
+  aniId: 789
 當不成勇者的我，只好認真找工作了。:
   bgmId: 73440
   acgId: 59710
@@ -2107,7 +2191,7 @@ sin 七大罪 [年齡限制版]:
 魔鬼戀人:
   bgmId: 64993
   acgId: 60209
-  aniId: 
+  aniId: 840
 偶像大師 劇場版 前往光輝的另一端！:
   bgmId: 64172
   acgId: 60214
@@ -2123,15 +2207,15 @@ sin 七大罪 [年齡限制版]:
 魔法少女小圓 新編 叛逆的物語:
   bgmId: 44693
   acgId: 60976
-  aniId: 
+  aniId: 12331
 Little Busters ! ～Refrain～:
   bgmId: 69484
   acgId: 61087
-  aniId: 
+  aniId: 2029
 境界的彼方:
   bgmId: 49278
   acgId: 61095
-  aniId: 
+  aniId: 3308
 IS 〈Infinite Stratos〉第二季:
   bgmId: 68022
   acgId: 61376
@@ -2151,19 +2235,19 @@ KILL la KILL:
 王者天下 第二季:
   bgmId: 62281
   acgId: 61678
-  aniId: 
+  aniId: 16039
 銀河騎士傳:
   bgmId: 77476
   acgId: 61835
-  aniId: 
+  aniId: 2564
 蒼翼默示錄 Alter Memory:
   bgmId: 73825
   acgId: 61840
-  aniId: 
+  aniId: 1896
 偽戀:
   bgmId: 74628
   acgId: 61980
-  aniId: 
+  aniId: 39492
 LOVE STAGE!!:
   bgmId: 74755
   acgId: 62038
@@ -2175,11 +2259,11 @@ LOVE STAGE!!:
 惡魔的謎語:
   bgmId: 78474
   acgId: 62671
-  aniId: 
+  aniId: 1481
 鬼燈的冷徹:
   bgmId: 77188
   acgId: 62707
-  aniId: 
+  aniId: 1012
 伽利略少女:
   bgmId: 77471
   acgId: 62717
@@ -2191,11 +2275,11 @@ MAGI 魔奇少年 第二季:
 電影 哆啦A夢 新大雄的大魔境～扁扁與五人之探險隊～:
   bgmId: 78282
   acgId: 62967
-  aniId: 
+  aniId: 24478
 第一神拳 Rising:
   bgmId: 78798
   acgId: 63135
-  aniId: 
+  aniId: 2811
 新劇場版 頭文字 D Legend1 覺醒:
   bgmId: 78796
   acgId: 63156
@@ -2207,15 +2291,15 @@ MAGI 魔奇少年 第二季:
 NO GAME NO LIFE 遊戲人生:
   bgmId: 79227
   acgId: 63284
-  aniId: 
+  aniId: 7944
 魔彈之王與戰姬:
   bgmId: 79229
   acgId: 63309
-  aniId: 
+  aniId: 7900
 魔法戰爭:
   bgmId: 79228
   acgId: 63310
-  aniId: 
+  aniId: 828
 超時空甩尾:
   bgmId: 8726
   acgId: 29758
@@ -2411,7 +2495,7 @@ Hello！！黃金拼圖:
 果然我的青春戀愛喜劇搞錯了。續:
   bgmId: 102134
   acgId: 69017
-  aniId: 
+  aniId: 5125
 槍與假面舞會:
   bgmId: 103023
   acgId: 69300
@@ -2419,7 +2503,7 @@ Hello！！黃金拼圖:
 女神異聞錄 4 黃金版:
   bgmId: 103304
   acgId: 69449
-  aniId: 
+  aniId: 23088
 我家浴室的二三事:
   bgmId: 104138
   acgId: 69746
@@ -2427,35 +2511,35 @@ Hello！！黃金拼圖:
 飆速宅男 第二季:
   bgmId: 104468
   acgId: 69878
-  aniId: 
+  aniId: 19900
 影子籃球員 第三季:
   bgmId: 104949
   acgId: 70228
-  aniId: 
+  aniId: 5936
 幸腹塗鴉:
   bgmId: 105969
   acgId: 70926
-  aniId: 
+  aniId: 8152
 遊戲王 次元的黑暗面:
   bgmId: 106329
   acgId: 70939
-  aniId: 
+  aniId: 38482
 學園孤島:
   bgmId: 106693
   acgId: 71038
-  aniId: 
+  aniId: 1302
 銃皇無盡的法夫納:
   bgmId: 106981
   acgId: 71094
-  aniId: 
+  aniId: 12487
 銀河騎士傳 第九行星戰役:
   bgmId: 105255
   acgId: 71132
-  aniId: 
+  aniId: 24142
 Love Live! 電影:
   bgmId: 107199
   acgId: 71163
-  aniId: 
+  aniId: 9327
 名偵探柯南：江戶川柯南失蹤事件 ～史上最糟糕的兩天～:
   bgmId: 114745
   acgId: 71233
@@ -2479,7 +2563,7 @@ Love Live! 電影:
 電影 哆啦A夢 大雄之宇宙英雄記:
   bgmId: 108093
   acgId: 71562
-  aniId: 
+  aniId: 24816
 七龍珠 Z 劇場版：復活的「F」:
   bgmId: 108438
   acgId: 71573
@@ -2491,11 +2575,11 @@ Love Live! 電影:
 神偷怪盜 1412:
   bgmId: 109203
   acgId: 71758
-  aniId: 
+  aniId: 20810
 少女與戰車 劇場版:
   bgmId: 72266
   acgId: 71789
-  aniId: 
+  aniId: 43947
 純情羅曼史 3:
   bgmId: 109541
   acgId: 71848
@@ -2503,7 +2587,7 @@ Love Live! 電影:
 元氣少女緣結神 第二季:
   bgmId: 109724
   acgId: 71892
-  aniId: 
+  aniId: 28105
 天使與龍的輪舞:
   bgmId: 109948
   acgId: 71917
@@ -2511,7 +2595,7 @@ Love Live! 電影:
 監獄學園:
   bgmId: 110048
   acgId: 71954
-  aniId: 
+  aniId: 7208
 翻轉女孩:
   bgmId: 110600
   acgId: 72066
@@ -2523,7 +2607,7 @@ Love Live! 電影:
 '飆速宅男 Re: RIDE':
   bgmId: 110062
   acgId: 72236
-  aniId: 
+  aniId: 23377
 百合熊風暴:
   bgmId: 59825
   acgId: 72362
@@ -2535,19 +2619,19 @@ Love Live! 電影:
 Fate/kaleid liner 魔法少女☆伊莉雅 2wei Herz！:
   bgmId: 113134
   acgId: 72677
-  aniId: 
+  aniId: 33188
 JOJO 的奇妙冒險 星塵遠征軍 埃及篇:
   bgmId: 113292
   acgId: 72735
-  aniId: 
+  aniId: 6923
 進擊的巨人 第二季:
   bgmId: 118335
   acgId: 72755
-  aniId: 
+  aniId: 7583
 蠟筆小新：我的搬家物語 仙人掌大襲擊！:
   bgmId: 122890
   acgId: 72915
-  aniId: 
+  aniId: 791
 美男高校地球防衛部LOVE!:
   bgmId: 114394
   acgId: 73014
@@ -2555,31 +2639,31 @@ JOJO 的奇妙冒險 星塵遠征軍 埃及篇:
 少年好萊塢 第二季:
   bgmId: 114488
   acgId: 73016
-  aniId: 
+  aniId: 1392
 偽戀 2:
   bgmId: 114758
   acgId: 73090
-  aniId: 
+  aniId: 39512
 重裝武器:
   bgmId: 115008
   acgId: 73148
-  aniId: 
+  aniId: 3030
 無頭騎士異聞錄 DuRaRaRa!!×2 轉:
   bgmId: 114967
   acgId: 73149
-  aniId: 
+  aniId: 2157
 無頭騎士異聞錄 DuRaRaRa!!×2 結:
   bgmId: 114968
   acgId: 73150
-  aniId: 
+  aniId: 4616
 東京喰種√A:
   bgmId: 115292
   acgId: 73216
-  aniId: 
+  aniId: 5989
 食戟之靈:
   bgmId: 116461
   acgId: 73638
-  aniId: 
+  aniId: 42550
 俺物語！！:
   bgmId: 117153
   acgId: 73860
@@ -2591,7 +2675,7 @@ JOJO 的奇妙冒險 星塵遠征軍 埃及篇:
 電影版 聲之形:
   bgmId: 117777
   acgId: 74043
-  aniId: 
+  aniId: 35755
 六花的勇者:
   bgmId: 118067
   acgId: 74124
@@ -2615,7 +2699,7 @@ JOJO 的奇妙冒險 星塵遠征軍 埃及篇:
 鎖鏈戰記 赫克瑟塔斯之光:
   bgmId: 125900
   acgId: 74561
-  aniId: 
+  aniId: 7027
 緋彈的亞莉亞 AA:
   bgmId: 120224
   acgId: 74665
@@ -2623,15 +2707,15 @@ JOJO 的奇妙冒險 星塵遠征軍 埃及篇:
 排球少年！！第二季:
   bgmId: 120236
   acgId: 74666
-  aniId: 
+  aniId: 27009
 GATE 奇幻自衛隊:
   bgmId: 120445
   acgId: 74728
-  aniId: 
+  aniId: 22348
 請問您今天要來點兔子嗎？？:
   bgmId: 123568
   acgId: 75298
-  aniId: 
+  aniId: 3022
 其實我是…:
   bgmId: 123539
   acgId: 75299
@@ -2651,15 +2735,15 @@ Chaos Dragon 赤龍戰役:
 Love Live! Sunshine!!:
   bgmId: 165553
   acgId: 75722
-  aniId: 
+  aniId: 5795
 青春 x 機關槍:
   bgmId: 126779
   acgId: 75748
-  aniId: 
+  aniId: 1000
 一拳超人:
   bgmId: 127563
   acgId: 75930
-  aniId: 
+  aniId: 4451
 魔物娘的同居日常:
   bgmId: 127979
   acgId: 75962
@@ -2679,11 +2763,11 @@ Love Live! Sunshine!!:
 飆速宅男 劇場版:
   bgmId: 129222
   acgId: 76142
-  aniId: 
+  aniId: 21318
 艦隊 Collection 總有一天，在那片海:
   bgmId: 270739
   acgId: 76225
-  aniId: 
+  aniId: 35184
 流浪神差 ARAGOTO:
   bgmId: 129988
   acgId: 76284
@@ -2691,15 +2775,15 @@ Love Live! Sunshine!!:
 七大罪 聖戰的預兆:
   bgmId: 175603
   acgId: 76301
-  aniId: 
+  aniId: 14076
 小桃小栗 Love Love 物語:
   bgmId: 126175
   acgId: 76535
-  aniId: 
+  aniId: 5793
 新我們這一家:
   bgmId: 131717
   acgId: 76782
-  aniId: 
+  aniId: 4617
 不起眼女主角培育法 第二季:
   bgmId: 132734
   acgId: 76948
@@ -2731,7 +2815,7 @@ Hundred 百武裝戰記:
 Anne-Happy:
   bgmId: 138053
   acgId: 78004
-  aniId: 
+  aniId: 5010
 歌之王子殿下 真愛 LEGEND STAR:
   bgmId: 138754
   acgId: 78085
@@ -2743,7 +2827,7 @@ Concrete‧Revolutio 超人幻想:
 Dimension W 維度戰記:
   bgmId: 139221
   acgId: 78204
-  aniId: 
+  aniId: 20535
 ClassicaLoid:
   bgmId: 139137
   acgId: 78207
@@ -2751,19 +2835,19 @@ ClassicaLoid:
 吸血鬼僕人:
   bgmId: 139964
   acgId: 78427
-  aniId: 
+  aniId: 5859
 彗星路西法:
   bgmId: 141225
   acgId: 78527
-  aniId: 
+  aniId: 8203
 飛翔的魔女:
   bgmId: 141799
   acgId: 78704
-  aniId: 
+  aniId: 5011
 線上遊戲的老婆不可能是女生？:
   bgmId: 142758
   acgId: 78883
-  aniId: 
+  aniId: 5012
 JOKER GAME:
   bgmId: 142812
   acgId: 78886
@@ -2771,7 +2855,7 @@ JOKER GAME:
 虹色時光:
   bgmId: 142990
   acgId: 78897
-  aniId: 
+  aniId: 4888
 TERRA FORMARS 火星任務 復仇:
   bgmId: 143558
   acgId: 78978
@@ -2803,7 +2887,7 @@ TERRA FORMARS 火星任務 復仇:
 石膏BOYS:
   bgmId: 145457
   acgId: 79369
-  aniId: 
+  aniId: 8164
 疾走王子 Alternative:
   bgmId: 145781
   acgId: 79426
@@ -2811,7 +2895,7 @@ TERRA FORMARS 火星任務 復仇:
 食戟之靈 貳之皿:
   bgmId: 160124
   acgId: 79524
-  aniId: 
+  aniId: 5794
 境界之Rinne 第二季:
   bgmId: 146503
   acgId: 79559
@@ -2827,11 +2911,11 @@ ALL OUT!!:
 逆轉裁判:
   bgmId: 146737
   acgId: 79653
-  aniId: 
+  aniId: 11015
 3 月的獅子:
   bgmId: 147068
   acgId: 79679
-  aniId: 
+  aniId: 6479
 魔裝學園 H×H:
   bgmId: 147438
   acgId: 79813
@@ -2839,15 +2923,15 @@ ALL OUT!!:
 Fate/kaleid liner 魔法少女☆伊莉雅 3rei！！:
   bgmId: 147466
   acgId: 79816
-  aniId: 
+  aniId: 5864
 發條精靈戰記 天鏡的極北之星:
   bgmId: 148097
   acgId: 79938
-  aniId: 
+  aniId: 5872
 加速世界 INFINITE BURST:
   bgmId: 148095
   acgId: 79942
-  aniId: 
+  aniId: 6126
 藍海少女:
   bgmId: 148142
   acgId: 79967
@@ -2855,19 +2939,19 @@ Fate/kaleid liner 魔法少女☆伊莉雅 3rei！！:
 當女孩遇到熊:
   bgmId: 148361
   acgId: 80035
-  aniId: 
+  aniId: 4995
 黑執事 劇場版 豪華客船編:
   bgmId: 148389
   acgId: 80044
-  aniId: 
+  aniId: 9227
 灰與幻想的格林姆迦爾:
   bgmId: 148726
   acgId: 80130
-  aniId: 
+  aniId: 11689
 天地無用！魎皇鬼 第 4 期:
   bgmId: 157922
   acgId: 80136
-  aniId: 
+  aniId: 15971
 魔法護士小麥 R:
   bgmId: 149412
   acgId: 80172
@@ -2875,7 +2959,7 @@ Fate/kaleid liner 魔法少女☆伊莉雅 3rei！！:
 JOJO 的奇妙冒險 不滅鑽石:
   bgmId: 150490
   acgId: 80231
-  aniId: 
+  aniId: 4994
 驚爆危機 Invisible Victory:
   bgmId: 150246
   acgId: 80232
@@ -2883,15 +2967,15 @@ JOJO 的奇妙冒險 不滅鑽石:
 New Game!:
   bgmId: 150775
   acgId: 80256
-  aniId: 
+  aniId: 19746
 這個美術社大有問題！:
   bgmId: 150746
   acgId: 80272
-  aniId: 
+  aniId: 5871
 蠟筆小新電影 爆睡 夢世界大作戰！:
   bgmId: 159335
   acgId: 80347
-  aniId: 
+  aniId: 7020
 闇芝居 第三季:
   bgmId: 152567
   acgId: 80358
@@ -2903,11 +2987,11 @@ New Game!:
 黑白來看守所:
   bgmId: 126177
   acgId: 80520
-  aniId: 
+  aniId: 6473
 Luck & Logic:
   bgmId: 155281
   acgId: 80570
-  aniId: 
+  aniId: 4612
 田中君總是如此慵懶:
   bgmId: 155704
   acgId: 80602
@@ -2919,7 +3003,7 @@ Luck & Logic:
 第一神拳 冠軍之路:
   bgmId: 135195
   acgId: 80797
-  aniId: 
+  aniId: 2432
 軒轅劍 蒼之曜:
   bgmId: 154771
   acgId: 80800
@@ -2951,7 +3035,7 @@ Luck & Logic:
 不愉快的妖怪庵:
   bgmId: 168905
   acgId: 81932
-  aniId: 
+  aniId: 15873
 機動戰士鋼彈 UC RE:0096:
   bgmId: 169917
   acgId: 82078
@@ -2959,15 +3043,15 @@ Luck & Logic:
 喵阿楞！:
   bgmId: 190793
   acgId: 82121
-  aniId: 
+  aniId: 6850
 無畏魔女:
   bgmId: 85338
   acgId: 82251
-  aniId: 
+  aniId: 6419
 烏龍派出所電影版2：UFO大逆襲 龍捲風大作戰:
   bgmId: 54608
   acgId: 82266
-  aniId: 
+  aniId: 24293
 魔法科高中的劣等生 呼喚繁星的少女:
   bgmId: 172494
   acgId: 82332
@@ -2979,35 +3063,35 @@ Luck & Logic:
 情色漫畫老師:
   bgmId: 172498
   acgId: 82419
-  aniId: 
+  aniId: 11590
 我太受歡迎了該怎麼辦:
   bgmId: 172492
   acgId: 82422
-  aniId: 
+  aniId: 6413
 文豪 Stray Dogs 第二季:
   bgmId: 171068
   acgId: 82471
-  aniId: 
+  aniId: 6471
 為美好的世界獻上祝福！2:
   bgmId: 174043
   acgId: 82626
-  aniId: 
+  aniId: 7157
 不正經的魔術講師與禁忌教典:
   bgmId: 174138
   acgId: 82639
-  aniId: 
+  aniId: 22336
 Hand Shakers:
   bgmId: 174592
   acgId: 82670
-  aniId: 
+  aniId: 7155
 夏目友人帳 伍:
   bgmId: 174638
   acgId: 82696
-  aniId: 
+  aniId: 6425
 男子啦啦隊！！:
   bgmId: 175402
   acgId: 82751
-  aniId: 
+  aniId: 5860
 輕拍翻轉小魔女:
   bgmId: 174584
   acgId: 82764
@@ -3019,7 +3103,7 @@ Hand Shakers:
 香蕉喵:
   bgmId: 168123
   acgId: 82775
-  aniId: 
+  aniId: 8040
 偶像夢幻祭:
   bgmId: 159159
   acgId: 82778
@@ -3039,7 +3123,7 @@ YURI!!!on ICE:
 少年阿貝GO！GO！小芝麻:
   bgmId: 168467
   acgId: 82859
-  aniId: 
+  aniId: 4999
 午睡公主～不為人知的故事～:
   bgmId: 179798
   acgId: 83043
@@ -3059,7 +3143,7 @@ YURI!!!on ICE:
 ACCA13 區監察課:
   bgmId: 183492
   acgId: 83565
-  aniId: 
+  aniId: 7154
 高校星歌劇 第二季:
   bgmId: 184022
   acgId: 83654
@@ -3079,11 +3163,11 @@ ACCA13 區監察課:
 我的英雄學院 第二季:
   bgmId: 185761
   acgId: 84025
-  aniId: 
+  aniId: 27290
 青之驅魔師 京都不淨王篇:
   bgmId: 186034
   acgId: 84116
-  aniId: 
+  aniId: 7149
 末日時在做什麼？有沒有空？可以來拯救嗎？:
   bgmId: 185943
   acgId: 84118
@@ -3091,19 +3175,19 @@ ACCA13 區監察課:
 神裝少女小纏:
   bgmId: 187112
   acgId: 84296
-  aniId: 
+  aniId: 6406
 NO GAME NO LIFE 遊戲人生 ZERO:
   bgmId: 187276
   acgId: 84307
-  aniId: 
+  aniId: 38205
 電影 哆啦A夢 大雄的南極冰天雪地大冒險:
   bgmId: 187132
   acgId: 84408
-  aniId: 
+  aniId: 24817
 喜歡上你的那瞬間:
   bgmId: 175543
   acgId: 84428
-  aniId: 
+  aniId: 29570
 最遊記 RELOAD BLAST:
   bgmId: 187976
   acgId: 84433
@@ -3111,7 +3195,7 @@ NO GAME NO LIFE 遊戲人生 ZERO:
 12歲。～小小的怦然心動～ 第二季:
   bgmId: 184745
   acgId: 84561
-  aniId: 
+  aniId: 20190
 黃金拼圖 Pretty Days:
   bgmId: 175532
   acgId: 84783
@@ -3131,7 +3215,7 @@ NO GAME NO LIFE 遊戲人生 ZERO:
 亞人醬有話要說:
   bgmId: 191956
   acgId: 84993
-  aniId: 
+  aniId: 7151
 影子籃球員 LAST GAME:
   bgmId: 147147
   acgId: 85013
@@ -3143,27 +3227,27 @@ NO GAME NO LIFE 遊戲人生 ZERO:
 寶可夢 太陽＆月亮:
   bgmId: 192680
   acgId: 85168
-  aniId: 
+  aniId: 17479
 有頂天家族 2:
   bgmId: 193042
   acgId: 85200
-  aniId: 
+  aniId: 32214
 七大罪 戒律的復活:
   bgmId: 192978
   acgId: 85205
-  aniId: 
+  aniId: 14080
 暗殺教室 365 日倒數計時:
   bgmId: 186099
   acgId: 85224
-  aniId: 
+  aniId: 9659
 Rewrite 第二季:
   bgmId: 193562
   acgId: 85318
-  aniId: 
+  aniId: 18473
 一拳超人 第二季:
   bgmId: 193619
   acgId: 85322
-  aniId: 
+  aniId: 12076
 境界之Rinne 第三季:
   bgmId: 193452
   acgId: 85332
@@ -3175,7 +3259,7 @@ Rewrite 第二季:
 從零開始的魔法書:
   bgmId: 194259
   acgId: 85400
-  aniId: 
+  aniId: 36600
 快盜天使 Twin Angels BREAK:
   bgmId: 186220
   acgId: 85412
@@ -3195,7 +3279,7 @@ Rewrite 第二季:
 蠟筆小新電影 宇宙人 Pi 力來襲！！:
   bgmId: 195185
   acgId: 85608
-  aniId: 
+  aniId: 9436
 惡魔高校 D×D HERO:
   bgmId: 195845
   acgId: 85719
@@ -3203,11 +3287,11 @@ Rewrite 第二季:
 皇帝聖印戰記:
   bgmId: 195843
   acgId: 85733
-  aniId: 
+  aniId: 9693
 麵包超人電影版：玩具之星的南達與倫妲:
   bgmId: 185732
   acgId: 85734
-  aniId: 
+  aniId: 36598
 梵諦岡奇蹟調查官:
   bgmId: 197722
   acgId: 86038
@@ -3223,7 +3307,7 @@ Rewrite 第二季:
 重啟咲良田:
   bgmId: 193378
   acgId: 86183
-  aniId: 
+  aniId: 7590
 機甲少女 Frame Arms Girl:
   bgmId: 198961
   acgId: 86280
@@ -3239,7 +3323,7 @@ Rewrite 第二季:
 櫻花任務:
   bgmId: 200547
   acgId: 86468
-  aniId: 
+  aniId: 23506
 半獸人的煩惱:
   bgmId: 201754
   acgId: 86544
@@ -3255,11 +3339,11 @@ Rewrite 第二季:
 夏目友人帳 陸:
   bgmId: 203387
   acgId: 86651
-  aniId: 
+  aniId: 7612
 將國戡亂記:
   bgmId: 202261
   acgId: 86653
-  aniId: 
+  aniId: 39748
 王室教師海涅:
   bgmId: 195434
   acgId: 86675
@@ -3271,11 +3355,11 @@ MARGINAL#4:
 劇場版 歌之☆王子殿下♪真愛 KINGDOM:
   bgmId: 203863
   acgId: 86700
-  aniId: 
+  aniId: 23100
 調教咖啡廳:
   bgmId: 204145
   acgId: 86723
-  aniId: 
+  aniId: 39408
 活擊 刀劍亂舞:
   bgmId: 175424
   acgId: 86753
@@ -3283,7 +3367,7 @@ MARGINAL#4:
 幼女戰記:
   bgmId: 167655
   acgId: 86802
-  aniId: 
+  aniId: 7148
 闇芝居 第四季:
   bgmId: 199827
   acgId: 86871
@@ -3307,7 +3391,7 @@ MARGINAL#4:
 捏造陷阱 -NTR- [年齡限制版]:
   bgmId: 198099
   acgId: 87490
-  aniId: 
+  aniId: 10733
 戀愛與謊言:
   bgmId: 209412
   acgId: 87549
@@ -3315,27 +3399,27 @@ MARGINAL#4:
 遊戲王 VRAINS:
   bgmId: 202615
   acgId: 87586
-  aniId: 
+  aniId: 42776
 文豪 Stray Dogs 劇場版 DEAD APPLE:
   bgmId: 209596
   acgId: 87594
-  aniId: 
+  aniId: 17516
 地獄少女 宵伽:
   bgmId: 210231
   acgId: 87677
-  aniId: 
+  aniId: 28356
 Love Live! Sunshine!! 第二季:
   bgmId: 210272
   acgId: 87683
-  aniId: 
+  aniId: 8787
 Fate/kaleid liner 魔法少女☆伊莉雅 雪下的誓言:
   bgmId: 193373
   acgId: 87738
-  aniId: 
+  aniId: 38382
 阿松 第二季:
   bgmId: 212609
   acgId: 87853
-  aniId: 
+  aniId: 18005
 魔法使的新娘:
   bgmId: 210864
   acgId: 87854
@@ -3343,23 +3427,23 @@ Fate/kaleid liner 魔法少女☆伊莉雅 雪下的誓言:
 鬼燈的冷徹 第二季:
   bgmId: 211035
   acgId: 87891
-  aniId: 
+  aniId: 8789
 劇場版 FREE! 男子游泳部 Timeless Medley- 絆:
   bgmId: 211616
   acgId: 88092
-  aniId: 
+  aniId: 34985
 劇場版 FREE! 男子游泳部 Timeless Medley- 約束:
   bgmId: 211617
   acgId: 88093
-  aniId: 
+  aniId: 34986
 特別版 FREE! 男子游泳部 -Take Your Marks-:
   bgmId: 211618
   acgId: 88095
-  aniId: 
+  aniId: 34987
 學園奶爸:
   bgmId: 211844
   acgId: 88120
-  aniId: 
+  aniId: 9323
 Princess Principal:
   bgmId: 211936
   acgId: 88166
@@ -3367,7 +3451,7 @@ Princess Principal:
 少年阿貝GO！GO！小芝麻 第二季:
   bgmId: 209352
   acgId: 88264
-  aniId: 
+  aniId: 7613
 潔癖男子！青山君:
   bgmId: 207593
   acgId: 88405
@@ -3403,19 +3487,19 @@ ClassicaLoid 第二季:
 慢活開始:
   bgmId: 214671
   acgId: 88795
-  aniId: 
+  aniId: 22513
 寶石之國:
   bgmId: 214799
   acgId: 88978
-  aniId: 
+  aniId: 8786
 愛吃拉麵的小泉同學:
   bgmId: 212146
   acgId: 89111
-  aniId: 
+  aniId: 9292
 Just Because！:
   bgmId: 212278
   acgId: 89151
-  aniId: 
+  aniId: 8782
 前進吧！登山少女 第三季:
   bgmId: 216310
   acgId: 89239
@@ -3423,11 +3507,11 @@ Just Because！:
 排球少年！！劇場版：才能與感覺:
   bgmId: 211522
   acgId: 89275
-  aniId: 
+  aniId: 37606
 我的女友是個過度認真的處女 Bitch:
   bgmId: 216570
   acgId: 89340
-  aniId: 
+  aniId: 8835
 闇芝居 第五季:
   bgmId: 216767
   acgId: 89346
@@ -3439,23 +3523,23 @@ Just Because！:
 電影 哆啦A夢 大雄的金銀島:
   bgmId: 217072
   acgId: 89510
-  aniId: 
+  aniId: 24884
 進擊的巨人 第三季:
   bgmId: 217300
   acgId: 89557
-  aniId: 
+  aniId: 10484
 食戟之靈 餐之皿:
   bgmId: 217632
   acgId: 89732
-  aniId: 
+  aniId: 13318
 搖曳露營△:
   bgmId: 207195
   acgId: 89804
-  aniId: 
+  aniId: 21671
 少女終末旅行:
   bgmId: 218707
   acgId: 89980
-  aniId: 
+  aniId: 8834
 DARLING in the FRANXX:
   bgmId: 218711
   acgId: 90062
@@ -3475,15 +3559,15 @@ DARLING in the FRANXX:
 龍王的工作！:
   bgmId: 219658
   acgId: 90129
-  aniId: 
+  aniId: 9285
 如果有妹妹就好了。:
   bgmId: 213076
   acgId: 90398
-  aniId: 
+  aniId: 8795
 櫻花忍法帖:
   bgmId: 220187
   acgId: 90426
-  aniId: 
+  aniId: 26729
 魔法使的新娘 等待星星的人：後篇:
   bgmId: 172518
   acgId: 90501
@@ -3499,11 +3583,11 @@ DARLING in the FRANXX:
 FAIRY TAIL 魔導少年 最終章:
   bgmId: 174186
   acgId: 90568
-  aniId: 
+  aniId: 10923
 三顆星彩色冒險:
   bgmId: 211066
   acgId: 90583
-  aniId: 
+  aniId: 9319
 黃金神威:
   bgmId: 221127
   acgId: 90713
@@ -3523,7 +3607,7 @@ FAIRY TAIL 魔導少年 最終章:
 無論何時我們的戀情都是10厘米。:
   bgmId: 212005
   acgId: 91280
-  aniId: 
+  aniId: 32612
 電影版妖怪手錶：光影之卷鬼王的復活:
   bgmId: 217167
   acgId: 91590
@@ -3531,31 +3615,31 @@ FAIRY TAIL 魔導少年 最終章:
 排球少年！！劇場版：觀念之戰:
   bgmId: 211523
   acgId: 91638
-  aniId: 
+  aniId: 37607
 我的英雄學院 第三季:
   bgmId: 226677
   acgId: 91866
-  aniId: 
+  aniId: 13465
 多田君不戀愛:
   bgmId: 226734
   acgId: 91870
-  aniId: 
+  aniId: 10133
 東京喰種：re:
   bgmId: 148481
   acgId: 91929
-  aniId: 
+  aniId: 12004
 劇場版 夏目友人帳～緣結空蟬～:
   bgmId: 227392
   acgId: 91974
-  aniId: 
+  aniId: 12584
 伊藤潤二驚選集:
   bgmId: 218453
   acgId: 92024
-  aniId: 
+  aniId: 9300
 MEGALOBOX 機甲拳擊:
   bgmId: 227718
   acgId: 92031
-  aniId: 
+  aniId: 21796
 棒球大聯盟 2nd:
   bgmId: 227739
   acgId: 92051
@@ -3563,15 +3647,15 @@ MEGALOBOX 機甲拳擊:
 約會大作戰 DATE A LIVE III:
   bgmId: 228254
   acgId: 92148
-  aniId: 
+  aniId: 11465
 劇場版 進擊的巨人 覺醒的咆哮:
   bgmId: 228407
   acgId: 92275
-  aniId: 
+  aniId: 10089
 Onyankopon～有請喵喵神～:
   bgmId: 220883
   acgId: 92329
-  aniId: 
+  aniId: 8924
 冷然之天秤:
   bgmId: 189984
   acgId: 92339
@@ -3583,19 +3667,19 @@ Onyankopon～有請喵喵神～:
 搖曳莊的幽奈小姐:
   bgmId: 228969
   acgId: 92353
-  aniId: 
+  aniId: 41135
 妖怪旅館營業中:
   bgmId: 229393
   acgId: 92412
-  aniId: 
+  aniId: 9680
 比宇宙更遠的地方:
   bgmId: 218708
   acgId: 92450
-  aniId: 
+  aniId: 16507
 書店裡的骷髏店員本田:
   bgmId: 225850
   acgId: 92513
-  aniId: 
+  aniId: 10861
 藍海少女 第二季:
   bgmId: 229947
   acgId: 92526
@@ -3607,11 +3691,11 @@ Onyankopon～有請喵喵神～:
 春原莊的管理員小姐:
   bgmId: 230110
   acgId: 92547
-  aniId: 
+  aniId: 39541
 劇場版 來自深淵 深沉靈魂的黎明:
   bgmId: 230914
   acgId: 92691
-  aniId: 
+  aniId: 24929
 我的英雄學院：兩個人的英雄:
   bgmId: 231647
   acgId: 92944
@@ -3619,11 +3703,11 @@ Onyankopon～有請喵喵神～:
 隊長小翼:
   bgmId: 232072
   acgId: 92954
-  aniId: 
+  aniId: 9660
 食戟之靈 餐之皿 遠月列車篇:
   bgmId: 232646
   acgId: 93033
-  aniId: 
+  aniId: 13396
 續·終物語:
   bgmId: 233926
   acgId: 93181
@@ -3635,19 +3719,19 @@ Onyankopon～有請喵喵神～:
 衛宮家今天的餐桌風景:
   bgmId: 234349
   acgId: 93223
-  aniId: 
+  aniId: 16727
 麵包超人電影版：閃耀吧！庫倫與生命之星:
   bgmId: 455737
   acgId: 93283
-  aniId: 
+  aniId: 35205
 JOJO 的奇妙冒險 黃金之風:
   bgmId: 235128
   acgId: 93384
-  aniId: 
+  aniId: 10922
 工作細胞:
   bgmId: 235612
   acgId: 93488
-  aniId: 
+  aniId: 10210
 錢進球場:
   bgmId: 211581
   acgId: 93570
@@ -3655,7 +3739,7 @@ JOJO 的奇妙冒險 黃金之風:
 遊戲 3 人娘:
   bgmId: 236020
   acgId: 93688
-  aniId: 
+  aniId: 10258
 Aikatsu! 偶像學園！Friends:
   bgmId: 234413
   acgId: 93689
@@ -3663,7 +3747,7 @@ Aikatsu! 偶像學園！Friends:
 最終休止符:
   bgmId: 236947
   acgId: 93824
-  aniId: 
+  aniId: 9668
 羽球戰爭！:
   bgmId: 236590
   acgId: 93827
@@ -3671,11 +3755,11 @@ Aikatsu! 偶像學園！Friends:
 哥布林殺手:
   bgmId: 238006
   acgId: 94032
-  aniId: 
+  aniId: 10852
 在地下城尋求邂逅是否搞錯了什麼 第二季:
   bgmId: 238004
   acgId: 94033
-  aniId: 
+  aniId: 12678
 劇場版 在地下城尋求邂逅是否搞錯了什麼 ─ 獵戶座之箭 ─:
   bgmId: 238005
   acgId: 94034
@@ -3683,23 +3767,23 @@ Aikatsu! 偶像學園！Friends:
 你還是不懂群馬:
   bgmId: 237046
   acgId: 94048
-  aniId: 
+  aniId: 22643
 花牌情緣 第三季:
   bgmId: 238815
   acgId: 94113
-  aniId: 
+  aniId: 13811
 GRAND BLUE 碧藍之海:
   bgmId: 235130
   acgId: 94184
-  aniId: 
+  aniId: 44108
 企鵝公路:
   bgmId: 239270
   acgId: 94236
-  aniId: 
+  aniId: 14390
 關於我轉生變成史萊姆這檔事:
   bgmId: 239816
   acgId: 94601
-  aniId: 
+  aniId: 10828
 溫泉屋小女將:
   bgmId: 239839
   acgId: 94636
@@ -3707,15 +3791,15 @@ GRAND BLUE 碧藍之海:
 百鍊霸王與聖約女武神:
   bgmId: 239960
   acgId: 94801
-  aniId: 
+  aniId: 39432
 Re：從零開始的異世界生活 Memory Snow:
   bgmId: 225462
   acgId: 94804
-  aniId: 
+  aniId: 17334
 青春豬頭少年不會夢到兔女郎學姊:
   bgmId: 240038
   acgId: 94844
-  aniId: 
+  aniId: 10837
 京都寺町三條商店街的福爾摩斯:
   bgmId: 240198
   acgId: 94989
@@ -3723,11 +3807,11 @@ Re：從零開始的異世界生活 Memory Snow:
 七龍珠超：布羅利:
   bgmId: 240287
   acgId: 94994
-  aniId: 
+  aniId: 35207
 逆轉裁判 第二季:
   bgmId: 240499
   acgId: 95190
-  aniId: 
+  aniId: 10933
 RErideD - 穿越時空的德理達 -:
   bgmId: 240800
   acgId: 95420
@@ -3735,7 +3819,7 @@ RErideD - 穿越時空的德理達 -:
 來自繽紛世界的明日:
   bgmId: 240562
   acgId: 95422
-  aniId: 
+  aniId: 36612
 中間管理錄利根川:
   bgmId: 237834
   acgId: 95426
@@ -3747,23 +3831,23 @@ RErideD - 穿越時空的德理達 -:
 路人超能 100 第二季:
   bgmId: 240760
   acgId: 95465
-  aniId: 
+  aniId: 11396
 異世界魔王與召喚少女的奴隸魔術:
   bgmId: 236224
   acgId: 95582
-  aniId: 
+  aniId: 11977
 叛逆性百萬亞瑟王:
   bgmId: 240974
   acgId: 95612
-  aniId: 
+  aniId: 40036
 紅蓮之王:
   bgmId: 241091
   acgId: 95727
-  aniId: 
+  aniId: 10401
 魔術士歐菲 流浪之旅:
   bgmId: 241112
   acgId: 95849
-  aniId: 
+  aniId: 14494
 Angolmois 元寇合戰記:
   bgmId: 218572
   acgId: 95889
@@ -3779,7 +3863,7 @@ Angolmois 元寇合戰記:
 我讓最想被擁抱的男人給威脅了:
   bgmId: 241265
   acgId: 96003
-  aniId: 
+  aniId: 11376
 暮光幻影:
   bgmId: 241264
   acgId: 96004
@@ -3791,7 +3875,7 @@ Angolmois 元寇合戰記:
 學園 BASARA:
   bgmId: 241949
   acgId: 96352
-  aniId: 
+  aniId: 10956
 路人超能100 REIGEN ～不為人知的奇蹟靈能力者～:
   bgmId: 228109
   acgId: 96378
@@ -3807,7 +3891,7 @@ Angolmois 元寇合戰記:
 Conception 產子救世錄:
   bgmId: 245531
   acgId: 97499
-  aniId: 
+  aniId: 39420
 尤利西斯 貞德與鍊金騎士:
   bgmId: 227098
   acgId: 97522
@@ -3819,35 +3903,35 @@ BanG Dream！第二季:
 BanG Dream！第三季:
   bgmId: 246430
   acgId: 97713
-  aniId: 
+  aniId: 14496
 約定的夢幻島:
   bgmId: 243916
   acgId: 97790
-  aniId: 
+  aniId: 12952
 實況主的逃脫遊戲【直播中】:
   bgmId: 247548
   acgId: 97962
-  aniId: 
+  aniId: 12663
 笨拙之極的上野:
   bgmId: 247417
   acgId: 98118
-  aniId: 
+  aniId: 11392
 強風吹拂:
   bgmId: 248154
   acgId: 98172
-  aniId: 
+  aniId: 11446
 輝夜姬想讓人告白～天才們的戀愛頭腦戰～:
   bgmId: 248175
   acgId: 98176
-  aniId: 
+  aniId: 11431
 音樂少女:
   bgmId: 240366
   acgId: 98233
-  aniId: 
+  aniId: 10212
 東京喰種：re 第二季:
   bgmId: 244878
   acgId: 98376
-  aniId: 
+  aniId: 12016
 電影版妖怪手錶：永遠的朋友:
   bgmId: 270963
   acgId: 98707
@@ -3855,7 +3939,7 @@ BanG Dream！第三季:
 不愉快的妖怪庵 續:
   bgmId: 251009
   acgId: 98946
-  aniId: 
+  aniId: 11400
 黃金神威 第二季:
   bgmId: 251547
   acgId: 99053
@@ -3875,11 +3959,11 @@ Re：Stage！Dream days♪:
 強襲魔女 通往柏林之路:
   bgmId: 253046
   acgId: 99487
-  aniId: 
+  aniId: 18539
 聯盟空軍航空魔法音樂隊 光輝魔女:
   bgmId: 253047
   acgId: 99488
-  aniId: 
+  aniId: 30014
 強襲魔女 501 部隊出動！:
   bgmId: 253048
   acgId: 99491
@@ -3887,7 +3971,7 @@ Re：Stage！Dream days♪:
 轉生成蜘蛛又怎樣！:
   bgmId: 252782
   acgId: 99495
-  aniId: 
+  aniId: 20600
 家有女友:
   bgmId: 253628
   acgId: 99608
@@ -3911,7 +3995,7 @@ Anima Yell!:
 ENDRO！:
   bgmId: 254895
   acgId: 99920
-  aniId: 
+  aniId: 11433
 八月的棒球甜心:
   bgmId: 255667
   acgId: 100086
@@ -3935,7 +4019,7 @@ ENDRO！:
 一個人的○○小日子:
   bgmId: 241335
   acgId: 100813
-  aniId: 
+  aniId: 12081
 超可動女孩 1/6:
   bgmId: 260373
   acgId: 100839
@@ -3959,19 +4043,19 @@ K Seven Stories R:B ～BLAZE～:
 青春豬頭少年不會夢到懷夢美少女:
   bgmId: 260680
   acgId: 101403
-  aniId: 
+  aniId: 14826
 請問您今天要來點兔子嗎？BLOOM:
   bgmId: 260770
   acgId: 101411
-  aniId: 
+  aniId: 18548
 請問您今天要來點兔子嗎？～Sing For You～:
   bgmId: 260772
   acgId: 101412
-  aniId: 
+  aniId: 14405
 募戀英雄 PIECE OF TRUTH:
   bgmId: 260729
   acgId: 101438
-  aniId: 
+  aniId: 13818
 劇場版 王室教師海涅:
   bgmId: 260948
   acgId: 101464
@@ -3987,7 +4071,7 @@ K Seven Stories R:B ～BLAZE～:
 我的英雄學院 第四季:
   bgmId: 262162
   acgId: 101709
-  aniId: 
+  aniId: 13846
 為什麼老師會在這裡！？:
   bgmId: 262111
   acgId: 101716
@@ -4011,7 +4095,7 @@ K Seven Stories SIDE:BLUE ～猶如天狼～:
 搖曳露營△ 第二季:
   bgmId: 262897
   acgId: 101856
-  aniId: 
+  aniId: 20555
 喜歡本大爺的竟然就妳一個？:
   bgmId: 262943
   acgId: 101857
@@ -4019,15 +4103,15 @@ K Seven Stories SIDE:BLUE ～猶如天狼～:
 電影版 搖曳露營△:
   bgmId: 262898
   acgId: 101872
-  aniId: 
+  aniId: 37920
 大人的防具店:
   bgmId: 262112
   acgId: 101903
-  aniId: 
+  aniId: 20581
 美妙射擊部:
   bgmId: 263771
   acgId: 101997
-  aniId: 
+  aniId: 13854
 笑容的代價:
   bgmId: 263907
   acgId: 102022
@@ -4035,7 +4119,7 @@ K Seven Stories SIDE:BLUE ～猶如天狼～:
 轉生成女性向遊戲只有毀滅 END 的壞人大小姐:
   bgmId: 264089
   acgId: 102102
-  aniId: 
+  aniId: 16125
 普通攻擊是全體二連擊，這樣的媽媽你喜歡嗎？:
   bgmId: 264355
   acgId: 102116
@@ -4047,11 +4131,11 @@ K Seven Stories SIDE:BLUE ～猶如天狼～:
 一弦定音！:
   bgmId: 254788
   acgId: 102280
-  aniId: 
+  aniId: 12114
 女高中生的虛度日常:
   bgmId: 265708
   acgId: 102289
-  aniId: 
+  aniId: 12651
 魔術學姐:
   bgmId: 265614
   acgId: 102318
@@ -4067,19 +4151,19 @@ K Seven Stories SIDE：GREEN ～覆寫世界～:
 環戰公主 CIRCLET PRINCESS:
   bgmId: 256552
   acgId: 102418
-  aniId: 
+  aniId: 38734
 炎炎消防隊:
   bgmId: 266372
   acgId: 102477
-  aniId: 
+  aniId: 29922
 Dr.STONE 新石紀:
   bgmId: 266794
   acgId: 102494
-  aniId: 
+  aniId: 12653
 魔法水果籃:
   bgmId: 266455
   acgId: 102570
-  aniId: 
+  aniId: 12078
 百慕達三角～多彩田園曲～:
   bgmId: 257608
   acgId: 102578
@@ -4099,7 +4183,7 @@ K Seven Stories Based on Lost Small World ～牢籠的彼端～:
 請讓我撒嬌，仙狐大人！:
   bgmId: 268165
   acgId: 102782
-  aniId: 
+  aniId: 12682
 滿腦都是○○的我沒辦法談戀愛:
   bgmId: 268412
   acgId: 102799
@@ -4107,11 +4191,11 @@ K Seven Stories Based on Lost Small World ～牢籠的彼端～:
 川柳少女:
   bgmId: 268510
   acgId: 102841
-  aniId: 
+  aniId: 12079
 怕痛的我，把防禦力點滿就對了:
   bgmId: 268545
   acgId: 102845
-  aniId: 
+  aniId: 14499
 信長老師的年幼妻子:
   bgmId: 269075
   acgId: 102935
@@ -4123,7 +4207,7 @@ EX-ARM:
 排球少年！！第四季:
   bgmId: 269918
   acgId: 103114
-  aniId: 
+  aniId: 14651
 胡蝶綺～少年信長～:
   bgmId: 270229
   acgId: 103193
@@ -4131,7 +4215,7 @@ EX-ARM:
 COP CRAFT:
   bgmId: 270422
   acgId: 103211
-  aniId: 
+  aniId: 12669
 艾梅洛閣下 II 世事件簿 -魔眼蒐集列車 Grace note-:
   bgmId: 267732
   acgId: 103215
@@ -4139,7 +4223,7 @@ COP CRAFT:
 月歌。THE ANIMATION 2:
   bgmId: 266349
   acgId: 103310
-  aniId: 
+  aniId: 18535
 K Seven Stories 紅之記憶 ～BURN～:
   bgmId: 251988
   acgId: 103335
@@ -4151,15 +4235,15 @@ K Seven Stories 紅之記憶 ～BURN～:
 麵包超人電影版：發光吧！冰淇淋王國的香草公主:
   bgmId: 335298
   acgId: 103380
-  aniId: 
+  aniId: 20332
 虛構推理:
   bgmId: 271687
   acgId: 103427
-  aniId: 
+  aniId: 15216
 流汗吧！健身少女:
   bgmId: 271724
   acgId: 103449
-  aniId: 
+  aniId: 12644
 刀劍亂舞 - 花丸 - ～幕間回憶錄～:
   bgmId: 226599
   acgId: 103470
@@ -4175,19 +4259,19 @@ K Seven Stories 紅之記憶 ～BURN～:
 Fairy gone:
   bgmId: 272475
   acgId: 103604
-  aniId: 
+  aniId: 22843
 白貓 Project Zero Chronicle 零之紀元:
   bgmId: 269436
   acgId: 103741
-  aniId: 
+  aniId: 15186
 彼方的阿斯特拉:
   bgmId: 273877
   acgId: 103788
-  aniId: 
+  aniId: 12642
 超級小白:
   bgmId: 273510
   acgId: 103843
-  aniId: 
+  aniId: 44306
 只要長得可愛，即使是變態你也喜歡嗎？:
   bgmId: 275371
   acgId: 104072
@@ -4195,7 +4279,7 @@ Fairy gone:
 戀愛中的小行星:
   bgmId: 276150
   acgId: 104191
-  aniId: 
+  aniId: 14443
 你遭難了嗎？:
   bgmId: 276187
   acgId: 104214
@@ -4203,11 +4287,11 @@ Fairy gone:
 滿月之戰:
   bgmId: 276412
   acgId: 104230
-  aniId: 
+  aniId: 35192
 格萊普尼爾:
   bgmId: 276705
   acgId: 104281
-  aniId: 
+  aniId: 15161
 小書痴的下剋上：為了成為圖書管理員不擇手段！:
   bgmId: 276788
   acgId: 104329
@@ -4215,11 +4299,11 @@ Fairy gone:
 叛逆性百萬亞瑟王 第二季:
   bgmId: 261048
   acgId: 104350
-  aniId: 
+  aniId: 40046
 南無阿彌陀佛！-蓮台 UTENA-:
   bgmId: 256561
   acgId: 104365
-  aniId: 
+  aniId: 24123
 TRY KNIGHTS:
   bgmId: 277423
   acgId: 104436
@@ -4227,15 +4311,15 @@ TRY KNIGHTS:
 無職轉生，到了異世界就拿出真本事:
   bgmId: 277554
   acgId: 104483
-  aniId: 
+  aniId: 20620
 關於我轉生變成史萊姆這檔事 第二季:
   bgmId: 278031
   acgId: 104513
-  aniId: 
+  aniId: 20530
 魔法水果籃 第二季:
   bgmId: 291039
   acgId: 104514
-  aniId: 
+  aniId: 15188
 警視廳特務部特殊凶惡犯對策室第七課:
   bgmId: 278440
   acgId: 104589
@@ -4243,11 +4327,11 @@ TRY KNIGHTS:
 Re：從零開始的異世界生活 冰結之絆:
   bgmId: 261805
   acgId: 104647
-  aniId: 
+  aniId: 17335
 工作細胞 第二季:
   bgmId: 278815
   acgId: 104688
-  aniId: 
+  aniId: 20608
 索瑪麗與森林之神:
   bgmId: 278670
   acgId: 104712
@@ -4271,11 +4355,11 @@ HUMAN LOST 人間失格:
 約定的夢幻島 第二季:
   bgmId: 279202
   acgId: 104797
-  aniId: 
+  aniId: 20561
 七大罪 眾神的逆鱗:
   bgmId: 280380
   acgId: 105050
-  aniId: 
+  aniId: 13824
 昨日之歌:
   bgmId: 280516
   acgId: 105091
@@ -4283,11 +4367,11 @@ HUMAN LOST 人間失格:
 ICHU 偶像進行曲:
   bgmId: 280615
   acgId: 105108
-  aniId: 
+  aniId: 20531
 放學後堤防日誌:
   bgmId: 280678
   acgId: 105122
-  aniId: 
+  aniId: 15209
 歌塑世界 -Songs Connection-:
   bgmId: 266348
   acgId: 105149
@@ -4299,15 +4383,15 @@ ICHU 偶像進行曲:
 別對映像研出手！:
   bgmId: 282433
   acgId: 105416
-  aniId: 
+  aniId: 14455
 這個勇者明明超 TUEEE 卻過度謹慎！:
   bgmId: 266157
   acgId: 105434
-  aniId: 
+  aniId: 13869
 D4DJ First Mix:
   bgmId: 299372
   acgId: 105519
-  aniId: 
+  aniId: 18820
 放學後桌遊俱樂部:
   bgmId: 259790
   acgId: 105524
@@ -4315,11 +4399,11 @@ D4DJ First Mix:
 食戟之靈 神之皿:
   bgmId: 284546
   acgId: 106077
-  aniId: 
+  aniId: 13842
 魔法律事務所 第二季:
   bgmId: 284838
   acgId: 106136
-  aniId: 
+  aniId: 16295
 水晶國傳說～初次旅行的冒險者們～:
   bgmId: 24158
   acgId: 106231
@@ -4347,11 +4431,11 @@ D4DJ First Mix:
 貓娘樂園:
   bgmId: 270274
   acgId: 106365
-  aniId: 
+  aniId: 14503
 進擊的巨人 The Final Season:
   bgmId: 285666
   acgId: 106374
-  aniId: 
+  aniId: 19849
 我們真的學不來！第二季:
   bgmId: 285130
   acgId: 106392
@@ -4359,7 +4443,7 @@ D4DJ First Mix:
 DECA - DENCE:
   bgmId: 285879
   acgId: 106466
-  aniId: 
+  aniId: 16176
 黃金神威 第三季:
   bgmId: 285901
   acgId: 106485
@@ -4371,7 +4455,7 @@ BanG Dream！FILM LIVE:
 IDOLiSH7 - 偶像星願 - Second BEAT！:
   bgmId: 253042
   acgId: 106515
-  aniId: 
+  aniId: 15163
 魯邦三世 THE FIRST:
   bgmId: 286238
   acgId: 106555
@@ -4379,31 +4463,31 @@ IDOLiSH7 - 偶像星願 - Second BEAT！:
 神推偶像登上武道館我就死而無憾:
   bgmId: 246915
   acgId: 106587
-  aniId: 
+  aniId: 14528
 阿爾蒂:
   bgmId: 286650
   acgId: 106728
-  aniId: 
+  aniId: 15145
 織田肉桂信長:
   bgmId: 286775
   acgId: 106792
-  aniId: 
+  aniId: 14536
 廚病激發 BOY:
   bgmId: 278220
   acgId: 106807
-  aniId: 
+  aniId: 13840
 銀魂 THE FINAL:
   bgmId: 276641
   acgId: 106992
-  aniId: 
+  aniId: 37723
 Fate/stay night [Heaven's Feel] Ⅲ.春櫻之歌:
   bgmId: 175600
   acgId: 107012
-  aniId: 
+  aniId: 26998
 一弦定音！第二季:
   bgmId: 270060
   acgId: 107125
-  aniId: 
+  aniId: 13848
 NULL & PETA:
   bgmId: 289145
   acgId: 107157
@@ -4415,11 +4499,11 @@ NULL & PETA:
 number24:
   bgmId: 278757
   acgId: 107217
-  aniId: 
+  aniId: 14501
 岸邊露伴一動也不動:
   bgmId: 289138
   acgId: 107400
-  aniId: 
+  aniId: 37761
 只想受到你的歡迎:
   bgmId: 243168
   acgId: 107464
@@ -4427,15 +4511,15 @@ number24:
 大人的防具店 裏面:
   bgmId: 275359
   acgId: 107499
-  aniId: 
+  aniId: 20631
 盾之勇者成名錄 Season 2:
   bgmId: 289906
   acgId: 107524
-  aniId: 
+  aniId: 28873
 盾之勇者成名錄 Season 3:
   bgmId: 289907
   acgId: 107525
-  aniId: 
+  aniId: 35516
 辣妹與恐龍:
   bgmId: 289910
   acgId: 107537
@@ -4443,15 +4527,15 @@ number24:
 香蕉喵 不可思議的夥伴們:
   bgmId: 288311
   acgId: 107629
-  aniId: 
+  aniId: 13815
 蠟筆小新：激戰！塗鴉王國與差不多四勇者:
   bgmId: 291038
   acgId: 107645
-  aniId: 
+  aniId: 45426
 新櫻花大戰:
   bgmId: 290630
   acgId: 107694
-  aniId: 
+  aniId: 15157
 請在伸展台上微笑:
   bgmId: 289951
   acgId: 107757
@@ -5232,14 +5316,22 @@ IDOLiSH7 - 偶像星願 - Third BEAT！:
   bgmId: 315060
   acgId: 116520
   aniId: 
+憂國的莫里亞蒂 第一季:
+  bgmId: 297022
+  acgId: 109288
+  aniId: 18369
 憂國的莫里亞蒂 第一季 後半:
   bgmId: 319252
   acgId: 116524
-  aniId: 
+  aniId: 22161
+憂國的莫里亞蒂 OVA:
+  bgmId: 347818
+  acgId: 120867
+  aniId: 30781
 明日同學的水手服:
   bgmId: 331480
   acgId: 116555
-  aniId: 
+  aniId: 27381
 瓦尼塔斯的手札:
   bgmId: 331692
   acgId: 116650
