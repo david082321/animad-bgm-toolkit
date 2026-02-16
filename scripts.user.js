@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         動畫瘋-BGM.TV 點格子
 // @namespace    AnimadWithBgmtv
-// @version      0.5.3
+// @version      0.5.4
 // @description  點格子
 // @author       david082321
 // @match        https://ani.gamer.com.tw/animeVideo.php?*
@@ -330,6 +330,7 @@ async function fetchJapaneseTitle() {
         // console.log('目前標題：', newTitle);
         videoTitle = newTitle.split(" [")[0];
         videoEpisode = newTitle.replace(" [電影]", " [01]").replace(" [年齡限制版]", "").split(" [")[1].split("]")[0];
+        isSpecial = newTitle.includes("[特別篇]");
         init_bgmlink();
     });
 })();
