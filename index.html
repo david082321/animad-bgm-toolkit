@@ -35,9 +35,15 @@
         // 透過搜尋 bgmId 來找到對應的 "標題名稱" (key)
         // 可能存在多層結構
         const titleEntry = Object.entries(data).find(([title, info]) => {
+          // 檢查 special
+          if (info.special && info.special.bgmId === bgmIdNumber) {
+            return true;
+          }
+          // 檢查 parts
           if (info.parts) {
             return info.parts.some(p => p.bgmId === bgmIdNumber);
           }
+          // 檢查單一主體
           return info.bgmId === bgmIdNumber;
         });
 
@@ -53,9 +59,19 @@
 
         // 透過 title 取得對應的項目資料
         const [title, info] = titleEntry;
-        let item = info.parts
-          ? info.parts.find(p => p.bgmId === bgmIdNumber)
-          : info;
+        let item = null;
+        // special
+        if (info.special && info.special.bgmId === bgmIdNumber) {
+          item = info.special;
+        }
+        // parts
+        else if (info.parts) {
+          item = info.parts.find(p => p.bgmId === bgmIdNumber);
+        }
+        // 主體
+        else if (info.bgmId === bgmIdNumber) {
+          item = info;
+        }
 
         console.log(`成功找到項目: "${title}"`, item);
 

@@ -6987,6 +6987,10 @@ NUKITASHI 住在拔作島上的我該如何是好？ [年齡限制版]:
   bgmId: 478684
   acgId: 138263
   aniId: 38918
+  special:
+    bgmId: 524128
+    acgId: 138263
+    aniId: 47747
 鹿乃子乃子乃子虎視眈眈:
   bgmId: 484761
   acgId: 138313

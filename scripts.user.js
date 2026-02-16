@@ -16,6 +16,7 @@
 
 let videoTitle = document.title.split(" [")[0];
 let videoEpisode = document.title.replace(" [電影]", " [01]").replace(" [年齡限制版]", "").split(" [")[1].split("]")[0];
+let isSpecial = document.title.includes("[特別篇]");
 let bgmUrl = "";
 let bgmUrlAuto = "";
 const STORAGE_KEY = "animad_animeData";
@@ -75,8 +76,12 @@ async function fetchJapaneseTitle() {
         const info = animeData[videoTitle];
         let bgmUrl = "";
         if (info) {
+            // 如果是特別篇
+            if (isSpecial && info.special) {
+                bgmUrl = `https://bgm.tv/subject/${info.special.bgmId}`;
+            }
             // 如果有多部（parts）
-            if (info.parts) {
+            else if (info.parts) {
                 for (const part of info.parts) {
                     const start = part.startEp ?? 1;
                     const end = part.endEp ?? Infinity;
@@ -85,7 +90,7 @@ async function fetchJapaneseTitle() {
                     }
                 }
             }
-            // 否則單一部
+            // 單一部
             else if (info.bgmId) {
                 bgmUrl = `https://bgm.tv/subject/${info.bgmId}`;
             }
