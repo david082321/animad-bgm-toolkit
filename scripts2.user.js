@@ -5,6 +5,7 @@
 // @description  在帶有 ?watch= 參數時，自動標記 Bangumi 集數為已看；若未收藏則自動設為「在看」。
 // @author       david082321
 // @match        https://bgm.tv/subject/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=bgm.tv
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_deleteValue
