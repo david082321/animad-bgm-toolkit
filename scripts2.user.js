@@ -1,15 +1,43 @@
 // ==UserScript==
 // @name         Bangumi 自動更新觀看進度
-// @namespace    https://example.com/
-// @version      1.6
-// @description  自動標記已看，若未追番則自動設為「在看」。
+// @namespace    https://github.com/david082321/animad-bgm-toolkit
+// @version      1.7.0
+// @description  在帶有 ?watch= 參數時，自動標記 Bangumi 集數為已看；若未收藏則自動設為「在看」。
 // @author       david082321
 // @match        https://bgm.tv/subject/*
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_deleteValue
-// @license      none
+// @license      MIT
+// @run-at       document-end
 // ==/UserScript==
+
+/*
+ * This script is designed to work together with a companion script
+ * that opens Bangumi subject pages with a ?watch=episode parameter.
+ *
+ * Behavior summary:
+ *
+ * - The script activates only when a "watch" URL parameter is present
+ *   (or a short-lived cached task exists).
+ *
+ * - It automatically marks the specified episode as "watched".
+ *
+ * - If the subject is not yet in the user's collection,
+ *   it will automatically set the status to "Watching"
+ *   before marking the episode.
+ *
+ * - This script performs DOM interactions equivalent to
+ *   manual button clicks (form submission and navigation).
+ *
+ * - No background API requests, tracking, analytics,
+ *   or external data transmission are performed.
+ *
+ * - No external JavaScript is loaded.
+ *
+ * - The script does not run on unrelated pages and
+ *   does nothing during normal browsing without ?watch.
+ */
 
 (function () {
     'use strict';
@@ -30,7 +58,7 @@
     } else {
         // 如果網址沒參數，檢查快取是否有 1 分鐘內的未完成任務
         const savedTask = GM_getValue(taskKey);
-        if (savedTask && (Date.now() - savedTask.time < 60000)) {
+        if (savedTask && (Date.now() - savedTask.time < 60 * 1000)) {
             watchParam = savedTask.ep;
         } else {
             return; // 真的沒有任務，停止執行
@@ -119,10 +147,10 @@
                     saveBtn.click(); // 此處會導致頁面跳轉至沒有 ?watch 的 URL
                     return;
                 } else {
-                    return cleanupAndClose('❌ 無法自動切換追番狀態');
+                    return cleanupAndClose('❌ 無法自動切換追番狀態，請確認登入狀態');
                 }
             }
-            return cleanupAndClose('❌ 找不到「看到」按鈕，請手動確認');
+            return cleanupAndClose('❌ 找不到「看到」按鈕，請確認登入狀態');
         }
 
         const href = watchedBtn.getAttribute('href');
