@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         動畫瘋連結 BGM.TV 點格子
-// @namespace    AnimadWithBgmtv
+// @namespace    https://github.com/david082321/animad-bgm-toolkit
 // @version      1.0.0
 // @description  在動畫瘋自動產生 BGM.TV 連結，並於播放結束時提示儲存觀看記錄
 // @author       david082321
