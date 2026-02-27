@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         動畫瘋連結 BGM.TV 點格子
 // @namespace    https://github.com/david082321/animad-bgm-toolkit
-// @version      1.0.0
+// @version      1.1.0
 // @description  在動畫瘋自動產生 BGM.TV 連結，並於播放結束時提示儲存觀看記錄
 // @author       david082321
 // @match        https://ani.gamer.com.tw/animeVideo.php?*
@@ -93,6 +93,15 @@ async function fetchJapaneseTitle() {
     });
 }
 
+function parseEpisodeNumber(raw) {
+    if (!raw) return null;
+    let ep = raw.toString().trim();
+    const match = ep.match(/(\d+(\.\d+)?)/);
+    if (match) {
+        return parseFloat(match[1]);
+    }
+    return null;
+}
 
 
 (async () => {
@@ -104,10 +113,13 @@ async function fetchJapaneseTitle() {
     async function init_bgmlink() {
         const info = animeData[videoTitle];
         let bgmUrl = "";
+        let bgmUrlAuto = "";
+        let offset = 0;
         if (info) {
             // 如果是特別篇
             if (isSpecial && info.special) {
                 bgmUrl = `https://bgm.tv/subject/${info.special.bgmId}`;
+                offset = info.special.offset ?? 0;
             }
             // 如果有多部（parts）
             else if (info.parts) {
@@ -116,16 +128,25 @@ async function fetchJapaneseTitle() {
                     const end = part.endEp ?? Infinity;
                     if (videoEpisode >= start && videoEpisode <= end) {
                         bgmUrl = `https://bgm.tv/subject/${part.bgmId}`;
+                        offset = part.offset ?? 0;
+                        break;
                     }
                 }
             }
             // 單一部
             else if (info.bgmId) {
                 bgmUrl = `https://bgm.tv/subject/${info.bgmId}`;
+                offset = info.offset ?? 0;
             }
         }
         if (bgmUrl !== "") {
-            bgmUrlAuto = bgmUrl + "?watch=" + videoEpisode;
+            const episodeNumber = parseEpisodeNumber(videoEpisode);
+            if (episodeNumber !== null) {
+                const bgmEpisode = episodeNumber + offset;
+                bgmUrlAuto = bgmUrl + "?watch=" + bgmEpisode;
+            } else {
+                bgmUrlAuto = bgmUrl;
+            }
             bgmLink.innerText = "點格子  ";
         } else {
             // 抓取日文標題來搜尋
