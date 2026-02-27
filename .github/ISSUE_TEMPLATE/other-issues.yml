@@ -1,0 +1,18 @@
+name: 💬 其他問題與建議
+description: 功能提案、一般性問題或 Bug 回報
+title: "[其他] "
+labels: ["discussion"]
+body:
+  - type: textarea
+    id: issue_content
+    attributes:
+      label: 問題描述
+      description: 請詳細描述您遇到的問題或建議。
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: 使用環境 (選填)
+      placeholder: 例如：Chrome 瀏覽器、手機 App 版本等

@@ -1,0 +1,56 @@
+name: 📺 動畫資料通報 (缺少/異常)
+description: 回報缺失的動畫或現有資料錯誤
+title: "[資料通報] "
+labels: ["data-update"]
+body:
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: 通報類型
+      description: 請選擇您要回報的問題類型
+      options:
+        - 缺少動畫 (連結到搜尋頁面、資料庫找不到)
+        - 資料異常 (連結到錯誤動畫、連結失效)
+    validations:
+      required: true
+
+  - type: input
+    id: anime_name
+    attributes:
+      label: 動畫名稱
+      placeholder: 例如：葬送的芙莉蓮
+    validations:
+      required: true
+
+  - type: input
+    id: ani_gamer_link
+    attributes:
+      label: 動畫瘋第一集連結 (選填)
+      placeholder: https://ani.gamer.com.tw/animeVideo.php?sn=...
+    validations:
+      required: false
+
+  - type: input
+    id: baha_acg_link
+    attributes:
+      label: 巴哈姆特 ACG 資料庫連結 (選填)
+      placeholder: https://acg.gamer.com.tw/acgDetail.php?s=...
+    validations:
+      required: false
+
+  - type: input
+    id: bgm_tv_link
+    attributes:
+      label: Bgm.tv 連結 (選填)
+      placeholder: https://bgm.tv/subject/...
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 詳細說明
+      description: 如果是「資料異常」，請詳細描述錯誤的地方。
+      placeholder: 例如：第三集連結點不開，或是年份標註錯誤。
+    validations:
+      required: false
