@@ -14,6 +14,10 @@
 #   bgmId: 
 #   acgId: 
 #   aniId: 
+EVERYDAY HOST CLUB 男公關俱樂部的歡樂日常:
+  bgmId: 529078
+  acgId: 142970
+  aniId: 47769
 白箱 SHIROBAKO:
   bgmId: 110467
   acgId: 72058
@@ -218,6 +222,14 @@ TRIGUN STARGAZE:
   bgmId: 555445
   acgId: 145012
   aniId: 47012
+咒術迴戰:
+  bgmId: 294993
+  acgId: 108886
+  aniId: 18626
+咒術迴戰 第二季:
+  bgmId: 369304
+  acgId: 122778
+  aniId: 34074
 咒術迴戰 死滅迴游 前篇:
   bgmId: 472741
   acgId: 137133
@@ -458,6 +470,10 @@ BLEACH 死神 千年血戰篇-相剋譚-:
   bgmId: 457326
   acgId: 135862
   aniId: 40169
+藍色監獄:
+  bgmId: 341163
+  acgId: 119140
+  aniId: 31631
 藍色監獄 VS. U-20 日本代表隊:
   bgmId: 426123
   acgId: 131301
@@ -699,7 +715,11 @@ WITCH WATCH 魔女守護者:
   bgmId: 488460
   acgId: 138656
   aniId: 42900
-WIND BREAKER—防風少年—  Season 2:
+WIND BREAKER—防風少年—:
+  bgmId: 426947
+  acgId: 131404
+  aniId: 37837
+WIND BREAKER—防風少年— Season 2:
   bgmId: 501626
   acgId: 140230
   aniId: 42896
@@ -868,10 +888,6 @@ Gachiakuta:
   bgmId: 498947
   acgId: 139922
   aniId: 44032
-Dr.STONE 新石紀 第四季:
-  bgmId: 508003
-  acgId: 137041
-  aniId: 41750
 我們不可能成為戀人！絕對不行。（※似乎可行？）:
   bgmId: 524707
   acgId: 142449
@@ -1088,6 +1104,68 @@ Z/X Code reunion:
   bgmId: 518413
   acgId: 143057
   aniId: 45530
+我的英雄學院:
+  bgmId: 150955
+  acgId: 80192
+  aniId: 26709
+我的英雄學院 第二季:
+  bgmId: 185761
+  acgId: 84025
+  aniId: 27290
+我的英雄學院 第三季:
+  bgmId: 226677
+  acgId: 91866
+  aniId: 13465
+我的英雄學院：英雄新世紀:
+  bgmId: 278429
+  acgId: 104690
+  aniId: 38148
+我的英雄學院：兩個人的英雄:
+  bgmId: 231647
+  acgId: 92944
+  aniId: 
+我的英雄學院 第四季:
+  bgmId: 262162
+  acgId: 101709
+  aniId: 13846
+我的英雄學院 第五季:
+  bgmId: 303399
+  acgId: 110755
+  aniId: 22198
+我的英雄學院 OVA：活下來！殊死的生存訓練:
+  bgmId: 339266
+  acgId: 113078
+  aniId: 16952
+我的英雄學院：世界英雄任務:
+  bgmId: 321117
+  acgId: 114751
+  aniId: 38149
+我的英雄學院 第六季:
+  bgmId: 236657
+  acgId: 121103
+  aniId: 31495
+我的英雄學院 HLB 英雄棒球聯盟:
+  bgmId: 381212
+  acgId: 126026
+  aniId: 30783
+  offset: 25
+我的英雄學院 像在地獄一樣笑吧！:
+  bgmId: 386475
+  acgId: 126027
+  aniId: 30784
+  offset: 26
+我的英雄學院 第七季:
+  bgmId: 425587
+  acgId: 131287
+  aniId: 38112
+  special:
+    bgmId: 488960
+    acgId: 131287
+    aniId: 37932
+我的英雄學院 雄英 HEROES BATTLE:
+  bgmId: 467909
+  acgId: 136608
+  aniId: 36336
 SI-VIS：英雄之聲:
   bgmId: 573897
   acgId: 147116
@@ -2068,10 +2146,26 @@ PSYCHO-PASS 心靈判官:
   bgmId: 40533
   acgId: 56154
   aniId: 
+寶可夢：皮卡丘與可可的冒險:
+  bgmId: 298119
+  acgId: 109489
+  aniId: 29975
 寶可夢超級願望 第二季:
   bgmId: 68269
   acgId: 56165
   aniId: 
+寶可夢 XY＆Z:
+  bgmId: 146408
+  acgId: 79604
+  aniId: 
+寶可夢 太陽＆月亮:
+  bgmId: 192680
+  acgId: 85168
+  aniId: 17479
+寶可夢旅途:
+  bgmId: 292522
+  acgId: 107963
+  aniId: 20219
 魔法少女小圓 後編 永遠的物語:
   bgmId: 44692
   acgId: 56339
@@ -2704,10 +2798,6 @@ JOJO 的奇妙冒險 星塵遠征軍 埃及篇:
   bgmId: 120224
   acgId: 74665
   aniId: 
-排球少年！！第二季:
-  bgmId: 120236
-  acgId: 74666
-  aniId: 27009
 GATE 奇幻自衛隊:
   bgmId: 120445
   acgId: 74728
@@ -2899,10 +2989,6 @@ TERRA FORMARS 火星任務 復仇:
 境界之Rinne 第二季:
   bgmId: 146503
   acgId: 79559
-  aniId: 
-寶可夢 XY＆Z:
-  bgmId: 146408
-  acgId: 79604
   aniId: 
 ALL OUT!!:
   bgmId: 146172
@@ -3160,10 +3246,6 @@ ACCA13 區監察課:
   bgmId: 179795
   acgId: 83827
   aniId: 
-我的英雄學院 第二季:
-  bgmId: 185761
-  acgId: 84025
-  aniId: 27290
 青之驅魔師 京都不淨王篇:
   bgmId: 186034
   acgId: 84116
@@ -3224,10 +3306,6 @@ NO GAME NO LIFE 遊戲人生 ZERO:
   bgmId: 191302
   acgId: 85073
   aniId: 
-寶可夢 太陽＆月亮:
-  bgmId: 192680
-  acgId: 85168
-  aniId: 17479
 有頂天家族 2:
   bgmId: 193042
   acgId: 85200
@@ -3504,10 +3582,58 @@ Just Because！:
   bgmId: 216310
   acgId: 89239
   aniId: 
+排球少年！！:
+  bgmId: 84171
+  acgId: 64376
+  aniId: 26675
+排球少年！！第二季:
+  bgmId: 120236
+  acgId: 74666
+  aniId: 27009
+排球少年！！第三季:
+  bgmId: 173849
+  acgId: 82618
+  aniId: 27257
+排球少年！！第四季:
+  bgmId: 269918
+  acgId: 103114
+  aniId: 14651
+排球少年！！第四季 Part 2:
+  bgmId: 295421
+  acgId: 113790
+  aniId: 18432
+排球少年！！劇場版：結束與開始:
+  bgmId: 123136
+  acgId: 137919
+  aniId: 37604
+排球少年！！劇場版：勝者與敗者:
+  bgmId: 128952
+  acgId: 75254
+  aniId: 37605
 排球少年！！劇場版：才能與感覺:
   bgmId: 211522
   acgId: 89275
   aniId: 37606
+排球少年！！劇場版：觀念之戰:
+  bgmId: 211523
+  acgId: 91638
+  aniId: 37607
+排球少年！！列夫前來拜見！:
+  bgmId: 118107
+  acgId: 112273
+  aniId: 
+排球少年！！VS 掛科:
+  bgmId: 144852
+  acgId: 112276
+  aniId: 
+排球少年！！特集！賭在春高排球上的青春:
+  bgmId: 212459
+  acgId: 112277
+  aniId: 
+排球少年！！陸 VS 空＆球之道:
+  bgmId: 289054
+  acgId: 112278
+  aniId: 
 我的女友是個過度認真的處女 Bitch:
   bgmId: 216570
   acgId: 89340
@@ -3612,14 +3738,6 @@ FAIRY TAIL 魔導少年 最終章:
   bgmId: 217167
   acgId: 91590
   aniId: 
-排球少年！！劇場版：觀念之戰:
-  bgmId: 211523
-  acgId: 91638
-  aniId: 37607
-我的英雄學院 第三季:
-  bgmId: 226677
-  acgId: 91866
-  aniId: 13465
 多田君不戀愛:
   bgmId: 226734
   acgId: 91870
@@ -3696,10 +3814,6 @@ Onyankopon～有請喵喵神～:
   bgmId: 230914
   acgId: 92691
   aniId: 24929
-我的英雄學院：兩個人的英雄:
-  bgmId: 231647
-  acgId: 92944
-  aniId: 
 隊長小翼:
   bgmId: 232072
   acgId: 92954
@@ -3784,6 +3898,48 @@ GRAND BLUE 碧藍之海:
   bgmId: 239816
   acgId: 94601
   aniId: 10828
+  special:
+    bgmId: 268726
+    acgId: 94601
+    aniId: 12671
+關於我轉生變成史萊姆這檔事 第二季:
+  bgmId: 278031
+  acgId: 104513
+  aniId: 20530
+  parts:
+  - name: 第2期
+    startEp: 25
+    endEp: 36
+    bgmId: 278031
+    acgId: 104513
+    aniId: 20530
+  - name: 第2期 2
+    startEp: 36.5
+    endEp: 48
+    bgmId: 302523
+    acgId: 104513
+    aniId: 23287
+  special:
+    bgmId: 278031
+    acgId: 104513
+    aniId: 20530
+    offset: 23.9
+轉生史萊姆日記 關於我轉生變成史萊姆這檔事:
+  bgmId: 299673
+  acgId: 116061
+  aniId: 22228
+關於我轉生變成史萊姆這檔事劇場版 紅蓮之絆篇:
+  bgmId: 350185
+  acgId: 119767
+  aniId: 33122
+關於我轉生變成史萊姆這檔事 柯里烏斯之夢:
+  bgmId: 421174
+  acgId: 132289
+  aniId: 35861
+關於我轉生變成史萊姆這檔事 第三季:
+  bgmId: 407573
+  acgId: 128514
+  aniId: 37760
 溫泉屋小女將:
   bgmId: 239839
   acgId: 94636
@@ -3792,10 +3948,6 @@ GRAND BLUE 碧藍之海:
   bgmId: 239960
   acgId: 94801
   aniId: 39432
-Re：從零開始的異世界生活 Memory Snow:
-  bgmId: 225462
-  acgId: 94804
-  aniId: 17334
 青春豬頭少年不會夢到兔女郎學姊:
   bgmId: 240038
   acgId: 94844
@@ -4068,10 +4220,6 @@ K Seven Stories R:B ～BLAZE～:
   bgmId: 251060
   acgId: 101595
   aniId: 
-我的英雄學院 第四季:
-  bgmId: 262162
-  acgId: 101709
-  aniId: 13846
 為什麼老師會在這裡！？:
   bgmId: 262111
   acgId: 101716
@@ -4160,6 +4308,22 @@ Dr.STONE 新石紀:
   bgmId: 266794
   acgId: 102494
   aniId: 12653
+Dr.STONE 新石紀 第二季:
+  bgmId: 296261
+  acgId: 112298
+  aniId: 21132
+Dr.STONE 新石紀 (龍水):
+  bgmId: 331479
+  acgId: 125323
+  aniId: 30232
+Dr.STONE 新石紀 第三季:
+  bgmId: 363101
+  acgId: 125702
+  aniId: 33256
+Dr.STONE 新石紀 第四季:
+  bgmId: 508003
+  acgId: 137041
+  aniId: 41750
 魔法水果籃:
   bgmId: 266455
   acgId: 102570
@@ -4168,6 +4332,14 @@ Dr.STONE 新石紀:
   bgmId: 257608
   acgId: 102578
   aniId: 
+鑽石王牌:
+  bgmId: 73083
+  acgId: 61653
+  aniId: 3776
+鑽石王牌 第二季:
+  bgmId: 129844
+  acgId: 75775
+  aniId: 4901
 鑽石王牌 act2:
   bgmId: 267615
   acgId: 102701
@@ -4204,10 +4376,6 @@ EX-ARM:
   bgmId: 269565
   acgId: 103061
   aniId: 
-排球少年！！第四季:
-  bgmId: 269918
-  acgId: 103114
-  aniId: 14651
 胡蝶綺～少年信長～:
   bgmId: 270229
   acgId: 103193
@@ -4312,10 +4480,6 @@ TRY KNIGHTS:
   bgmId: 277554
   acgId: 104483
   aniId: 20620
-關於我轉生變成史萊姆這檔事 第二季:
-  bgmId: 278031
-  acgId: 104513
-  aniId: 20530
 魔法水果籃 第二季:
   bgmId: 291039
   acgId: 104514
@@ -4324,10 +4488,58 @@ TRY KNIGHTS:
   bgmId: 278440
   acgId: 104589
   aniId: 
+Re：從零開始的異世界生活 Memory Snow:
+  bgmId: 225462
+  acgId: 94804
+  aniId: 17334
 Re：從零開始的異世界生活 冰結之絆:
   bgmId: 261805
   acgId: 104647
   aniId: 17335
+Re：從零開始的異世界生活 第二季:
+  bgmId: 278826
+  acgId: 104687
+  aniId: 16344
+  offset: 25
+  parts:
+  - name: 2nd season
+    startEp: 1
+    endEp: 12
+    bgmId: 278826
+    acgId: 104687
+    aniId: 16344
+    offset: 25
+  - name: 2nd season 後半クール
+    startEp: 13
+    endEp: 25
+    bgmId: 316247
+    acgId: 104687
+    aniId: 20528
+    offset: 25
+Re：從零開始的異世界生活 第三季:
+  bgmId: 425998
+  acgId: 131251
+  aniId: 40260
+  offset: 50
+  parts:
+  - name: 3rd season 襲擊編
+    startEp: 1
+    endEp: 8
+    bgmId: 425998
+    acgId: 131251
+    aniId: 40260
+    offset: 50
+  - name: 3rd season 反擊編
+    startEp: 9
+    endEp: 16
+    bgmId: 510728
+    acgId: 131251
+    aniId: 41977
+    offset: 50
+Re：從零開始的異世界生活 新編集版:
+  bgmId: 296195
+  acgId: 109286
+  aniId: 14440
 工作細胞 第二季:
   bgmId: 278815
   acgId: 104688
@@ -4568,14 +4780,54 @@ number24:
   bgmId: 291195
   acgId: 107915
   aniId: 16398
+鬼滅之刃 竈門炭治郎 立志篇:
+  bgmId: 245665
+  acgId: 98149
+  aniId: 12083
+鬼滅之刃 兄妹之絆:
+  bgmId: 294137
+  acgId: 115780
+  aniId: 21354
 鬼滅之刃劇場版 無限列車篇:
   bgmId: 291494
   acgId: 107959
   aniId: 23505
-寶可夢旅途:
-  bgmId: 292522
-  acgId: 107963
-  aniId: 20219
+鬼滅之刃 那田蜘蛛山篇:
+  bgmId: 317002
+  acgId: 115783
+  aniId: 21373
+鬼滅之奏:
+  bgmId: 328122
+  acgId: 119246
+  aniId: 24728
+鬼滅之刃 柱合會議‧蝴蝶屋篇:
+  bgmId: 322102
+  acgId: 115784
+  aniId: 21356
+國高中一貫！！鬼滅學園物語:
+  bgmId: 327414
+  acgId: 119461
+  aniId: 24998
+鬼滅之奏（無限列車篇）:
+  bgmId: 416698
+  acgId: 134694
+  aniId: 34642
+鬼滅之刃 無限列車篇:
+  bgmId: 350764
+  acgId: 119873
+  aniId: 25562
+鬼滅之刃 遊郭篇:
+  bgmId: 328195
+  acgId: 115835
+  aniId: 26850
+鬼滅之刃 刀匠村篇:
+  bgmId: 369768
+  acgId: 122787
+  aniId: 33295
+鬼滅之刃 柱訓練篇:
+  bgmId: 441939
+  acgId: 133416
+  aniId: 38250
 Radiant 虛空魔境 第二季:
   bgmId: 276051
   acgId: 107994
@@ -4808,10 +5060,6 @@ BURN THE WITCH 龍與魔女:
   bgmId: 299687
   acgId: 110719
   aniId: 15296
-我的英雄學院 第五季:
-  bgmId: 303399
-  acgId: 110755
-  aniId: 22198
 異世界魔王與召喚少女的奴隸魔術 Ω:
   bgmId: 303864
   acgId: 110815
@@ -4884,22 +5132,6 @@ BURN THE WITCH 龍與魔女:
   bgmId: 293945
   acgId: 112026
   aniId: 
-排球少年！！列夫前來拜見！:
-  bgmId: 118107
-  acgId: 112273
-  aniId: 
-排球少年！！VS 掛科:
-  bgmId: 144852
-  acgId: 112276
-  aniId: 
-排球少年！！特集！賭在春高排球上的青春:
-  bgmId: 212459
-  acgId: 112277
-  aniId: 
-排球少年！！陸 VS 空＆球之道:
-  bgmId: 289054
-  acgId: 112278
-  aniId: 
 前輩有夠煩:
   bgmId: 309670
   acgId: 112279
@@ -4964,10 +5196,6 @@ BURN THE WITCH 龍與魔女:
   bgmId: 311092
   acgId: 113073
   aniId: 35757
-我的英雄學院 OVA：活下來！殊死的生存訓練:
-  bgmId: 339266
-  acgId: 113078
-  aniId: 16952
 平穩世代的韋駄天們:
   bgmId: 312723
   acgId: 113084
@@ -5136,10 +5364,6 @@ BACK ARROW:
   bgmId: 320839
   acgId: 114726
   aniId: 32346
-我的英雄學院：世界英雄任務:
-  bgmId: 321117
-  acgId: 114751
-  aniId: 38149
 如果究極進化的完全沉浸 RPG 比現實還更像垃圾遊戲的話:
   bgmId: 321407
   acgId: 114853
@@ -5244,18 +5468,6 @@ IDOLiSH7 - 偶像星願 - Third BEAT！:
   bgmId: 182702
   acgId: 115711
   aniId: 21266
-鬼滅之刃 兄妹之絆:
-  bgmId: 294137
-  acgId: 115780
-  aniId: 21354
-鬼滅之刃 那田蜘蛛山篇:
-  bgmId: 317002
-  acgId: 115783
-  aniId: 21373
-鬼滅之刃 柱合會議‧蝴蝶屋篇:
-  bgmId: 322102
-  acgId: 115784
-  aniId: 21356
 天使降臨到我身邊！珍貴的朋友:
   bgmId: 320493
   acgId: 115814
@@ -5576,10 +5788,6 @@ BUILD-DIVIDE -#000000- CODE BLACK:
   bgmId: 333664
   acgId: 119756
   aniId: 28794
-關於我轉生變成史萊姆這檔事劇場版 紅蓮之絆篇:
-  bgmId: 350185
-  acgId: 119767
-  aniId: 33122
 菜鳥鍊金術師開店營業中:
   bgmId: 349317
   acgId: 119782
@@ -5596,10 +5804,6 @@ BUILD-DIVIDE -#000000- CODE BLACK:
   bgmId: 350523
   acgId: 119837
   aniId: 34390
-鬼滅之刃 無限列車篇:
-  bgmId: 350764
-  acgId: 119873
-  aniId: 25562
 卡片戰鬥!! 先導者 overdress 第二季:
   bgmId: 349387
   acgId: 119908
@@ -5728,10 +5932,6 @@ SPY×FAMILY 間諜家家酒:
   bgmId: 363026
   acgId: 121099
   aniId: 32365
-我的英雄學院 第六季:
-  bgmId: 236657
-  acgId: 121103
-  aniId: 31495
 吸血鬼馬上死 第二季:
   bgmId: 355802
   acgId: 121109
@@ -5796,18 +5996,22 @@ SPY×FAMILY 間諜家家酒:
   bgmId: 334319
   acgId: 122766
   aniId: 28897
-咒術迴戰 第二季:
-  bgmId: 369304
-  acgId: 122778
-  aniId: 34074
 黑之召喚士:
   bgmId: 368617
   acgId: 122884
   aniId: 30292
+歡迎來到實力至上主義的教室:
+  bgmId: 214272
+  acgId: 88688
+  aniId: 8542
 歡迎來到實力至上主義的教室 第二季:
   bgmId: 371546
   acgId: 122954
   aniId: 30021
+歡迎來到實力至上主義的教室 第三季:
+  bgmId: 373266
+  acgId: 133633
+  aniId: 36840
 蠟筆小新：幽靈忍者珍風傳:
   bgmId: 361697
   acgId: 122966
@@ -6020,10 +6224,6 @@ PUI PUI 天竺鼠車車 駕訓班篇:
   bgmId: 375511
   acgId: 125322
   aniId: 30298
-Dr.STONE 新石紀 (龍水):
-  bgmId: 331479
-  acgId: 125323
-  aniId: 30232
 冰冰冰 冰淇淋君 第二季:
   bgmId: 381157
   acgId: 125326
@@ -6092,14 +6292,6 @@ HIGH CARD 至高之牌:
   bgmId: 366507
   acgId: 126012
   aniId: 32429
-我的英雄學院 HLB 英雄棒球聯盟:
-  bgmId: 381212
-  acgId: 126026
-  aniId: 30783
-我的英雄學院 像在地獄一樣笑吧！:
-  bgmId: 386475
-  acgId: 126027
-  aniId: 30784
 我內心的糟糕念頭:
   bgmId: 394260
   acgId: 126156
@@ -6299,10 +6491,6 @@ i☆Ris the Movie - Full Energy!! -:
   bgmId: 382346
   acgId: 128508
   aniId: 32007
-關於我轉生變成史萊姆這檔事 第三季:
-  bgmId: 407573
-  acgId: 128514
-  aniId: 37760
 境界服務:
   bgmId: 407659
   acgId: 128528
@@ -6575,10 +6763,6 @@ RINKAI！女子競輪:
   bgmId: 425988
   acgId: 131285
   aniId: 38958
-我的英雄學院 第七季:
-  bgmId: 425587
-  acgId: 131287
-  aniId: 38112
 米奇與達利:
   bgmId: 362255
   acgId: 131296
@@ -6619,10 +6803,6 @@ BanG Dream! It's MyGO!!!!!:
   bgmId: 318579
   acgId: 132193
   aniId: 33575
-關於我轉生變成史萊姆這檔事 柯里烏斯之夢:
-  bgmId: 421174
-  acgId: 132289
-  aniId: 35861
 轉生貴族憑鑑定技能扭轉人生:
   bgmId: 500855
   acgId: 132297
@@ -6675,10 +6855,6 @@ BanG Dream! It's MyGO!!!!!:
   bgmId: 402835
   acgId: 133480
   aniId: 
-歡迎來到實力至上主義的教室 第三季:
-  bgmId: 373266
-  acgId: 133633
-  aniId: 36840
 公主殿下，「拷問」的時間到了:
   bgmId: 486763
   acgId: 133647
@@ -6891,10 +7067,6 @@ B-PROJECT 〜熱烈＊Love Call〜:
   bgmId: 465884
   acgId: 136527
   aniId: 38920
-我的英雄學院 雄英 HEROES BATTLE:
-  bgmId: 467909
-  acgId: 136608
-  aniId: 36336
 拉麵赤貓:
   bgmId: 467243
   acgId: 136647
@@ -6971,10 +7143,6 @@ NUKITASHI 住在拔作島上的我該如何是好？ [年齡限制版]:
   bgmId: 383251
   acgId: 137886
   aniId: 41951
-排球少年！！劇場版：結束與開始:
-  bgmId: 123136
-  acgId: 137919
-  aniId: 37604
 劇場版 GIVEN 被贈與的未來：去海邊:
   bgmId: 452627
   acgId: 138061

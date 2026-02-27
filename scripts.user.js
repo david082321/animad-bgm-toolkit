@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         動畫瘋連結 BGM.TV 點格子
 // @namespace    https://github.com/david082321/animad-bgm-toolkit
-// @version      1.1.0
+// @version      1.1.1
 // @description  在動畫瘋自動產生 BGM.TV 連結，並於播放結束時提示儲存觀看記錄
 // @author       david082321
 // @match        https://ani.gamer.com.tw/animeVideo.php?*
@@ -147,14 +147,14 @@ function parseEpisodeNumber(raw) {
             } else {
                 bgmUrlAuto = bgmUrl;
             }
-            bgmLink.innerText = "點格子  ";
+            bgmLink.innerText = "  點格子  ";
         } else {
             // 抓取日文標題來搜尋
             const jpTitle = await fetchJapaneseTitle();
             const searchTitle = jpTitle || videoTitle;
             bgmUrl = "https://bgm.tv/subject_search/" + encodeURIComponent(searchTitle) + "?cat=2";
             bgmUrlAuto = bgmUrl;
-            bgmLink.innerText = "點格子?  ";
+            bgmLink.innerText = "  點格子?  ";
         }
         bgmLink.href = bgmUrl;
         const targetBtn = document.querySelector(".anime_name > button");
