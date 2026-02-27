@@ -49,7 +49,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: 詳細說明
+      label: 詳細說明 (選填)
       description: 如果是「資料異常」，請詳細描述錯誤的地方。
       placeholder: 例如：第三集連結點不開，或是年份標註錯誤。
     validations:

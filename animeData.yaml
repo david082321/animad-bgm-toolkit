@@ -14,6 +14,18 @@
 #   bgmId: 
 #   acgId: 
 #   aniId: 
+王者天下:
+  bgmId: 27568
+  acgId: 53052
+  aniId: 15785
+黑色五葉草:
+  bgmId: 202880
+  acgId: 84866
+  aniId: 15464
+青之驅魔師:
+  bgmId: 10339
+  acgId: 41986
+  aniId: 3524
 EVERYDAY HOST CLUB 男公關俱樂部的歡樂日常:
   bgmId: 529078
   acgId: 142970
@@ -2106,10 +2118,18 @@ Fate/kaleid liner 魔法少女☆伊莉雅:
   bgmId: 43951
   acgId: 54798
   aniId: 7956
+獵人 Hunter x Hunter:
+  bgmId: 21032
+  acgId: 50007
+  aniId: 5575
 獵人劇場版 - 緋色幻影:
   bgmId: 44705
   acgId: 54816
   aniId: 5747
+獵人劇場版 - 最終任務:
+  bgmId: 80607
+  acgId: 59672
+  aniId: 5746
 蠟筆小新：我和我的宇宙公主:
   bgmId: 27555
   acgId: 54922
