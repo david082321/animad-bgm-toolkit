@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         動畫瘋連結 BGM.TV 點格子
 // @namespace    https://github.com/david082321/animad-bgm-toolkit
-// @version      1.1.1
+// @version      1.2.0
 // @description  在動畫瘋自動產生 BGM.TV 連結，並於播放結束時提示儲存觀看記錄
 // @author       david082321
 // @match        https://ani.gamer.com.tw/animeVideo.php?*
@@ -95,14 +95,13 @@ async function fetchJapaneseTitle() {
 
 function parseEpisodeNumber(raw) {
     if (!raw) return null;
-    let ep = raw.toString().trim();
+    const ep = raw.toString().trim();
     const match = ep.match(/(\d+(\.\d+)?)/);
     if (match) {
         return parseFloat(match[1]);
     }
     return null;
 }
-
 
 (async () => {
     const animeData = await getAnimeData();
@@ -112,9 +111,10 @@ function parseEpisodeNumber(raw) {
 
     async function init_bgmlink() {
         const info = animeData[videoTitle];
-        let bgmUrl = "";
-        let bgmUrlAuto = "";
+        bgmUrl = "";
+        bgmUrlAuto = "";
         let offset = 0;
+
         if (info) {
             // 如果是特別篇
             if (isSpecial && info.special) {
@@ -123,10 +123,11 @@ function parseEpisodeNumber(raw) {
             }
             // 如果有多部（parts）
             else if (info.parts) {
+                const currentEpisode = parseEpisodeNumber(videoEpisode);
                 for (const part of info.parts) {
                     const start = part.startEp ?? 1;
                     const end = part.endEp ?? Infinity;
-                    if (videoEpisode >= start && videoEpisode <= end) {
+                    if (currentEpisode !== null && currentEpisode >= start && currentEpisode <= end) {
                         bgmUrl = `https://bgm.tv/subject/${part.bgmId}`;
                         offset = part.offset ?? 0;
                         break;
@@ -139,6 +140,7 @@ function parseEpisodeNumber(raw) {
                 offset = info.offset ?? 0;
             }
         }
+
         if (bgmUrl !== "") {
             const episodeNumber = parseEpisodeNumber(videoEpisode);
             if (episodeNumber !== null) {
@@ -150,12 +152,13 @@ function parseEpisodeNumber(raw) {
             bgmLink.innerText = "  點格子  ";
         } else {
             // 抓取日文標題來搜尋
-            const jpTitle = await fetchJapaneseTitle();
-            const searchTitle = jpTitle || videoTitle;
-            bgmUrl = "https://bgm.tv/subject_search/" + encodeURIComponent(searchTitle) + "?cat=2";
-            bgmUrlAuto = bgmUrl;
-            bgmLink.innerText = "  點格子?  ";
+            const jpTitle = await fetchJapaneseTitle();
+            const searchTitle = jpTitle || videoTitle;
+            bgmUrl = "https://bgm.tv/subject_search/" + encodeURIComponent(searchTitle) + "?cat=2";
+            bgmUrlAuto = bgmUrl;
+            bgmLink.innerText = "  點格子?  ";
         }
+
         bgmLink.href = bgmUrl;
         const targetBtn = document.querySelector(".anime_name > button");
         if (targetBtn) targetBtn.insertAdjacentElement("afterend", bgmLink);
@@ -261,9 +264,9 @@ function parseEpisodeNumber(raw) {
                 display: "flex",
                 alignItems: "center",
             });
-
+ 
             // --- 建立內部元素 ---
-
+ 
             // 1. 主要操作 (儲存)
             const mainAction = document.createElement("span");
             mainAction.textContent = "✅ 儲存觀看記錄";
@@ -272,7 +275,9 @@ function parseEpisodeNumber(raw) {
 
             mainAction.onclick = () => {
                 removeBtn(); // 點擊時徹底清除
-                window.open(bgmUrlAuto, "_blank");
+                if (bgmUrlAuto) {
+                    window.open(bgmUrlAuto, "_blank");
+                }
             };
 
             // 2. 關閉按鈕 [X]
