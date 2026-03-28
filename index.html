@@ -11,6 +11,11 @@
   <p>正在處理請稍候...</p>
 
   <script>
+    function normalizeEntries(value) {
+      if (!value) return [];
+      return Array.isArray(value) ? value : [value];
+    }
+
     // 取得 URL 參數 bgmId
     const urlParams = new URLSearchParams(window.location.search);
     const bgmIdParam = urlParams.get('id');
@@ -35,8 +40,10 @@
         // 透過搜尋 bgmId 來找到對應的 "標題名稱" (key)
         // 可能存在多層結構
         const titleEntry = Object.entries(data).find(([title, info]) => {
+          const specialItems = normalizeEntries(info.special);
+
           // 檢查 special
-          if (info.special && info.special.bgmId === bgmIdNumber) {
+          if (specialItems.some(item => item.bgmId === bgmIdNumber)) {
             return true;
           }
           // 檢查 parts
@@ -59,17 +66,18 @@
 
         // 透過 title 取得對應的項目資料
         const [title, info] = titleEntry;
+        const specialItems = normalizeEntries(info.special);
         let item = null;
         // special
-        if (info.special && info.special.bgmId === bgmIdNumber) {
-          item = info.special;
+        if (specialItems.length) {
+          item = specialItems.find(s => s.bgmId === bgmIdNumber) || null;
         }
         // parts
-        else if (info.parts) {
+        if (!item && info.parts) {
           item = info.parts.find(p => p.bgmId === bgmIdNumber);
         }
         // 主體
-        else if (info.bgmId === bgmIdNumber) {
+        if (!item && info.bgmId === bgmIdNumber) {
           item = info;
         }
 

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         動畫瘋連結 BGM.TV 點格子
 // @namespace    https://github.com/david082321/animad-bgm-toolkit
-// @version      1.2.0
+// @version      1.3.0
 // @description  在動畫瘋自動產生 BGM.TV 連結，並於播放結束時提示儲存觀看記錄
 // @author       david082321
 // @match        https://ani.gamer.com.tw/animeVideo.php?*
@@ -103,6 +103,31 @@ function parseEpisodeNumber(raw) {
     return null;
 }
 
+function normalizeEntries(value) {
+    if (!value) return [];
+    return Array.isArray(value) ? value : [value];
+}
+
+function hasEpisodeRange(entry) {
+    return entry && (entry.startEp !== undefined || entry.endEp !== undefined || entry.ep !== undefined);
+}
+
+function findEpisodeMatch(entries, episodeNumber) {
+    if (!entries.length) return null;
+
+    if (entries.length === 1 && !hasEpisodeRange(entries[0])) {
+        return entries[0];
+    }
+
+    if (episodeNumber === null) return null;
+
+    return entries.find((entry) => {
+        const start = entry.startEp ?? entry.ep ?? 1;
+        const end = entry.endEp ?? entry.ep ?? start;
+        return episodeNumber >= start && episodeNumber <= end;
+    }) ?? null;
+}
+
 (async () => {
     const animeData = await getAnimeData();
     const bgmLink = document.createElement("a");
@@ -114,16 +139,17 @@ function parseEpisodeNumber(raw) {
         bgmUrl = "";
         bgmUrlAuto = "";
         let offset = 0;
+        const currentEpisode = parseEpisodeNumber(videoEpisode);
 
         if (info) {
             // 如果是特別篇
-            if (isSpecial && info.special) {
-                bgmUrl = `https://bgm.tv/subject/${info.special.bgmId}`;
-                offset = info.special.offset ?? 0;
+            const specialMatch = isSpecial ? findEpisodeMatch(normalizeEntries(info.special), currentEpisode) : null;
+            if (specialMatch) {
+                bgmUrl = `https://bgm.tv/subject/${specialMatch.bgmId}`;
+                offset = specialMatch.offset ?? 0;
             }
             // 如果有多部（parts）
             else if (info.parts) {
-                const currentEpisode = parseEpisodeNumber(videoEpisode);
                 for (const part of info.parts) {
                     const start = part.startEp ?? 1;
                     const end = part.endEp ?? Infinity;
