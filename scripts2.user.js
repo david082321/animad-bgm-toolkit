@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bangumi 自動更新觀看進度
 // @namespace    https://github.com/david082321/animad-bgm-toolkit
-// @version      1.7.0
+// @version      1.7.1
 // @description  在帶有 ?watch= 參數時，自動標記 Bangumi 集數為已看；若未收藏則自動設為「在看」。
 // @author       david082321
 // @match        https://bgm.tv/subject/*
@@ -132,7 +132,9 @@
         if (target.classList.contains('epBtnWatched')) return cleanupAndClose('✅ 此集已標記為已看');
 
         const epId = target.id.replace('prg_', '');
-        const watchedBtn = document.getElementById(`WatchedTill_${epId}`);
+        const watchedBtn =
+            document.getElementById(`WatchedTill_${epId}`) ||
+            document.getElementById(`Watched_${epId}`);
 
         // 處理未追番/找不到按鈕
         if (!watchedBtn) {
