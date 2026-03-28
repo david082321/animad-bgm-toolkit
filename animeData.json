@@ -22,7 +22,25 @@
   "白箱 SHIROBAKO": {
     "bgmId": 110467,
     "acgId": 72058,
-    "aniId": 14757
+    "aniId": 14757,
+    "special": [
+      {
+        "name": "Exodus!",
+        "startEp": 1,
+        "endEp": 1,
+        "bgmId": 120205,
+        "acgId": 72058,
+        "aniId": 14769
+      },
+      {
+        "name": "第三飛行少女隊",
+        "startEp": 2,
+        "endEp": 2,
+        "bgmId": 126606,
+        "acgId": 72058,
+        "aniId": 14770
+      }
+    ]
   },
   "無家可歸": {
     "bgmId": 447530,
