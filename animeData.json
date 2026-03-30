@@ -1,4 +1,389 @@
 {
+  "雞鬥士": {
+    "bgmId": 505258,
+    "acgId": null,
+    "aniId": null
+  },
+  "飆馬野郎 JOJO的奇妙冒險": {
+    "bgmId": 551918,
+    "acgId": null,
+    "aniId": null
+  },
+  "歡迎來到實力至上主義的教室 第四季 2年級篇 第一學期": {
+    "bgmId": 510710,
+    "acgId": null,
+    "aniId": null
+  },
+  "大賢者里德爾的時間逆行": {
+    "bgmId": 625971,
+    "acgId": null,
+    "aniId": null
+  },
+  "轉生成自動販賣機的我今天也在迷宮徘徊 第三季": {
+    "bgmId": 585790,
+    "acgId": null,
+    "aniId": null
+  },
+  "異獸魔都 第二季": {
+    "bgmId": 474371,
+    "acgId": null,
+    "aniId": null
+  },
+  "溜掉的大魚比不上自己釣到的魚": {
+    "bgmId": 604307,
+    "acgId": null,
+    "aniId": null
+  },
+  "加油！中村同學！！": {
+    "bgmId": 508455,
+    "acgId": null,
+    "aniId": null
+  },
+  "終末起點 第二季": {
+    "bgmId": 565304,
+    "acgId": null,
+    "aniId": null
+  },
+  "Dr.STONE 新石紀 第四季 Part 3": {
+    "bgmId": 508004,
+    "acgId": null,
+    "aniId": null
+  },
+  "冰之城牆": {
+    "bgmId": 535669,
+    "acgId": null,
+    "aniId": null
+  },
+  "霧尾粉絲俱樂部": {
+    "bgmId": 513208,
+    "acgId": null,
+    "aniId": null
+  },
+  "輪迴的花瓣": {
+    "bgmId": 506149,
+    "acgId": null,
+    "aniId": null
+  },
+  "吞噬魔物的冒險者": {
+    "bgmId": 621358,
+    "acgId": null,
+    "aniId": null
+  },
+  "灰原同學重返過去，開啟所向無敵的第二輪青春遊戲": {
+    "bgmId": 567418,
+    "acgId": null,
+    "aniId": null
+  },
+  "你又被殺了呢，偵探大人": {
+    "bgmId": 608227,
+    "acgId": null,
+    "aniId": null
+  },
+  "自稱惡役千金的未婚妻觀察紀錄。": {
+    "bgmId": 558088,
+    "acgId": null,
+    "aniId": null
+  },
+  "關於我在無意間被隔壁的天使變成廢柴這件事2": {
+    "bgmId": 458684,
+    "acgId": null,
+    "aniId": null
+  },
+  "關於我轉生變成史萊姆這檔事 第四季": {
+    "bgmId": 515594,
+    "acgId": null,
+    "aniId": null
+  },
+  "凍結地球": {
+    "bgmId": 571555,
+    "acgId": null,
+    "aniId": null
+  },
+  "拉拉熊": {
+    "bgmId": 520633,
+    "acgId": null,
+    "aniId": null
+  },
+  "鼠小弟的小背心": {
+    "bgmId": 582598,
+    "acgId": null,
+    "aniId": null
+  },
+  "小書痴的下剋上：為了成為圖書管理員不擇手段！領主的養女": {
+    "bgmId": 469104,
+    "acgId": null,
+    "aniId": null
+  },
+  "入間同學入魔了！第四季": {
+    "bgmId": 524486,
+    "acgId": null,
+    "aniId": null
+  },
+  "最強的職業不是勇者也不是賢者好像是鑑定士（暫）的樣子": {
+    "bgmId": 599171,
+    "acgId": null,
+    "aniId": null
+  },
+  "黃泉使者": {
+    "bgmId": 568572,
+    "acgId": null,
+    "aniId": null
+  },
+  "朱音落語": {
+    "bgmId": 576121,
+    "acgId": null,
+    "aniId": null
+  },
+  "MAO 摩緒": {
+    "bgmId": 570448,
+    "acgId": null,
+    "aniId": null
+  },
+  "主播女孩重度依賴": {
+    "bgmId": 606263,
+    "acgId": null,
+    "aniId": null
+  },
+  "容易對付的惡魔大人": {
+    "bgmId": 552589,
+    "acgId": null,
+    "aniId": null
+  },
+  "楠木邸的神明庭院": {
+    "bgmId": 570584,
+    "acgId": null,
+    "aniId": null
+  },
+  "拜託了偶像公主": {
+    "bgmId": 622634,
+    "acgId": null,
+    "aniId": null
+  },
+  "鑽石王牌 act2 第二季": {
+    "bgmId": 495238,
+    "acgId": null,
+    "aniId": null
+  },
+  "日本三國": {
+    "bgmId": 623851,
+    "acgId": null,
+    "aniId": null
+  },
+  "女僕小姐的貪吃日常": {
+    "bgmId": 580473,
+    "acgId": null,
+    "aniId": null
+  },
+  "魔法姊妹露露特莉莉": {
+    "bgmId": 501796,
+    "acgId": null,
+    "aniId": null
+  },
+  "ONE PIECE 艾爾帕布篇": {
+    "bgmId": 602059,
+    "acgId": null,
+    "aniId": null
+  },
+  "GHOST CONCERT：失落之歌": {
+    "bgmId": 600675,
+    "acgId": null,
+    "aniId": null
+  },
+  "茉莉花醬的好感度正在崩壞": {
+    "bgmId": 609183,
+    "acgId": null,
+    "aniId": null
+  },
+  "這樣高大的女孩子你喜歡嗎？": {
+    "bgmId": 616453,
+    "acgId": null,
+    "aniId": null
+  },
+  "淫獄團地": {
+    "bgmId": 621602,
+    "acgId": null,
+    "aniId": null
+  },
+  "異世界悠閒農家 第二季": {
+    "bgmId": 575057,
+    "acgId": null,
+    "aniId": null
+  },
+  "魔法帽的工作室": {
+    "bgmId": 377130,
+    "acgId": null,
+    "aniId": null
+  },
+  "木頭風紀委員和迷你裙JK的故事": {
+    "bgmId": 551123,
+    "acgId": null,
+    "aniId": null
+  },
+  "LIAR GAME - 詐欺遊戲": {
+    "bgmId": 580133,
+    "acgId": null,
+    "aniId": null
+  },
+  "百鬼夜行抄": {
+    "bgmId": 627137,
+    "acgId": null,
+    "aniId": null
+  },
+  "成為悲劇元兇的最強異端，最後頭目女王為了人民犧牲奉獻 第二季": {
+    "bgmId": 567234,
+    "acgId": null,
+    "aniId": null
+  },
+  "婚姻劇毒": {
+    "bgmId": 590353,
+    "acgId": null,
+    "aniId": null
+  },
+  "複製品的我也會談戀愛": {
+    "bgmId": 537722,
+    "acgId": null,
+    "aniId": null
+  },
+  "我和班上第二可愛的女生成為朋友": {
+    "bgmId": 456079,
+    "acgId": null,
+    "aniId": null
+  },
+  "左撇子艾倫": {
+    "bgmId": 409468,
+    "acgId": null,
+    "aniId": null
+  },
+  "我回來了，他又來打擾了！": {
+    "bgmId": 610703,
+    "acgId": null,
+    "aniId": null
+  },
+  "女神「異世界轉生想成為什麼」我「勇者的肋骨」": {
+    "bgmId": 623854,
+    "acgId": null,
+    "aniId": null
+  },
+  "Re：從零開始的異世界生活 第四季": {
+    "bgmId": 547888,
+    "acgId": null,
+    "aniId": null
+  },
+  "出租女友 第五季": {
+    "bgmId": 533027,
+    "acgId": null,
+    "aniId": null
+  },
+  "哪裡有溫柔對待阿宅的辣妹！？": {
+    "bgmId": 590393,
+    "acgId": null,
+    "aniId": null
+  },
+  "女騎士成為蠻族新娘": {
+    "bgmId": 516543,
+    "acgId": null,
+    "aniId": null
+  },
+  "庫吉馬唱歌的家": {
+    "bgmId": 493804,
+    "acgId": null,
+    "aniId": null
+  },
+  "淡島百景": {
+    "bgmId": 493724,
+    "acgId": null,
+    "aniId": null
+  },
+  "神之雫": {
+    "bgmId": 609175,
+    "acgId": null,
+    "aniId": null
+  },
+  "上伊那牡丹，醉姿如百合": {
+    "bgmId": 543360,
+    "acgId": null,
+    "aniId": null
+  },
+  "北斗之拳 -FIST OF THE NORTH STAR-": {
+    "bgmId": 454438,
+    "acgId": null,
+    "aniId": null
+  },
+  "弱弱老師": {
+    "bgmId": 526789,
+    "acgId": null,
+    "aniId": null
+  },
+  "殺手青春": {
+    "bgmId": 581284,
+    "acgId": null,
+    "aniId": null
+  },
+  "一疊間漫畫咖啡屋生活！": {
+    "bgmId": 569161,
+    "acgId": null,
+    "aniId": null
+  },
+  "小三阿貝 QQ小芝麻": {
+    "bgmId": 607043,
+    "acgId": null,
+    "aniId": null
+  },
+  "Kumarba 第三季": {
+    "bgmId": 532772,
+    "acgId": null,
+    "aniId": null
+  },
+  "小鯊鯊出門去 第二季": {
+    "bgmId": 616378,
+    "acgId": null,
+    "aniId": null
+  },
+  "杖與劍的魔劍譚 第二季": {
+    "bgmId": 515856,
+    "acgId": null,
+    "aniId": null
+  },
+  "夜櫻家大作戰 第二季": {
+    "bgmId": 517027,
+    "acgId": null,
+    "aniId": null
+  },
+  "黑貓與魔女的教室": {
+    "bgmId": 576351,
+    "acgId": null,
+    "aniId": null
+  },
+  "想結束這場「我愛你」的遊戲": {
+    "bgmId": 564289,
+    "acgId": null,
+    "aniId": null
+  },
+  "CANDY CARIES 蛀在糖糖裡": {
+    "bgmId": 621449,
+    "acgId": null,
+    "aniId": null
+  },
+  "我的英雄學院 More": {
+    "bgmId": "None",
+    "acgId": null,
+    "aniId": null
+  },
+  "Devil May Cry 第二季": {
+    "bgmId": 551576,
+    "acgId": null,
+    "aniId": null
+  },
+  "春夏秋冬代行者 春之舞": {
+    "bgmId": 551455,
+    "acgId": 144718,
+    "aniId": 48326
+  },
+  "在異世界獲得超強能力的我，在現實世界照樣無敵～等級提升改變人生命運～ TVSP": {
+    "bgmId": 459601,
+    "acgId": 136024,
+    "aniId": 48329
+  },
   "王者天下": {
     "bgmId": 27568,
     "acgId": 53052,
