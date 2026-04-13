@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         動畫瘋連結 BGM.TV 點格子
 // @namespace    https://github.com/david082321/animad-bgm-toolkit
-// @version      1.3.0
+// @version      1.4.0
 // @description  在動畫瘋自動產生 BGM.TV 連結，並於播放結束時提示儲存觀看記錄
 // @author       david082321
 // @match        https://ani.gamer.com.tw/animeVideo.php?*
@@ -10,6 +10,7 @@
 // @grant        GM_setValue
 // @grant        GM_deleteValue
 // @grant        GM_xmlhttpRequest
+// @grant        GM_registerMenuCommand
 // @connect      acg.gamer.com.tw
 // @connect      raw.githubusercontent.com
 // @license      Beerware
@@ -51,6 +52,15 @@ let bgmUrlAuto = "";
 const STORAGE_KEY = "animad_animeData";
 const STORAGE_TIME = "animad_lastUpdate";
 const REMOTE_URL = "https://raw.githubusercontent.com/david082321/animad-bgm-toolkit/refs/heads/main/animeData.json";
+let fillEnabled = GM_getValue("fillEnabled", false);
+
+GM_registerMenuCommand(
+    `補齊前面空白集數：${fillEnabled ? "開" : "關"}`,
+    () => {
+        GM_setValue("fillEnabled", !fillEnabled);
+        location.reload();
+    }
+);
 
 // 解析動畫映射表（自動更新）
 async function getAnimeData() {
@@ -171,7 +181,7 @@ function findEpisodeMatch(entries, episodeNumber) {
             const episodeNumber = parseEpisodeNumber(videoEpisode);
             if (episodeNumber !== null) {
                 const bgmEpisode = episodeNumber + offset;
-                bgmUrlAuto = bgmUrl + "?watch=" + bgmEpisode;
+                bgmUrlAuto = bgmUrl + "?watch=" + bgmEpisode + (fillEnabled ? "&fill=1" : "");
             } else {
                 bgmUrlAuto = bgmUrl;
             }
