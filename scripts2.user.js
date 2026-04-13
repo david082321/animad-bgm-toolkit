@@ -52,6 +52,7 @@
 
     // 優先從網址取值，若網址沒有則從快取拿（處理跳轉後的情況）
     let watchParam = url.searchParams.get('watch');
+    const fillMode = url.searchParams.get('fill') === '1';
 
     if (watchParam) {
         // 如果網址有參數，更新快取任務
@@ -127,6 +128,43 @@
 
         const target = Array.from(list.querySelectorAll('a'))
             .find(a => a.textContent.trim() === epLabel);
+        if (fillMode) {
+            const eps = Array.from(list.querySelectorAll('a'));
+            const targetIndex = eps.findIndex(a => a.textContent.trim() === epLabel);
+        
+            if (targetIndex !== -1) {
+                let toFill = [];
+        
+                // 往前掃
+                for (let i = targetIndex - 1; i >= 0; i--) {
+                    const el = eps[i];
+        
+                    // 已看 → 停
+                    if (el.classList.contains('epBtnWatched')) break;
+        
+                    // 拋棄（drop）→ 停
+                    if (el.classList.contains('epBtnDrop')) break;
+        
+                    // 其他狀態 → 視為空白，加入補齊
+                    toFill.push(el);
+                }
+        
+                if (toFill.length > 0) {
+                    const first = toFill[toFill.length - 1]; // 最早那集
+                    const epId = first.id.replace('prg_', '');
+        
+                    const btn =
+                        document.getElementById(`WatchedTill_${epId}`) ||
+                        document.getElementById(`Watched_${epId}`);
+        
+                    if (btn) {
+                        overlay(`⬅️ 補齊至第 ${first.textContent.trim()} 集…`);
+                        window.location.href = btn.getAttribute('href');
+                        return;
+                    }
+                }
+            }
+        }
 
         if (!target) return cleanupAndClose('❌ 找不到對應集數');
         if (target.classList.contains('epBtnWatched')) return cleanupAndClose('✅ 此集已標記為已看');
