@@ -1,17 +1,33 @@
-# :
-#   bgmId: 
-#   acgId: 
-#   aniId: 
-# :
-#   bgmId: 
-#   acgId: 
-#   aniId: 
-# :
-#   bgmId: 
-#   acgId: 
-#   aniId: 
 雞鬥士:
   bgmId: 505258
+  acgId: null
+  aniId: null
+冰之城牆:
+  bgmId: 535669
+  acgId: null
+  aniId: null
+拜託了偶像公主:
+  bgmId: 622634
+  acgId: null
+  aniId: null
+這樣高大的女孩子你喜歡嗎？:
+  bgmId: 616453
+  acgId: null
+  aniId: null
+魔法帽的工作室:
+  bgmId: 377130
+  acgId: null
+  aniId: null
+LIAR GAME - 詐欺遊戲:
+  bgmId: 580133
+  acgId: null
+  aniId: null
+我的英雄學院 More:
+  bgmId: None
+  acgId: null
+  aniId: null
+Devil May Cry 第二季:
+  bgmId: 551576
   acgId: null
   aniId: null
 歡迎來到實力至上主義的教室 第四季 2年級篇 第一學期:
@@ -34,14 +50,6 @@
   bgmId: 508455
   acgId: 140887
   aniId: 48358
-終末起點 第二季:
-  bgmId: 565304
-  acgId: null
-  aniId: null
-冰之城牆:
-  bgmId: 535669
-  acgId: null
-  aniId: null
 霧尾粉絲後援會:
   bgmId: 513208
   acgId: 141445
@@ -74,10 +82,10 @@
   bgmId: 520633
   acgId: 141989
   aniId: 48430
-小書痴的下剋上：為了成為圖書管理員不擇手段！領主的養女:
+小書痴的下剋上 為了成為圖書管理員不擇手段！領主的養女:
   bgmId: 469104
-  acgId: null
-  aniId: null
+  acgId: 142675
+  aniId: 48642
 入間同學入魔了！第四季:
   bgmId: 524486
   acgId: 142432
@@ -106,18 +114,14 @@ MAO 摩緒:
   bgmId: 570584
   acgId: 146264
   aniId: 48417
-拜託了偶像公主:
-  bgmId: 622634
-  acgId: null
-  aniId: null
 鑽石王牌 act2 第二季:
   bgmId: 495238
   acgId: 139432
   aniId: 48442
 女僕小姐的貪吃日常:
   bgmId: 580473
-  acgId: null
-  aniId: null
+  acgId: 146932
+  aniId: 48448
 魔法姊妹露露特莉莉:
   bgmId: 501796
   acgId: 144286
@@ -130,150 +134,118 @@ MAO 摩緒:
   bgmId: 609183
   acgId: 149910
   aniId: 48457
-這樣高大的女孩子你喜歡嗎？:
-  bgmId: 616453
-  acgId: null
-  aniId: null
 淫獄團地:
   bgmId: 621602
   acgId: 149630
   aniId: 48454
 異世界悠閒農家 2:
   bgmId: 575057
-  acgId: null
-  aniId: null
-魔法帽的工作室:
-  bgmId: 377130
-  acgId: null
-  aniId: null
+  acgId: 146929
+  aniId: 48463
 木頭風紀委員和迷你裙 JK 的故事:
   bgmId: 551123
-  acgId: null
-  aniId: null
-LIAR GAME - 詐欺遊戲:
-  bgmId: 580133
-  acgId: null
-  aniId: null
+  acgId: 144684
+  aniId: 48466
 百鬼夜行抄:
   bgmId: 627137
-  acgId: null
-  aniId: null
+  acgId: 150467
+  aniId: 48471
 成為悲劇元兇的最強異端，最後頭目女王為了人民犧牲奉獻 第二季:
   bgmId: 567234
-  acgId: null
-  aniId: null
+  acgId: 146056
+  aniId: 48474
 婚姻劇毒:
   bgmId: 590353
-  acgId: null
-  aniId: null
+  acgId: 147555
+  aniId: 48477
 複製品的我也會談戀愛:
   bgmId: 537722
-  acgId: null
-  aniId: null
+  acgId: 143831
+  aniId: 48480
 我和班上第二可愛的女生成為朋友:
   bgmId: 456079
-  acgId: null
-  aniId: null
+  acgId: 135739
+  aniId: 48483
 左撇子艾倫:
   bgmId: 409468
-  acgId: null
-  aniId: null
+  acgId: 128925
+  aniId: 48488
 我回來了，他又來打擾了！:
   bgmId: 610703
-  acgId: null
-  aniId: null
+  acgId: 149108
+  aniId: 48491
 女神「異世界轉生想成為什麼」我「勇者的肋骨」:
   bgmId: 623854
-  acgId: null
-  aniId: null
+  acgId: 150266
+  aniId: 48494
 Re：從零開始的異世界生活 第四季:
   bgmId: 547888
-  acgId: null
-  aniId: null
+  acgId: 144453
+  aniId: 48502
 出租女友 第五季:
   bgmId: 533027
-  acgId: null
-  aniId: null
+  acgId: 147356
+  aniId: 48536
 哪裡有溫柔對待阿宅的辣妹！？:
   bgmId: 590393
   acgId: null
   aniId: null
 女騎士成為蠻族新娘:
   bgmId: 516543
-  acgId: null
-  aniId: null
+  acgId: 141723
+  aniId: 48601
 庫吉馬唱歌的家:
   bgmId: 493804
-  acgId: null
-  aniId: null
+  acgId: 139274
+  aniId: 48598
 淡島百景:
   bgmId: 493724
-  acgId: null
-  aniId: null
+  acgId: 139254
+  aniId: 48595
 神之雫:
   bgmId: 609175
-  acgId: null
-  aniId: null
+  acgId: 148300
+  aniId: 48589
 上伊那牡丹，醉姿如百合:
   bgmId: 543360
-  acgId: null
-  aniId: null
+  acgId: 144229
+  aniId: 48592
 北斗之拳 -FIST OF THE NORTH STAR-:
   bgmId: 454438
   acgId: null
   aniId: null
 弱弱老師:
   bgmId: 526789
-  acgId: null
-  aniId: null
+  acgId: 148100
+  aniId: 48625
 殺手青春:
   bgmId: 581284
-  acgId: null
-  aniId: null
-一疊間漫畫咖啡屋生活！:
+  acgId: 147007
+  aniId: 48622
+一疊間漫畫咖啡廳日常:
   bgmId: 569161
-  acgId: null
-  aniId: null
-小三阿貝 QQ小芝麻:
-  bgmId: 607043
-  acgId: null
-  aniId: null
-Kumarba 第三季:
-  bgmId: 532772
-  acgId: null
-  aniId: null
-小鯊鯊出門去 第二季:
-  bgmId: 616378
-  acgId: null
-  aniId: null
-杖與劍的魔劍譚 第二季:
+  acgId: 146184
+  aniId: 48573
+杖與劍的魔劍譚 Season 2:
   bgmId: 515856
-  acgId: null
-  aniId: null
+  acgId: 141666
+  aniId: 48439
 夜櫻家大作戰 第二季:
   bgmId: 517027
-  acgId: null
-  aniId: null
+  acgId: 141776
+  aniId: 48566
 黑貓與魔女的教室:
   bgmId: 576351
-  acgId: null
-  aniId: null
+  acgId: 146600
+  aniId: 48563
 想結束這場「我愛你」的遊戲:
   bgmId: 564289
-  acgId: null
-  aniId: null
+  acgId: 145822
+  aniId: 48554
 CANDY CARIES 蛀在糖糖裡:
   bgmId: 621449
-  acgId: null
-  aniId: null
-我的英雄學院 More:
-  bgmId: None
-  acgId: null
-  aniId: null
-Devil May Cry 第二季:
-  bgmId: 551576
-  acgId: null
-  aniId: null
+  acgId: 149915
+  aniId: 48557
 春夏秋冬代行者 春之舞:
   bgmId: 551455
   acgId: 144718
@@ -7511,6 +7483,14 @@ DDDD 惡魔的破壞:
   bgmId: 520559
   acgId: 141986
   aniId: 42890
+終末起點 第 2 季:
+  bgmId: 565304
+  acgId: 145911
+  aniId: 48362
+終末起點 第二季:
+  bgmId: 565304
+  acgId: 145911
+  aniId: 48362
 青之驅魔師 終夜篇:
   bgmId: 531834
   acgId: 142242
