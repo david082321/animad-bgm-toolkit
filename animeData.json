@@ -1,4 +1,392 @@
 {
+  "Re：從零開始的異世界生活 第四季": {
+    "bgmId": 547888,
+    "acgId": 144453,
+    "aniId": 48502,
+    "parts": [
+      {
+        "name": "喪失篇",
+        "startEp": 1,
+        "endEp": 11,
+        "bgmId": 547888,
+        "acgId": 144453,
+        "aniId": 48502
+      },
+      {
+        "name": "奪還篇",
+        "startEp": 12,
+        "endEp": null,
+        "bgmId": 633836,
+        "acgId": 144453,
+        "aniId": null
+      }
+    ]
+  },
+  "PLANNOSAURUS 認真古生物部": {
+    "bgmId": 633711,
+    "acgId": 152249,
+    "aniId": null
+  },
+  "澈底對你成癮": {
+    "bgmId": 630164,
+    "acgId": 151732,
+    "aniId": null
+  },
+  "擅長逃跑的殿下 第二季": {
+    "bgmId": 517106,
+    "acgId": 141781,
+    "aniId": null
+  },
+  "女主角？聖女？都不對，我是雜役女僕（自豪）！": {
+    "bgmId": 558064,
+    "acgId": 145177,
+    "aniId": null
+  },
+  "落第賢者的學院無雙～第二次轉生的 S 級開外掛魔術師冒險錄～": {
+    "bgmId": 630163,
+    "acgId": 149912,
+    "aniId": null
+  },
+  "無自覺聖女今天也無意識地釋放力量": {
+    "bgmId": 571910,
+    "acgId": 146353,
+    "aniId": null
+  },
+  "LV999的村民": {
+    "bgmId": 579787,
+    "acgId": 146857,
+    "aniId": null
+  },
+  "花樣少年少女 第二季": {
+    "bgmId": 637124,
+    "acgId": 150547,
+    "aniId": null
+  },
+  "令和妖神斑小姐": {
+    "bgmId": 614594,
+    "acgId": 148664,
+    "aniId": null
+  },
+  "關於相同研討會的染谷同學是性感女優這檔事。": {
+    "bgmId": 633354,
+    "acgId": 150205,
+    "aniId": null
+  },
+  "THE WORLD IS DANCING 世界在起舞": {
+    "bgmId": 622633,
+    "acgId": 149408,
+    "aniId": null
+  },
+  "BanG Dream！YUME∞MITA": {
+    "bgmId": 583729,
+    "acgId": 147133,
+    "aniId": null
+  },
+  "躲在超市後門抽菸的兩人": {
+    "bgmId": 571784,
+    "acgId": 146348,
+    "aniId": null
+  },
+  "遭到流放的轉生重騎士憑藉遊戲知識大開無雙": {
+    "bgmId": 511177,
+    "acgId": 141262,
+    "aniId": null
+  },
+  "尼古喵喵": {
+    "bgmId": 622206,
+    "acgId": 149563,
+    "aniId": null
+  },
+  "少女怪獸焦糖戀心": {
+    "bgmId": 617123,
+    "acgId": 148985,
+    "aniId": null
+  },
+  "畫完這個再去死": {
+    "bgmId": 545917,
+    "acgId": 144370,
+    "aniId": null
+  },
+  "我家的弟弟們真是讓您費心了": {
+    "bgmId": 613438,
+    "acgId": 148591,
+    "aniId": null
+  },
+  "地獄模式～喜歡挑戰特殊成就的玩家在廢設定的異世界成為無雙～ 第二季": {
+    "bgmId": 638151,
+    "acgId": 150678,
+    "aniId": null
+  },
+  "從後面來的神威先生": {
+    "bgmId": 627136,
+    "acgId": 149857,
+    "aniId": null
+  },
+  "麵包寶寶 TV版": {
+    "bgmId": 651872,
+    "acgId": 152247,
+    "aniId": null
+  },
+  "骸骨騎士大人異世界冒險中 第二季": {
+    "bgmId": 528828,
+    "acgId": 142899,
+    "aniId": null
+  },
+  "貓與龍": {
+    "bgmId": 538760,
+    "acgId": 143920,
+    "aniId": null
+  },
+  "BLACK TORCH 闇黑燈火": {
+    "bgmId": 542603,
+    "acgId": 144159,
+    "aniId": null
+  },
+  "岩元前輩的推薦": {
+    "bgmId": 621843,
+    "acgId": 149330,
+    "aniId": null
+  },
+  "穹廬下的魔女": {
+    "bgmId": 552533,
+    "acgId": 144790,
+    "aniId": null
+  },
+  "魔法少女奈葉 EXCEEDS Gun Blaze Vengeance": {
+    "bgmId": 530729,
+    "acgId": 143162,
+    "aniId": null
+  },
+  "魔法光源股份有限公司 第二季": {
+    "bgmId": 529723,
+    "acgId": 143049,
+    "aniId": null
+  },
+  "說了不打算愛我的公爵繼承人，不知為何對我寵愛有加": {
+    "bgmId": 631018,
+    "acgId": 149973,
+    "aniId": null
+  },
+  "才女的侍從 在滿是高嶺之花的貴族學校暗中照顧（毫無生活自理能力的）學院第一大小姐": {
+    "bgmId": 602733,
+    "acgId": 149543,
+    "aniId": null
+  },
+  "Let's Go 怪奇組": {
+    "bgmId": 595106,
+    "acgId": 151488,
+    "aniId": null
+  },
+  "相反的你和我 第二季": {
+    "bgmId": 638497,
+    "acgId": 150685,
+    "aniId": null
+  },
+  "鐵鍋料理王": {
+    "bgmId": 615835,
+    "acgId": 148881,
+    "aniId": null
+  },
+  "世界最強後衛 ～迷宮國的新人探索者～": {
+    "bgmId": 583862,
+    "acgId": 147147,
+    "aniId": null
+  },
+  "超超超超超喜歡你的100個女朋友 第三季": {
+    "bgmId": 598058,
+    "acgId": 147833,
+    "aniId": null
+  },
+  "二十世紀電氣目錄": {
+    "bgmId": 255209,
+    "acgId": 100011,
+    "aniId": null
+  },
+  "ONE PIECE HEROINES": {
+    "bgmId": 577191,
+    "acgId": 152654,
+    "aniId": null
+  },
+  "無職轉生～到了異世界就拿出真本事～第三季": {
+    "bgmId": 501963,
+    "acgId": 140264,
+    "aniId": null
+  },
+  "再見菈菈": {
+    "bgmId": 495291,
+    "acgId": 139434,
+    "aniId": null
+  },
+  "碧藍航線 微速前進！第二季": {
+    "bgmId": 454083,
+    "acgId": 135454,
+    "aniId": null
+  },
+  "與奔馳於透明之夜的你，談一場看不見的戀愛。": {
+    "bgmId": 607340,
+    "acgId": 148200,
+    "aniId": null
+  },
+  "暴怒千金發誓復仇。 ～憑藉魔導書之力打垮祖國～": {
+    "bgmId": 579246,
+    "acgId": 149079,
+    "aniId": null
+  },
+  "鬥球女彈子": {
+    "bgmId": 569671,
+    "acgId": 146245,
+    "aniId": null
+  },
+  "攻殼機動隊 THE GHOST IN THE SHELL": {
+    "bgmId": 496276,
+    "acgId": 139515,
+    "aniId": null
+  },
+  "鎧真傳 第二季": {
+    "bgmId": 612697,
+    "acgId": null,
+    "aniId": null
+  },
+  "奇招百出的維多利亞": {
+    "bgmId": 584641,
+    "acgId": 147203,
+    "aniId": null
+  },
+  "赤河戀影": {
+    "bgmId": 627648,
+    "acgId": 149879,
+    "aniId": null
+  },
+  "幼女戰記 2": {
+    "bgmId": 339515,
+    "acgId": 118272,
+    "aniId": null
+  },
+  "女性向遊戲世界對路人角色很不友好 2": {
+    "bgmId": 412144,
+    "acgId": 129407,
+    "aniId": null
+  },
+  "鄉下大叔成為劍聖 第二季": {
+    "bgmId": 565701,
+    "acgId": 145938,
+    "aniId": null
+  },
+  "盜墓王": {
+    "bgmId": 621835,
+    "acgId": 149339,
+    "aniId": null
+  },
+  "MEBIUS DUST": {
+    "bgmId": 276787,
+    "acgId": 151613,
+    "aniId": null
+  },
+  "從 0 位居民開始的邊境領主大人": {
+    "bgmId": 571895,
+    "acgId": 146354,
+    "aniId": null
+  },
+  "我是不才惡女～雛宮蝶鼠互換傳～": {
+    "bgmId": 545008,
+    "acgId": 144318,
+    "aniId": null
+  },
+  "我的英雄學院 I am a hero too": {
+    "bgmId": 646464,
+    "acgId": 151274,
+    "aniId": null
+  },
+  "GRAND BLUE 碧藍之海 3": {
+    "bgmId": 569116,
+    "acgId": 147396,
+    "aniId": null
+  },
+  "與妳相戀到生命盡頭": {
+    "bgmId": 541285,
+    "acgId": 144008,
+    "aniId": null
+  },
+  "Clevatess Ⅱ－魔獸之王與虛假的勇者傳承－": {
+    "bgmId": 585820,
+    "acgId": 147301,
+    "aniId": null
+  },
+  "雷霆三人組": {
+    "bgmId": 625215,
+    "acgId": 149629,
+    "aniId": null
+  },
+  "北斗之拳 拳王軍雜魚們的輓歌 第二季": {
+    "bgmId": 637339,
+    "acgId": null,
+    "aniId": null
+  },
+  "無用聖女的異世界美食之旅 憑藉隱藏技能召喚露營車": {
+    "bgmId": 636067,
+    "acgId": 150439,
+    "aniId": null
+  },
+  "花織即使是轉生也想打架": {
+    "bgmId": 587109,
+    "acgId": 147361,
+    "aniId": null
+  },
+  "不虐待我的繼母與義姊": {
+    "bgmId": 572613,
+    "acgId": 146394,
+    "aniId": null
+  },
+  "Grow Up Show ～向日葵馬戲團～": {
+    "bgmId": 570583,
+    "acgId": 146266,
+    "aniId": null
+  },
+  "文豪野犬 汪！ 第二季": {
+    "bgmId": 603352,
+    "acgId": 151150,
+    "aniId": null
+  },
+  "最強廢渣皇子暗中活躍於帝位之爭": {
+    "bgmId": 456081,
+    "acgId": 135762,
+    "aniId": null
+  },
+  "轉學後班上的清純可愛美少女，竟是小時候玩在一起的哥兒們": {
+    "bgmId": 456080,
+    "acgId": 135743,
+    "aniId": null
+  },
+  "鬼的新娘": {
+    "bgmId": 563745,
+    "acgId": 145823,
+    "aniId": null
+  },
+  "說出這邊交給我你們先走以後十年過去成了傳說。": {
+    "bgmId": 590786,
+    "acgId": 147572,
+    "aniId": null
+  },
+  "人造人009 涅墨西斯": {
+    "bgmId": 571896,
+    "acgId": 146352,
+    "aniId": null
+  },
+  "感謝對戰。～大小姐才不玩格鬥遊戲～": {
+    "bgmId": 325767,
+    "acgId": 115472,
+    "aniId": null
+  },
+  "BLEACH 死神 千年血戰篇-禍進譚-": {
+    "bgmId": 530725,
+    "acgId": 146138,
+    "aniId": null
+  },
+  "拯救替身千金的是冷酷無情冰之王子的愛": {
+    "bgmId": 638995,
+    "acgId": 151618,
+    "aniId": null
+  },
   "想看她一臉嫌惡地露出褲褲 R": {
     "bgmId": 575559,
     "acgId": 146564,
@@ -21,27 +409,12 @@
   },
   "雞鬥士": {
     "bgmId": 505258,
-    "acgId": null,
+    "acgId": 140582,
     "aniId": null
   },
   "冰之城牆": {
     "bgmId": 535669,
-    "acgId": null,
-    "aniId": null
-  },
-  "拜託了偶像公主": {
-    "bgmId": 622634,
-    "acgId": null,
-    "aniId": null
-  },
-  "這樣高大的女孩子你喜歡嗎？": {
-    "bgmId": 616453,
-    "acgId": null,
-    "aniId": null
-  },
-  "LIAR GAME - 詐欺遊戲": {
-    "bgmId": 580133,
-    "acgId": null,
+    "acgId": 143489,
     "aniId": null
   },
   "我的英雄學院 More": {
@@ -238,11 +611,6 @@
     "bgmId": 623854,
     "acgId": 150266,
     "aniId": 48494
-  },
-  "Re：從零開始的異世界生活 第四季": {
-    "bgmId": 547888,
-    "acgId": 144453,
-    "aniId": 48502
   },
   "出租女友 第五季": {
     "bgmId": 533027,
