@@ -13,6 +13,7 @@
 // @connect      acg.gamer.com.tw
 // @connect      raw.githubusercontent.com
 // @connect      api.bgm.tv
+// @license      Beerware
 // @run-at       document-end
 // ==/UserScript==
 
