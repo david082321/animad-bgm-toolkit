@@ -332,7 +332,7 @@
     "acgId": 147361,
     "aniId": null
   },
-  "不虐待我的繼母與義姊": {
+  "不虐待我的繼母與繼姊": {
     "bgmId": 572613,
     "acgId": 146394,
     "aniId": null
@@ -415,6 +415,11 @@
   "冰之城牆": {
     "bgmId": 535669,
     "acgId": 143489,
+    "aniId": null
+  },
+  "LIAR GAME - 詐欺遊戲": {
+    "bgmId": 580133,
+    "acgId": 146922,
     "aniId": null
   },
   "我的英雄學院 More": {
