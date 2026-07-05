@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Bangumi 自動更新觀看進度
 // @namespace    https://github.com/david082321/animad-bgm-toolkit
-// @version      1.8.0
-// @description  在帶有 ?watch= 參數時，自動標記 Bangumi 集數為已看；若未收藏則自動設為「在看」。
+// @version      1.8.5
+// @description  在帶有 ?watch= 參數時，自動標記 Bangumi 集數為已看；若收藏狀態不是「在看」則自動改為「在看」。
 // @author       david082321
 // @match        https://bgm.tv/subject/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=bgm.tv
@@ -24,7 +24,7 @@
  *
  * - It automatically marks the specified episode as "watched".
  *
- * - If the subject is not yet in the user's collection,
+ * - If the subject is not currently marked as "Watching",
  *   it will automatically set the status to "Watching"
  *   before marking the episode.
  *
@@ -52,16 +52,27 @@
 
     // 優先從網址取值，若網址沒有則從快取拿（處理跳轉後的情況）
     let watchParam = url.searchParams.get('watch');
-    const fillMode = url.searchParams.get('fill') === '1';
+    let fillMode = url.searchParams.get('fill') === '1';
+    let task = null;
 
     if (watchParam) {
         // 如果網址有參數，更新快取任務
-        GM_setValue(taskKey, { ep: watchParam, time: Date.now() });
+        const previousTask = GM_getValue(taskKey) || {};
+        task = {
+            ...previousTask,
+            ep: watchParam,
+            fill: fillMode,
+            time: Date.now(),
+            statusSwitchTried: false
+        };
+        GM_setValue(taskKey, task);
     } else {
         // 如果網址沒參數，檢查快取是否有 1 分鐘內的未完成任務
         const savedTask = GM_getValue(taskKey);
         if (savedTask && (Date.now() - savedTask.time < 60 * 1000)) {
+            task = savedTask;
             watchParam = savedTask.ep;
+            fillMode = !!savedTask.fill;
         } else {
             return; // 真的沒有任務，停止執行
         }
@@ -102,6 +113,84 @@
         }, 1500);
     }
 
+    function saveTask(patch) {
+        task = {
+            ...(task || {}),
+            ep: watchParam,
+            fill: fillMode,
+            time: Date.now(),
+            ...patch
+        };
+        GM_setValue(taskKey, task);
+    }
+
+    function getCurrentInterestValue() {
+        const checked = document.querySelector('#collectBoxForm input[name="interest"]:checked');
+        if (checked) return checked.value;
+
+        const scripts = Array.from(document.scripts)
+            .map(script => script.textContent || '')
+            .join('\n');
+        const match = scripts.match(/\bINTEREST_TYPE\s*=\s*(\d+)/);
+        return match ? match[1] : '';
+    }
+
+    function isWatchingStatus() {
+        if (getCurrentInterestValue() === '3') return true;
+
+        const interestText = document.querySelector('.interest_now');
+        return !!interestText && /在看|Watching/i.test(interestText.textContent);
+    }
+
+    function switchToWatching() {
+        if (task && task.statusSwitchTried) {
+            return cleanupAndClose('❌ 已嘗試切換為「在看」，但狀態仍未更新');
+        }
+
+        const doRadio = document.getElementById('do');
+        const saveBtn = document.querySelector('#collectBoxForm input[name="update"]');
+
+        if (!doRadio || !saveBtn) {
+            return cleanupAndClose('❌ 無法自動切換追番狀態，請確認登入狀態');
+        }
+
+        overlay('📝 正在將收藏狀態設定為「在看」並重新標記...');
+        saveTask({ statusSwitchTried: true });
+        doRadio.checked = true;
+        saveBtn.click();
+    }
+
+    function closeThickboxIfOpen() {
+        const thickbox = document.getElementById('TB_window');
+        if (!thickbox || thickbox.style.display === 'none') return false;
+
+        const closeBtn = document.getElementById('TB_closeWindowButton');
+        if (closeBtn) {
+            closeBtn.click();
+            return true;
+        }
+
+        if (typeof window.TB_remove === 'function') {
+            window.TB_remove();
+            return true;
+        }
+
+        return false;
+    }
+
+    function finishAfterEpisodeClick() {
+        const startedAt = Date.now();
+        const timer = setInterval(() => {
+            const closedPopup = closeThickboxIfOpen();
+            if (closedPopup || Date.now() - startedAt > 2000) {
+                clearInterval(timer);
+                cleanupAndClose(closedPopup
+                    ? '✅ 已標記並關閉修改收藏彈窗，將關閉分頁...'
+                    : '✅ 已送出標記，將關閉分頁...');
+            }
+        }, 250);
+    }
+
     overlay('正在檢查觀看狀態……');
     // 監控集數列表載入
     let checks = 0;
@@ -128,74 +217,29 @@
 
         const target = Array.from(list.querySelectorAll('a'))
             .find(a => a.textContent.trim() === epLabel);
-        if (fillMode) {
-            const eps = Array.from(list.querySelectorAll('a'));
-            const targetIndex = eps.findIndex(a => a.textContent.trim() === epLabel);
-        
-            if (targetIndex !== -1) {
-                let toFill = [];
-        
-                // 往前掃
-                for (let i = targetIndex - 1; i >= 0; i--) {
-                    const el = eps[i];
-        
-                    // 已看 → 停
-                    if (el.classList.contains('epBtnWatched')) break;
-        
-                    // 拋棄（drop）→ 停
-                    if (el.classList.contains('epBtnDrop')) break;
-        
-                    // 其他狀態 → 視為空白，加入補齊
-                    toFill.push(el);
-                }
-        
-                if (toFill.length > 0) {
-                    const first = toFill[toFill.length - 1]; // 最早那集
-                    const epId = first.id.replace('prg_', '');
-        
-                    const btn =
-                        document.getElementById(`WatchedTill_${epId}`) ||
-                        document.getElementById(`Watched_${epId}`);
-        
-                    if (btn) {
-                        overlay(`⬅️ 補齊至第 ${first.textContent.trim()} 集…`);
-                        window.location.href = btn.getAttribute('href');
-                        return;
-                    }
-                }
-            }
-        }
 
         if (!target) return cleanupAndClose('❌ 找不到對應集數');
+
+        if (!isWatchingStatus()) {
+            return switchToWatching();
+        }
+
         if (target.classList.contains('epBtnWatched')) return cleanupAndClose('✅ 此集已標記為已看');
 
         const epId = target.id.replace('prg_', '');
-        const watchedBtn =
-            document.getElementById(`WatchedTill_${epId}`) ||
-            document.getElementById(`Watched_${epId}`);
+        const watchedBtn = fillMode
+            ? document.getElementById(`WatchedTill_${epId}`)
+            : document.getElementById(`Watched_${epId}`);
 
-        // 處理未追番/找不到按鈕
+        // 處理找不到按鈕
         if (!watchedBtn) {
-            const isWatching = !!document.querySelector('.interest_now');
-
-            if (!isWatching) {
-                overlay('📝 檢測到未收藏，正在設定為「在看」並重新標記...');
-                const doRadio = document.getElementById('do');
-                const saveBtn = document.querySelector('#collectBoxForm input[name="update"]');
-
-                if (doRadio && saveBtn) {
-                    doRadio.checked = true;
-                    saveBtn.click(); // 此處會導致頁面跳轉至沒有 ?watch 的 URL
-                    return;
-                } else {
-                    return cleanupAndClose('❌ 無法自動切換追番狀態，請確認登入狀態');
-                }
-            }
-            return cleanupAndClose('❌ 找不到「看到」按鈕，請確認登入狀態');
+            return cleanupAndClose(fillMode
+                ? '❌ 找不到指定集數的「看到」按鈕，請確認登入狀態'
+                : '❌ 找不到指定集數的「看過」按鈕，請確認登入狀態');
         }
 
-        const href = watchedBtn.getAttribute('href');
         overlay(`➡️ 正在標記第 ${epLabel} 集…`);
-        window.location.href = href;
+        watchedBtn.click();
+        finishAfterEpisodeClick();
     }
 })();
