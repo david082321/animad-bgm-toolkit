@@ -167,10 +167,6 @@ Let's Go 怪奇組:
   bgmId: 583862
   acgId: 147147
   aniId: null
-超超超超超喜歡你的100個女朋友 第三季:
-  bgmId: 598058
-  acgId: 147833
-  aniId: null
 二十世紀電氣目錄:
   bgmId: 255209
   acgId: 100011
@@ -1218,9 +1214,28 @@ MOMENTARY LILY 剎那之花:
   acgId: 137119
   aniId: 41766
 超超超超超喜歡你的 100 個女朋友:
-  bgmId: 471793
+  bgmId: 424379
   acgId: 130911
   aniId: 35508
+  parts:
+  - name: 第一季
+    startEp: 1
+    endEp: 12
+    bgmId: 424379
+    acgId: 130911
+    aniId: 35508
+  - name: 第二季
+    startEp: 13
+    endEp: 24
+    bgmId: 471793
+    acgId: 130911
+    aniId: 41803
+  - name: 第三季
+    startEp: 25
+    endEp: 36
+    bgmId: 598058
+    acgId: 130911
+    aniId: 49899
 UniteUp! 眾星齊聚 -Uni:Birth-:
   bgmId: 447954
   acgId: 134516
