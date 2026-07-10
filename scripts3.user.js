@@ -124,34 +124,48 @@
 
         const epItems = document.querySelectorAll(".season ul li");
 
-        const processPart = async (bgmId, offset, startEp, endEp) => {
+        const getWatchedEpForPart = async (bgmId, offset, startEp, endEp) => {
             const watchedCount = await getWatchedCount(bgmId);
-            if (watchedCount === 0) return;
+            if (watchedCount === 0) return null;
 
-            epItems.forEach(li => {
-                const link = li.querySelector("a");
-                if (!link) return;
-                const epNum = parseFloat(link.innerText);
+            const watchedProgress = Number(watchedCount);
+            if (!Number.isFinite(watchedProgress)) return null;
 
-                if (epNum >= startEp && epNum <= endEp) {
-                    const relativeOrder = epNum + (offset || 0);
+            const epOffset = Number(offset) || 0;
+            const rangeStart = Number(startEp) || 1;
+            const hasRangeEnd = endEp !== null && endEp !== undefined && Number.isFinite(Number(endEp));
+            const rangeEnd = hasRangeEnd ? Number(endEp) : 999;
+            const partLength = hasRangeEnd ? rangeEnd - rangeStart + 1 : null;
+            const watchedEpCandidates = [watchedProgress - epOffset];
 
-                    if (relativeOrder === watchedCount) {
-                        if (!li.classList.contains("bgm-saw")) {
-                            li.classList.add("bgm-saw");
-                        }
-                    }
-                }
-            });
+            // BGM 的 ep_status 有時是本季進度，有時是跨季後的集數編號。
+            if (watchedProgress < rangeStart || (partLength !== null && watchedProgress <= partLength)) {
+                watchedEpCandidates.push(rangeStart + watchedProgress - 1);
+            }
+
+            return watchedEpCandidates
+                .filter(targetEp => targetEp >= rangeStart && targetEp <= rangeEnd)
+                .reduce((latestEp, targetEp) => Math.max(latestEp, targetEp), null);
         };
 
+        let latestWatchedEp = null;
         if (info.parts) {
             for (const part of info.parts) {
-                await processPart(part.bgmId, part.offset, part.startEp || 1, part.endEp || 999);
+                const watchedEp = await getWatchedEpForPart(part.bgmId, part.offset, part.startEp ?? 1, part.endEp);
+                if (watchedEp !== null) {
+                    latestWatchedEp = Math.max(latestWatchedEp ?? watchedEp, watchedEp);
+                }
             }
         } else if (info.bgmId) {
-            await processPart(info.bgmId, info.offset, 1, 999);
+            latestWatchedEp = await getWatchedEpForPart(info.bgmId, info.offset, 1);
         }
+
+        epItems.forEach(li => {
+            const link = li.querySelector("a");
+            const epNum = link ? parseFloat(link.innerText) : NaN;
+            const isLatestWatched = latestWatchedEp !== null && Math.abs(epNum - latestWatchedEp) < 0.001;
+            li.classList.toggle("bgm-saw", isLatestWatched);
+        });
     }
 
     // --- 核心動態維護邏輯 ---
@@ -204,10 +218,9 @@
     const targetTitle = document.querySelector(".anime_name h1");
     if (targetTitle) titleObserver.observe(targetTitle, { childList: true, characterData: true, subtree: true });
 
-    // 【安全防線】每 1 秒強制檢查一次（應付任何觀察者漏掉的框架黑魔法）
-    setInterval(safeMarkEpisodes, 1000);
-
-    // 首次執行
-    safeMarkEpisodes();
+    // 【安全防線】初始化後 0~10 秒每秒補標一次（應付任何觀察者漏掉的框架黑魔法）
+    for (let delay = 0; delay <= 10000; delay += 1000) {
+        setTimeout(safeMarkEpisodes, delay);
+    }
 
 })();

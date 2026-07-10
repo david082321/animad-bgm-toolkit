@@ -111,10 +111,6 @@ BanG Dream！YUME∞MITA:
   bgmId: 627136
   acgId: 149857
   aniId: 49854
-麵包寶寶 TV版:
-  bgmId: 651872
-  acgId: 152247
-  aniId: null
 骸骨騎士大人異世界冒險中 第二季:
   bgmId: 528828
   acgId: 142899
@@ -139,10 +135,6 @@ BLACK TORCH 闇黑燈火:
   bgmId: 530729
   acgId: 143162
   aniId: 49960
-魔法光源股份有限公司 第二季:
-  bgmId: 529723
-  acgId: 143049
-  aniId: null
 說了不打算愛我的公爵繼承人，不知為何對我寵愛有加:
   bgmId: 631018
   acgId: 149973
@@ -166,14 +158,6 @@ Let's Go 怪奇組:
 世界最強後衛 ～迷宮國的新人探索者～:
   bgmId: 583862
   acgId: 147147
-  aniId: null
-二十世紀電氣目錄:
-  bgmId: 255209
-  acgId: 100011
-  aniId: null
-ONE PIECE HEROINES:
-  bgmId: 577191
-  acgId: 152654
   aniId: null
 無職轉生～到了異世界就拿出真本事～第三季:
   bgmId: 501963
@@ -250,23 +234,32 @@ MEBIUS DUST:
 GRAND BLUE 碧藍之海 3:
   bgmId: 569116
   acgId: 147396
-  aniId: null
+  aniId: 49939
 與妳相戀到生命盡頭:
   bgmId: 541285
   acgId: 144008
-  aniId: null
+  aniId: 49984
 Clevatess Ⅱ－魔獸之王與虛假的勇者傳承－:
   bgmId: 585820
   acgId: 147301
   aniId: null
-雷霆三人組:
-  bgmId: 625215
-  acgId: 149629
+Animatica「北斗之拳 拳王軍雜兵們的輓歌」:
+  bgmId: 584833
+  acgId: 148359
   aniId: null
-北斗之拳 拳王軍雜魚們的輓歌 第二季:
-  bgmId: 637339
-  acgId: null
-  aniId: null
+  parts:
+  - name: 第一季
+    startEp: 1
+    endEp: 12
+    bgmId: 584833
+    acgId: 148359
+    aniId: null
+  - name: 第2部份
+    startEp: 13
+    endEp: 24
+    bgmId: 637339
+    acgId: 148359
+    aniId: 49974
 無用聖女的異世界美食之旅 憑藉隱藏技能召喚露營車:
   bgmId: 636067
   acgId: 150439
@@ -275,10 +268,10 @@ Clevatess Ⅱ－魔獸之王與虛假的勇者傳承－:
   bgmId: 587109
   acgId: 147361
   aniId: null
-不虐待我的繼母與繼姊:
+不虐待我的繼母與繼姐:
   bgmId: 572613
   acgId: 146394
-  aniId: null
+  aniId: 49935
 Grow Up Show ～向日葵馬戲團～:
   bgmId: 570583
   acgId: 146266
