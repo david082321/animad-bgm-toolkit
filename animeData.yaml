@@ -14,6 +14,10 @@
 #   bgmId: 
 #   acgId: 
 #   aniId: 
+香蕉喵 10 週年紀念篇:
+  bgmId: 664856
+  acgId: 152828
+  aniId: 49956
 Re：從零開始的異世界生活 第四季:
   bgmId: 547888
   acgId: 144453
@@ -31,14 +35,10 @@ Re：從零開始的異世界生活 第四季:
     bgmId: 633836
     acgId: 144453
     aniId: null
-PLANNOSAURUS 認真古生物部:
-  bgmId: 633711
-  acgId: 152249
-  aniId: null
 澈底對你成癮:
   bgmId: 630164
   acgId: 151732
-  aniId: null
+  aniId: 49933
 擅長逃跑的殿下 第二季:
   bgmId: 517106
   acgId: 141781
@@ -67,10 +67,6 @@ LV999的村民:
   bgmId: 614594
   acgId: 148664
   aniId: 49964
-關於相同研討會的染谷同學是性感女優這檔事。:
-  bgmId: 633354
-  acgId: 150205
-  aniId: null
 THE WORLD IS DANCING 世界在起舞:
   bgmId: 622633
   acgId: 149408
@@ -79,10 +75,6 @@ BanG Dream！YUME∞MITA:
   bgmId: 583729
   acgId: 147133
   aniId: 49822
-躲在超市後門抽菸的兩人:
-  bgmId: 571784
-  acgId: 146348
-  aniId: null
 遭到流放的轉生重騎士憑藉遊戲知識大開無雙:
   bgmId: 511177
   acgId: 141262
@@ -103,10 +95,10 @@ BanG Dream！YUME∞MITA:
   bgmId: 613438
   acgId: 148591
   aniId: 49951
-地獄模式～喜歡挑戰特殊成就的玩家在廢設定的異世界成為無雙～ 第二季:
+地獄模式 ～喜歡挑戰特殊成就的玩家在廢設定的異世界成為無雙～ 2nd Season:
   bgmId: 638151
   acgId: 150678
-  aniId: null
+  aniId: 49857
 從後面來的神威先生:
   bgmId: 627136
   acgId: 149857
@@ -150,7 +142,7 @@ Let's Go 怪奇組:
 相反的你和我 第二季:
   bgmId: 638497
   acgId: 150685
-  aniId: null
+  aniId: 49896
 鐵鍋料理王:
   bgmId: 615835
   acgId: 148881
@@ -158,7 +150,7 @@ Let's Go 怪奇組:
 世界最強後衛 ～迷宮國的新人探索者～:
   bgmId: 583862
   acgId: 147147
-  aniId: null
+  aniId: 49966
 無職轉生～到了異世界就拿出真本事～第三季:
   bgmId: 501963
   acgId: 140264
@@ -166,15 +158,15 @@ Let's Go 怪奇組:
 再見菈菈:
   bgmId: 495291
   acgId: 139434
-  aniId: null
+  aniId: 49965
 碧藍航線 微速前進！第二季:
   bgmId: 454083
   acgId: 135454
-  aniId: null
+  aniId: 49909
 與奔馳於透明之夜的你，談一場看不見的戀愛。:
   bgmId: 607340
   acgId: 148200
-  aniId: null
+  aniId: 49912
 暴怒千金發誓復仇。 ～憑藉魔導書之力打垮祖國～:
   bgmId: 579246
   acgId: 149079
@@ -182,7 +174,7 @@ Let's Go 怪奇組:
 鬥球女彈子:
   bgmId: 569671
   acgId: 146245
-  aniId: null
+  aniId: 49918
 攻殼機動隊 THE GHOST IN THE SHELL:
   bgmId: 496276
   acgId: 139515
@@ -194,7 +186,7 @@ Let's Go 怪奇組:
 奇招百出的維多利亞:
   bgmId: 584641
   acgId: 147203
-  aniId: null
+  aniId: 49941
 赤河戀影:
   bgmId: 627648
   acgId: 149879
@@ -202,11 +194,11 @@ Let's Go 怪奇組:
 幼女戰記 2:
   bgmId: 339515
   acgId: 118272
-  aniId: null
+  aniId: 49943
 女性向遊戲世界對路人角色很不友好 2:
   bgmId: 412144
   acgId: 129407
-  aniId: null
+  aniId: 49937
 鄉下大叔成為劍聖 第二季:
   bgmId: 565701
   acgId: 145938
@@ -214,7 +206,7 @@ Let's Go 怪奇組:
 盜墓王:
   bgmId: 621835
   acgId: 149339
-  aniId: null
+  aniId: 49945
 MEBIUS DUST:
   bgmId: 276787
   acgId: 151613
@@ -242,11 +234,11 @@ GRAND BLUE 碧藍之海 3:
 Clevatess Ⅱ－魔獸之王與虛假的勇者傳承－:
   bgmId: 585820
   acgId: 147301
-  aniId: null
+  aniId: 49931
 Animatica「北斗之拳 拳王軍雜兵們的輓歌」:
   bgmId: 584833
   acgId: 148359
-  aniId: null
+  aniId: 49974
   parts:
   - name: 第一季
     startEp: 1
@@ -263,7 +255,7 @@ Animatica「北斗之拳 拳王軍雜兵們的輓歌」:
 無用聖女的異世界美食之旅 憑藉隱藏技能召喚露營車:
   bgmId: 636067
   acgId: 150439
-  aniId: null
+  aniId: 49916
 花織即使是轉生也想打架:
   bgmId: 587109
   acgId: 147361
@@ -275,11 +267,11 @@ Animatica「北斗之拳 拳王軍雜兵們的輓歌」:
 Grow Up Show ～向日葵馬戲團～:
   bgmId: 570583
   acgId: 146266
-  aniId: null
+  aniId: 49882
 文豪野犬 汪！ 第二季:
   bgmId: 603352
   acgId: 151150
-  aniId: null
+  aniId: 49948
 最強廢渣皇子暗中活躍於帝位之爭:
   bgmId: 456081
   acgId: 135762
@@ -291,7 +283,7 @@ Grow Up Show ～向日葵馬戲團～:
 鬼的新娘:
   bgmId: 563745
   acgId: 145823
-  aniId: null
+  aniId: 49888
 說出這邊交給我你們先走以後十年過去成了傳說。:
   bgmId: 590786
   acgId: 147572
@@ -303,7 +295,7 @@ Grow Up Show ～向日葵馬戲團～:
 感謝對戰。～大小姐才不玩格鬥遊戲～:
   bgmId: 325767
   acgId: 115472
-  aniId: null
+  aniId: 49981
 BLEACH 死神 千年血戰篇-禍進譚-:
   bgmId: 530725
   acgId: 146138
@@ -311,7 +303,7 @@ BLEACH 死神 千年血戰篇-禍進譚-:
 拯救替身千金的是冷酷無情冰之王子的愛:
   bgmId: 638995
   acgId: 151618
-  aniId: null
+  aniId: 49920
 想看她一臉嫌惡地露出褲褲 R:
   bgmId: 575559
   acgId: 146564
@@ -1863,7 +1855,7 @@ GNOSIA:
 百姓貴族 3rd Season:
   bgmId: 529694
   acgId: 143048
-  aniId: null
+  aniId: 49997
 魔法藥水救救我:
   bgmId: 576047
   acgId: 146539
@@ -2511,7 +2503,7 @@ A 頻道:
 我們仍未知道那天所看見的花名。:
   bgmId: 10440
   acgId: 42233
-  aniId: null
+  aniId: 3873
 爆漫王。第二季:
   bgmId: 22588
   acgId: 42329
@@ -3503,7 +3495,7 @@ Hundred 百武裝戰記:
 只有我不存在的城市:
   bgmId: 137722
   acgId: 77921
-  aniId: null
+  aniId: 4877
 Anne-Happy:
   bgmId: 138053
   acgId: 78004
@@ -3715,7 +3707,7 @@ Luck & Logic:
 機動戰士鋼彈 鐵血孤兒 第二季:
   bgmId: 170191
   acgId: 81653
-  aniId: null
+  aniId: 6400
 12歲。～小小的怦然心動～:
   bgmId: 167235
   acgId: 81695
