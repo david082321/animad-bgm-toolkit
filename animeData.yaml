@@ -22,6 +22,7 @@ Re：從零開始的異世界生活 第四季:
   bgmId: 547888
   acgId: 144453
   aniId: 48502
+  offset: 66
   parts:
   - name: 喪失篇
     startEp: 1
@@ -29,12 +30,14 @@ Re：從零開始的異世界生活 第四季:
     bgmId: 547888
     acgId: 144453
     aniId: 48502
+    offset: 66
   - name: 奪還篇
     startEp: 12
     endEp: null
     bgmId: 633836
     acgId: 144453
-    aniId: null
+    aniId: 50566
+    offset: 66
 澈底對你成癮:
   bgmId: 630164
   acgId: 151732
