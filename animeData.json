@@ -8,6 +8,7 @@
     "bgmId": 547888,
     "acgId": 144453,
     "aniId": 48502,
+    "offset": 66,
     "parts": [
       {
         "name": "喪失篇",
@@ -15,7 +16,8 @@
         "endEp": 11,
         "bgmId": 547888,
         "acgId": 144453,
-        "aniId": 48502
+        "aniId": 48502,
+        "offset": 66
       },
       {
         "name": "奪還篇",
@@ -23,7 +25,8 @@
         "endEp": null,
         "bgmId": 633836,
         "acgId": 144453,
-        "aniId": null
+        "aniId": 50566,
+        "offset": 66
       }
     ]
   },
