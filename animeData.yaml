@@ -1729,6 +1729,19 @@ Bad Girl 不良少女:
   bgmId: 523426
   acgId: 142294
   aniId: 44034
+  parts:
+  - name: 第一季
+    startEp: 1
+    endEp: 13
+    bgmId: 523426
+    acgId: 142294
+    aniId: 44034
+  - name: 第二季
+    startEp: 14
+    endEp: 26
+    bgmId: 589775
+    acgId: 142294
+    aniId: 51803
 費馬的料理:
   bgmId: 531945
   acgId: 143228
@@ -2063,6 +2076,19 @@ GNOSIA:
   bgmId: 507634
   acgId: 140852
   aniId: 45591
+  parts:
+  - name: 
+    startEp: 1
+    endEp: 13
+    bgmId: 507634
+    acgId: 140852
+    aniId: 45591
+  - name: 第2部份
+    startEp: 14
+    endEp: 25
+    bgmId: 584847
+    acgId: 140852
+    aniId: 
 銀魂 3 年 Z 班銀八老師:
   bgmId: 425208
   acgId: 131066
