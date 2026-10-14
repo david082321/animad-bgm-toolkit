@@ -19,6 +19,14 @@
        * 名字：`動畫瘋`
        * 網址：`https://animad-bgm-toolkit.pages.dev/?id=[ID]&name=[CN_S2T]`
 
+## 每日自動更新
+
+GitHub Actions 的 `Update Anime Data` workflow 每天台灣時間 **08:17**（UTC 00:17）執行一次 `update_anime_data.py`，也可在 Actions 頁面按 **Run workflow** 手動執行。
+
+只有 `animeData.yaml` 有變更時，才會同步產生 `animeData.json`，並由 `github-actions[bot]` 提交及 push 至預設分支；沒有變更就正常結束。使用內建 `GITHUB_TOKEN`，不需要額外設定 token secret。由於該 token 的 push 不會觸發另一個 push workflow，JSON 會在同一次執行中更新。
+
+將 `.github/workflows/update-anime-data.yml`、`update_anime_data.py` 和 `requirements.txt` 一併提交到預設分支後，排程才會生效。
+
 ## 常見問題
 1. 不會自動跳到正確的頁面，而是搜尋頁
     * 請協助貢獻 [animeData.yaml](https://github.com/david082321/animad-bgm-toolkit/blob/main/animeData.yaml)

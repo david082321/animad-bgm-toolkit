@@ -1,0 +1,81 @@
+name: Update Anime Data
+
+on:
+  schedule:
+    # 每天台灣時間 08:17（UTC 00:17）。
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-anime-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Checkout default branch
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Update animeData.yaml
+        run: python update_anime_data.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet -- animeData.yaml; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No new anime. Nothing to commit."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # GITHUB_TOKEN 的 push 不會觸發 convert-yaml.yml，因此在此同步 JSON。
+      - name: Convert YAML to JSON
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          import yaml
+
+          data = yaml.safe_load(Path('animeData.yaml').read_text(encoding='utf-8-sig'))
+          Path('animeData.json').write_text(
+              json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8'
+          )
+          PY
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          TARGET_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- animeData.yaml animeData.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "[Auto] Update anime data"
+          git push origin "HEAD:$TARGET_BRANCH"
