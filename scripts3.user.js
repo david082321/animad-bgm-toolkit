@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         動畫瘋頁面標記 BGM.TV 觀看進度
 // @namespace    https://github.com/david082321/animad-bgm-toolkit
-// @version      1.0.0
+// @version      1.1.0
 // @description  在動畫瘋集數列表標記 BGM.TV 已看過記錄
 // @author       david082321 & Gemini
 // @match        https://ani.gamer.com.tw/animeVideo.php?*
@@ -123,8 +123,28 @@
         if (!info || !username) return;
 
         const epItems = document.querySelectorAll(".season ul li");
+        const pageEpisodeNumbers = [...epItems]
+            .map(li => parseFloat(li.querySelector("a")?.innerText))
+            .filter(Number.isFinite);
+        if (pageEpisodeNumbers.length === 0) return;
 
-        const getWatchedEpForPart = async (bgmId, offset, startEp, endEp) => {
+        // 動畫瘋的集數不一定從 1 開始；例如有些續季頁面會直接從 13 或 25 開始。
+        const pageStartEp = Math.min(...pageEpisodeNumbers);
+        const pageEndEp = Math.max(...pageEpisodeNumbers);
+
+        /*
+         * ep_status 是「在這個 BGM subject 裡已看幾話」，不是章節頁顯示的 sort。
+         *
+         * 因此預設用目前動畫瘋頁面的區段起點換算：
+         *   BGM 第 1 話 -> 動畫瘋區段的 startEp。
+         *
+         * 例：BGM 顯示 25~36、動畫瘋顯示 1~12 時，ep_status 1 會標記動畫瘋第 1 集；
+         *     BGM 與動畫瘋都顯示 13~24 時，ep_status 1 會標記第 13 集。
+         *
+         * 若極少數資料的 ep_status 本身是 BGM 的絕對集數，請在 animeData.json 的 part
+         * 加上 progressMode: "absolute" 與 bgmStartEp（可覆蓋 BGM 網頁的第一話編號）。
+         */
+        const getWatchedEpForPart = async ({ bgmId, offset = 0, startEp, endEp, progressMode = "relative", bgmStartEp }) => {
             const watchedCount = await getWatchedCount(bgmId);
             if (watchedCount === 0) return null;
 
@@ -135,29 +155,27 @@
             const rangeStart = Number(startEp) || 1;
             const hasRangeEnd = endEp !== null && endEp !== undefined && Number.isFinite(Number(endEp));
             const rangeEnd = hasRangeEnd ? Number(endEp) : 999;
-            const partLength = hasRangeEnd ? rangeEnd - rangeStart + 1 : null;
-            const watchedEpCandidates = [watchedProgress - epOffset];
+            const targetEp = progressMode === "absolute"
+                ? rangeStart + watchedProgress - (Number(bgmStartEp) || rangeStart) - epOffset
+                : rangeStart + watchedProgress - 1 - epOffset;
 
-            // BGM 的 ep_status 有時是本季進度，有時是跨季後的集數編號。
-            if (watchedProgress < rangeStart || (partLength !== null && watchedProgress <= partLength)) {
-                watchedEpCandidates.push(rangeStart + watchedProgress - 1);
-            }
-
-            return watchedEpCandidates
-                .filter(targetEp => targetEp >= rangeStart && targetEp <= rangeEnd)
-                .reduce((latestEp, targetEp) => Math.max(latestEp, targetEp), null);
+            return targetEp >= rangeStart && targetEp <= rangeEnd ? targetEp : null;
         };
 
         let latestWatchedEp = null;
         if (info.parts) {
             for (const part of info.parts) {
-                const watchedEp = await getWatchedEpForPart(part.bgmId, part.offset, part.startEp ?? 1, part.endEp);
+                const watchedEp = await getWatchedEpForPart(part);
                 if (watchedEp !== null) {
                     latestWatchedEp = Math.max(latestWatchedEp ?? watchedEp, watchedEp);
                 }
             }
         } else if (info.bgmId) {
-            latestWatchedEp = await getWatchedEpForPart(info.bgmId, info.offset, 1);
+            latestWatchedEp = await getWatchedEpForPart({
+                ...info,
+                startEp: pageStartEp,
+                endEp: pageEndEp
+            });
         }
 
         epItems.forEach(li => {
