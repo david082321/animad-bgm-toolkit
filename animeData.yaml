@@ -14,6 +14,10 @@
 #   bgmId: 
 #   acgId: 
 #   aniId: 
+闇機 DARK MACHINE:
+  bgmId: 315898
+  acgId: 148362
+  aniId: 51930
 轉生貴族憑鑑定技能扭轉人生 第三季:
   bgmId: 530104
   acgId: 143064
@@ -257,7 +261,6 @@ Re：從零開始的異世界生活 第四季:
 擅長逃跑的殿下 第二季:
   bgmId: 517106
   acgId: 141781
-  aniId: null
 女主角？聖女？都不對，我是雜役女僕（自豪）！:
   bgmId: 558064
   acgId: 145177
@@ -274,6 +277,7 @@ LV999的村民:
   bgmId: 579787
   acgId: 146857
   aniId: null
+  aniId: 49853
 花樣少年少女 第二季:
   bgmId: 637124
   acgId: 150547
@@ -430,10 +434,10 @@ MEBIUS DUST:
   bgmId: 571895
   acgId: 146354
   aniId: 49841
-我是不才惡女～雛宮蝶鼠互換傳～:
+我是不才惡女:
   bgmId: 545008
   acgId: 144318
-  aniId: null
+  aniId: 49954
 我的英雄學院 I am a hero too:
   bgmId: 646464
   acgId: 151274
@@ -453,14 +457,14 @@ Clevatess Ⅱ－魔獸之王與虛假的勇者傳承－:
 Animatica「北斗之拳 拳王軍雜兵們的輓歌」:
   bgmId: 584833
   acgId: 148359
-  aniId: 49974
+  aniId: 50883
   parts:
   - name: 第一季
     startEp: 1
     endEp: 12
     bgmId: 584833
     acgId: 148359
-    aniId: null
+    aniId: 50883
   - name: 第2部份
     startEp: 13
     endEp: 24
@@ -474,7 +478,7 @@ Animatica「北斗之拳 拳王軍雜兵們的輓歌」:
 花織即使是轉生也想打架:
   bgmId: 587109
   acgId: 147361
-  aniId: null
+  aniId: 49891
 不虐待我的繼母與繼姐:
   bgmId: 572613
   acgId: 146394
@@ -514,7 +518,7 @@ Grow Up Show ～向日葵馬戲團～:
 BLEACH 死神 千年血戰篇-禍進譚-:
   bgmId: 530725
   acgId: 146138
-  aniId: null
+  aniId: 50402
 拯救替身千金的是冷酷無情冰之王子的愛:
   bgmId: 638995
   acgId: 151618
@@ -538,7 +542,6 @@ Re:Monster:
 雞鬥士:
   bgmId: 505258
   acgId: 140582
-  aniId: null
 冰之城牆:
   bgmId: 535669
   acgId: 143489
@@ -547,6 +550,7 @@ LIAR GAME - 詐欺遊戲:
   bgmId: 580133
   acgId: 146922
   aniId: null
+  aniId: 51378
 我的英雄學院 More:
   bgmId: None
   acgId: null
@@ -2077,7 +2081,7 @@ GNOSIA:
   acgId: 140852
   aniId: 45591
   parts:
-  - name: 
+  - name: null
     startEp: 1
     endEp: 13
     bgmId: 507634
@@ -2088,7 +2092,7 @@ GNOSIA:
     endEp: 25
     bgmId: 584847
     acgId: 140852
-    aniId: 
+    aniId: 51863
 銀魂 3 年 Z 班銀八老師:
   bgmId: 425208
   acgId: 131066
