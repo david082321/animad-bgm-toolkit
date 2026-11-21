@@ -23,6 +23,7 @@ import yaml
 INDEX_URL = "https://api.gamer.com.tw/mobile_app/anime/v4/index.php"
 ACG_URL = "https://acg.gamer.com.tw/acgDetail.php"
 BGM_SEARCH_URL = "https://api.bgm.tv/v0/search/subjects"
+BGM_SEARCH_LIMIT = 50
 USER_AGENT = (
     "david082321/animad-bgm-toolkit/1.0.0 "
     "(https://github.com/david082321/animad-bgm-toolkit)"
@@ -55,7 +56,8 @@ def clean_title(title: str) -> str:
 
 def matching_title(title: str) -> str:
     title = unicodedata.normalize("NFKC", clean_title(title)).casefold()
-    return "".join(char for char in title if char.isalnum())
+    # 標點會區分續作，例如 WORKING!!、WORKING'!!、WORKING!!!。
+    return "".join(char for char in title if not char.isspace())
 
 
 def parse_index(payload: dict) -> list[Anime]:
@@ -178,19 +180,17 @@ class ApiClient:
         response.encoding = "utf-8"
         return parse_acg_details(response.text)
 
-    def search_bangumi(self, keyword: str) -> int | None:
+    def search_bangumi(self, keyword: str) -> set[int] | None:
         response = self.request(
             "POST",
             BGM_SEARCH_URL,
-            params={"limit": 10, "offset": 0},
+            params={"limit": BGM_SEARCH_LIMIT, "offset": 0},
             json={"keyword": keyword, "sort": "match", "filter": {"type": [2]}},
         )
         payload = response.json()
         if not isinstance(payload, dict) or not isinstance(payload.get("data"), list):
             raise ValueError("Bangumi 搜尋回應缺少 data 陣列")
         results = payload["data"]
-        if not results:
-            return None
         if any(
             not isinstance(item, dict)
             or positive_id(item.get("id")) is None
@@ -198,13 +198,21 @@ class ApiClient:
             for item in results
         ):
             raise ValueError("Bangumi 搜尋回應包含無效的動畫條目")
-        # 同一頁中優先完全相同的標題；否則使用 match 排序的第一筆。
-        for item in results:
-            for field in ("name", "name_cn"):
-                name = item.get(field)
-                if isinstance(name, str) and matching_title(name) == matching_title(keyword):
-                    return positive_id(item["id"])
-        return positive_id(results[0]["id"])
+        total = payload.get("total")
+        if (type(total) is int and total > len(results)) or (
+            type(total) is not int and len(results) >= BGM_SEARCH_LIMIT
+        ):
+            # 未看完結果就無法確認同名作品是否只有一部。
+            return None
+        normalized = matching_title(keyword)
+        return {
+            int(item["id"])
+            for item in results
+            if any(
+                isinstance(name, str) and matching_title(name) == normalized
+                for name in (item.get("name"), item.get("name_cn"))
+            )
+        }
 
 
 def build_entries(anime_list: list[Anime], client: ApiClient) -> dict:
@@ -212,13 +220,20 @@ def build_entries(anime_list: list[Anime], client: ApiClient) -> dict:
     for anime in anime_list:
         LOG.info("查詢 %s (acgId=%s)", anime.title, anime.acg_id)
         japanese_title, acg_ani_id = client.fetch_acg(anime.acg_id)
-        bgm_id = None
+        matches = set()
+        incomplete = False
         keywords = dict.fromkeys(title for title in (japanese_title, anime.title) if title)
         for keyword in keywords:
-            bgm_id = client.search_bangumi(keyword)
-            LOG.info("  搜尋 %r → %s", keyword, bgm_id if bgm_id is not None else "無結果")
-            if bgm_id is not None:
-                break
+            ids = client.search_bangumi(keyword)
+            if ids is None:
+                incomplete = True
+                LOG.info("  搜尋 %r → 結果未完整列出", keyword)
+            else:
+                matches.update(ids)
+                LOG.info("  搜尋 %r → %s", keyword, sorted(ids) or "無同名結果")
+        bgm_id = next(iter(matches)) if not incomplete and len(matches) == 1 else None
+        if bgm_id is None:
+            LOG.warning("  無法確認唯一對應，bgmId 留空待人工核對")
         ani_id = anime.ani_id or acg_ani_id
         if ani_id is None:
             LOG.warning("  未找到播放 ID，aniId 留空")
