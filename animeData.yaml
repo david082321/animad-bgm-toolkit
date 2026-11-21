@@ -15,55 +15,64 @@
 #   acgId: 
 #   aniId: 
 攻殼機動隊 1995:
-  bgmId: 529143
+  bgmId: 237
   acgId: 16812
   aniId: 52608
 電影 哆啦A夢 大雄在魔界大冒險:
-  bgmId: 475
+  bgmId: 439
   acgId: 32211
   aniId: 52891
 電影 哆啦A夢 大雄與宇宙小戰爭:
-  bgmId: 325571
+  bgmId: 441
   acgId: 32219
   aniId: 52909
 電影 哆啦A夢 大雄與鐵人兵團:
-  bgmId: 19130
+  bgmId: 442
   acgId: 32220
   aniId: 52911
 電影 哆啦A夢 大雄與恐龍騎士:
-  bgmId: 476
+  bgmId: 444
   acgId: 32222
   aniId: 52937
 嗚莓貓貓:
-  bgmId: 530
+  bgmId: 534568
   acgId: 143788
   aniId: 52441
 頭文字 D Final stage:
-  bgmId: 3816
+  bgmId: 104569
   acgId: 63155
   aniId: 52836
 WORKING!!迷糊餐廳:
-  bgmId: 176599
+  bgmId: 4255
   acgId: 30413
   aniId: 19712
 WORKING!!迷糊餐廳 第二季:
-  bgmId: 176599
+  bgmId: 20547
   acgId: 45733
   aniId: 19725
 WORKING!!迷糊餐廳 第三季:
-  bgmId: 176599
+  bgmId: 110648
   acgId: 72071
   aniId: 20348
-頭文字 D Extra Stage 2:
+頭文字 D Extra Stage:
   bgmId: 44758
-  acgId: 155252
-  aniId: 52607
-KERORO 軍曹 第四季:
-  bgmId: 1849
-  acgId: 155251
-  aniId: 52489
+  acgId: 155019
+  aniId: 51997
+  parts:
+  - name: Stage 1
+    startEp: 1
+    endEp: 1
+    bgmId: 44758
+    acgId: 155019
+    aniId: 51997
+  - name: Stage 2
+    startEp: 2
+    endEp: 2
+    bgmId: 44758
+    acgId: 155252
+    aniId: 52607
 闇機 DARK MACHINE:
-  bgmId: 315898
+  bgmId: 505550
   acgId: 148362
   aniId: 51930
 轉生貴族憑鑑定技能扭轉人生 第三季:
@@ -126,6 +135,35 @@ KERORO 軍曹☆:
   bgmId: 617273
   acgId: 149012
   aniId: 51765
+KERORO 軍曹:
+  bgmId: 1849
+  acgId: 17730
+  aniId: 18822
+  parts:
+  - name: 第一季
+    startEp: 1
+    endEp: 51
+    bgmId: 1849
+    acgId: 17730
+    aniId: 18822
+  - name: 第二季
+    startEp: 52
+    endEp: 103
+    bgmId: 1849
+    acgId: 153084
+    aniId: 50209
+  - name: 第三季
+    startEp: 104
+    endEp: 154
+    bgmId: 1849
+    acgId: 154639
+    aniId: 51586
+  - name: 第四季
+    startEp: 155
+    endEp: 205
+    bgmId: 1849
+    acgId: 155251
+    aniId: 52501
 桃源暗鬼：日光·華嚴瀑布篇:
   bgmId: 617948
   acgId: 150697
@@ -254,10 +292,6 @@ NG 騎士檸檬汽水 & 40:
   bgmId: 8290
   acgId: 21072
   aniId: 12353
-KERORO 軍曹 第三季:
-  bgmId: 1849
-  acgId: 154639
-  aniId: 51586
 DOUBLE DECKER！道格＆基里爾:
   bgmId: 19134
   acgId: 95255
